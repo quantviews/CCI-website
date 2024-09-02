@@ -1,0 +1,77 @@
+{
+  "index.qmd": {
+    "index.html": "db420034"
+  },
+  "about.qmd": {
+    "about.html": "bc4e9964"
+  },
+  "about.knit.md": {
+    "about.knit.html": "65423717"
+  },
+  "pbc-index.qmd": {
+    "pbc-index.html": "6704d4d7"
+  },
+  "markets-oil.qmd": {
+    "markets-oil.html": "45e73889"
+  },
+  "markets.qmd": {
+    "markets.html": "6fc5281f"
+  },
+  "markets-coal.qmd": {
+    "markets-coal.html": "4eb3dd05"
+  },
+  "markets-chemicals.qmd": {
+    "markets-chemicals.html": "093fa56a"
+  },
+  "markets-fertilizers.qmd": {
+    "markets-fertilizers.html": "b9783e2b"
+  },
+  "markets-oilseed.qmd": {
+    "markets-oilseed.html": "7ea08f84"
+  },
+  "markets-ports.qmd": {
+    "markets-ports.html": "10e1bff2"
+  },
+  "markets-railways.qmd": {
+    "markets-railways.html": "077513d1"
+  },
+  "markets-sea-freight.qmd": {
+    "markets-sea-freight.html": "99528c34"
+  },
+  "markets-wheat.qmd": {
+    "markets-wheat.html": "34f4f0fc"
+  },
+  "methodogy-benchmark-pbc.qmd": {
+    "methodogy-benchmark-pbc.html": "0a0ce7ff"
+  },
+  "events.qmd": {
+    "events.html": "132f9bb7"
+  },
+  "methodology-benchmark-pbc.qmd": {
+    "methodology-benchmark-pbc.html": "4ffbd4bd"
+  },
+  "methodology-specs-pbc.qmd": {
+    "methodology-specs-pbc.html": "2600aa46"
+  },
+  "forecast-agro.qmd": {
+    "forecast-agro.html": "c9b5d255"
+  },
+  "forecast-fertilizers.qmd": {
+    "forecast-fertilizers.html": "71f52ac1"
+  },
+  "forecast-fx.qmd": {
+    "forecast-fx.html": "760163dd"
+  },
+  "forecast-gas.qmd": {
+    "forecast-gas.html": "cc2929a3"
+  },
+  "forecast-realty.qmd": {
+    "forecast-realty.html": "3dd0ab63"
+  },
+  "methodology-pbc.qmd": {
+    "methodology-pbc.html": "c60a5108"
+  },
+  "methodology-consensus-pbc.qmd": {
+    "methodology-consensus-pbc.html": "e9d1ddbc"
+  }
+}

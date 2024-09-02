@@ -1,0 +1,171 @@
+---
+title: "PBC"
+
+title-block-banner: "#2455D8"
+#title-block-banner: "#82096c" # фиолетовый 
+title-block-banner-color: "#FFFFFF"
+#title-block-banner: images/banner.svg
+---
+
+```{=html}
+<style>
+
+.quarto-title-block .quarto-title-banner {
+  background-image: url(images/logo.png);
+  background-size: 160px;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  background-origin: content-box;
+}
+</style>
+```
+<!-- .quarto-title-banner { -->
+
+<!--   margin-block-end: 1rem; -->
+
+<!--   position: relative; -->
+
+<!--   margin-top: 30px; -->
+
+<!--   height: 70%; -->
+
+<!--   width: 70%; -->
+
+<!--   left: 120px; -->
+
+<!-- } -->
+
+<!-- </style> -->
+
+**Центр ценовых индексов (ЦЦИ)** -- российское ценовое агентство. Оперативно публикуем цены на товары российского экспорта и логистику.
+
+------------------------------------------------------------------------
+
+### [Индекс сырьевых цен ЦЦИ]{.my-custom-class style="color:#2455D8;"}
+
+**Индекс сырьевых цен ЦЦИ/ PBC Commodity Index** -- сводный индекс цен российского сырьевого экспорта. Отражает изменение цен на товары российского сырьевого экспорта по сравнению с уровнем января 2022 г.
+
+```{r, warning = FALSE, echo = FALSE, message = FALSE}
+
+library(openxlsx)
+library(highcharter)
+library(tidyr)
+library(magrittr)
+
+colors = c("#2354d6", "#FF9500", '#82096c', '#d1e5ff', '#44bf78', '#f6514c', '#c3b0ef')
+
+# прочитать и преобразовать файл Excel с данными
+
+df  <- read.xlsx('ЦЦИ Сырьевой индекс.xlsx', sheet = 1, detectDates = TRUE)
+
+df_index = df[1,]
+#df = df[,-1]
+#df[,2:3] <- NULL 
+names(df_index)[1] <- "index"
+
+df_index <- df_index %>% pivot_longer(!index, names_to = "date", values_to = 'value')
+df_index$date <- as.Date(df_index$date)
+
+#df = df[df$index == "ЦИндекс сырьевых цен ЦЦИ, 01.2022=100",]
+df_index$index = 'Индекс сырьевых цен ЦЦИ, янв. 2022 = 100'
+df_index$value <- round(df_index$value,2)
+
+# прочитать файл с курсом
+
+# df2  <- read.xlsx('rub-usd.xlsx', sheet = 1, detectDates = TRUE)
+# df2 <- df2[df2$date > min(df$date),]
+df_usdrub = df[2,]
+names(df_usdrub)[1] <- 'index'
+
+df_usdrub <- df_usdrub %>% pivot_longer(!index, names_to = "date", values_to = 'value')
+df_usdrub$date <- as.Date(df_usdrub$date)
+
+df_usdrub$index = 'USD/RUB, рублей за доллар'
+df_usdrub$value <- round(df_usdrub$value,2)
+
+# Non-oil index
+
+df_noil_index = df[4,]
+names(df_noil_index)[1] <- 'index'
+
+df_noil_index <- df_noil_index %>% pivot_longer(!index, names_to = "date", values_to = 'value')
+df_noil_index$date <- as.Date(df_noil_index$date)
+
+df_noil_index$index = 'Индекс сырьевых цен ненефтяного экспорта, янв. 2022 = 100'
+df_noil_index$value <- round(df_noil_index$value,2)
+
+# построить график highcharts 
+
+index_plot <- highchart() %>% 
+   hc_xAxis(type = "datetime") %>%
+   hc_exporting(enabled = TRUE) %>% 
+   hc_yAxis_multiples(
+      list(title = list(text = "Индекс сырьевых цен ЦЦИ, янв. 2022 = 100"), showFirstLabel = TRUE, max = 150, showLastLabel=TRUE,opposite = FALSE),
+      list(title = list(text = "USD/RUB, рублей за доллар"), showLastLabel = FALSE, opposite = TRUE, reversed = TRUE)) %>%
+   hc_add_series(df_index,type="line", hcaes(x = date, y = value, group=index), color = colors[1]) %>% 
+   hc_add_series(df_noil_index,type="line", hcaes(x = date, y = value, group=index), color = colors[3], visible = TRUE) %>%
+   hc_add_series(df_usdrub,type="line", hcaes(x = date, y = value, group=index), color = colors[2],  yAxis=1, visible = FALSE)
+
+# поменять названия месяцев на русские. по умолчанию - на английском
+index_plot$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
+index_plot$x$conf_opts$lang$shortMonths = c("Янв", 	"Фев",	"Мар",	"Апр",	"Май",	"Июн",	"Июл",	"Авг",	"Сен",	"Окт",	"Ноя",	"Дек")
+
+index_plot 
+
+```
+
+*Источник: ЦЦИ*
+
+------------------------------------------------------------------------
+
+**Изменение Индекса сырьевых цен ЦЦИ к предыдущей неделе: [+0,3 п.]{.my-custom-class style="color:#44bf78;"}** ([**+2,2 п.**]{.my-custom-class style="color:#44bf78;"} за последние 4 недели)
+
+Наибольшие изменения цен товаров за неделю: удобрения [**+1,6%**]{.my-custom-class style="color:#44bf78;"}, пшеница [**-3,6%**]{.my-custom-class style="color:#f6514c;"}
+
+Наибольшие вклады в изменение Индекса за неделю: нефть [**+0,4 п.**]{.my-custom-class style="color:#44bf78;"}, пшеница [**-0,2 п.**]{.my-custom-class style="color:#f6514c;"}
+
+```{r, warning = FALSE, echo = FALSE, message = FALSE}
+
+df_factor <- df[6:15,] %>% pivot_longer(-X1, names_to = "date", values_to = 'value')
+df_factor$date <- as.Date(df_factor$date)
+df_factor <- subset(df_factor, df_factor$date>'2024-01-01')
+
+df_diff <- df[5,] %>% pivot_longer(-X1, names_to = "date", values_to = 'value')
+df_diff$date <- as.Date(df_diff$date)
+df_diff <- subset(df_diff, df_diff$date>'2024-01-01')
+
+factor_plot <- highchart() %>% 
+   #hc_chart(type  = 'column') %>%
+   hc_plotOptions(column = list(stacking = 'normal')) %>%
+   hc_exporting(enabled = TRUE) %>% 
+   hc_xAxis(type = 'datetime') %>%
+   hc_yAxis(title = list(text = "Вклад товаров в изменение индекса за 4 недели, п.")) %>%
+   hc_add_series(df_factor, hcaes(x = date, y = round(value,2), group = X1), type = 'column', pointWidth = 15) %>%
+   hc_add_series(df_diff, hcaes(x = date, y = round(value,2), group = X1), type = 'line', marker = FALSE, color = colors[1])
+
+# поменять названия месяцев на русские. по умолчанию - на английском
+factor_plot$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
+factor_plot$x$conf_opts$lang$shortMonths = c("Янв", 	"Фев",	"Мар",	"Апр",	"Май",	"Июн",	"Июл",	"Авг",	"Сен",	"Окт",	"Ноя",	"Дек")
+
+factor_plot
+
+```
+
+*Источник: ЦЦИ*
+
+------------------------------------------------------------------------
+
+[Ежемесячный мониторинг](2024-07-cci-index.pdf)
+
+Методология расчета индекса доступна [здесь](PBC%20Commodity%20Index%20-%20methodology.pdf).
+
+{{< video https://youtu.be/l83Z-fwugZg?si=jAPUwXqpd_VyZCQQ >}}
+
+{{< video https://youtu.be/fxT6yOeWAxw?si=6G1Xmflw7FWXiPFu >}}
+
+*© Центр ценовых индексов 2024. Все права защищены. Любое копирование, перепечатка или последующее распространение информации Центр ценовых индексов, в том числе производимое путем кэширования, кадрирования или использования аналогичных средств, запрещено без предварительного письменного согласия со стороны Центр ценовых индексов.*
+
+*Ограничение ответственности*
+
+*Центр ценовых индексов не несет ответственности за причинение любого ущерба или убытков, возникших в связи с тем, что лицо полагалось на возможность использования Информации в определенных целях, и исключает любую другую ответственность, возникшую в связи с использованием Информации или связанную с ней.*
