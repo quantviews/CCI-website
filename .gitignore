@@ -5,3 +5,5 @@
 _site/
 xls/
 .Rproj.user/
+org/
+rsconnect/
