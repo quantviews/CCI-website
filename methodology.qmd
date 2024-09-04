@@ -1,0 +1,42 @@
+---
+title: "Методология"
+---
+</br>
+
+### Методология ценовых индикаторов
+
+![](images/icon-docs.svg)[Методология ценовых индикаторов](methodology-benchmark-pbc.qmd)
+
+### Спецификации ценовых индикаторов
+
+![](images/icon-tanker.svg) Нефть и нефтепродукты
+
+![](images/icon-gas.svg)Газ
+
+![](images/icon-coal.svg) [Уголь](methodology/specs-coal.qmd)
+
+![](images/icon-agro.svg)Удобрения
+
+![](images/icon-chemicals2.svg)Метанол
+
+![](images/icon-chemicals.svg)Ароматические углеводороды
+
+![](images/icon-wheat.svg)Пшеница
+
+![](images/icon-maslo.svg)Подсолнечное масло
+
+![](images/railways-icon.svg)   [Железнодорожные перевозки](methodology/specs-logistics.qmd)
+
+![](images/icon-ship.svg)Морские перевозки
+
+![](images/icon-ports.svg)Порты
+
+### Прочие методологии
+
+[Методология консенсус-прогноза](methodology-consensus-pbc.qmd)
+
+[Методология сырьевого индекса](methodology-pbc.qmd)
+
+
+### Контакты 
+*Контакты методологической службы и комплаенса*: [methodology@pbc-index.ru](mailto:methodology@pbc-index.ru)

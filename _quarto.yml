@@ -1,16 +1,20 @@
 project:
   type: website
+  output-dir: docs/
 
 website:
   title: "CCI"
-  favicon: images/banner.png
+  favicon: images/banner3.png
   page-footer: '<p style="text-align: justify;">*© Центр ценовых индексов 2024. Все права защищены. Любое копирование, перепечатка или последующее распространение информации Центр ценовых индексов, в том числе производимое путем кэширования, кадрирования или использования аналогичных средств, запрещено без предварительного письменного согласия со стороны Центр ценовых индексов.* <br />
 *Центр ценовых индексов не несет ответственности за причинение любого ущерба или убытков, возникших в связи с тем, что лицо полагалось на возможность использования Информации в определенных целях, и исключает любую другую ответственность, возникшую в связи с использованием Информации или связанную с ней.*</p>
 ' 
   navbar:
     title: false
     logo: images/logo.png
-    background: "#2455D8"
+    background: "#1A4AFC"
+    right:
+      - text: Оформить подписку
+        href: subscribe.qmd
     left:
       - text: Рынки
         menu: 
@@ -31,12 +35,8 @@ website:
           - href: forecast-fertilizers.qmd
           - href: forecast-agro.qmd
           - href: forecast-realty.qmd
-      - text: Методологии
-        menu: 
-          - href: methodology-benchmark-pbc.qmd
-          - href: methodology-specs-pbc.qmd
-          - href: methodology-consensus-pbc.qmd
-          - href: methodology-pbc.qmd
+      - text: Методология
+        href: methodology.qmd
       - href: events.qmd
         text: События
       - href: about.qmd
@@ -69,12 +69,8 @@ website:
            - forecast-fertilizers.qmd
            - forecast-agro.qmd
            - forecast-realty.qmd
-        - section: "Методологии"
-          contents:
-           - methodology-benchmark-pbc.qmd
-           - methodology-specs-pbc.qmd
-           - methodology-consensus-pbc.qmd
-           - methodology-pbc.qmd
+        - text: "Методология"
+          href: methodology.qmd
       
 format:
   html:
@@ -83,6 +79,7 @@ format:
     toc: false
     mainfont: "Cera"
     page-layout: article
+    
 
 editor: visual
 
