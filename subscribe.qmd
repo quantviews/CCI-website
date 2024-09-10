@@ -5,7 +5,6 @@ title: "Оформить подписку"
 </br>
 Подпишитесь на наши продукты и первыми узнавайте самое важное.
 
-
 ```{=html}
 
 <script src="https://forms.yandex.ru/_static/embed.js"></script><iframe src="https://forms.yandex.ru/cloud/66d6163f2530c28d5d7069ec/?iframe=1" frameborder="0" name="ya-form-66d6163f2530c28d5d7069ec" width="650"></iframe>

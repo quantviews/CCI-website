@@ -20,22 +20,22 @@ website:
       - text: Рынки
         menu: 
           - href: pbc-index.qmd
-          - href: markets-oil.qmd
-          - href: markets-coal.qmd
-          - href: markets-fertilizers.qmd
-          - href: markets-chemicals.qmd
-          - href: markets-wheat.qmd
-          - href: markets-oilseed.qmd
-          - href: markets-railways.qmd
-          - href: markets-sea-freight.qmd
-          - href: markets-ports.qmd
+          - href: markets/markets-oil.qmd
+          - href: markets/markets-coal.qmd
+          - href: markets/markets-fertilizers.qmd
+          - href: markets/markets-chemicals.qmd
+          - href: markets/markets-wheat.qmd
+          - href: markets/markets-oilseed.qmd
+          - href: markets/markets-railways.qmd
+          - href: markets/markets-sea-freight.qmd
+          - href: markets/markets-ports.qmd
       - text: Прогнозы
         menu: 
-          - href: forecast-fx.qmd
-          - href: forecast-gas.qmd
-          - href: forecast-fertilizers.qmd
-          - href: forecast-agro.qmd
-          - href: forecast-realty.qmd
+          - href: forecasts/forecast-fx.qmd
+          - href: forecasts/forecast-gas.qmd
+          - href: forecasts/forecast-fertilizers.qmd
+          - href: forecasts/forecast-agro.qmd
+          - href: forecasts/forecast-realty.qmd
       - text: Методология
         href: methodology.qmd
       - href: events.qmd
@@ -54,22 +54,22 @@ website:
         - section: "Рынки"
           contents:
             - pbc-index.qmd
-            - markets-oil.qmd
-            - markets-coal.qmd
-            - markets-fertilizers.qmd
-            - markets-chemicals.qmd
-            - markets-wheat.qmd
-            - markets-oilseed.qmd
-            - markets-railways.qmd
-            - markets-sea-freight.qmd
-            - markets-ports.qmd
+            - markets/markets-oil.qmd
+            - markets/markets-coal.qmd
+            - markets/markets-fertilizers.qmd
+            - markets/markets-chemicals.qmd
+            - markets/markets-wheat.qmd
+            - markets/markets-oilseed.qmd
+            - markets/markets-railways.qmd
+            - markets/markets-sea-freight.qmd
+            - markets/markets-ports.qmd
         - section: "Прогнозы"
           contents:
-           - forecast-fx.qmd
-           - forecast-gas.qmd
-           - forecast-fertilizers.qmd
-           - forecast-agro.qmd
-           - forecast-realty.qmd
+           - forecasts/forecast-fx.qmd
+           - forecasts/forecast-gas.qmd
+           - forecasts/forecast-fertilizers.qmd
+           - forecasts/forecast-agro.qmd
+           - forecasts/forecast-realty.qmd
         - text: "Методология"
           href: methodology.qmd
       
