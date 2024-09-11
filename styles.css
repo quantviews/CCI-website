@@ -41,7 +41,7 @@ header {
 #title-block-header {
     margin-block-end: 1rem;
     position: relative;
-    margin-top: -140px;
+    margin-top: -40px;
 }
 
 .nav-footer-center {
@@ -62,5 +62,9 @@ header {
 }
 
 .g-col-6{
-   margin-left: 20px;
+   margin-left: 10px;
+}
+
+.grid{
+   margin-left: 8%;
 }
