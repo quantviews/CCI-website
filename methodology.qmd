@@ -34,9 +34,9 @@ title: "Методология"
 
 ### Прочие методологии
 
-[Методология консенсус-прогноза](methodology/methodology-consensus-pbc.qmd)
+![](images/icon-consensus.svg)[Методология консенсус-прогноза](methodology/methodology-consensus-pbc.qmd)
 
-[Методология сырьевого индекса](methodology/methodology-pbc.qmd)
+![](images/icon-commodity_index.svg)[Методология сырьевого индекса](methodology/methodology-pbc.qmd)
 
 ### Контакты
 

@@ -8,10 +8,9 @@ format:
       body-width: 900px
 ---
 
-# ![](../images/railways-icon.svg) Сухопутная логистика{.my-custom-class style="margin-left:8%;"}
+# ![](../images/railways-icon.svg) Сухопутная логистика {.my-custom-class style="margin-left:8%;"}
 
 ::: grid
-
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
 ### Индексы
 
@@ -38,9 +37,9 @@ hchart(LakeHuron, color = "#1A4AFC", name = "Ставка")  %>%  hc_tooltip(ena
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
 ### Методология
 
-[Спецификация ставок сухопутной логистики](../methodology/methodology-benchmark-pbc.qmd)
+[Методология ценовых индикаторов](../methodology/methodology-benchmark-pbc.qmd)
 
-[Методология ценовых индикаторов](../methodology/specs-logistics.qmd)
+[Спецификация ставок сухопутной логистики](../methodology/specs-logistics.qmd)
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
@@ -49,7 +48,6 @@ hchart(LakeHuron, color = "#1A4AFC", name = "Ставка")  %>%  hc_tooltip(ena
 *31.08.2024* Пятница с ЦЦИ: уголь
 
 Материалы вебинара
-
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}

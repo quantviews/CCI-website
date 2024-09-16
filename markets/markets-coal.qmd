@@ -2,4 +2,11 @@
 title: "Уголь"
 ---
 
-Рынок угля
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+### Методология
+
+[Методология ценовых индикаторов](../methodology/methodology-benchmark-pbc.qmd)
+
+[Спецификация угольных котировок](../methodology/specs-coal.qmd)
+:::
+
