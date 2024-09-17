@@ -41,7 +41,8 @@ header {
 #title-block-header {
     margin-block-end: 1rem;
     position: relative;
-    margin-top: -40px;
+    margin-top: 0px;
+    display: none;
 }
 
 .nav-footer-center {
