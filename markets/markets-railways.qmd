@@ -19,7 +19,8 @@ format:
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 library(highcharter)
 
-hchart(LakeHuron, color = "#1A4AFC", name = "Ставка")  %>%  hc_tooltip(enabled = "false")
+hchart(LakeHuron, color = "#1A4AFC", name = "Ставка") %>% 
+  hc_tooltip(enabled = "false") # хотим убрать всплывающие подписи. но надо по другому - так не работает. 
 
 ```
 :::

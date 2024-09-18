@@ -2,7 +2,8 @@
 title: "Морская логистика"
 ---
 
-## Морская логистика
+# ![](../images/icon-ship.svg) Морская логистика {.my-custom-class style="margin-left:8%;"}
+
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
 ### Методология
