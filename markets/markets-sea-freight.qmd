@@ -1,14 +1,56 @@
 ---
 title: "Морская логистика"
+sidebar: false
+format:
+   html: 
+     page-layout: custom
+     grid:
+      body-width: 900px
 ---
 
-# ![](../images/icon-ship.svg) Морская логистика {.my-custom-class style="margin-left:8%;"}
+# ![](../images/icon-ship.svg) Морская логистика {.my-custom-class style="margin-left:3%;"}
 
+Подпишитесь, чтобы получить полную демо-версию отчетов.
 
-::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+Контакты клиентской службы: [subscribe\@pbc-index.ru](mailto:subscribe@pbc-index.ru)
+
 ### Методология
 
 [Методология ценовых индикаторов](../methodology/methodology-benchmark-pbc.qmd)
 
 [Спецификация ставок морского фрахта](../methodology/specs-freight.qmd)
+
+### Нефть
+
+::: grid{style="margin-left:3%"}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+#### Демо-версия отчета
+
+![](../fig/crude-latest.png)
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+#### Ставка экспорта российской нефти
+
+```{r, warning = FALSE, echo = FALSE, message = FALSE}
+library(highcharter)
+library(xts)
+df = read.csv('../xls/crude-freight.csv')
+df$date = as.Date(df$date)
+
+
+hc = highchart(height = 632, width = 447) %>% 
+   hc_add_series(df, type = "line", hcaes(x = date, y = avg), color = "#1A4AFC", name = "Фрахт") %>% 
+   hc_xAxis(type = 'datetime') %>% 
+   hc_yAxis(title  = list(text = '$/баррель')) %>% 
+   hc_exporting(enabled = FALSE) %>% 
+   hc_tooltip(enabled  = FALSE)
+
+# поменять названия месяцев на русские. по умолчанию - на английском
+hc$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
+hc$x$conf_opts$lang$shortMonths = c("Янв", 	"Фев",	"Мар",	"Апр",	"Май",	"Июн",	"Июл",	"Авг",	"Сен",	"Окт",	"Ноя",	"Дек")
+
+hc
+```
+:::
 :::
