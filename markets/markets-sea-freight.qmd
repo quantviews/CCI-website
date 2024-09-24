@@ -10,27 +10,32 @@ format:
 
 # ![](../images/icon-ship.svg) Морская логистика {.my-custom-class style="margin-left:3%;"}
 
-Подпишитесь, чтобы получить полную демо-версию отчетов.
+Подписка включает регулярно обновляемые данные о ценах в формате Excel и аналитические отчеты. Данные и отчеты направляются по электронной почте или API. 
 
-Контакты клиентской службы: [subscribe\@pbc-index.ru](mailto:subscribe@pbc-index.ru)
+Обратитесь, чтобы подписаться на полную отчетов. Контакты клиентской службы: [Forecast.Center@gazprombank.ru](mailto:Forecast.Center@gazprombank.ru)
 
-### Методология
-
-[Методология ценовых индикаторов](../methodology/methodology-benchmark-pbc.qmd)
-
-[Спецификация ставок морского фрахта](../methodology/specs-freight.qmd)
-
-### Нефть
-
-::: grid{style="margin-left:3%"}
+::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
-#### Демо-версия отчета
 
-![](../fig/crude-latest.png)
+### Демо-версии отчетов
+
+</br>
+
+[Перевозки нефти. Ставки фрахта (еженедельно)](../reports/2024-07-17_PBC_Weekly_Crude_Freight.pdf)
+
+[Перевозки нефтепродуктов. Ставки фрахта (еженедельно)](../reports/2024-07-17 PBC Weekly OilProduct Freight.pdf)
+
+[Перевозки зерна. Ставки фрахта (еженедельно)](../reports/2024-07-15 PBC Weekly Wheat Freight.pdf)
+
+[Перевозки угля. Ставки фрахта (еженедельно)](../reports/2024-09-17 ЦЦИ Фрахт угля.pdf)
+
+[Морская контейнерная логистика (ежемесячно)](../reports/2024-07 PBC Montly Container Freight.pdf)
+
+[Морская контейнерная логистика - флот (ежемесячно)](../reports/2024-07 PBC Montly Container Fleet.pdf)
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
-#### Ставка экспорта российской нефти
+### Ставка экспорта российской нефти
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 library(highcharter)
@@ -39,7 +44,7 @@ df = read.csv('../xls/crude-freight.csv')
 df$date = as.Date(df$date)
 
 
-hc = highchart(height = 632, width = 447) %>% 
+hc = highchart() %>% 
    hc_add_series(df, type = "line", hcaes(x = date, y = avg), color = "#1A4AFC", name = "Фрахт") %>% 
    hc_xAxis(type = 'datetime') %>% 
    hc_yAxis(title  = list(text = '$/баррель')) %>% 
@@ -54,3 +59,9 @@ hc
 ```
 :::
 :::
+
+### Методология
+
+[Методология ценовых индикаторов](../methodology/methodology-benchmark-pbc.qmd)
+
+[Спецификация ставок морского фрахта](../methodology/specs-freight.qmd)

@@ -1,7 +1,6 @@
 ---
 title: "Методология"
 title-block-banner: false
-
 ---
 
 ### Методология ценовых индикаторов
@@ -34,9 +33,11 @@ title-block-banner: false
 
 ### Прочие методологии
 
-![](images/icon-consensus.svg)[Методология консенсус-прогноза](methodology/methodology-consensus-pbc.qmd)
+![](images/icon-consensus-macro.svg)[Методология консенсус-прогноза](methodology/methodology-consensus-pbc.qmd)
 
 ![](images/icon-commodity_index.svg)[Методология сырьевого индекса](methodology/methodology-pbc.qmd)
+
+![](images/icon-exchange-rates.svg)[Методология валютных курсов](methodology/methodology-exchange-rates.qmd)
 
 ### Контакты
 
