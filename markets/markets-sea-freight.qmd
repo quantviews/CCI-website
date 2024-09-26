@@ -10,28 +10,29 @@ format:
 
 # ![](../images/icon-ship.svg) Морская логистика {.my-custom-class style="margin-left:3%;"}
 
-Подписка включает регулярно обновляемые данные о ценах в формате Excel и аналитические отчеты. Данные и отчеты направляются по электронной почте или API. 
-
-Обратитесь, чтобы подписаться на полную отчетов. Контакты клиентской службы: [Forecast.Center@gazprombank.ru](mailto:Forecast.Center@gazprombank.ru)
-
 ::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+### Демо-подписка
 
-### Демо-версии отчетов
+Подписка включает регулярно обновляемые данные о ценах в формате Excel и аналитические отчеты.
+
+Данные и отчеты направляются по электронной почте или API.
+
+Обратитесь, чтобы подписаться на полную отчетов. Контакты клиентской службы: [subscribe@pbc-index.ru](mailto:subscribe@pbc-index.ru)
 
 </br>
 
 [Перевозки нефти. Ставки фрахта (еженедельно)](../reports/2024-07-17_PBC_Weekly_Crude_Freight.pdf)
 
-[Перевозки нефтепродуктов. Ставки фрахта (еженедельно)](../reports/2024-07-17 PBC Weekly OilProduct Freight.pdf)
+[Перевозки нефтепродуктов. Ставки фрахта (еженедельно)](../reports/2024-07-17%20PBC%20Weekly%20OilProduct%20Freight.pdf)
 
-[Перевозки зерна. Ставки фрахта (еженедельно)](../reports/2024-07-15 PBC Weekly Wheat Freight.pdf)
+[Перевозки зерна. Ставки фрахта (еженедельно)](../reports/2024-07-15%20PBC%20Weekly%20Wheat%20Freight.pdf)
 
-[Перевозки угля. Ставки фрахта (еженедельно)](../reports/2024-09-17 ЦЦИ Фрахт угля.pdf)
+[Перевозки угля. Ставки фрахта (еженедельно)](../reports/2024-09-17%20ЦЦИ%20Фрахт%20угля.pdf)
 
-[Морская контейнерная логистика (ежемесячно)](../reports/2024-07 PBC Montly Container Freight.pdf)
+[Морская контейнерная логистика (ежемесячно)](../reports/2024-07%20PBC%20Montly%20Container%20Freight.pdf)
 
-[Морская контейнерная логистика - флот (ежемесячно)](../reports/2024-07 PBC Montly Container Fleet.pdf)
+[Морская контейнерная логистика - флот (ежемесячно)](../reports/2024-07%20PBC%20Montly%20Container%20Fleet.pdf)
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
@@ -40,12 +41,12 @@ format:
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 library(highcharter)
 library(xts)
-df = read.csv('../xls/crude-freight.csv')
+df = read.csv('../xls/crude-freight-long.csv')
 df$date = as.Date(df$date)
 
 
 hc = highchart() %>% 
-   hc_add_series(df, type = "line", hcaes(x = date, y = avg), color = "#1A4AFC", name = "Фрахт") %>% 
+   hc_add_series(df, type = "line", hcaes(x = date, y = avg), color = "#1A4AFC", name = "Фрахт российской нефти") %>% 
    hc_xAxis(type = 'datetime') %>% 
    hc_yAxis(title  = list(text = '$/баррель')) %>% 
    hc_exporting(enabled = FALSE) %>% 
@@ -57,6 +58,9 @@ hc$x$conf_opts$lang$shortMonths = c("Янв", 	"Фев",	"Мар",	"Апр",	"М
 
 hc
 ```
+
+[*Примечание: ставка экспорта российской нефти рассчитывается как среднее арифметическое наиболее ликвидных базисов: Балтика - Западная Индия (Aframax), Балтика - Северный Китай (Aframax), Новороссийск - Западная Индия (Suezmax), Новороссийск - Северный Китай (Suezmax).*]{style="font-size:0.75em"}
+
 :::
 :::
 
@@ -65,3 +69,7 @@ hc
 [Методология ценовых индикаторов](../methodology/methodology-benchmark-pbc.qmd)
 
 [Спецификация ставок морского фрахта](../methodology/specs-freight.qmd)
+
+#### Образец отчета (превью)
+
+<embed src="../reports/2024-07-17_PBC_Weekly_Crude_Freight.pdf" width="600px" height="800px" />

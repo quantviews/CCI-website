@@ -13,7 +13,7 @@ website:
   navbar:
     title: false
     logo: images/logo.png
-    background: "#1A4AFC"
+    background: "#1A4AFC" 
     right:
       - text: Оформить подписку
         href: subscribe.qmd
