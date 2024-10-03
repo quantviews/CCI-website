@@ -1,13 +1,45 @@
 ---
 title: "Зерно"
+sidebar: false
 ---
 
-Рынок зерна
+# ![](../images/icon-wheat.svg) Рынок зерна {.my-custom-class style="margin-left:3%;"}
 
+![](../images/icon-subscription.svg)[Демо-подписка](../demo-subscription.qmd)
+
+::: {.grid style="margin-left:0%"}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+### Котировки
+
+*30.09.2024 Пшеница*
+
+**Проверки на российско-казахстанских дорогах**
+
+Экспортные цены на пшеницу начали восстанавливаться, по сравнению с прошлой неделей рост составил 2 долл.
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+### Экспортная котировка ЦЦИ на пшеницу FOB
+
+### События
+
+*13 сентября 2024. Пятница с ЦЦИ: хлеб с маслом*
+
+[Материалы →](../events/2024-09-13-wheat.qmd)
+:::
+:::
+
+::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
 ### Методология
 
 [Методология ценовых индикаторов](../methodology/methodology-benchmark-pbc.qmd)
 
 [Спецификация котировок на пшеницу](../methodology/specs-wheat.qmd)
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+:::
 :::

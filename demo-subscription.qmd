@@ -31,3 +31,9 @@ format:
 [Морская контейнерная логистика (ежемесячно)](/reports/2024-07%20PBC%20Montly%20Container%20Freight.pdf)
 
 [Морская контейнерная логистика - флот (ежемесячно)](/reports/2024-07%20PBC%20Montly%20Container%20Fleet.pdf)
+
+### Российское растениеводство
+
+[Экспортные цены на пшеницу (еженедельно)](reports/2024-04-25 PBC Weekly Wheat.pdf)
+
+[Подсолнечное масло (ежемесячно)](reports/2024-04 GPB Monthly Sunflower Oil.pdf)

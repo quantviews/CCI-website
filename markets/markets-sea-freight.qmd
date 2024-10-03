@@ -1,11 +1,6 @@
 ---
 title: "Морская логистика"
 sidebar: false
-format:
-   html: 
-     page-layout: custom
-     grid:
-      body-width: 900px
 ---
 
 # ![](../images/icon-ship.svg) Морская логистика {.my-custom-class style="margin-left:3%;"}
@@ -14,7 +9,6 @@ format:
 
 ::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
-
 ### Котировки
 
 *01.10.2024 Перевозки нефти*
@@ -81,7 +75,6 @@ hc
 *13 сентября 2024. Пятница с ЦЦИ: корабли с черным золотом*
 
 [Материалы →](../events/2024-09-13-crude.qmd)
-
 :::
 :::
 
@@ -95,6 +88,5 @@ hc
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
-
 :::
 :::
