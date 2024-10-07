@@ -1,6 +1,12 @@
 ---
 title: "Морская логистика"
 sidebar: false
+format: 
+  html:
+    page-layout: custom
+    grid:
+       margin-width: 300px
+       body-width: 900px
 ---
 
 # ![](../images/icon-ship.svg) Морская логистика {.my-custom-class style="margin-left:3%;"}

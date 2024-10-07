@@ -1,5 +1,90 @@
 ---
-title: "Валюта и процентные ставки"
+title: "Макроконсенсус"
+sidebar: false
+format:
+   html: 
+     page-layout: custom
+     grid:
+      body-width: 900px
 ---
 
-Прогноз
+# ![](../images/icon-consensus-macro.svg) Макроконсенсус ЦЦИ {.my-custom-class style="margin-left:3%;"}
+
+**Макроконсенсус ЦЦИ** -- ежемесячный опрос профессиональных аналитиков по макроэкономике об их прогнозах относительно наиболее вероятного сценария развития экономики на горизонте 2-х лет в части ВВП, процентных ставок и курсов валют.
+
+![](../images/icon-subscription.svg)[Демо-подписка](../demo-subscription.qmd)
+
+::: grid
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-7 .g-col-md-6 .g-col-lg-6}
+## Результаты опроса: сентябрь 2024 г.
+
+![](../reports/2024-09_Consensus.jpg)
+
+\*Актуальные даные и скрытые значения доступны по [подписке](../subscribe.qmd)
+
+### Список участников
+
+В опросе приняли участие 14 профессиональных аналитика, 12 из них дали согласие на раскрытие информации об их участии в опросе
+
+| <!-- -->                                               | <!-- -->                                                  | <!-- -->                                         |
+|-------------------------|--------------------------|----------------------|
+| Акиндинова Наталья ("Центр Развития" НИУ ВШЭ)          | Васильев Михаил (Совкомбанк)                              | Куликов Дмитрий (АКРА)                           |
+| Байкова Анастастия, Мурашов станислав (Райффайзенбанк) | Виноградов Артем, Попов Юрий (Сберанк КИБ)                | Полевой Дмитрий (Астра управление активами)      |
+| Бирюков Павел (Газпромбанк)                            | Жирнов Григорий                                           | Попов Денис (Промсвязьбанк)                      |
+| Вайсберг Валерий (ИК РЕГИОН)                           | Клепач Андрей (ВЭБ.РФ)                                    | Салихов Марсель (Институт энергетики и финансов) |
+|                                                        | *2 участника не подтвердили согласие на раскрытие данных* |                                                  |
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+## Макроэкономика
+
+```{r, warning = FALSE, echo = FALSE, message = FALSE}
+library(openxlsx)
+library(tidyr)
+library(highcharter)
+library(xts)
+
+df = read.xlsx('../xls/macroconsensus_results.xlsx', sheet = 1, detectDates = TRUE, rowNames=TRUE)
+df_key_last = df[9,]
+df_key_prev = df[10,]
+names(df_key_last)[1] <- "index"
+names(df_key_prev)[1] <- "index"
+df_key_last <- df_key_last %>% pivot_longer(!index, names_to = "date", values_to = 'value')
+df_key_last$date <- as.Date(df_key_last$date)
+df_key_last$index = 'Ключевая ставка, %'
+df_key_prev <- df_key_prev %>% pivot_longer(!index, names_to = "date", values_to = 'value')
+df_key_prev$date <- as.Date(df_key_prev$date)
+df_key_prev$index = 'Ключевая ставка, % (пред.опрос)'
+
+hc <- highchart() %>% 
+   hc_xAxis(type = "datetime") %>%
+   hc_yAxis(title  = list(text = '%')) %>% 
+   hc_add_series(df_key_last,type="line", hcaes(x = date, y = value, group=index), color = "#1A4AFC") %>%
+   hc_add_series(df_key_prev,type="line", hcaes(x = date, y = value, group=index), color = "#1A4AFC", dashStyle = "ShortDash")
+
+# поменять названия месяцев на русские. по умолчанию - на английском
+hc$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
+hc$x$conf_opts$lang$shortMonths = c("Янв", 	"Фев",	"Мар",	"Апр",	"Май",	"Июн",	"Июл",	"Авг",	"Сен",	"Окт",	"Ноя",	"Дек")
+
+hc
+```
+
+## Курсы валют
+
+```{r, warning = FALSE, echo = FALSE, message = FALSE}
+library(highcharter)
+
+hchart(LakeHuron, color = "#1A4AFC", name = "Ставка") %>% 
+  hc_tooltip(enabled = "false") # хотим убрать всплывающие подписи. но надо по другому - так не работает. 
+
+
+
+```
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+### Методология
+
+[Методология макроконсенсуса](../methodology/methodology-consensus-pbc.qmd)
+:::
+:::

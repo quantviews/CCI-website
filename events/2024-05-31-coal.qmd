@@ -1,0 +1,28 @@
+---
+title: "Пятница с ЦЦИ: уголь (31 мая 2024)"
+date: 31/05/2024
+lang: ru
+---
+
+## Пятница с ЦЦИ: уголь
+
+31 мая 2024 г.
+
+
+### Запись вебинара
+
+1.  Уголь теперь дешевый? 
+
+{{< video https://youtu.be/aFEDMn1r2QU?si=UD0p9eWf8-ek3_le >}}
+
+2.  ЕС и Турция. Закат и возрождение угля
+
+{{< video https://youtu.be/D-JE9TCRrLk?si=dmpb0Ai0v_UVjOtn >}}
+
+3.  Идем на Восток
+
+{{< video https://youtu.be/94zHfRKKaqo?si=L4zQSoX8OsoqjQul >}}
+
+4.  Логистика стоит дороже 50% цены угля
+
+{{< video https://youtu.be/NmyH9EOyp_s?si=iu2Q4SN5p_7DHlZj >}}

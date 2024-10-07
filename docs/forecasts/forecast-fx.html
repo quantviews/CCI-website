@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.5.52">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Валюта и процентные ставки – ЦЦИ</title>
+<title>Макроконсенсус – ЦЦИ</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -76,12 +76,98 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-TNGWX5Y7FL', { 'anonymize_ip': true});
 </script>
+<script src="../site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+
+<script src="../site_libs/jquery-3.5.1/jquery.min.js"></script>
+
+<script src="../site_libs/proj4js-2.3.15/proj4.js"></script>
+
+<link href="../site_libs/highcharts-9.3.1/css/motion.css" rel="stylesheet">
+
+<script src="../site_libs/highcharts-9.3.1/highcharts.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/highcharts-3d.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/highcharts-more.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/stock.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/map.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/data.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/exporting.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/offline-exporting.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/drilldown.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/item-series.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/overlapping-datalabels.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/annotations.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/export-data.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/funnel.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/heatmap.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/treemap.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/sankey.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/dependency-wheel.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/organization.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/solid-gauge.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/streamgraph.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/sunburst.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/vector.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/wordcloud.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/xrange.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/tilemap.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/venn.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/gantt.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/timeline.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/parallel-coordinates.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/bullet.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/coloraxis.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/dumbbell.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/lollipop.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/series-label.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/plugins/motion.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/custom/reset.js"></script>
+
+<script src="../site_libs/highcharts-9.3.1/modules/boost.js"></script>
+
+<script src="../site_libs/highchart-binding-0.9.4/highchart.js"></script>
+
 
 
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed fullcontent">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -133,7 +219,7 @@ gtag('config', 'G-TNGWX5Y7FL', { 'anonymize_ip': true});
   </li>  
         <li>
     <a class="dropdown-item" href="../markets/markets-railways.html">
- <span class="dropdown-text">Железная дорога</span></a>
+ <span class="dropdown-text">Сухопутная контейнерная логистика</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../markets/markets-sea-freight.html">
@@ -152,7 +238,7 @@ gtag('config', 'G-TNGWX5Y7FL', { 'anonymize_ip': true});
     <ul class="dropdown-menu" aria-labelledby="nav-menu--1">    
         <li>
     <a class="dropdown-item" href="../forecasts/forecast-fx.html">
- <span class="dropdown-text">Валюта и процентные ставки</span></a>
+ <span class="dropdown-text">Макроконсенсус</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../forecasts/forecast-gas.html">
@@ -173,7 +259,7 @@ gtag('config', 'G-TNGWX5Y7FL', { 'anonymize_ip': true});
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="../methodology.html" aria-current="page"> 
+    <a class="nav-link" href="../methodology.html"> 
 <span class="menu-text">Методология</span></a>
   </li>  
   <li class="nav-item">
@@ -196,159 +282,16 @@ gtag('config', 'G-TNGWX5Y7FL', { 'anonymize_ip': true});
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../forecasts/forecast-fx.html">Прогнозы</a></li><li class="breadcrumb-item"><a href="../forecasts/forecast-fx.html">Валюта и процентные ставки</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">О нас</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Рынки</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../pbc-index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Сырьевой индекс</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../markets/markets-oil.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Нефть</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../markets/markets-coal.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Уголь</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../markets/markets-fertilizers.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Удобрения</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../markets/markets-chemicals.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Химия</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../markets/markets-wheat.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Зерно</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../markets/markets-oilseed.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Подсолнечное масло</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../markets/markets-railways.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Железная дорога</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../markets/markets-sea-freight.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Морская логистика</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../markets/markets-ports.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Порты</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Прогнозы</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../forecasts/forecast-fx.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Валюта и процентные ставки</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../forecasts/forecast-gas.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Газ</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../forecasts/forecast-fertilizers.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Удобрения</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../forecasts/forecast-agro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">АПК</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../forecasts/forecast-realty.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Коммерческая недвижимость</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../methodology.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Методология</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
 <!-- main -->
-<main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../forecasts/forecast-fx.html">Прогнозы</a></li><li class="breadcrumb-item"><a href="../forecasts/forecast-fx.html">Валюта и процентные ставки</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../forecasts/forecast-fx.html">Прогнозы</a></li><li class="breadcrumb-item"><a href="../forecasts/forecast-fx.html">Макроконсенсус</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Валюта и процентные ставки</h1>
+<h1 class="title">Макроконсенсус</h1>
 </div>
 
 
@@ -365,11 +308,91 @@ gtag('config', 'G-TNGWX5Y7FL', { 'anonymize_ip': true});
 </header>
 
 
-<p>Прогноз</p>
+<section id="макроконсенсус-цци" class="level1 my-custom-class" style="margin-left:3%;">
+<h1 class="my-custom-class" style="margin-left:3%;"><img src="../images/icon-consensus-macro.svg" class="img-fluid"> Макроконсенсус ЦЦИ</h1>
+<p><strong>Макроконсенсус ЦЦИ</strong> – ежемесячный опрос профессиональных аналитиков по макроэкономике об их прогнозах относительно наиболее вероятного сценария развития экономики на горизонте 2-х лет в части ВВП, процентных ставок и курсов валют.</p>
+<p><img src="../images/icon-subscription.svg" class="img-fluid"><a href="../demo-subscription.html">Демо-подписка</a></p>
+<div class="grid">
+<section id="результаты-опроса-сентябрь-2024-г." class="level2 g-col-12 g-col-sm-12 g-col-xs-12 g-col-xl-7 g-col-md-6 g-col-lg-6">
+<h2 data-anchor-id="результаты-опроса-сентябрь-2024-г.">Результаты опроса: сентябрь 2024 г.</h2>
+<p><img src="../reports/2024-09_Consensus.jpg" class="img-fluid"></p>
+<p>*Актуальные даные и скрытые значения доступны по <a href="../subscribe.html">подписке</a></p>
+<section id="список-участников" class="level3">
+<h3 data-anchor-id="список-участников">Список участников</h3>
+<p>В опросе приняли участие 14 профессиональных аналитика, 12 из них дали согласие на раскрытие информации об их участии в опросе</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 34%">
+<col style="width: 35%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><!-- --></th>
+<th><!-- --></th>
+<th><!-- --></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Акиндинова Наталья (“Центр Развития” НИУ ВШЭ)</td>
+<td>Васильев Михаил (Совкомбанк)</td>
+<td>Куликов Дмитрий (АКРА)</td>
+</tr>
+<tr class="even">
+<td>Байкова Анастастия, Мурашов станислав (Райффайзенбанк)</td>
+<td>Виноградов Артем, Попов Юрий (Сберанк КИБ)</td>
+<td>Полевой Дмитрий (Астра управление активами)</td>
+</tr>
+<tr class="odd">
+<td>Бирюков Павел (Газпромбанк)</td>
+<td>Жирнов Григорий</td>
+<td>Попов Денис (Промсвязьбанк)</td>
+</tr>
+<tr class="even">
+<td>Вайсберг Валерий (ИК РЕГИОН)</td>
+<td>Клепач Андрей (ВЭБ.РФ)</td>
+<td>Салихов Марсель (Институт энергетики и финансов)</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><em>2 участника не подтвердили согласие на раскрытие данных</em></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<div class="g-col-12 g-col-sm-12 g-col-xs-12 g-col-xl-4 g-col-md-6 g-col-lg-6">
+<section id="макроэкономика" class="level2">
+<h2 data-anchor-id="макроэкономика">Макроэкономика</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="highchart html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-04325043768445ac9eb4" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-04325043768445ac9eb4">{"x":{"hc_opts":{"chart":{"reflow":true},"title":{"text":null},"yAxis":{"title":{"text":"%"}},"credits":{"enabled":false},"exporting":{"enabled":false},"boost":{"enabled":false},"plotOptions":{"series":{"label":{"enabled":false},"turboThreshold":0},"treemap":{"layoutAlgorithm":"squarified"}},"xAxis":{"type":"datetime"},"series":[{"name":"Ключевая ставка, %","data":[{"index":"Ключевая ставка, %","date":"2024-09-30","value":19,"x":1727654400000,"y":19},{"index":"Ключевая ставка, %","date":"2024-12-31","value":20,"x":1735603200000,"y":20},{"index":"Ключевая ставка, %","date":"2025-03-31","value":20,"x":1743379200000,"y":20},{"index":"Ключевая ставка, %","date":"2025-06-30","value":17,"x":1751241600000,"y":17},{"index":"Ключевая ставка, %","date":"2025-12-31","value":14,"x":1767139200000,"y":14},{"index":"Ключевая ставка, %","date":"2026-12-31","value":10,"x":1798675200000,"y":10}],"type":"line","color":"#1A4AFC"},{"name":"Ключевая ставка, % (пред.опрос)","data":[{"index":"Ключевая ставка, % (пред.опрос)","date":"2024-09-30","value":18,"x":1727654400000,"y":18},{"index":"Ключевая ставка, % (пред.опрос)","date":"2024-12-31","value":18,"x":1735603200000,"y":18},{"index":"Ключевая ставка, % (пред.опрос)","date":"2025-03-31","value":17.5,"x":1743379200000,"y":17.5},{"index":"Ключевая ставка, % (пред.опрос)","date":"2025-06-30","value":16,"x":1751241600000,"y":16},{"index":"Ключевая ставка, % (пред.опрос)","date":"2025-12-31","value":14,"x":1767139200000,"y":14},{"index":"Ключевая ставка, % (пред.опрос)","date":"2026-12-31","value":9.5,"x":1798675200000,"y":9.5}],"type":"line","color":"#1A4AFC","dashStyle":"ShortDash"}]},"theme":{"chart":{"backgroundColor":"transparent"},"colors":["#7cb5ec","#434348","#90ed7d","#f7a35c","#8085e9","#f15c80","#e4d354","#2b908f","#f45b5b","#91e8e1"]},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadCSV":"Download CSV","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","downloadXLS":"Download XLS","drillUpText":"◁ Back to {series.name}","exitFullscreen":"Exit from full screen","exportData":{"annotationHeader":"Annotations","categoryDatetimeHeader":"DateTime","categoryHeader":"Category"},"hideData":"Hide data table","invalidDate":null,"loading":"Loading...","months":["Январь","Февраль","Март","Апрель","Май","Июнь","Июль","Август","Сентябрь","Октябрь","Ноябрь","Декабрь"],"noData":"No data to display","numericSymbolMagnitude":1000,"numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Янв","Фев","Мар","Апр","Май","Июн","Июл","Авг","Сен","Окт","Ноя","Дек"],"shortWeekdays":["Sat","Sun","Mon","Tue","Wed","Thu","Fri"],"thousandsSep":" ","viewData":"View data table","viewFullscreen":"View in full screen","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="курсы-валют" class="level2">
+<h2 data-anchor-id="курсы-валют">Курсы валют</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="highchart html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-31e1427d00860956d2af" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-31e1427d00860956d2af">{"x":{"hc_opts":{"chart":{"reflow":true},"title":{"text":null},"yAxis":{"title":{"text":null}},"credits":{"enabled":false},"exporting":{"enabled":false},"boost":{"enabled":false},"plotOptions":{"series":{"label":{"enabled":false},"turboThreshold":0},"treemap":{"layoutAlgorithm":"squarified"}},"xAxis":{"type":"datetime"},"series":[{"data":[[-2997907200000,580.38],[-2966371200000,581.86],[-2934748800000,580.97],[-2903212800000,580.8],[-2871676800000,579.79],[-2840140800000,580.39],[-2808518400000,580.42],[-2776982400000,580.8200000000001],[-2745446400000,581.4],[-2713910400000,581.3200000000001],[-2682288000000,581.4400000000001],[-2650752000000,581.6799999999999],[-2619216000000,581.17],[-2587680000000,580.53],[-2556057600000,580.01],[-2524521600000,579.91],[-2492985600000,579.14],[-2461449600000,579.16],[-2429827200000,579.55],[-2398291200000,579.67],[-2366755200000,578.4400000000001],[-2335219200000,578.24],[-2303596800000,579.1],[-2272060800000,579.09],[-2240524800000,579.35],[-2208988800000,578.8200000000001],[-2177452800000,579.3200000000001],[-2145916800000,579.01],[-2114380800000,579],[-2082844800000,579.8],[-2051222400000,579.83],[-2019686400000,579.72],[-1988150400000,579.89],[-1956614400000,580.01],[-1924992000000,579.37],[-1893456000000,578.6900000000001],[-1861920000000,578.1900000000001],[-1830384000000,578.67],[-1798761600000,579.55],[-1767225600000,578.92],[-1735689600000,578.09],[-1704153600000,579.37],[-1672531200000,580.13],[-1640995200000,580.14],[-1609459200000,579.51],[-1577923200000,579.24],[-1546300800000,578.66],[-1514764800000,578.86],[-1483228800000,578.05],[-1451692800000,577.79],[-1420070400000,576.75],[-1388534400000,576.75],[-1356998400000,577.8200000000001],[-1325462400000,578.64],[-1293840000000,580.58],[-1262304000000,579.48],[-1230768000000,577.38],[-1199232000000,576.9],[-1167609600000,576.9400000000001],[-1136073600000,576.24],[-1104537600000,576.84],[-1073001600000,576.85],[-1041379200000,576.9],[-1009843200000,577.79],[-978307200000,578.1799999999999],[-946771200000,577.51],[-915148800000,577.23],[-883612800000,578.42],[-852076800000,579.61],[-820540800000,579.05],[-788918400000,579.26],[-757382400000,579.22],[-725846400000,579.38],[-694310400000,579.1],[-662688000000,577.95],[-631152000000,578.12],[-599616000000,579.75],[-568080000000,580.85],[-536457600000,580.41],[-504921600000,579.96],[-473385600000,579.61],[-441849600000,578.76],[-410227200000,578.1799999999999],[-378691200000,577.21],[-347155200000,577.13],[-315619200000,579.1],[-283996800000,578.25],[-252460800000,577.91],[-220924800000,576.89],[-189388800000,575.96],[-157766400000,576.8],[-126230400000,577.6799999999999],[-94694400000,578.38],[-63158400000,578.52],[-31536000000,579.74],[0,579.3099999999999],[31536000000,579.89],[63072000000,579.96]],"color":"#1A4AFC","name":"Ставка"}],"tooltip":{"enabled":"false"}},"theme":{"chart":{"backgroundColor":"transparent"},"colors":["#7cb5ec","#434348","#90ed7d","#f7a35c","#8085e9","#f15c80","#e4d354","#2b908f","#f45b5b","#91e8e1"]},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadCSV":"Download CSV","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","downloadXLS":"Download XLS","drillUpText":"◁ Back to {series.name}","exitFullscreen":"Exit from full screen","exportData":{"annotationHeader":"Annotations","categoryDatetimeHeader":"DateTime","categoryHeader":"Category"},"hideData":"Hide data table","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbolMagnitude":1000,"numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"shortWeekdays":["Sat","Sun","Mon","Tue","Wed","Thu","Fri"],"thousandsSep":" ","viewData":"View data table","viewFullscreen":"View in full screen","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+</div>
+<section id="методология" class="level3 g-col-12 g-col-sm-12 g-col-xs-12 g-col-xl-4 g-col-md-6 g-col-lg-6">
+<h3 data-anchor-id="методология">Методология</h3>
+<p><a href="../methodology/methodology-consensus-pbc.html">Методология макроконсенсуса</a></p>
+</section>
+</div>
 
 
+</section>
 
-</main> <!-- /main -->
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
