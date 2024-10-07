@@ -15,7 +15,9 @@ format:
 
 Данные и отчеты направляются по электронной почте или API.
 
-Обратитесь, чтобы подписаться на полную отчетов. Контакты клиентской службы: [subscribe@pbc-index.ru](mailto:subscribe@pbc-index.ru)
+Обратитесь, чтобы подписаться на полную отчетов. 
+
+Контакты клиентской службы: [subscribe@pbc-index.ru](mailto:subscribe@pbc-index.ru)
 
 
 ### Морской фрахт 
@@ -37,3 +39,10 @@ format:
 [Экспортные цены на пшеницу (еженедельно)](reports/2024-04-25 PBC Weekly Wheat.pdf)
 
 [Подсолнечное масло (ежемесячно)](reports/2024-04 GPB Monthly Sunflower Oil.pdf)
+
+### Российская сухопутная логистика
+
+[Сухопутная логистика. Полувагоны](reports/2024-06 PBC Monthly Logistics. Open wagons.pdf)
+
+[Сухопутная контейнерная логистика](reports/2024-07 PBC Monthly Logistics. Flat wagons.pdf)
+
