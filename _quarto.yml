@@ -28,6 +28,7 @@ website:
           - href: markets/markets-wheat.qmd
           - href: markets/markets-oilseed.qmd
           - href: markets/markets-railways.qmd
+          - href: markets/markets-railways-van.qmd
           - href: markets/markets-sea-freight.qmd
           - href: markets/markets-ports.qmd
       - text: Прогнозы
