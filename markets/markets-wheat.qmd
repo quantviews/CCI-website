@@ -1,6 +1,11 @@
 ---
 title: "Зерно"
 sidebar: false
+format:
+   html: 
+     page-layout: custom
+     grid:
+      body-width: 900px
 ---
 
 # ![](../images/icon-wheat.svg) Рынок зерна {.my-custom-class style="margin-left:3%;"}
@@ -10,6 +15,16 @@ sidebar: false
 ::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
 ### Котировки
+
+*07.10.2024 Пшеница*
+
+**Египет решает хлебный вопрос**
+
+Экспортные цены на пшеницу за неделю выросли на 9 долл.
+
+Турция смягчила запрет на импорт пшеницы.
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
 *30.09.2024 Пшеница*
 
