@@ -1,11 +1,12 @@
 ---
 title: "Зерно"
 sidebar: false
-format:
-   html: 
-     page-layout: custom
-     grid:
-      body-width: 900px
+format: 
+  html:
+    page-layout: custom
+    grid:
+       margin-width: 300px
+       body-width: 900px
 ---
 
 # ![](../images/icon-wheat.svg) Рынок зерна {.my-custom-class style="margin-left:3%;"}
@@ -36,7 +37,60 @@ format:
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
-### Экспортная котировка ЦЦИ на пшеницу FOB
+#### Цена экспортной альтернативы к FOB Новороссийск пшеницы 12,5%, руб./т
+
+```{r,warning = FALSE, echo = FALSE, message = FALSE}
+
+library(highcharter)
+library(openxlsx)
+library(tidyr)
+
+df <- read.xlsx(xlsxFile = '../xls/график_пшеница.xlsx', sheet = 1) 
+df = pivot_longer(df, -X1, names_to = "date")
+names(df)[1] = 'id'
+df$date <- as.Date(df$date, format = '%d.%m.%Y')
+
+hc = highchart() %>%
+   hc_add_series(df, type = "column", hcaes(x = date, y = value, group = id), color = c("#1A4AFC", "#FF7900")) %>%
+   hc_xAxis(type = 'datetime') %>%
+   hc_yAxis(title  = list(text = 'руб./т')) %>%
+   hc_exporting(enabled = FALSE) %>%
+   hc_tooltip(enabled  = FALSE)
+
+# поменять названия месяцев на русские. по умолчанию - на английском
+hc$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
+hc$x$conf_opts$lang$shortMonths = c("Янв", 	"Фев",	"Мар",	"Апр",	"Май",	"Июн",	"Июл",	"Авг",	"Сен",	"Окт",	"Ноя",	"Дек")
+
+hc
+
+```
+
+#### Разница цен на растительные масла в начале октября 2024, долл./т
+
+```{r,warning = FALSE, echo = FALSE, message = FALSE}
+
+library(highcharter)
+library(openxlsx)
+library(tidyr)
+
+df <- read.xlsx(xlsxFile = '../xls/график_подсолнечное масло.xlsx', sheet = 1) 
+df = pivot_longer(df, -1, names_to = "id")
+names(df)[1] = 'type'
+
+hc = highchart() %>%
+   hc_add_series(df, type = "column", hcaes(x = id, y = value, group = type), color = c("#1A4AFC", "#FF7900"), stacking = "normal") %>%
+   hc_xAxis(type = 'category') %>% 
+   hc_yAxis(title  = list(text = 'долл./т')) %>%
+   hc_exporting(enabled = FALSE) %>%
+   hc_tooltip(enabled  = FALSE)
+
+# поменять названия месяцев на русские. по умолчанию - на английском
+hc$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
+hc$x$conf_opts$lang$shortMonths = c("Янв", 	"Фев",	"Мар",	"Апр",	"Май",	"Июн",	"Июл",	"Авг",	"Сен",	"Окт",	"Ноя",	"Дек")
+
+hc
+
+```
 
 ### События
 

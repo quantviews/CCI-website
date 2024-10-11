@@ -59,7 +59,6 @@ library(xts)
 df = read.csv('../xls/crude-freight-long.csv')
 df$date = as.Date(df$date)
 
-
 hc = highchart() %>% 
    hc_add_series(df, type = "line", hcaes(x = date, y = avg), color = "#1A4AFC", name = "Фрахт российской нефти") %>% 
    hc_xAxis(type = 'datetime') %>% 

@@ -1,13 +1,63 @@
 ---
-title: "Удобрения"
+title: "Азотные удобрения"
+sidebar: false
+format: 
+  html:
+    page-layout: custom
+    grid:
+       margin-width: 300px
+       body-width: 900px
 ---
 
-Рынок удобрений
+# ![](../images/icon-chemicals.svg) Химия {.my-custom-class style="margin-left:3%;"}
+
+![](../images/icon-subscription.svg)[Демо-подписка](../demo-subscription.qmd)
+
+::: {.grid style="margin-left:0%"}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+### Котировки
+
+![](../images/icon-locker.svg){width="6%"}[Подробнее](../demo-subscription.qmd)
+:::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+### Индекс цен на карбамид
+
+```{r,warning = FALSE, echo = FALSE, message = FALSE}
+
+library(highcharter)
+library(openxlsx)
+library(tidyr)
+
+df <- read.xlsx(xlsxFile = '../xls/карбамид.xlsx', sheet = 1,startRow = 6) 
+dt = names(df)
+value = as.numeric(df[3,])
+df = data.frame(dt = dt, value = value)
+df = df[!is.na(df$value),]
+df$dt = as.Date(df$dt, format = '%d.%m.%Y')
+df$year = format(df$dt, '%Y')
+avg = mean(df$value[df$year == '2023'], na.rm = TRUE)
+df$index = df$value / avg * 100
+
+hc = highchart() %>% 
+   hc_add_series(df, type = "line", hcaes(x = dt, y = index), color = "#1A4AFC", name = "Метанол (FOB Baltic)") %>% 
+   hc_xAxis(type = 'datetime') %>% 
+   hc_yAxis(title  = list(text = '2023 = 100')) %>% 
+   hc_exporting(enabled = FALSE) %>% 
+   hc_tooltip(enabled  = FALSE)
+
+# поменять названия месяцев на русские. по умолчанию - на английском
+hc$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
+hc$x$conf_opts$lang$shortMonths = c("Янв", 	"Фев",	"Мар",	"Апр",	"Май",	"Июн",	"Июл",	"Авг",	"Сен",	"Окт",	"Ноя",	"Дек")
+
+hc
+
+```
+:::
+:::
+
 ### Методология
 
 [Методология ценовых индикаторов](../methodology/methodology-benchmark-pbc.qmd)
 
 [Спецификация котировок на удобрения](../methodology/specs-fertilizers.qmd)
-:::

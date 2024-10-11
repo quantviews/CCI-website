@@ -76,11 +76,27 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-TNGWX5Y7FL', { 'anonymize_ip': true});
 </script>
-<link href="../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
-
 <script src="../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
 
+<link href="../site_libs/handsontable-6.2.2/handsontable.full.min.css" rel="stylesheet">
+
+<script src="../site_libs/handsontable-6.2.2/handsontable.full.min.js"></script>
+
+<script src="../site_libs/handsontable-6.2.2/all.min.js"></script>
+
+<script src="../site_libs/numbro.languages-2.0.6/languages.min.js"></script>
+
+<script src="../site_libs/chroma-1.3.3/chroma.min.js"></script>
+
 <script src="../site_libs/jquery-3.5.1/jquery.min.js"></script>
+
+<script src="../site_libs/sparkline-2.1.2/jquery.sparkline.min.js"></script>
+
+<link href="../site_libs/rhandsontable-0.3.7/rhandsontable.css" rel="stylesheet">
+
+<script src="../site_libs/rhandsontable-binding-0.3.8/rhandsontable.js"></script>
+
+<link href="../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
 
 <script src="../site_libs/proj4js-2.3.15/proj4.js"></script>
 
@@ -205,7 +221,7 @@ gtag('config', 'G-TNGWX5Y7FL', { 'anonymize_ip': true});
   </li>  
         <li>
     <a class="dropdown-item" href="../markets/markets-fertilizers.html">
- <span class="dropdown-text">Удобрения</span></a>
+ <span class="dropdown-text">Азотные удобрения</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../markets/markets-chemicals.html">
@@ -316,19 +332,43 @@ gtag('config', 'G-TNGWX5Y7FL', { 'anonymize_ip': true});
 
 <section id="макроконсенсус-цци" class="level1 my-custom-class" style="margin-left:3%;">
 <h1 class="my-custom-class" style="margin-left:3%;"><img src="../images/icon-consensus-macro.svg" class="img-fluid"> Макроконсенсус ЦЦИ</h1>
-<p><strong>Макроконсенсус ЦЦИ</strong> – ежемесячный опрос профессиональных аналитиков по макроэкономике об их прогнозах относительно наиболее вероятного сценария развития экономики на горизонте 2-х лет в части ВВП, процентных ставок и курсов валют.</p>
-<p><img src="../images/icon-subscription.svg" class="img-fluid"><a href="../demo-subscription.html">Демо-подписка</a></p>
 <div class="grid">
-<section id="результаты-опроса-сентябрь-2024-г." class="level2 g-col-12 g-col-sm-12 g-col-xs-12 g-col-xl-7 g-col-md-6 g-col-lg-6">
+<div class="g-col-12 g-col-sm-12 g-col-xs-12 g-col-xl-10 g-col-md-6 g-col-lg-6">
+<p><strong>Макроконсенсус ЦЦИ</strong> – ежемесячный опрос профессиональных аналитиков по макроэкономике об их прогнозах относительно наиболее вероятного сценария развития экономики на горизонте 2-х лет в части ВВП, процентных ставок и курсов валют.</p>
+</div>
+<section id="результаты-опроса-сентябрь-2024-г." class="level2 g-col-12 g-col-sm-12 g-col-xs-12 g-col-xl-10 g-col-md-6 g-col-lg-6">
 <h2 data-anchor-id="результаты-опроса-сентябрь-2024-г.">Результаты опроса: сентябрь 2024 г.</h2>
 <p><img src="../reports/2024-09_Consensus.jpg" class="img-fluid"></p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-b71783ddda914e8a9913" style="width:100%;height:216px;" class="rhandsontable html-widget"></div>
+<script type="application/json" data-for="htmlwidget-b71783ddda914e8a9913">{"x":{"data":[{"Показатель":"Темп прироста реального ВВП","Ед.":"% г/г","Формат":"За период","2024.Q3":"*","2024.Q4":"*","2025.Q1":"*","2025.Q2":"*","2024":"*","2025":"*","2026":"*"},{"Показатель":"Индекс потребительских цен","Ед.":"% г/г","Формат":"На конец периода","2024.Q3":"*","2024.Q4":"*","2025.Q1":"*","2025.Q2":"*","2024":"*","2025":"*","2026":"*"},{"Показатель":"Ключевая ставка Банка России","Ед.":"%","Формат":"На конец периода","2024.Q3":"*","2024.Q4":"*","2025.Q1":"*","2025.Q2":"*","2024":"*","2025":"*","2026":"*"},{"Показатель":"Бескупонная доходность ОФЗ 10","Ед.":"%","Формат":"На конец периода","2024.Q3":"*","2024.Q4":"*","2025.Q1":"*","2025.Q2":"*","2024":"*","2025":"*","2026":"*"},{"Показатель":"Цена на нефть марки Brent","Ед.":"долл./барр.","Формат":"В среднем за период","2024.Q3":"*","2024.Q4":"*","2025.Q1":"*","2025.Q2":"*","2024":"*","2025":"*","2026":"*"},{"Показатель":"Дисконт российской нефти к Brent","Ед.":"долл./барр.","Формат":"В среднем за период","2024.Q3":"*","2024.Q4":"*","2025.Q1":"*","2025.Q2":"*","2024":"*","2025":"*","2026":"*"},{"Показатель":"USD/RUB","Ед.":"руб./долл.","Формат":"На конец периода","2024.Q3":"*","2024.Q4":"*","2025.Q1":"*","2025.Q2":"*","2024":"*","2025":"*","2026":"*"},{"Показатель":"CNY/RUB","Ед.":"руб./юань","Формат":"На конец периода","2024.Q3":"13.07\n(12.48)","2024.Q4":"13.11\n(12.7)","2025.Q1":"13.53\n(13.07)","2025.Q2":"13.57\n(13.28)","2024":"13.11\n(12.7)","2025":"13.7\n(13.24)","2026":"13.82\n(13.77)"},{"Показатель":"EUR/RUB","Ед.":"руб./евро","Формат":"На конец периода","2024.Q3":"*","2024.Q4":"*","2025.Q1":"*","2025.Q2":"*","2024":"*","2025":"*","2026":"*"},{"Показатель":"INR/RUB","Ед.":"руб./руп.","Формат":"На конец периода","2024.Q3":"*","2024.Q4":"*","2025.Q1":"*","2025.Q2":"*","2024":"*","2025":"*","2026":"*"},{"Показатель":"TRY/RUB","Ед.":"руб./лир.","Формат":"На конец периода","2024.Q3":"*","2024.Q4":"*","2025.Q1":"*","2025.Q2":"*","2024":"*","2025":"*","2026":"*"},{"Показатель":"Cтавка ФРС (target federal funds rate)","Ед.":"%","Формат":"На конец периода","2024.Q3":"*","2024.Q4":"*","2025.Q1":"*","2025.Q2":"*","2024":"*","2025":"*","2026":"*"},{"Показатель":"Ставка ЕЦБ (main refinancing rate)","Ед.":"%","Формат":"На конец периода","2024.Q3":"*","2024.Q4":"*","2025.Q1":"*","2025.Q2":"*","2024":"*","2025":"*","2026":"*"}],"rClass":"data.frame","rColClasses":{"Показатель":"character","Ед.":"character","Формат":"character","2024.Q3":"character","2024.Q4":"character","2025.Q1":"character","2025.Q2":"character","2024":"character","2025":"character","2026":"character"},"rColnames":["Показатель","Ед.","Формат","2024.Q3","2024.Q4","2025.Q1","2025.Q2","2024","2025","2026"],"rColHeaders":["Показатель","Ед.","Формат","2024.Q3","2024.Q4","2025.Q1","2025.Q2","2024","2025","2026"],"rRowHeaders":["1","2","3","4","5","6","7","8","9","10","11","12","13"],"rDataDim":[13,10],"selectCallback":false,"colHeaders":["Показатель","Ед.","Формат","2024.Q3","2024.Q4","2025.Q1","2025.Q2","2024","2025","2026"],"rowHeaders":false,"columns":[{"type":"text","renderer":"customRenderer","default":null},{"type":"text","renderer":"customRenderer","default":null},{"type":"text","renderer":"customRenderer","default":null},{"type":"text","renderer":"customRenderer","default":null},{"type":"text","renderer":"customRenderer","default":null},{"type":"text","renderer":"customRenderer","default":null},{"type":"text","renderer":"customRenderer","default":null},{"type":"text","renderer":"customRenderer","default":null},{"type":"text","renderer":"customRenderer","default":null},{"type":"text","renderer":"customRenderer","default":null}],"width":1200,"height":400,"debug":0,"search":false,"stretchH":"none","comments":false,"contextMenu":{"items":{"row_above":[],"row_below":[],"remove_row":[],"hsep3":{"name":"---------"},"undo":[],"redo":[],"hsep4":{"name":"---------"},"alignment":[]}}},"evals":["columns.0.renderer","columns.1.renderer","columns.2.renderer","columns.3.renderer","columns.4.renderer","columns.5.renderer","columns.6.renderer","columns.7.renderer","columns.8.renderer","columns.9.renderer"],"jsHooks":[]}</script>
+</div>
+</div>
 <p>*Актуальные даные и скрытые значения доступны по <a href="../subscribe.html">подписке</a></p>
-<section id="список-участников" class="level3">
+<p>**В скобках указаны значения предыдущего опроса</p>
+</section>
+<section id="консенсус-прогноз-курса-юаня" class="level2 g-col-12 g-col-sm-12 g-col-xs-12 g-col-xl-5 g-col-md-6 g-col-lg-6">
+<h2 data-anchor-id="консенсус-прогноз-курса-юаня">Консенсус-прогноз курса юаня</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="highchart html-widget html-fill-item" id="htmlwidget-83db5a1972c60d724727" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-83db5a1972c60d724727">{"x":{"hc_opts":{"chart":{"reflow":true},"title":{"text":null},"yAxis":{"title":{"text":"%"}},"credits":{"enabled":false},"exporting":{"enabled":false},"boost":{"enabled":false},"plotOptions":{"series":{"label":{"enabled":false},"turboThreshold":0},"treemap":{"layoutAlgorithm":"squarified"}},"xAxis":{"type":"datetime"},"series":[{"name":"CNY/RUB, руб. за юань","data":[{"index":"CNY/RUB, руб. за юань","date":"2024-06-30","value":11.5756,"x":1719705600000,"y":11.5756},{"index":"CNY/RUB, руб. за юань","date":"2024-09-30","value":13.07042254,"x":1727654400000,"y":13.07042254},{"index":"CNY/RUB, руб. за юань","date":"2024-12-31","value":13.11408834,"x":1735603200000,"y":13.11408834},{"index":"CNY/RUB, руб. за юань","date":"2025-03-31","value":13.52733049,"x":1743379200000,"y":13.52733049},{"index":"CNY/RUB, руб. за юань","date":"2025-06-30","value":13.57338509,"x":1751241600000,"y":13.57338509},{"index":"CNY/RUB, руб. за юань","date":"2025-12-31","value":13.69912075,"x":1767139200000,"y":13.69912075},{"index":"CNY/RUB, руб. за юань","date":"2026-12-31","value":13.8192117,"x":1798675200000,"y":13.8192117}],"type":"line","color":"#1A4AFC"},{"name":"CNY/RUB, руб. за юань (пред.опрос)","data":[{"index":"CNY/RUB, руб. за юань (пред.опрос)","date":"2024-06-30","value":11.5756,"x":1719705600000,"y":11.5756},{"index":"CNY/RUB, руб. за юань (пред.опрос)","date":"2024-09-30","value":12.48275862,"x":1727654400000,"y":12.48275862},{"index":"CNY/RUB, руб. за юань (пред.опрос)","date":"2024-12-31","value":12.70425033,"x":1735603200000,"y":12.70425033},{"index":"CNY/RUB, руб. за юань (пред.опрос)","date":"2025-03-31","value":13.07305923,"x":1743379200000,"y":13.07305923},{"index":"CNY/RUB, руб. за юань (пред.опрос)","date":"2025-06-30","value":13.28366059,"x":1751241600000,"y":13.28366059},{"index":"CNY/RUB, руб. за юань (пред.опрос)","date":"2025-12-31","value":13.2360424,"x":1767139200000,"y":13.2360424},{"index":"CNY/RUB, руб. за юань (пред.опрос)","date":"2026-12-31","value":13.7737175,"x":1798675200000,"y":13.7737175}],"type":"line","color":"#1A4AFC","dashStyle":"ShortDash"}]},"theme":{"chart":{"backgroundColor":"transparent"},"colors":["#7cb5ec","#434348","#90ed7d","#f7a35c","#8085e9","#f15c80","#e4d354","#2b908f","#f45b5b","#91e8e1"]},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadCSV":"Download CSV","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","downloadXLS":"Download XLS","drillUpText":"◁ Back to {series.name}","exitFullscreen":"Exit from full screen","exportData":{"annotationHeader":"Annotations","categoryDatetimeHeader":"DateTime","categoryHeader":"Category"},"hideData":"Hide data table","invalidDate":null,"loading":"Loading...","months":["Январь","Февраль","Март","Апрель","Май","Июнь","Июль","Август","Сентябрь","Октябрь","Ноябрь","Декабрь"],"noData":"No data to display","numericSymbolMagnitude":1000,"numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Янв","Фев","Мар","Апр","Май","Июн","Июл","Авг","Сен","Окт","Ноя","Дек"],"shortWeekdays":["Sat","Sun","Mon","Tue","Wed","Thu","Fri"],"thousandsSep":" ","viewData":"View data table","viewFullscreen":"View in full screen","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<div class="g-col-12 g-col-sm-12 g-col-xs-12 g-col-xl-5 g-col-md-6 g-col-lg-6">
+<section id="методология" class="level2" style="text-align: right">
+<h2 data-anchor-id="методология">Методология</h2>
+<p><a href="../methodology/methodology-consensus-pbc.html">Методология макроконсенсуса</a></p>
+</section>
+</div>
+<section id="список-участников" class="level3 g-col-12 g-col-sm-12 g-col-xs-12 g-col-xl-10 g-col-md-6 g-col-lg-6">
 <h3 data-anchor-id="список-участников">Список участников</h3>
 <p>В опросе приняли участие 14 профессиональных аналитика, 12 из них дали согласие на раскрытие информации об их участии в опросе</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 34%">
+<col style="width: 33%">
 <col style="width: 35%">
 <col style="width: 30%">
 </colgroup>
@@ -367,31 +407,6 @@ gtag('config', 'G-TNGWX5Y7FL', { 'anonymize_ip': true});
 </tr>
 </tbody>
 </table>
-</section>
-</section>
-<div class="g-col-12 g-col-sm-12 g-col-xs-12 g-col-xl-4 g-col-md-6 g-col-lg-6">
-<section id="макроэкономика" class="level2">
-<h2 data-anchor-id="макроэкономика">Макроэкономика</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div class="highchart html-widget html-fill-item" id="htmlwidget-3a86202be562d97e8159" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-3a86202be562d97e8159">{"x":{"hc_opts":{"chart":{"reflow":true},"title":{"text":null},"yAxis":{"title":{"text":"%"}},"credits":{"enabled":false},"exporting":{"enabled":false},"boost":{"enabled":false},"plotOptions":{"series":{"label":{"enabled":false},"turboThreshold":0},"treemap":{"layoutAlgorithm":"squarified"}},"xAxis":{"type":"datetime"},"series":[{"name":"Ключевая ставка, %","data":[{"index":"Ключевая ставка, %","date":"2024-09-30","value":19,"x":1727654400000,"y":19},{"index":"Ключевая ставка, %","date":"2024-12-31","value":20,"x":1735603200000,"y":20},{"index":"Ключевая ставка, %","date":"2025-03-31","value":20,"x":1743379200000,"y":20},{"index":"Ключевая ставка, %","date":"2025-06-30","value":17,"x":1751241600000,"y":17},{"index":"Ключевая ставка, %","date":"2025-12-31","value":14,"x":1767139200000,"y":14},{"index":"Ключевая ставка, %","date":"2026-12-31","value":10,"x":1798675200000,"y":10}],"type":"line","color":"#1A4AFC"},{"name":"Ключевая ставка, % (пред.опрос)","data":[{"index":"Ключевая ставка, % (пред.опрос)","date":"2024-09-30","value":18,"x":1727654400000,"y":18},{"index":"Ключевая ставка, % (пред.опрос)","date":"2024-12-31","value":18,"x":1735603200000,"y":18},{"index":"Ключевая ставка, % (пред.опрос)","date":"2025-03-31","value":17.5,"x":1743379200000,"y":17.5},{"index":"Ключевая ставка, % (пред.опрос)","date":"2025-06-30","value":16,"x":1751241600000,"y":16},{"index":"Ключевая ставка, % (пред.опрос)","date":"2025-12-31","value":14,"x":1767139200000,"y":14},{"index":"Ключевая ставка, % (пред.опрос)","date":"2026-12-31","value":9.5,"x":1798675200000,"y":9.5}],"type":"line","color":"#1A4AFC","dashStyle":"ShortDash"}]},"theme":{"chart":{"backgroundColor":"transparent"},"colors":["#7cb5ec","#434348","#90ed7d","#f7a35c","#8085e9","#f15c80","#e4d354","#2b908f","#f45b5b","#91e8e1"]},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadCSV":"Download CSV","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","downloadXLS":"Download XLS","drillUpText":"◁ Back to {series.name}","exitFullscreen":"Exit from full screen","exportData":{"annotationHeader":"Annotations","categoryDatetimeHeader":"DateTime","categoryHeader":"Category"},"hideData":"Hide data table","invalidDate":null,"loading":"Loading...","months":["Январь","Февраль","Март","Апрель","Май","Июнь","Июль","Август","Сентябрь","Октябрь","Ноябрь","Декабрь"],"noData":"No data to display","numericSymbolMagnitude":1000,"numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Янв","Фев","Мар","Апр","Май","Июн","Июл","Авг","Сен","Окт","Ноя","Дек"],"shortWeekdays":["Sat","Sun","Mon","Tue","Wed","Thu","Fri"],"thousandsSep":" ","viewData":"View data table","viewFullscreen":"View in full screen","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
-</section>
-<section id="курсы-валют" class="level2">
-<h2 data-anchor-id="курсы-валют">Курсы валют</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div class="highchart html-widget html-fill-item" id="htmlwidget-d5eed3a9fa6ed90c51df" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-d5eed3a9fa6ed90c51df">{"x":{"hc_opts":{"chart":{"reflow":true},"title":{"text":null},"yAxis":{"title":{"text":null}},"credits":{"enabled":false},"exporting":{"enabled":false},"boost":{"enabled":false},"plotOptions":{"series":{"label":{"enabled":false},"turboThreshold":0},"treemap":{"layoutAlgorithm":"squarified"}},"xAxis":{"type":"datetime"},"series":[{"data":[[-2997907200000,580.38],[-2966371200000,581.86],[-2934748800000,580.97],[-2903212800000,580.8],[-2871676800000,579.79],[-2840140800000,580.39],[-2808518400000,580.42],[-2776982400000,580.8200000000001],[-2745446400000,581.4],[-2713910400000,581.3200000000001],[-2682288000000,581.4400000000001],[-2650752000000,581.6799999999999],[-2619216000000,581.17],[-2587680000000,580.53],[-2556057600000,580.01],[-2524521600000,579.91],[-2492985600000,579.14],[-2461449600000,579.16],[-2429827200000,579.55],[-2398291200000,579.67],[-2366755200000,578.4400000000001],[-2335219200000,578.24],[-2303596800000,579.1],[-2272060800000,579.09],[-2240524800000,579.35],[-2208988800000,578.8200000000001],[-2177452800000,579.3200000000001],[-2145916800000,579.01],[-2114380800000,579],[-2082844800000,579.8],[-2051222400000,579.83],[-2019686400000,579.72],[-1988150400000,579.89],[-1956614400000,580.01],[-1924992000000,579.37],[-1893456000000,578.6900000000001],[-1861920000000,578.1900000000001],[-1830384000000,578.67],[-1798761600000,579.55],[-1767225600000,578.92],[-1735689600000,578.09],[-1704153600000,579.37],[-1672531200000,580.13],[-1640995200000,580.14],[-1609459200000,579.51],[-1577923200000,579.24],[-1546300800000,578.66],[-1514764800000,578.86],[-1483228800000,578.05],[-1451692800000,577.79],[-1420070400000,576.75],[-1388534400000,576.75],[-1356998400000,577.8200000000001],[-1325462400000,578.64],[-1293840000000,580.58],[-1262304000000,579.48],[-1230768000000,577.38],[-1199232000000,576.9],[-1167609600000,576.9400000000001],[-1136073600000,576.24],[-1104537600000,576.84],[-1073001600000,576.85],[-1041379200000,576.9],[-1009843200000,577.79],[-978307200000,578.1799999999999],[-946771200000,577.51],[-915148800000,577.23],[-883612800000,578.42],[-852076800000,579.61],[-820540800000,579.05],[-788918400000,579.26],[-757382400000,579.22],[-725846400000,579.38],[-694310400000,579.1],[-662688000000,577.95],[-631152000000,578.12],[-599616000000,579.75],[-568080000000,580.85],[-536457600000,580.41],[-504921600000,579.96],[-473385600000,579.61],[-441849600000,578.76],[-410227200000,578.1799999999999],[-378691200000,577.21],[-347155200000,577.13],[-315619200000,579.1],[-283996800000,578.25],[-252460800000,577.91],[-220924800000,576.89],[-189388800000,575.96],[-157766400000,576.8],[-126230400000,577.6799999999999],[-94694400000,578.38],[-63158400000,578.52],[-31536000000,579.74],[0,579.3099999999999],[31536000000,579.89],[63072000000,579.96]],"color":"#1A4AFC","name":"Ставка"}],"tooltip":{"enabled":"false"}},"theme":{"chart":{"backgroundColor":"transparent"},"colors":["#7cb5ec","#434348","#90ed7d","#f7a35c","#8085e9","#f15c80","#e4d354","#2b908f","#f45b5b","#91e8e1"]},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadCSV":"Download CSV","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","downloadXLS":"Download XLS","drillUpText":"◁ Back to {series.name}","exitFullscreen":"Exit from full screen","exportData":{"annotationHeader":"Annotations","categoryDatetimeHeader":"DateTime","categoryHeader":"Category"},"hideData":"Hide data table","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbolMagnitude":1000,"numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"shortWeekdays":["Sat","Sun","Mon","Tue","Wed","Thu","Fri"],"thousandsSep":" ","viewData":"View data table","viewFullscreen":"View in full screen","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":[],"debug":false},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
-</section>
-</div>
-<section id="методология" class="level3 g-col-12 g-col-sm-12 g-col-xs-12 g-col-xl-4 g-col-md-6 g-col-lg-6">
-<h3 data-anchor-id="методология">Методология</h3>
-<p><a href="../methodology/methodology-consensus-pbc.html">Методология макроконсенсуса</a></p>
 </section>
 </div>
 
