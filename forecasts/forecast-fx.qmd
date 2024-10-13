@@ -18,8 +18,6 @@ format:
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-10 .g-col-md-6 .g-col-lg-6}
 ## Результаты опроса: сентябрь 2024 г.
 
-![](../reports/2024-09_Consensus.jpg)
-
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 library(knitr)
 library(rhandsontable)
@@ -42,23 +40,28 @@ library(tidyr)
 library(highcharter)
 library(xts)
 
-df = read.xlsx('../xls/macroconsensus_results.xlsx', sheet = 1, detectDates = TRUE)
+df = read.xlsx('../xls/CNYRUB_macroconsensus.xlsx', sheet = 1, detectDates = TRUE)
 df_cnyrub_last = df[1,]
 df_cnyrub_prev = df[2,]
+df_cnyrub_range = df[3:4,]
 names(df_cnyrub_last)[1] <- "index"
 names(df_cnyrub_prev)[1] <- "index"
 df_cnyrub_last <- df_cnyrub_last %>% pivot_longer(!index, names_to = "date", values_to = 'value')
 df_cnyrub_last$date <- as.Date(df_cnyrub_last$date)
-df_cnyrub_last$index = 'CNY/RUB, руб. за юань'
+df_cnyrub_last$index = 'CNY/RUB'
 df_cnyrub_prev <- df_cnyrub_prev %>% pivot_longer(!index, names_to = "date", values_to = 'value')
 df_cnyrub_prev$date <- as.Date(df_cnyrub_prev$date)
-df_cnyrub_prev$index = 'CNY/RUB, руб. за юань (пред.опрос)'
+df_cnyrub_prev$index = 'CNY/RUB, (пред.опрос)'
+df_cnyrub_range <- df_cnyrub_range %>% pivot_longer(-X1, names_to = "date", values_to = 'value')
+df_cnyrub_range$date <- as.Date(df_cnyrub_range$date)
 
 hc <- highchart() %>% 
    hc_xAxis(type = "datetime") %>%
-   hc_yAxis(title  = list(text = '%')) %>% 
-   hc_add_series(df_cnyrub_last,type="line", hcaes(x = date, y = value, group=index), color = "#1A4AFC") %>%
-   hc_add_series(df_cnyrub_prev,type="line", hcaes(x = date, y = value, group=index), color = "#1A4AFC", dashStyle = "ShortDash")
+   hc_yAxis(title  = list(text = 'руб. за юань'), max = 15, min = 11) %>% 
+   hc_plotOptions(area = list(stacking = 'normal')) %>%
+   hc_add_series(df_cnyrub_range, hcaes(x = date, y = round(value,2), group = X1), type = 'area', color = c('#d1e5ff','#ffffff')) %>%
+   hc_add_series(df_cnyrub_last, type="line", hcaes(x = date, y = round(value,2), group=index), color = "#1A4AFC", dataLabels = TRUE) %>%
+   hc_add_series(df_cnyrub_prev, type="line", hcaes(x = date, y = round(value,2), group=index), color = "#1A4AFC", dashStyle = "ShortDash")
 
 # поменять названия месяцев на русские. по умолчанию - на английском
 hc$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
