@@ -23,7 +23,7 @@ title-block-banner: false
 
 ![](images/icon-wheat.svg)[Пшеница](methodology/specs-wheat.qmd)
 
-![](images/icon-maslo.svg)[Подсолнечное масло](methodology/specs-sunflower.qmd)
+![](images/icon-oilseed.svg){.img-fluid style="max-width: 10%;"}[Подсолнечное масло](methodology/specs-sunflower.qmd)
 
 ![](images/railways-icon.svg)[Железнодорожные перевозки](methodology/specs-logistics.qmd)
 

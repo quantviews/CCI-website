@@ -1,13 +1,52 @@
 ---
 title: "Химия"
+sidebar: false
+format: 
+  html:
+    page-layout: custom
+    grid:
+       margin-width: 300px
+       body-width: 900px
+
 ---
 
-Рынок химических продуктов
+# ![](../images/icon-chemicals2.svg) Метанол {.my-custom-class style="margin-left:3%;"}
+
+![](../images/icon-subscription.svg)[Демо-подписка](../demo-subscription.qmd)
+
+
+::::: {.grid style="margin-left:0%"}
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+
+### Котировки
+
+*09.2024 Метанол*
+
+**Цены на метанол укрепляются в сентябре**
+
+Региональные индексы цен на метанол в России в сентябре незначительно выросли в среднем на 1%.
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+
+*08.2024 Метанол*
+
+**Экспортная пробка сдерживает цены на внутреннем рынке**
+
+Региональные индексы цен на метанол в России в августе снизились в среднем ещё на 1%.
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+
+:::
+
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+
 ### Методология
 
 [Методология ценовых индикаторов](../methodology/methodology-benchmark-pbc.qmd)
 
 [Спецификация химических продуктов]()
 :::
+
+:::::

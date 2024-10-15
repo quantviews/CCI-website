@@ -2,7 +2,6 @@ project:
   type: website
   output-dir: docs/
   
-
 website:
   title: "ЦЦИ"
   favicon: images/banner3.png
@@ -64,7 +63,7 @@ website:
             - markets/markets-oilseed.qmd
             - markets/markets-railways.qmd
             - markets/markets-sea-freight.qmd
-            - markets/markets-ports.qmd
+            - markets/markets-sea-container-ports.qmd
         - section: "Прогнозы"
           contents:
            - forecasts/forecast-fx.qmd
@@ -85,4 +84,3 @@ format:
     
 
 editor: visual
-

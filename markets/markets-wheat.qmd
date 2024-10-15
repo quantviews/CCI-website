@@ -17,6 +17,18 @@ format:
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
 ### Котировки
 
+*14.10.2024 Пшеница*
+
+**Алжир не ждет французскую пшеницу**
+
+Экспортные цены на пшеницу за неделю выросли на 3 долл.
+
+Алжир исключил французские компании из участия в тендере по закупкам пшеницы.
+
+Reuters сообщает, что Минсельхоз РФ рекомендовал минимальную экспортную цену на пшеницу для международных тендеров - не ниже 250 долл./т FOB.
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+
 *07.10.2024 Пшеница*
 
 **Египет решает хлебный вопрос**
@@ -46,9 +58,9 @@ library(openxlsx)
 library(tidyr)
 
 df <- read.xlsx(xlsxFile = '../xls/график_пшеница.xlsx', sheet = 1) 
-df = pivot_longer(df, -X1, names_to = "date")
-names(df)[1] = 'id'
-df$date <- as.Date(df$date, format = '%d.%m.%Y')
+df = pivot_longer(df, -Дата, names_to = "id")
+names(df)[1] = 'date'
+df$date <- as.Date(df$date, origin = "1899-12-30")
 
 hc = highchart() %>%
    hc_add_series(df, type = "column", hcaes(x = date, y = value, group = id), color = c("#1A4AFC", "#FF7900")) %>%
@@ -64,7 +76,6 @@ hc$x$conf_opts$lang$shortMonths = c("Янв", 	"Фев",	"Мар",	"Апр",	"М
 hc
 
 ```
-
 
 ### События
 
