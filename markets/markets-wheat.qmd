@@ -63,7 +63,8 @@ names(df)[1] = 'date'
 df$date <- as.Date(df$date, origin = "1899-12-30")
 
 hc = highchart() %>%
-   hc_add_series(df, type = "column", hcaes(x = date, y = value, group = id), color = c("#1A4AFC", "#FF7900")) %>%
+   hc_add_series(df, type = "column", hcaes(x = date, y = value, group = id), color = c("#1A4AFC", "#FF7900"),
+               name = c('Нетбэк Алтайский край', 'Нетбэк Курская область')) %>%
    hc_xAxis(type = 'datetime') %>%
    hc_yAxis(title  = list(text = 'руб./т')) %>%
    hc_exporting(enabled = FALSE) %>%

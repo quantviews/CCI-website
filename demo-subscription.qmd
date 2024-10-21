@@ -1,6 +1,7 @@
 ---
 title: "Демо подписка"
 lang: ru
+toc: false
 sidebar: false
 format:
    html: 
@@ -69,11 +70,18 @@ format:
 
 [Подсолнечное масло (ежемесячно)](reports/2024-04%20GPB%20Monthly%20Sunflower%20Oil.pdf)
 
+[Перевозки зерна. Ставки фрахта (еженедельно)](reports/2024-07-15%20PBC%20Weekly%20Wheat%20Freight.pdf)
+
+[Опрос профессиональных аналитиков: АПК](reports/2024-02 GPB Quarterly Agro Consensus.pdf)
+
+
 ### Российская сухопутная логистика
 
 [Сухопутная логистика. Полувагоны](reports/2024-06%20PBC%20Monthly%20Logistics.%20Open%20wagons.pdf)
 
 [Сухопутная контейнерная логистика](reports/2024-07%20PBC%20Monthly%20Logistics.%20Flat%20wagons.pdf)
+
+[Опрос профессиональных аналитиков:коммерческая недвижимость](reports/2024-02 PBC Office and Warehouse Quarterly Consensus.pdf)
 
 
 ### Азотные удобрения 
