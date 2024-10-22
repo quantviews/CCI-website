@@ -69,3 +69,7 @@ header {
 .grid{
    margin-left: 8%;
 }
+
+.consensus-table tbody tr{
+      background-color: rgb(255, 255, 255); 
+}

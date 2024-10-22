@@ -1,6 +1,74 @@
 ---
 title: "Уголь"
+sidebar: false
+format: 
+  html:
+    page-layout: custom
+    grid:
+       margin-width: 300px
+       body-width: 900px
 ---
+
+# ![](../images/icon-coal.svg) Уголь {.my-custom-class style="margin-left:3%;"}
+
+![](../images/icon-subscription.svg)[Демо-подписка](../demo-subscription.qmd)
+
+::: {.grid style="margin-left:0%"}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+
+### Котировки
+
+*22.10.2024* Уголь
+
+**Ожидания и неопределенность на рынке после праздников**
+
+Рост цен до начала празднования Дня образования КНР воспринимался частью рынка, как спекулятивный и основанный на ожиданиях положительного эффекта от мер поддержки экономики Китая.  Однако отсутствие деталей в анонсированных мерах охладило ожидания относительно будущей стоимости угольной продукции. 
+
+- Рассматриваемый уровень цен на низколетучее пылеугольное топливо (PCI LV): 145-150 долл./т СFR China.
+
+- Рассматриваемый уровень цен на марку ГЖ: 153-157 долл./т СFR China.
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+
+### 
+
+### События
+
+*25 октября 2024. Пятница с Центром ценовых индексов. Уголь.*
+
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+
+### Russian Steam coal (5500 kcal/kg)
+
+```{r,warning = FALSE, echo = FALSE, message = FALSE}
+
+library(highcharter)
+library(openxlsx)
+df = read.xlsx(xlsxFile = '../xls/график_уголь.xlsx', sheet = 1, detectDates = TRUE)
+df$date <- as.Date(df$date, origin = "1899-12-30")
+df$date = as.Date(df$date)
+
+hc = highchart() %>% 
+   hc_add_series(df, type = "line", hcaes(x = date, y = value), color = "#1A4AFC", 
+                 name = "Russian Steam coal (5500 kcal/kg)") %>% 
+   hc_xAxis(type = 'datetime') %>% 
+   hc_yAxis(title  = list(text = 'руб./т')) %>% 
+   hc_exporting(enabled = FALSE) %>% 
+   hc_tooltip(enabled  = FALSE)
+
+# поменять названия месяцев на русские. по умолчанию - на английском
+hc$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
+hc$x$conf_opts$lang$shortMonths = c("Янв", 	"Фев",	"Мар",	"Апр",	"Май",	"Июн",	"Июл",	"Авг",	"Сен",	"Окт",	"Ноя",	"Дек")
+
+hc
+
+
+```
+
+
+:::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
 ### Методология
@@ -9,4 +77,5 @@ title: "Уголь"
 
 [Спецификация угольных котировок](../methodology/specs-coal.qmd)
 :::
+::: 
 
