@@ -14,9 +14,15 @@ format:
 ![](../images/icon-subscription.svg)[Демо-подписка](../demo-subscription.qmd)
 
 ::: {.grid style="margin-left:0%"}
-::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 
 ### Котировки
+
+*23.10.2024* Уголь
+ 
+**Великобритания заменила ТЭС на импорт**
+
+Великобритания будет полагаться на импорт электроэнергии из Европы для удовлетворения пикового спроса после закрытия последней угольной электростанции.
 
 *22.10.2024* Уголь
 
@@ -38,9 +44,9 @@ format:
 
 :::
 
-::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 
-### Russian Steam coal (5500 kcal/kg)
+### Экспортный Netback на уголь 5500 ккал/кг
 
 ```{r,warning = FALSE, echo = FALSE, message = FALSE}
 
@@ -52,7 +58,7 @@ df$date = as.Date(df$date)
 
 hc = highchart() %>% 
    hc_add_series(df, type = "line", hcaes(x = date, y = value), color = "#1A4AFC", 
-                 name = "Russian Steam coal (5500 kcal/kg)") %>% 
+                 name = "5500 NAR NB FCA Кузбасс из Дальнего Востока") %>% 
    hc_xAxis(type = 'datetime') %>% 
    hc_yAxis(title  = list(text = 'руб./т')) %>% 
    hc_exporting(enabled = FALSE) %>% 
@@ -70,7 +76,7 @@ hc
 
 :::
 
-::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Методология
 
 [Методология ценовых индикаторов](../methodology/methodology-benchmark-pbc.qmd)
