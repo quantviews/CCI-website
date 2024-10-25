@@ -1,13 +1,91 @@
 ---
 title: "Нефть"
+format: 
+  html:
+    page-layout: custom
+    grid:
+       margin-width: 300px
+       body-width: 900px
+
 ---
 
-Рынок нефти.
+# ![](../images/icon-oil.svg) Нефть {.my-custom-class style="margin-left:3%;"}
 
-::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+![](../images/icon-subscription.svg)[Демо-подписка](../demo-subscription.qmd)
+
+
+::: {.grid style="margin-left:0%"}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+### Котировки
+
+*23.10.2024 Нефть*
+
+**Дисконты на российскую нефть движутся к минимуму за 2024 г.**
+
+Цены на Urals FOB Primorsk и Urals FOB Novorossiysk снизились на 7,0% и 6,3% н/н соответственно.
+
+Дисконт на Urals FOB Primorsk и Urals FOB Novorossiysk сузились на 1,2% и 5,4% н/н соответственно на фоне снижения ставок фрахта.
+
+Экспорт российской нефти за отчетную неделю вырос на 6,6% на фоне снижения внутренней переработки, обусловленной выходом на ремонтные работы ряда НПЗ.
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+
+*16.10.2024 Нефть*
+
+**Цены российской нефти продолжают расти на фоне рисков эскалации конфликта на Ближнем Востоке**
+
+Цены на Urals FOB Primorsk и Urals FOB Novorossiysk выросли на 4,9% н/н соответственно.
+
+Дисконт ESPO FOB Kozmino сузился на 10,9% н/н по причине снижения уровня поставок на экспорт через одноименный терминал на 24,0% н/н.
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+
+### Цена российской нефти
+
+```{r, warning = FALSE, echo = FALSE, message = FALSE}
+library(highcharter)
+library(openxlsx)
+library(tidyr)
+df <- read.xlsx(xlsxFile = '../xls/график_нефть.xlsx', sheet = 1) 
+df$date <- as.Date(df$date, origin = "1899-12-30")
+
+df <-  df %>% pivot_longer(-date)
+df$name <- stringr::str_replace_all(df$name, '\\.', ' ')
+
+hc = highchart() %>% 
+   hc_add_series(df, type = "line", hcaes(x = date, y = value, group  = name), 
+                 color = c("#1A4AFC", "#FF7900", "#c3b0ef"), 
+                 name = c("ESPO FOB Kozmino", "Urals FOB Primorsk",  "Urals FOB Novorossiysk" )) %>% 
+   hc_xAxis(type = 'datetime') %>% 
+   hc_yAxis(title  = list(text = '$/баррель')) %>% 
+   hc_exporting(enabled = FALSE) %>% 
+   hc_tooltip(enabled  = FALSE)
+
+# поменять названия месяцев на русские. по умолчанию - на английском
+hc$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
+hc$x$conf_opts$lang$shortMonths = c("Янв", 	"Фев",	"Мар",	"Апр",	"Май",	"Июн",	"Июл",	"Авг",	"Сен",	"Окт",	"Ноя",	"Дек")
+
+hc
+
+
+```
+### События
+
+*13 сентября 2024. Пятница с ЦЦИ: корабли с черным золотом*
+
+[Материалы →](../events/2024-09-13-crude.qmd)
+
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Методология
 
 [Методология ценовых индикаторов](../methodology/methodology-benchmark-pbc.qmd)
 
 [Спецификация котировок на нефть](../methodology/specs-oil.qmd)
+:::
 :::
