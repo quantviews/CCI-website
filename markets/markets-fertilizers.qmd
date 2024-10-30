@@ -13,7 +13,7 @@ format:
 
 ![](../images/icon-subscription.svg)[Демо-подписка](../demo-subscription.qmd)
 
-::::: {.grid style="margin-left:0%"}
+::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
 ### Котировки
 
@@ -33,7 +33,6 @@ format:
 
 ![](../images/icon-locker.svg){width="6%"}[Подробнее](../demo-subscription.qmd)
 
-
 *20.09.2024 Азотные удобрения*
 
 **Цены на карбамид в ожидании сезонных продаж**
@@ -41,7 +40,6 @@ format:
 Индексы цен Prilled Urea и Granular Urea FOB Baltic остались без изменений на этой неделе.
 
 ![](../images/icon-locker.svg){width="6%"}[Подробнее](../demo-subscription.qmd)
-
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
@@ -78,7 +76,7 @@ hc
 
 ```
 :::
-:::::
+:::
 
 ### Методология
 
