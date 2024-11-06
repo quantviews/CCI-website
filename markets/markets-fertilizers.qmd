@@ -13,33 +13,33 @@ format:
 
 ![](../images/icon-subscription.svg)[Демо-подписка](../demo-subscription.qmd)
 
-::: {.grid style="margin-left:0%"}
+::::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+
 ### Котировки
 
-*07.10.2024 Азотные удобрения*
+*02.11.2024 Азотные удобрения*
 
-**Рынок карбамида в ожидании результатов тендера RCF**
+**Индия не выпадает из фокуса**
 
-Индийская компания RCF закрыла тендер на закупку карбамида, получив 21 предложение с совокупным объемом 2,6 млн т карбамида.
+Indian Potash Limited 29 октября объявила новый тендер на закупку карбамида.
 
-![](../images/icon-locker.svg){width="6%"}[Подробнее](../demo-subscription.qmd)
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
-*27.09.2024 Азотные удобрения*
+*28.10.2024 Азотные удобрения*
 
-**Индийский тендер всколыхнул рынок карбамида**
+**Рынок карбамида замер в ожидании нового тендера в Индии**
 
-Индийская компания RCF спустя всего 3 недели с закрытия предыдущего индийского тендера объявила тендер на закупку карбамида, прием заявок осуществляется до 3 октября.
+Участники рынка ожидают объявление очередного индийского тендера на импорт карбамида в течение 2 недель.
 
-![](../images/icon-locker.svg){width="6%"}[Подробнее](../demo-subscription.qmd)
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
-*20.09.2024 Азотные удобрения*
+*21.10.2024 Азотные удобрения*
 
-**Цены на карбамид в ожидании сезонных продаж**
+**Рынок карбамида переваривает итоги индийского тендера **
 
-Индексы цен Prilled Urea и Granular Urea FOB Baltic остались без изменений на этой неделе.
+В текущем тендере индийская RCF закупила 569 тыс. т карбамида у 10 компаний. 9 поставщиков повезут груз на восток, 1 поставщик – на запад.
 
-![](../images/icon-locker.svg){width="6%"}[Подробнее](../demo-subscription.qmd)
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
@@ -51,11 +51,7 @@ library(highcharter)
 library(openxlsx)
 library(tidyr)
 
-df <- read.xlsx(xlsxFile = '../xls/карбамид.xlsx', sheet = 1,startRow = 6) 
-dt = names(df)
-value = as.numeric(df[3,])
-df = data.frame(dt = dt, value = value)
-df = df[!is.na(df$value),]
+df <- read.xlsx(xlsxFile = '../xls/график_карбамид.xlsx', sheet = 1,startRow = 1) 
 df$dt = as.Date(df$dt, format = '%d.%m.%Y')
 df$year = format(df$dt, '%Y')
 avg = mean(df$value[df$year == '2023'], na.rm = TRUE)
@@ -76,7 +72,7 @@ hc
 
 ```
 :::
-:::
+:::::
 
 ### Методология
 

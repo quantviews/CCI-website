@@ -1,5 +1,5 @@
 ---
-title: "Химия"
+title: "Метанол"
 sidebar: false
 format: 
   html:
@@ -9,13 +9,21 @@ format:
        body-width: 900px
 ---
 
-# ![](../images/icon-chemicals2.svg) Метанол {.my-custom-class style="margin-left:3%;"}
+# ![](../images/icon-chemicals2.svg) Химия {.my-custom-class style="margin-left:3%;"}
 
 ![](../images/icon-subscription.svg)[Демо-подписка](../demo-subscription.qmd)
 
-::: {.grid style="margin-left:0%"}
+:::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
 ### Котировки
+
+*10.2024 Метанол*
+
+**Без роста экспорта не будет роста цен**
+
+В октябре ставки фрахта на перевозку метанола по всем направлениям снизились до минимальных значений за последний год.
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
 *09.2024 Метанол*
 
@@ -25,20 +33,10 @@ format:
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
-*08.2024 Метанол*
-
-**Экспортная пробка сдерживает цены на внутреннем рынке**
-
-Региональные индексы цен на метанол в России в августе снизились в среднем ещё на 1%.
-
-![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
-:::
-
-::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
 ### Методология
 
 [Методология ценовых индикаторов](../methodology/methodology-benchmark-pbc.qmd)
 
-[Спецификация химических продуктов]()
+[Спецификация котировок на удобрения](../methodology/specs-methanol.qmd)
 :::
-:::
+::::
