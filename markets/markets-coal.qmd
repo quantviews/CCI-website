@@ -27,7 +27,9 @@ format:
 
 • Рассматриваемый уровень цен на марку ГЖ: 155 долл./т СFR China.
 
-![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+![](../images/icon-locker.svg){width="6%"}
+
+[Подробнее](../demo-subscription.qmd)
 
 *14.10.2024* Уголь
 
@@ -39,7 +41,9 @@ format:
 
 -   Рассматриваемый уровень цен на марку ГЖ: 153-157 долл./т СFR China.
 
-![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+![](../images/icon-locker.svg){width="6%"}
+
+[Подробнее](../demo-subscription.qmd)
 
 *07.10.2024* Уголь
 
@@ -51,11 +55,16 @@ format:
 
 -   Рассматриваемый уровень цен на марку ГЖ: 150-152 долл./т СFR China.
 
-![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+![](../images/icon-locker.svg){width="6%"}
+
+[Подробнее](../demo-subscription.qmd)
 
 ### События
 
 *25 октября 2024. Пятница с Центром ценовых индексов. Уголь.*
+
+[Материалы →](../events/2024-10-25-coal.qmd)
+
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
