@@ -13,9 +13,32 @@ format:
 
 ![](../images/icon-subscription.svg)[Демо-подписка](../demo-subscription.qmd)
 
-::: {.grid style="margin-left:0%"}
+::::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+
 ### Котировки
+
+*05.11.2024 Пшеница*
+
+**Слабый спрос снижает экспортные цены на пшеницу**
+
+Экспортные цены на пшеницу за неделю снизились на 5 долл.
+
+Китай в 2024 г. ожидает рекордный урожай зерна  - более 700 млн т.
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+
+*28.10.2024 Пшеница*
+
+**Рост экспортных цен на пшеницу забуксовал**
+
+Экспортные цены на пшеницу за неделю снизились на 2 долл.
+
+Турция снизит производство пшеницы в 2024 г. на 5,5% до 20,8 млн т.
+
+Россия в 1,4 раза нарастила поставки пшеницы на рынок Кении в начале 2024/25 г. 
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
 *21.10.2024 Пшеница*
 
@@ -27,31 +50,10 @@ format:
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
-*14.10.2024 Пшеница*
-
-**Алжир не ждет французскую пшеницу**
-
-Экспортные цены на пшеницу за неделю выросли на 3 долл.
-
-Алжир исключил французские компании из участия в тендере по закупкам пшеницы.
-
-Reuters сообщает, что Минсельхоз РФ рекомендовал минимальную экспортную цену на пшеницу для международных тендеров - не ниже 250 долл./т FOB.
-
-![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
-
-*07.10.2024 Пшеница*
-
-**Египет решает хлебный вопрос**
-
-Экспортные цены на пшеницу за неделю выросли на 9 долл.
-
-Турция смягчила запрет на импорт пшеницы.
-
-![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
-#### Цена экспортной альтернативы к FOB Новороссийск пшеницы 12,5%, руб./т
+#### Нетбэк Алтайский край, руб./т
 
 ```{r,warning = FALSE, echo = FALSE, message = FALSE}
 
@@ -60,13 +62,13 @@ library(openxlsx)
 library(tidyr)
 
 df <- read.xlsx(xlsxFile = '../xls/график_пшеница.xlsx', sheet = 1) 
-df = pivot_longer(df, -Дата, names_to = "id")
-names(df)[1] = 'date'
-df$date <- as.Date(df$date, origin = "1899-12-30")
+names(df) = c('date', 'value')
+df$date <- as.Date(df$date, '%d.%m.%Y')
+#df$date <- as.Date(df$date, origin = "1899-12-30")
 
 hc = highchart() %>%
-   hc_add_series(df, type = "column", hcaes(x = date, y = value, group = id), color = c("#1A4AFC", "#FF7900"),
-               name = c('Нетбэк Алтайский край', 'Нетбэк Курская область')) %>%
+   hc_add_series(df, type = "line", hcaes(x = date, y = value), color = c("#1A4AFC"),
+               name = c('Нетбэк Алтайский край')) %>%
    hc_xAxis(type = 'datetime') %>%
    hc_yAxis(title  = list(text = 'руб./т')) %>%
    hc_exporting(enabled = FALSE) %>%
@@ -86,9 +88,9 @@ hc
 
 [Материалы →](../events/2024-09-13-wheat.qmd)
 :::
-:::
+:::::
 
-::: {.grid style="margin-left:0%"}
+::::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
 ### Методология
 
@@ -99,4 +101,4 @@ hc
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
 :::
-:::
+:::::

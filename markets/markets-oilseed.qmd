@@ -7,16 +7,28 @@ format:
     grid:
        margin-width: 300px
        body-width: 900px
-
 ---
 
 # ![](../images/icon-oilseed.svg) Рынок масла {.my-custom-class style="margin-left:3%;"}
 
 ![](../images/icon-subscription.svg)[Демо-подписка](../demo-subscription.qmd)
 
-::: {.grid style="margin-left:0%"}
+::::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+
 ### Котировки
+
+*06.11.2024 Подсолнечное масло*
+
+**Индийские праздники поддержали цены на масла**
+
+Экспортные цены на подсолнечное масло за месяц выросли на 108 долл. 
+
+Экспортная пошлина на подсолнечное масло в ноябре 2024 г. составила 2 891 руб., впервые не ноль с июня 2023 г. 
+
+В начале ноября 2024 г. пальмовое масло стало дороже подсолнечного и соевого.   
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
 *01.10.2024 Подсолнечное масло*
 
@@ -25,10 +37,10 @@ format:
 Экспортные цены на подсолнечное масло за месяц выросли 60 долл.
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
-
 #### Премия/дисконт пальмового масла к подсолнечному, долл.
 
 ```{r,warning = FALSE, echo = FALSE, message = FALSE}
@@ -57,17 +69,15 @@ hc
 
 ```
 
-
-
 ### События
 
 *13 сентября 2024. Пятница с ЦЦИ: хлеб с маслом*
 
 [Материалы →](../events/2024-09-13-wheat.qmd)
 :::
-:::
+:::::
 
-::: {.grid style="margin-left:0%"}
+::::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
 ### Методология
 
@@ -78,4 +88,4 @@ hc
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
 :::
-:::
+:::::
