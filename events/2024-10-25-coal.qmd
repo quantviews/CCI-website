@@ -49,5 +49,10 @@ lang: ru
 
 4.  Российская логистика и экспорт: воз и ныне там
 
-Выйдет 7 ноября 2024 года
+```{=html}
+
+<iframe src="https://vk.com/video_ext.php?oid=-227681629&id=456239024&hd=2&autoplay=1" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+```
+
+[Ссылка](https://vk.com/video-227681629_456239024)
 

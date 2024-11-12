@@ -6,62 +6,60 @@ format:
     grid:
        margin-width: 300px
        body-width: 900px
-
 ---
 
 # ![](../images/icon-oil.svg) Нефть {.my-custom-class style="margin-left:3%;"}
 
 ![](../images/icon-subscription.svg)[Демо-подписка](../demo-subscription.qmd)
 
-
-::: {.grid style="margin-left:0%"}
+:::::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Котировки
 
-*23.10.2024 Нефть*
+*06.11.2024 Нефть*
 
-**Дисконты на российскую нефть движутся к минимуму за 2024 г.**
+**Дисконт ESPO упал до минимумов 2024 г. вслед за Urals**
 
-Цены на Urals FOB Primorsk и Urals FOB Novorossiysk снизились на 7,0% и 6,3% н/н соответственно.
+По итогам предыдущей недели стоимость российской нефти упала. Цены на Urals снизились более чем на 3,0% н/н, цена на ESPO снизилась более чем на 2,0% н/н.
 
-Дисконт на Urals FOB Primorsk и Urals FOB Novorossiysk сузились на 1,2% и 5,4% н/н соответственно на фоне снижения ставок фрахта.
+Дисконт на ESPO FOB Kozmino сузился на 17,7% и достиг минимального значения за текущий год.
 
-Экспорт российской нефти за отчетную неделю вырос на 6,6% на фоне снижения внутренней переработки, обусловленной выходом на ремонтные работы ряда НПЗ.
+Морской экспорт российской нефти за отчетную неделю снизился на 8,8% на фоне увеличения внутренней переработки нефти. 
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+
+*30.10.2024 Нефть*
+
+**Дисконты Urals вновь на минимумах 2024 г.**
+
+По итогам предыдущей недели динамика стоимости российской нефти стала разнонаправленной. Цены на Urals увеличились на 0,4% н/н, в то время как цена на ESPO снизилась более чем на 0,8% н/н.
+
+Дисконт на Urals FOB Primorsk сузился на 2,9% из-за коррекции скидок покупателям компаниями и достиг минимального значения за текущий год.
+
+Морской экспорт российской нефти за отчетную неделю вырос на 1,8% на фоне снижения внутренней переработки и роста отгрузок нефти с арктических месторождений.
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
-*16.10.2024 Нефть*
-
-**Цены российской нефти продолжают расти на фоне рисков эскалации конфликта на Ближнем Востоке**
-
-Цены на Urals FOB Primorsk и Urals FOB Novorossiysk выросли на 4,9% н/н соответственно.
-
-Дисконт ESPO FOB Kozmino сузился на 10,9% н/н по причине снижения уровня поставок на экспорт через одноименный терминал на 24,0% н/н.
-
-![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
-
 ### Цена российской нефти
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 library(highcharter)
 library(openxlsx)
 library(tidyr)
-df <- read.xlsx(xlsxFile = '../xls/график_нефть.xlsx', sheet = 1) 
+df <- read.xlsx(xlsxFile = '../xls/график_нефть2.xlsx', sheet = 1) 
+names(df) <- c('date', 'value')
 df$date <- as.Date(df$date, origin = "1899-12-30")
 
-df <-  df %>% pivot_longer(-date)
-df$name <- stringr::str_replace_all(df$name, '\\.', ' ')
-
 hc = highchart() %>% 
-   hc_add_series(df, type = "line", hcaes(x = date, y = value, group  = name), 
-                 color = c("#1A4AFC", "#FF7900", "#c3b0ef"), 
-                 name = c("ESPO FOB Kozmino", "Urals FOB Primorsk",  "Urals FOB Novorossiysk" )) %>% 
+   hc_add_series(df, type = "line", hcaes(x = date, y = value), 
+                 color = c("#1A4AFC"), 
+                 name = c("Идекс цен на нефть")) %>% 
    hc_xAxis(type = 'datetime') %>% 
-   hc_yAxis(title  = list(text = '$/баррель')) %>% 
+   hc_yAxis(title  = list(text = '')) %>% 
    hc_exporting(enabled = FALSE) %>% 
    hc_tooltip(enabled  = FALSE)
 
@@ -73,12 +71,12 @@ hc
 
 
 ```
+
 ### События
 
 *13 сентября 2024. Пятница с ЦЦИ: корабли с черным золотом*
 
 [Материалы →](../events/2024-09-13-crude.qmd)
-
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
@@ -88,4 +86,4 @@ hc
 
 [Спецификация котировок на нефть](../methodology/specs-oil.qmd)
 :::
-:::
+::::::
