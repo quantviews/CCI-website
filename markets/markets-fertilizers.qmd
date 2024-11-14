@@ -14,8 +14,7 @@ format:
 ![](../images/icon-subscription.svg)[Демо-подписка](../demo-subscription.qmd)
 
 ::::: {.grid style="margin-left:0%"}
-::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
-
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Котировки
 
 *02.11.2024 Азотные удобрения*
@@ -36,13 +35,12 @@ Indian Potash Limited 29 октября объявила новый тендер
 
 *21.10.2024 Азотные удобрения*
 
-**Рынок карбамида переваривает итоги индийского тендера **
+**Рынок карбамида переваривает итоги индийского тендера**
 
 В текущем тендере индийская RCF закупила 569 тыс. т карбамида у 10 компаний. 9 поставщиков повезут груз на восток, 1 поставщик – на запад.
-
 :::
 
-::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Индекс цен на карбамид
 
 ```{r,warning = FALSE, echo = FALSE, message = FALSE}
@@ -58,7 +56,7 @@ avg = mean(df$value[df$year == '2023'], na.rm = TRUE)
 df$index = df$value / avg * 100
 
 hc = highchart() %>% 
-   hc_add_series(df, type = "line", hcaes(x = dt, y = index), color = "#1A4AFC", name = "Индекс цен на карбамид") %>% 
+   hc_add_series(df, type = "line", hcaes(x = dt, y = index), color = "#1A4AFC", name = "Индекс цен на карбамид", marker = list(enabled = FALSE)) %>% 
    hc_xAxis(type = 'datetime') %>% 
    hc_yAxis(title  = list(text = '2023 = 100')) %>% 
    hc_exporting(enabled = FALSE) %>% 

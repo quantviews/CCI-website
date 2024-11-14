@@ -14,7 +14,7 @@ format:
 ![](../images/icon-subscription.svg)[Демо-подписка](../demo-subscription.qmd)
 
 :::: {.grid style="margin-left:0%"}
-::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Котировки
 
 *10.2024 Метанол*

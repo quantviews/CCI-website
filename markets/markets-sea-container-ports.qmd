@@ -14,7 +14,7 @@ format:
 ![](../images/icon-subscription.svg)[Демо-подписка](../demo-subscription.qmd)
 
 ::::: {.grid style="margin-left:0%"}
-::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Котировки
 
 *16.09.2024*
@@ -29,7 +29,7 @@ format:
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 :::
 
-::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Методология
 
 [Методология ценовых индикаторов](../methodology/methodology-benchmark-pbc.qmd)

@@ -13,7 +13,7 @@ format:
 
 ![](../images/icon-subscription.svg)[Демо-подписка](../demo-subscription.qmd)
 
-::: {.grid style="margin-left:0%"}
+::::::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Котировки
 
@@ -43,7 +43,8 @@ df[,3] <- NULL
 df$dt = as.Date(as.numeric(df$dt), origin = "1899-12-30")
 
 hc = highchart() %>% 
-   hc_add_series(df, type = "line", hcaes(x = dt, y = value), color = "#1A4AFC", name = "Стоимость контейнерной перевозки по маршруту Москва - Новосибирск, 40HC COC") %>% 
+   hc_add_series(df, type = "line", hcaes(x = dt, y = value), color = "#1A4AFC", 
+                 name = "Стоимость контейнерной перевозки по маршруту Москва - Новосибирск, 40HC COC", marker = list(enabled = FALSE)) %>% 
    hc_xAxis(type = 'datetime') %>% 
    hc_yAxis(title  = list(text = 'тыс.руб. с учётом НДС')) %>% 
    hc_exporting(enabled = FALSE) %>% 
@@ -74,4 +75,4 @@ hc
 
 [Спецификация ставок сухопутной логистики](../methodology/specs-logistics.qmd)
 :::
-:::
+:::::::

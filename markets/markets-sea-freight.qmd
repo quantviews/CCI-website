@@ -14,7 +14,7 @@ format:
 ![](../images/icon-subscription.svg)[Демо-подписка](../demo-subscription.qmd)
 
 ::::: {.grid style="margin-left:0%"}
-::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Котировки
 
 *30.10.2024 Перевозки нефти*
@@ -60,7 +60,7 @@ df = read.csv('../xls/crude-freight-long.csv')
 df$date = as.Date(df$date)
 
 hc = highchart() %>% 
-   hc_add_series(df, type = "line", hcaes(x = date, y = avg), color = "#1A4AFC", name = "Фрахт российской нефти") %>% 
+   hc_add_series(df, type = "line", hcaes(x = date, y = avg), color = "#1A4AFC", name = "Фрахт российской нефти", marker = list(enabled = FALSE)) %>% 
    hc_xAxis(type = 'datetime') %>% 
    hc_yAxis(title  = list(text = '$/баррель')) %>% 
    hc_exporting(enabled = FALSE) %>% 
@@ -84,7 +84,7 @@ hc
 :::::
 
 ::::: {.grid style="margin-left:0%"}
-::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Методология
 
 [Методология ценовых индикаторов](../methodology/methodology-benchmark-pbc.qmd)
@@ -92,6 +92,6 @@ hc
 [Спецификация ставок морского фрахта](../methodology/specs-freight.qmd)
 :::
 
-::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 :::
 :::::

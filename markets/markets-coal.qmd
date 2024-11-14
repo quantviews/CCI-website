@@ -64,7 +64,6 @@ format:
 *25 октября 2024. Пятница с Центром ценовых индексов. Уголь.*
 
 [Материалы →](../events/2024-10-25-coal.qmd)
-
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
@@ -81,12 +80,12 @@ df$dt = as.Date(as.numeric(df$dt), origin = "1899-12-30")
 hc = highchart() %>% 
    hc_add_series(df, type = "line", hcaes(x = dt, y = value), 
                  color = "#1A4AFC", 
-                 name = "Энергетические угли, netback Russian Steam coal (5500 kcal/kg), FCA Кузбасс из Дальнего Востока") %>% 
+                 name = "Энергетические угли, netback Russian Steam coal (5500 kcal/kg), FCA Кузбасс из Дальнего Востока",
+                 marker = list(enabled = FALSE)) %>% 
    hc_xAxis(type = 'datetime') %>% 
    hc_yAxis(title  = list(text = 'руб./т')) %>% 
    hc_exporting(enabled = FALSE) %>% 
    hc_tooltip(enabled  = FALSE)
-
 # поменять названия месяцев на русские. по умолчанию - на английском
 hc$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
 hc$x$conf_opts$lang$shortMonths = c("Янв", 	"Фев",	"Мар",	"Апр",	"Май",	"Июн",	"Июл",	"Авг",	"Сен",	"Окт",	"Ноя",	"Дек")
