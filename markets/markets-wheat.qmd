@@ -13,9 +13,21 @@ format:
 
 ![](../images/icon-subscription.svg)[Демо-подписка](../demo-subscription.qmd)
 
-::::: {.grid style="margin-left:0%"}
+::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Котировки
+
+*18.11.2024 Пшеница*
+
+**Прогноз производства пшеницы во Франции повышен, экспорта – снижен**
+
+Экспортные цены на пшеницу за неделю снизились на 1 долл.
+
+По прогнозам экспертов аграрного рынка квота на экспорт зерна из России в 2025 г. может упасть до 10-12 млн т. 
+
+Аналитики FranceAgriMer снизили  оценку экспорта мягкой пшеницы из Франции за пределы ЕС в 2024/25 г. на 0,1 млн т до 3,9 млн т. 
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
 *11.11.2024 Пшеница*
 
@@ -51,11 +63,10 @@ USDA повысило прогноз производство пшеницы в 
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
-
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
-#### Нетбэк Алтайский край, руб./т
+#### Динамика цен экспортной альтернативы к FOB Новороссийск пшеницы 12,5%, руб./т
 
 ```{r,warning = FALSE, echo = FALSE, message = FALSE}
 
@@ -70,7 +81,7 @@ df$date <- as.Date(df$date, '%d.%m.%Y')
 
 hc = highchart() %>%
    hc_add_series(df, type = "line", hcaes(x = date, y = value), color = c("#1A4AFC"),
-               name = c('Нетбэк Алтайский край')) %>%
+               name = c('Нетбэк Алтайский край'), marker = list(enabled = FALSE)) %>%
    hc_xAxis(type = 'datetime') %>%
    hc_yAxis(title  = list(text = 'руб./т')) %>%
    hc_exporting(enabled = FALSE) %>%
@@ -90,9 +101,9 @@ hc
 
 [Материалы →](../events/2024-09-13-wheat.qmd)
 :::
-:::::
+:::
 
-::::: {.grid style="margin-left:0%"}
+::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
 ### Методология
 
@@ -103,4 +114,4 @@ hc
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
 :::
-:::::
+:::

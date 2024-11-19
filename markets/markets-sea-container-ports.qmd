@@ -30,6 +30,14 @@ format:
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+
+### Объём перевалки контейнеров по бассейнам за 9 мес. 2024 г., тыс. ДФЭ
+
+![](../fig/2024-11-Container-Map-Final.SVG){width="100%"}
+
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Методология
 
 [Методология ценовых индикаторов](../methodology/methodology-benchmark-pbc.qmd)

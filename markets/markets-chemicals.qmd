@@ -13,9 +13,17 @@ format:
 
 ![](../images/icon-subscription.svg)[Демо-подписка](../demo-subscription.qmd)
 
-:::: {.grid style="margin-left:0%"}
+::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Котировки
+
+*11.2024 Метанол*
+
+**Цены на метанол начали расти**
+
+Региональные индексы цен на метанол в России в ноябре незначительно скорректировались в среднем на 2%.
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
 *10.2024 Метанол*
 
@@ -25,18 +33,10 @@ format:
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
-*09.2024 Метанол*
-
-**Цены на метанол укрепляются в сентябре**
-
-Региональные индексы цен на метанол в России в сентябре незначительно выросли в среднем на 1%.
-
-![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
-
 ### Методология
 
 [Методология ценовых индикаторов](../methodology/methodology-benchmark-pbc.qmd)
 
 [Спецификация котировок на удобрения](../methodology/specs-methanol.qmd)
 :::
-::::
+:::
