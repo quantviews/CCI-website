@@ -94,7 +94,7 @@ index_plot <- highchart() %>%
    hc_xAxis(type = "datetime") %>%
    hc_exporting(enabled = TRUE) %>% 
    hc_yAxis_multiples(
-      list(title = list(text = "Индекс сырьевых цен ЦЦИ, янв. 2022 = 100"), showFirstLabel = TRUE, max = 150, showLastLabel=TRUE,opposite = FALSE),
+      list(title = list(text = "Индекс сырьевых цен ЦЦИ, янв. 2022 = 100"), showFirstLabel = TRUE, max = 160, showLastLabel=TRUE,opposite = FALSE),
       list(title = list(text = "USD/RUB, рублей за доллар"), showLastLabel = FALSE, opposite = TRUE, reversed = TRUE)) %>%
    hc_add_series(df_index,type="line", hcaes(x = date, y = value, group=index), color = colors[1]) %>% 
    hc_add_series(df_noil_index,type="line", hcaes(x = date, y = value, group=index), color = colors[2], visible = TRUE) %>%
@@ -113,11 +113,11 @@ index_plot
 
 ------------------------------------------------------------------------
 
-**Изменение Индекса сырьевых цен ЦЦИ к предыдущей неделе: [-1,3 п.]{.my-custom-class style="color:#f6514c;"}** ([**-0,9 п.**]{.my-custom-class style="color:#f6514c;"} за последние 4 недели)
+**Изменение Индекса сырьевых цен ЦЦИ к предыдущей неделе: [-0,7 п.]{.my-custom-class style="color:#f6514c;"}** ([**-0,4 п.**]{.my-custom-class style="color:#f6514c;"} за последние 4 недели)
 
-Наибольшие изменения цен товаров за неделю: подсолнечное масло [**+11%**]{.my-custom-class style="color:#44bf78;"}, нефть [**-3,1%**]{.my-custom-class style="color:#f6514c;"}
+Наибольшие изменения цен товаров за неделю: трубопроводный газ [**+6,6%**]{.my-custom-class style="color:#44bf78;"}, удобрения [**-4,6%**]{.my-custom-class style="color:#f6514c;"}
 
-Наибольшие вклады в изменение Индекса за неделю: подсолнечное масло [**+0,3 п.**]{.my-custom-class style="color:#44bf78;"}, нефть [**-1,0 п.**]{.my-custom-class style="color:#f6514c;"}
+Наибольшие вклады в изменение Индекса за неделю: трубопроводный газ [**+0,6 п.**]{.my-custom-class style="color:#44bf78;"}, нефть [**-1,1 п.**]{.my-custom-class style="color:#f6514c;"}
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 
