@@ -11,11 +11,23 @@ format:
 
 # ![](../images/icon-oilseed.svg) Рынок масла {.my-custom-class style="margin-left:3%;"}
 
-![](../images/icon-subscription.svg)[Демо-подписка](../demo-subscription.qmd)
+![](../images/icon-subscription.svg)[Демоподписка](../demo-subscription.qmd)
 
-::::: {.grid style="margin-left:0%"}
+::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Котировки
+
+*02.12.2024 Подсолнечное масло*
+
+**Индия заменяет пальмовое масло подсолнечным**
+
+Экспортные цены на подсолнечное масло за месяц выросли еще на 45  долл. 
+
+Экспортная пошлина на подсолнечное масло в декабре 2024 г. вырастет в три раза до 9,2 тыс. руб. 
+
+Индия по итогам 2023/24 г. нарастила импорт подсолнечного масла на 17% до 3,5 млн т. 
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
 *06.11.2024 Подсолнечное масло*
 
@@ -29,13 +41,6 @@ format:
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
-*01.10.2024 Подсолнечное масло*
-
-**Индийский импорт пойдет не как по маслу**
-
-Экспортные цены на подсолнечное масло за месяц выросли 60 долл.
-
-![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
@@ -73,9 +78,9 @@ hc
 
 [Материалы →](../events/2024-09-13-wheat.qmd)
 :::
-:::::
+:::
 
-::::: {.grid style="margin-left:0%"}
+::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
 ### Методология
 
@@ -86,4 +91,4 @@ hc
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
 :::
-:::::
+:::

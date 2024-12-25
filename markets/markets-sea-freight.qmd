@@ -11,9 +11,9 @@ format:
 
 # ![](../images/icon-ship.svg) Морская логистика {.my-custom-class style="margin-left:3%;"}
 
-![](../images/icon-subscription.svg)[Демо-подписка](../demo-subscription.qmd)
+![](../images/icon-subscription.svg)[Демоподписка](../demo-subscription.qmd)
 
-::::: {.grid style="margin-left:0%"}
+::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Котировки
 
@@ -81,9 +81,9 @@ hc
 
 [Материалы →](../events/2024-09-13-crude.qmd)
 :::
-:::::
+:::
 
-::::: {.grid style="margin-left:0%"}
+::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Методология
 
@@ -94,4 +94,4 @@ hc
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 :::
-:::::
+:::
