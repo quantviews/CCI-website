@@ -109,7 +109,9 @@ hc
 ::: {style="text-align: left"}
 ## Методология
 
-[Методология макроконсенсуса](../methodology/methodology-consensus-pbc.qmd)
+[Методология консенсуса](../methodology/methodology-consensus-pbc.qmd)
+
+[Спецификация макроконсенсуса](../pdf/Macro_Specifications_PBC.pdf)
 :::
 :::
 :::

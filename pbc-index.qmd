@@ -3,7 +3,7 @@ title: "Сырьевой индекс"
 sidebar: false
 ---
 
-**Индекс сырьевых цен ЦЦИ/ PBC Commodity Index** -- сводный индекс цен российского сырьевого экспорта. Отражает изменение цен на товары российского сырьевого экспорта по сравнению с уровнем января 2022 г.
+**Сырьевой индекс ЦЦИ/ PBC Commodity Index** -- сводный индекс цен российского сырьевого экспорта. Отражает изменение цен на товары российского сырьевого экспорта по сравнению с уровнем января 2022 г.
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 
@@ -94,7 +94,7 @@ index_plot <- highchart() %>%
    hc_xAxis(type = "datetime") %>%
    hc_exporting(enabled = TRUE) %>% 
    hc_yAxis_multiples(
-      list(title = list(text = "Индекс сырьевых цен ЦЦИ, янв. 2022 = 100"), showFirstLabel = TRUE, max = 160, showLastLabel=TRUE,opposite = FALSE),
+      list(title = list(text = "Индекс сырьевых цен ЦЦИ, янв. 2022 = 100"), showFirstLabel = TRUE, max = 180, showLastLabel=TRUE,opposite = FALSE),
       list(title = list(text = "USD/RUB, рублей за доллар"), showLastLabel = FALSE, opposite = TRUE, reversed = TRUE)) %>%
    hc_add_series(df_index,type="line", hcaes(x = date, y = value, group=index), color = colors[1]) %>% 
    hc_add_series(df_noil_index,type="line", hcaes(x = date, y = value, group=index), color = colors[2], visible = TRUE) %>%
@@ -113,11 +113,11 @@ index_plot
 
 ------------------------------------------------------------------------
 
-**Изменение Индекса сырьевых цен ЦЦИ к предыдущей неделе: [-0,3 п.]{.my-custom-class style="color:#f6514c;"}** ([**-1,5 п.**]{.my-custom-class style="color:#f6514c;"} за последние 4 недели)
+**Изменение Индекса сырьевых цен ЦЦИ к предыдущей неделе: [+0,2 п.]{.my-custom-class style="color:#44bf78;"}** ([**+2,1 п.**]{.my-custom-class style="color:#44bf78;"} за последние 4 недели)
 
-Наибольшие изменения цен товаров за неделю: трубопроводный газ [**-4,7%**]{.my-custom-class style="color:#f6514c;"}, уголь [**-4,3%**]{.my-custom-class style="color:#f6514c;"}
+Наибольшие изменения цен товаров за неделю: трубопроводный газ [**-6,6%**]{.my-custom-class style="color:#f6514c;"}, удобрения [**+5,1%**]{.my-custom-class style="color:#44bf78;"}
 
-Наибольшие вклады в изменение Индекса за неделю: трубопроводный газ [**-0,4 п.**]{.my-custom-class style="color:#f6514c;"}, уголь [**-0,3 п.**]{.my-custom-class style="color:#f6514c;"}
+Наибольшие вклады в изменение Индекса за неделю: трубопроводный газ [**-0,6 п.**]{.my-custom-class style="color:#f6514c;"}, нефть [**+0,8 п.**]{.my-custom-class style="color:#44bf78;"}
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 
@@ -193,8 +193,24 @@ discount_plot
 
 ```
 
-*Источник: ЦЦИ, Wind*
-
 ------------------------------------------------------------------------
 
-[Мониторинг - Декабрь 2024](reports/2024-12-cci-index.pdf)
+### [Ежемесячный мониторинг]{.my-custom-class style="color:#1a4afc;"}
+
+25 декабря 2024. Сырьевой индекс ЦЦИ. **в 2024 г.: не ТЭКом единым**
+
+[Материалы -\>](reports/2024-12-cci-index.pdf)
+
+
+
+### [События]{.my-custom-class style="color:#1a4afc;"}
+
+27 мая 2024 г. Презентация Сырьевого индекса ЦЦИ
+
+[Материалы -\>](events/2024-05-27-PBC-index.qmd)
+
+
+
+### [Методология]{.my-custom-class style="color:#1a4afc;"}
+
+[Методология сырьевого индекса -\>](pdf/PBC_Commodity_Index_Methodology.pdf)

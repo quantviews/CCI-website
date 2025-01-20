@@ -68,6 +68,8 @@ header {
 
 .grid{
    margin-left: 8%;
+    max-width: 1400px; /* Set your desired max width */
+    margin: 2%;    /* Center the grid */
 }
 
 .consensus-table tbody tr{

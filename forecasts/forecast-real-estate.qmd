@@ -106,6 +106,8 @@ hc
 ## Методология
 
 [Методология консенсуса](../methodology/methodology-consensus-pbc.qmd)
+
+[Спецификация консенсуса коммерческой недвижимости](../pdf/CRE_Specifications_PBC.pdf)
 :::
 ::::
 :::::::::::

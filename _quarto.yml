@@ -1,12 +1,14 @@
 project:
   type: website
   output-dir: docs/
-  
+
+lang: ru
+
 website:
   title: "ЦЦИ"
   favicon: images/banner3.png
   google-analytics: "G-TNGWX5Y7FL"
-  page-footer: '<p style="text-align: justify;">*© Центр ценовых индексов 2024. Все права защищены. Любое копирование, перепечатка или последующее распространение информации Центра ценовых индексов, в том числе производимое путем кэширования, кадрирования или использования аналогичных средств, запрещено без предварительного письменного согласия со стороны Центра ценовых индексов.* <br />
+  page-footer: '<p style="text-align: justify;">*© Центр ценовых индексов 2025. Все права защищены. Любое копирование, перепечатка или последующее распространение информации Центра ценовых индексов, в том числе производимое путем кэширования, кадрирования или использования аналогичных средств, запрещено без предварительного письменного согласия со стороны Центра ценовых индексов.* <br />
 *Центр ценовых индексов не несет ответственности за причинение любого ущерба или убытков, возникших в связи с тем, что лицо полагалось на возможность использования Информации в определенных целях, и исключает любую другую ответственность, возникшую в связи с использованием Информации или связанную с ней.*</p>
 ' 
   navbar:
@@ -21,6 +23,7 @@ website:
         menu: 
           - href: pbc-index.qmd
           - href: markets/markets-oil.qmd
+          - href: markets/markets-gas.qmd
           - href: markets/markets-coal.qmd
           - href: markets/markets-fertilizers.qmd
           - href: markets/markets-chemicals.qmd
@@ -36,11 +39,13 @@ website:
           - href: forecasts/forecast-gas.qmd
           - href: forecasts/forecast-fertilizers.qmd
           - href: forecasts/forecast-agro.qmd
-          - href: forecasts/forecast-realty.qmd
+          - href: forecasts/forecast-real-estate.qmd
       - text: Методология
         href: methodology.qmd
       - href: events.qmd
         text: События
+      - href: demo-subscription.qmd
+        text: Подписка 
       - href: about.qmd
         text: О нас
   
