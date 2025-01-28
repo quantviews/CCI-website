@@ -3,8 +3,9 @@ title: "PBC Commodity Index"
 sidebar: false
 ---
 
+[Switch to Russian](pbc-index.qmd)
 
-**PBC Commodity Index** - а composite price index for Russian raw materials that measures price changes of Russian commodity exports comparing to the level of January 2022.
+**PBC Commodity Index** - а composite price index that measures price changes of Russian commodity export comparing to the level of January 2022.
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 
@@ -93,7 +94,7 @@ df_fert_index$value <- round(df_fert_index$value,2)
 
 index_plot <- highchart() %>% 
    hc_xAxis(type = "datetime") %>%
-   hc_exporting(enabled = TRUE) %>% 
+   hc_exporting(enabled = FALSE) %>% 
    hc_yAxis_multiples(
       list(title = list(text = "PBC Commodity Index, Jan 2022 = 100"), showFirstLabel = TRUE, max = 180, showLastLabel=TRUE,opposite = FALSE),
       list(title = list(text = "USD/RUB"), showLastLabel = FALSE, opposite = TRUE, reversed = TRUE)) %>%
@@ -114,26 +115,27 @@ index_plot
 
 ------------------------------------------------------------------------
 
-**PBC Commodity Index changes to the previous week: [+0,2 п.]{.my-custom-class style="color:#44bf78;"}** ([**+2,1 п.**]{.my-custom-class style="color:#44bf78;"} over the previous four weeks)
+**PBC Commodity Index change to the previous week: [+2,2 п.]{.my-custom-class style="color:#44bf78;"}** ([**+4,6 п.**]{.my-custom-class style="color:#44bf78;"} over the previous four weeks)
 
-The biggest commodity price changes over the week: pipeline gas [**-6,6%**]{.my-custom-class style="color:#f6514c;"}, fertilizers [**+5,1%**]{.my-custom-class style="color:#44bf78;"}
+The biggest commodity price changes over the week: Petroleum Products [**+7,1%**]{.my-custom-class style="color:#44bf78;"}, fertilizers [**+5,1%**]{.my-custom-class style="color:#44bf78;"}
 
-Over the week the Index has been mainly affected by: pipeline gas [**-0,6 п.**]{.my-custom-class style="color:#f6514c;"}, crude oil [**+0,8 п.**]{.my-custom-class style="color:#44bf78;"}
+Over the week the Index has been mainly affected by: Crude Oil [**+1,3 п.**]{.my-custom-class style="color:#44bf78;"}, Petroleum Products [**+0,3 п.**]{.my-custom-class style="color:#44bf78;"}
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
+df_eng  <- read.xlsx('xls/ЦЦИ Сырьевой индекс.xlsx', sheet = 2, detectDates = TRUE)
 
-df_factor <- df[12:21,] %>% pivot_longer(-X1, names_to = "date", values_to = 'value')
+df_factor <- df_eng[12:21,] %>% pivot_longer(-X1, names_to = "date", values_to = 'value')
 df_factor$date <- as.Date(df_factor$date)
 df_factor <- subset(df_factor, df_factor$date>'2024-01-01')
 
-df_diff <- df[11,] %>% pivot_longer(-X1, names_to = "date", values_to = 'value')
+df_diff <- df_eng[11,] %>% pivot_longer(-X1, names_to = "date", values_to = 'value')
 df_diff$date <- as.Date(df_diff$date)
 df_diff <- subset(df_diff, df_diff$date>'2024-01-01')
 
 factor_plot <- highchart() %>% 
    #hc_chart(type  = 'column') %>%
    hc_plotOptions(column = list(stacking = 'normal')) %>%
-   hc_exporting(enabled = TRUE) %>% 
+   hc_exporting(enabled = FALSE) %>% 
    hc_xAxis(type = 'datetime') %>%
    hc_yAxis(title = list(text = "Commodities impact in Index change, 4-weeks cumulative, points")) %>%
    hc_add_series(df_factor, hcaes(x = date, y = round(value,2), group = X1), type = 'column', pointWidth = 15, color = colors[1:10]) %>%
@@ -149,7 +151,7 @@ factor_plot
 
 ------------------------------------------------------------------------
 
-**Price differential(a discount)** - the difference in price dynamics in Russia's main export commodities compared to the prices of world benchmarks.
+**Price differential (discount)** - the difference in price dynamics in Russian main export commodities compared to the prices of world benchmarks.
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 
@@ -177,7 +179,7 @@ df_discount$value <- round(df_discount$value,2)
 
 discount_plot <- highchart() %>% 
    hc_xAxis(type = "datetime") %>%
-   hc_exporting(enabled = TRUE) %>% 
+   hc_exporting(enabled = FALSE) %>% 
    hc_yAxis_multiples(
       list(title = list(text = "PBC Commodity Index, Jan 2022 = 100"), showFirstLabel = TRUE, max = 150, showLastLabel=TRUE,opposite = FALSE),
       list(title = list(text = "Dicount, %"), showLastLabel = FALSE, opposite = TRUE, max = 50, min = 0)) %>%
@@ -198,18 +200,9 @@ discount_plot
 
 ### [Monthly overview]{.my-custom-class style="color:#1a4afc;"}
 
-December 25, 2024. PBC Commodity price index. Commodity index in 2024: **not only the energy sector but...**
+December 25, 2024. PBC Commodity price index. Commodity index in 2024: **not only the energy sector drives...**
 
-[Materials -\>](reports/2024-12-cci-index.pdf)
-
-
-
-### [Trending topics]{.my-custom-class style="color:#1a4afc;"}
-
-May 27, 2024. PBC Commodity index: about 
-
-[Materials -\>](events/2024-05-27-PBC-index.qmd)
-
+[Materials -\>](reports/2024-12-PBC-index_eng.pdf)
 
 
 ### [Methodology]{.my-custom-class style="color:#1a4afc;"}

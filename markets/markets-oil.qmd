@@ -12,7 +12,7 @@ format:
 
 ![](../images/icon-subscription.svg)[Демоподписка](../demo-subscription.qmd)
 
-::: {.grid style="margin-left:0%"}
+:::::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Котировки
 
@@ -20,7 +20,7 @@ format:
 
 **Россия укрепляет позиции на азиатском рынке**
 
-По итогам предыдущей недели стоимость российской нефти варьировалась в зависимости от сорта и базиса поставки. Дельта изменения находится в пределах от -1% до +1%. 
+По итогам предыдущей недели стоимость российской нефти варьировалась в зависимости от сорта и базиса поставки. Дельта изменения находится в пределах от -1% до +1%.
 
 Дисконт на ESPO FOB Kozmino сузился более чем на 10% на фоне роста спроса в Китае.
 
@@ -39,29 +39,29 @@ format:
 Морской экспорт российской нефти за ноябрь 2024 г. снизился более чем на 6% м/м.
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
-
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
-### Цена российской нефти
+### Цена российской нефти\*
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 library(highcharter)
 library(openxlsx)
 library(tidyr)
-df <- read.xlsx(xlsxFile = '../xls/график_нефть2.xlsx', sheet = 1) 
+df <- read.xlsx(xlsxFile = '../xls/Налоговая цена на нефть.xlsx', sheet = "data") 
 names(df) <- c('date', 'value')
+df$value = round(df$value,1)
 df$date <- as.Date(df$date, origin = "1899-12-30")
 
 hc = highchart() %>% 
    hc_add_series(df, type = "line", hcaes(x = date, y = value), 
                  color = c("#1A4AFC"), 
-                 name = c("Индекс цен на нефть"),
+                 name = c("Цена российской нефти"),
                  marker = list(enabled = FALSE)) %>% 
    hc_xAxis(type = 'datetime') %>% 
-   hc_yAxis(title  = list(text = 'янв. 2022 = 100')) %>% 
+   hc_yAxis(title  = list(text = '$/баррель')) %>% 
    hc_exporting(enabled = FALSE) %>% 
-   hc_tooltip(enabled  = FALSE)
+   hc_tooltip(enabled  = TRUE)
 
 # поменять названия месяцев на русские. по умолчанию - на английском
 hc$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
@@ -71,6 +71,8 @@ hc
 
 
 ```
+
+[*Принципы расчета: цена российской нефти определена на основе котировок ЦЦИ по формуле, используемой в НК РФ . До 31 дек. 2024 г. - наибольшая из величин: среднеарифметическая цена Urals в торговые дни за налоговый период, увеличенная на 2 долл./барр. за транспортировку до мировых рынков нефтяного сырья, или стоимость нефти марки “North sea dated”, уменьшенная на прогнозную величину в соответствии с НК РФ; с 1 янв. 2025 г. - средневзвешенная цена, определяемая как сумма среднеарифметического Urals FOB Primorsk и Urals FOB Novorossiysk, умноженного на коэффициент 0,78 и значения цены ESPO FOB Kozmino, умноженного на коэффициент 0,22.*]{style="font-size:0.75em"}
 
 ### События
 
@@ -86,4 +88,4 @@ hc
 
 [Спецификация котировок на нефть](../methodology/specs-oil.qmd)
 :::
-:::
+::::::

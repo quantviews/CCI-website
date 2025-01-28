@@ -1,5 +1,5 @@
 ---
-title: "Метанол"
+title: "Химия"
 sidebar: false
 format: 
   html:
@@ -17,19 +17,19 @@ format:
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Котировки
 
-*11.2024 Метанол*
+*01.2025 Метанол*
 
-**Цены на метанол начали расти**
+**Январь задал высокую планку цен**
 
-Региональные индексы цен на метанол в России в ноябре незначительно скорректировались в среднем на 2%.
+Региональные индексы цен на метанол в России в декабре выросли в среднем на 8%.
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
-*10.2024 Метанол*
+*12.2024 Метанол*
 
-**Без роста экспорта не будет роста цен**
+**Сейчас бы экспортировать метанол в Европу…**
 
-В октябре ставки фрахта на перевозку метанола по всем направлениям снизились до минимальных значений за последний год.
+Региональные индексы цен на метанол в России в декабре выросли в среднем на 5%.
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 :::
@@ -49,13 +49,14 @@ df$year = format(df$dt, '%Y')
 df <- df[!is.na(df$value),]
 avg = mean(df$value[df$year == '2023'], na.rm = TRUE)
 df$index = df$value / avg * 100
+df$index <- round(df$index,1)
 
 hc = highchart() %>% 
    hc_add_series(df, type = "line", hcaes(x = dt, y = index), color = "#1A4AFC", name = "Индекс цен на метанол", marker = list(enabled = FALSE)) %>% 
    hc_xAxis(type = 'datetime') %>% 
    hc_yAxis(title  = list(text = '2023 = 100')) %>% 
    hc_exporting(enabled = FALSE) %>% 
-   hc_tooltip(enabled  = FALSE)
+   hc_tooltip(enabled  = TRUE)
 
 # поменять названия месяцев на русские. по умолчанию - на английском
 hc$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
@@ -71,4 +72,4 @@ hc
 
 [Методология ценовых индикаторов](../methodology/methodology-benchmark-pbc.qmd)
 
-[Спецификация котировок на удобрения](../methodology/specs-methanol.qmd)
+[Спецификация котировок на метанол](../methodology/specs-methanol.qmd)

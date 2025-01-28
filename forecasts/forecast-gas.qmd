@@ -109,6 +109,8 @@ hc
 ## Методология
 
 [Методология консенсуса](../methodology/methodology-consensus-pbc.qmd)
+
+[Спецификация консенсуса](../pdf/Gas Consensus Methodology PBC.pdf)
 :::
 ::::
 :::::::::::

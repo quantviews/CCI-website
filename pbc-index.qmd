@@ -3,6 +3,8 @@ title: "Сырьевой индекс"
 sidebar: false
 ---
 
+[Switch to English](pbc-index_eng.qmd)
+
 **Сырьевой индекс ЦЦИ/ PBC Commodity Index** -- сводный индекс цен российского сырьевого экспорта. Отражает изменение цен на товары российского сырьевого экспорта по сравнению с уровнем января 2022 г.
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
@@ -92,7 +94,7 @@ df_fert_index$value <- round(df_fert_index$value,2)
 
 index_plot <- highchart() %>% 
    hc_xAxis(type = "datetime") %>%
-   hc_exporting(enabled = TRUE) %>% 
+   hc_exporting(enabled = FALSE) %>% 
    hc_yAxis_multiples(
       list(title = list(text = "Индекс сырьевых цен ЦЦИ, янв. 2022 = 100"), showFirstLabel = TRUE, max = 180, showLastLabel=TRUE,opposite = FALSE),
       list(title = list(text = "USD/RUB, рублей за доллар"), showLastLabel = FALSE, opposite = TRUE, reversed = TRUE)) %>%
@@ -113,11 +115,11 @@ index_plot
 
 ------------------------------------------------------------------------
 
-**Изменение Индекса сырьевых цен ЦЦИ к предыдущей неделе: [+0,2 п.]{.my-custom-class style="color:#44bf78;"}** ([**+2,1 п.**]{.my-custom-class style="color:#44bf78;"} за последние 4 недели)
+**Изменение Индекса сырьевых цен ЦЦИ к предыдущей неделе: [+2,2 п.]{.my-custom-class style="color:#44bf78;"}** ([**+4,6 п.**]{.my-custom-class style="color:#44bf78;"} за последние 4 недели)
 
-Наибольшие изменения цен товаров за неделю: трубопроводный газ [**-6,6%**]{.my-custom-class style="color:#f6514c;"}, удобрения [**+5,1%**]{.my-custom-class style="color:#44bf78;"}
+Наибольшие изменения цен товаров за неделю: нефтепродукты [**+7,1%**]{.my-custom-class style="color:#44bf78;"}, удобрения [**+5,2%**]{.my-custom-class style="color:#44bf78;"}
 
-Наибольшие вклады в изменение Индекса за неделю: трубопроводный газ [**-0,6 п.**]{.my-custom-class style="color:#f6514c;"}, нефть [**+0,8 п.**]{.my-custom-class style="color:#44bf78;"}
+Наибольшие вклады в изменение Индекса за неделю: нефть [**+1,3 п.**]{.my-custom-class style="color:#44bf78;"}, нефтепродукты [**+0,3 п.**]{.my-custom-class style="color:#44bf78;"}
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 
@@ -132,7 +134,7 @@ df_diff <- subset(df_diff, df_diff$date>'2024-01-01')
 factor_plot <- highchart() %>% 
    #hc_chart(type  = 'column') %>%
    hc_plotOptions(column = list(stacking = 'normal')) %>%
-   hc_exporting(enabled = TRUE) %>% 
+   hc_exporting(enabled = FALSE) %>% 
    hc_xAxis(type = 'datetime') %>%
    hc_yAxis(title = list(text = "Вклад товаров в изменение индекса за 4 недели, п.")) %>%
    hc_add_series(df_factor, hcaes(x = date, y = round(value,2), group = X1), type = 'column', pointWidth = 15, color = colors[1:10]) %>%
@@ -176,7 +178,7 @@ df_discount$value <- round(df_discount$value,2)
 
 discount_plot <- highchart() %>% 
    hc_xAxis(type = "datetime") %>%
-   hc_exporting(enabled = TRUE) %>% 
+   hc_exporting(enabled = FALSE) %>% 
    hc_yAxis_multiples(
       list(title = list(text = "Индекс сырьевых цен ЦЦИ, янв. 2022 = 100"), showFirstLabel = TRUE, max = 150, showLastLabel=TRUE,opposite = FALSE),
       list(title = list(text = "Дисконт, %"), showLastLabel = FALSE, opposite = TRUE, max = 50, min = 0)) %>%
