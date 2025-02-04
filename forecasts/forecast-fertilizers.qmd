@@ -108,6 +108,8 @@ hc
 ## Методология
 
 [Методология консенсуса](../methodology/methodology-consensus-pbc.qmd)
+
+[Спецификация консенсуса](../pdf/Fertiliser Consensus Specifications PBC.pdf)
 :::
 ::::
 :::::::::::

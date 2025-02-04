@@ -46,7 +46,6 @@ format:
 -   В октябре впервые за более чем 2 года перевозки контейнеров по сети РЖД снизились в годовом выражении. Из-за загруженности инфраструктуры введены ограничения на погрузку контейнерных грузов в адрес отдельных станций Московского и Екатеринбургского ж.-д. узлов.
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
-
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
@@ -62,6 +61,7 @@ df <- read.xlsx(xlsxFile = '../xls/График на сайт - ЖД.xlsx', shee
 names(df) <- c('dt', 'value')
 df[,3] <- NULL
 df$dt = as.Date(as.numeric(df$dt), origin = "1899-12-30")
+df$value <- round(df$value, 1)
 
 hc = highchart() %>% 
    hc_add_series(df, type = "line", hcaes(x = dt, y = value), color = "#1A4AFC", 
@@ -69,7 +69,7 @@ hc = highchart() %>%
    hc_xAxis(type = 'datetime') %>% 
    hc_yAxis(title  = list(text = 'тыс.руб. с учётом НДС')) %>% 
    hc_exporting(enabled = FALSE) %>% 
-   hc_tooltip(enabled  = FALSE)
+   hc_tooltip(enabled  = TRUE)
 
 # поменять названия месяцев на русские. по умолчанию - на английском
 hc$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
@@ -83,6 +83,10 @@ hc
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### События
+
+*25 октября 2024. Пятница с ЦЦИ: уголь*
+
+[Материалы →](../events/2024-10-25-coal.qmd)
 
 *31 мая 2024. Пятница с ЦЦИ: уголь*
 

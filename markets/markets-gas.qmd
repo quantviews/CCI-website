@@ -35,14 +35,55 @@ format:
 Спотовые цены на газ в октябре выросли из-за обострения конфликта на Ближнем Востоке и начала отопительного сезона.
 
 Период летней навигации на Северном морском пути завершен, а танкеры ледового класса для проекта «Арктик СПГ-2» так и не были получены.
+:::
 
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+### Среднесрочный СПГ индекс в Европе
+
+```{r, warning = FALSE, echo = FALSE, message = FALSE}
+library(highcharter)
+library(openxlsx)
+library(tidyr)
+df <- read.xlsx(xlsxFile = '../xls/График СПГ.xlsx', sheet = "data") 
+names(df) <- c('date', 'value', 'forecast')
+#df$value = round(df$value,1)
+df$date <- as.Date(df$date, origin = "1899-12-30")
+
+hc = highchart() %>% 
+   hc_add_series(df, type = "line", hcaes(x = date, y = value), 
+                 color = c("#1A4AFC"), 
+                 name = c("Среднесрочный СПГ индекс в Европе"),
+                 marker = list(enabled = FALSE)) %>%
+   hc_add_series(df, type = "line", hcaes(x = date, y = forecast), 
+                 color = c("#1A4AFC"), 
+                 name = c("прогноз"),
+                 dashStyle = "Dash",
+                 marker = list(enabled = FALSE)) %>% 
+   hc_xAxis(type = 'datetime') %>% 
+   hc_yAxis(title  = list(text = '$/тыс. м3')) %>% 
+   hc_exporting(enabled = FALSE) %>% 
+   hc_tooltip(enabled  = TRUE)
+
+# поменять названия месяцев на русские. по умолчанию - на английском
+hc$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
+hc$x$conf_opts$lang$shortMonths = c("Янв", 	"Фев",	"Мар",	"Апр",	"Май",	"Июн",	"Июл",	"Авг",	"Сен",	"Окт",	"Ноя",	"Дек")
+
+hc
+
+```
+
+### События
+
+*16 октября 2024. Аналитика: газ*
+
+[Материалы →](../events/2024-10-16-gas.qmd)
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Методология
 
 [Методология ценовых индикаторов](../methodology/methodology-benchmark-pbc.qmd)
 
 [Спецификация котировок на природный газ и СПГ](../methodology/specs-gas.qmd)
-:::
-
-::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
 :::
 :::

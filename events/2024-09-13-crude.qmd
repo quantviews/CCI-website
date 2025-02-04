@@ -16,16 +16,17 @@ title: "Пятница с ЦЦИ: корабли с черным золотом 
 
 1.  Что такое аренда судна и какие бывают фрахтовые расходы
 
-{{< video https://www.youtube.com/watch?v=-Et1ujRYBIQ >}}
+<iframe src="https://vkvideo.ru/video_ext.php?oid=772704656&id=456239023&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
 
 2.  География и объёмы экспорта российской нефти
 
-{{< video https://www.youtube.com/watch?v=jgNrn3P1LKk >}}
+<iframe src="https://vkvideo.ru/video_ext.php?oid=772704656&id=456239022&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
 
 3.  Страхование морских перевозок нефти
 
-{{< video https://www.youtube.com/watch?v=r24bjzlbGJs >}}
+<iframe src="https://vkvideo.ru/video_ext.php?oid=772704656&id=456239024&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+
 
 4.  Стоимость фрахта российской нефти
 
-{{< video https://www.youtube.com/watch?v=GoNleriJcjc >}}
+<iframe src="https://vkvideo.ru/video_ext.php?oid=772704656&id=456239021&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>

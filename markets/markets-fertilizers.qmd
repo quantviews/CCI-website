@@ -9,11 +9,11 @@ format:
        body-width: 900px
 ---
 
-# ![](../images/icon-chemicals.svg) Минеральные удобрения {.my-custom-class style="margin-left:3%;"}
+# ![](../images/icon-chemicals.svg) Химия {.my-custom-class style="margin-left:3%;"}
 
 ![](../images/icon-subscription.svg)[Демоподписка](../demo-subscription.qmd)
 
-::: {.grid style="margin-left:0%"}
+::::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Котировки
 
@@ -56,14 +56,13 @@ df$dt = as.Date(df$dt, format = '%d.%m.%Y')
 df$year = format(df$dt, '%Y')
 avg = mean(df$value[df$year == '2023'], na.rm = TRUE)
 df$index = df$value / avg * 100
-df$index <- round(df$index,1)
 
 hc = highchart() %>% 
    hc_add_series(df, type = "line", hcaes(x = dt, y = index), color = "#1A4AFC", name = "Индекс цен на карбамид", marker = list(enabled = FALSE)) %>% 
    hc_xAxis(type = 'datetime') %>% 
    hc_yAxis(title  = list(text = '2023 = 100')) %>% 
    hc_exporting(enabled = FALSE) %>% 
-   hc_tooltip(enabled  = TRUE)
+   hc_tooltip(enabled  = FALSE)
 
 # поменять названия месяцев на русские. по умолчанию - на английском
 hc$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
@@ -73,7 +72,7 @@ hc
 
 ```
 :::
-:::
+:::::
 
 ### Методология
 

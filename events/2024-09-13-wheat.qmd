@@ -19,16 +19,17 @@ lang: ru
 
 1.  Куда экспортируются российское подсолнечное масло и пшеница
 
-{{< video https://www.youtube.com/watch?v=jWrrS9rQH6I >}}
+<iframe src="https://vkvideo.ru/video_ext.php?oid=772704656&id=456239020&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
 
 2.  Как чувствуют себя импортеры российских агротоваров
 
-{{< video https://www.youtube.com/watch?v=hx6wnJrsPg4 >}}
+<iframe src="https://vkvideo.ru/video_ext.php?oid=772704656&id=456239019&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
 
 3.  Прогноз погоды на рынке российского фрахта зерна
 
-{{< video https://www.youtube.com/watch?v=CUCXe0Vz4cg >}}
+<iframe src="https://vkvideo.ru/video_ext.php?oid=772704656&id=456239018&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+
 
 4.  О ценовых ожиданиях на агротовары и любви аналитика к круассанам
 
-{{< video https://www.youtube.com/watch?v=AVcCZvD56DE >}}
+<iframe src="https://vkvideo.ru/video_ext.php?oid=772704656&id=456239017&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>

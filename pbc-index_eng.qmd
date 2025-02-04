@@ -115,22 +115,22 @@ index_plot
 
 ------------------------------------------------------------------------
 
-**PBC Commodity Index change to the previous week: [+2,2 п.]{.my-custom-class style="color:#44bf78;"}** ([**+4,6 п.**]{.my-custom-class style="color:#44bf78;"} over the previous four weeks)
+**PBC Commodity Index change to the previous week: [-1.8 п.]{.my-custom-class style="color:#f6514c;"}** ([**+2.3 п.**]{.my-custom-class style="color:#44bf78;"} over the previous four weeks)
 
-The biggest commodity price changes over the week: Petroleum Products [**+7,1%**]{.my-custom-class style="color:#44bf78;"}, fertilizers [**+5,1%**]{.my-custom-class style="color:#44bf78;"}
+The biggest commodity price changes over the week: Crude Oil [**-5.8%**]{.my-custom-class style="color:#f6514c;"}, Pipeline Gaz [**+5.4%**]{.my-custom-class style="color:#44bf78;"}
 
-Over the week the Index has been mainly affected by: Crude Oil [**+1,3 п.**]{.my-custom-class style="color:#44bf78;"}, Petroleum Products [**+0,3 п.**]{.my-custom-class style="color:#44bf78;"}
+Over the week the Index has been mainly affected by: Crude Oil [**-1.9 п.**]{.my-custom-class style="color:#f6514c;"}, Pipeline Gaz [**+0.5 п.**]{.my-custom-class style="color:#44bf78;"}
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 df_eng  <- read.xlsx('xls/ЦЦИ Сырьевой индекс.xlsx', sheet = 2, detectDates = TRUE)
 
 df_factor <- df_eng[12:21,] %>% pivot_longer(-X1, names_to = "date", values_to = 'value')
 df_factor$date <- as.Date(df_factor$date)
-df_factor <- subset(df_factor, df_factor$date>'2024-01-01')
+df_factor <- subset(df_factor, df_factor$date>'2024-02-01')
 
 df_diff <- df_eng[11,] %>% pivot_longer(-X1, names_to = "date", values_to = 'value')
 df_diff$date <- as.Date(df_diff$date)
-df_diff <- subset(df_diff, df_diff$date>'2024-01-01')
+df_diff <- subset(df_diff, df_diff$date>'2024-02-01')
 
 factor_plot <- highchart() %>% 
    #hc_chart(type  = 'column') %>%
@@ -138,7 +138,7 @@ factor_plot <- highchart() %>%
    hc_exporting(enabled = FALSE) %>% 
    hc_xAxis(type = 'datetime') %>%
    hc_yAxis(title = list(text = "Commodities impact in Index change, 4-weeks cumulative, points")) %>%
-   hc_add_series(df_factor, hcaes(x = date, y = round(value,2), group = X1), type = 'column', pointWidth = 15, color = colors[1:10]) %>%
+   hc_add_series(df_factor, hcaes(x = date, y = round(value,2), group = X1), type = 'column', pointWidth = 12, color = colors[1:10]) %>%
    hc_add_series(df_diff, hcaes(x = date, y = round(value,2), group = X1), type = 'line', marker = FALSE, color = colors[12])
 
 # поменять названия месяцев на русские. по умолчанию - на английском
