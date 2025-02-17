@@ -23,6 +23,7 @@ website:
         menu: 
           - href: pbc-index.qmd
           - href: markets/markets-oil.qmd
+          - href: markets/markets-oil-products.qmd
           - href: markets/markets-gas.qmd
           - href: markets/markets-coal.qmd
           - href: markets/markets-fertilizers.qmd
@@ -61,6 +62,7 @@ website:
           contents:
             - pbc-index.qmd
             - markets/markets-oil.qmd
+            - markets/markets-oil-products.qmd
             - markets/markets-coal.qmd
             - markets/markets-fertilizers.qmd
             - markets/markets-chemicals.qmd
@@ -75,7 +77,7 @@ website:
            - forecasts/forecast-gas.qmd
            - forecasts/forecast-fertilizers.qmd
            - forecasts/forecast-agro.qmd
-           - forecasts/forecast-realty.qmd
+           - forecasts/forecast-real-estate.qmd
         - text: "Методология"
           href: methodology.qmd
       

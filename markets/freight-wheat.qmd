@@ -1,0 +1,115 @@
+---
+title: "Морская логистика. Зерно"
+sidebar: false
+format: 
+  html:
+    page-layout: custom
+    grid:
+       margin-width: 300px
+       body-width: 900px
+---
+
+# ![](../images/icon-ship.svg) Морская логистика. Зерно {.my-custom-class style="margin-left:3%;"}
+
+![](../images/icon-subscription.svg)[Демоподписка](../demo-subscription.qmd)
+
+::: {.grid style="margin-left:0%"}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+### Котировки
+
+*11.02.2025 Перевозки зерна*
+
+**Coaster падает в Средиземном море, а Handysize на дальних маршрутах**
+
+Ставки фрахта для балкеров типа Handysize в Черноморском регионе остались на уровне последних недель в направлении Турции, Египта и Алжира. На маршрутах в Бангладеш и Саудовскую Аравию ставки снизились в среднем на 2,7% н/н.
+
+![](../images/icon-locker.svg){width="6%"}[Подробнее](../demo-subscription.qmd)
+
+*04.02.2025 Перевозки зерна*
+
+**Последнее, что можно искать в Чёрном море — это прибыль**
+
+Ставки фрахта для балкеров типа Handysize в Черноморском регионе остались на уровне последних недель, при этом отмечен рост числа рейсов с нишевыми культурами.
+
+![](../images/icon-locker.svg){width="6%"}[Подробнее](../demo-subscription.qmd)
+
+*27.01.2025 Перевозки зерна*
+
+**Перевозчики уходят из Черного моря в Атлантику из-за низких ставок**
+
+Ставки фрахта для балкеров типа Handysize в Черноморском регионе за прошлую неделю снизились в среднем на 15,3% н/н.Для балкеров типа Coaster в Азовско-Черноморском бассейне ставки и объемы экспорта остались без изменений.
+
+![](../images/icon-locker.svg){width="6%"}[Подробнее](../demo-subscription.qmd)
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+### Ставка морского экспорта российского зерна
+
+```{r, warning = FALSE, echo = FALSE, message = FALSE}
+
+library(highcharter)
+library(xts)
+library(openxlsx)
+
+# сейчас в файле Excel неполная история 
+
+file <- ('../../../Фрахт/Модель/Расчетная модель_v7_Фрахт Зерно.xlsm')
+df <- read.xlsx(file, sheet = "Index", startRow = 4)
+df[,c(2:6)] <- NULL
+names(df)[1] <- 'route'
+bb = as.data.frame(t(df))
+names(bb) <- bb[1,]
+bb <- bb[-1,]
+bb[] <- lapply(bb, as.numeric)
+cols <- c('зерно: Азовское море - Египет_Coaster', 'зерно: Азовское море - Мармара_Coaster', 'зерно: Черное море - Мармара_Handysize', 'зерно: Черное море - Египет_Handysize')
+bb <- bb[,names(bb) %in% cols]
+bb$avg <- rowMeans(bb, na.rm = TRUE)
+bb$date <- as.Date(as.numeric(row.names(bb)), origin = "1899-12-30")
+df = bb[, c("date", "avg")]
+df$avg <- round(df$avg,2)
+df = df[!is.na(df$avg),]
+df = df[df$date >= '2024-02-01',]
+
+hc = highchart() %>% 
+   hc_add_series(df, type = "line", hcaes(x = date, y = avg), color = "#1A4AFC", name = "Фрахт российского зерна", marker = list(enabled = FALSE)) %>% 
+   hc_xAxis(type = 'datetime') %>% 
+   hc_yAxis(title  = list(text = '$/т')) %>% 
+   hc_exporting(enabled = FALSE) %>% 
+   hc_tooltip(enabled  = TRUE)
+
+# поменять названия месяцев на русские. по умолчанию - на английском
+hc$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
+hc$x$conf_opts$lang$shortMonths = c("Янв", 	"Фев",	"Мар",	"Апр",	"Май",	"Июн",	"Июл",	"Авг",	"Сен",	"Окт",	"Ноя",	"Дек")
+
+hc
+```
+
+[*Примечание: ставка экспорта российского зерна рассчитывается как среднее арифметическое наиболее ликвидных базисов: Coaster (Азовское море - Египет, Азовское море - Мармара)и Handysize (Черное море - Мармара, ерное море - Египет ). Источник — еженедельные отчеты ЦЦИ «Перевозки зерна. Ставки фрахта». Полный список публикуемых ставок доступен в [Спецификации ставок морского фрахта.](../methodology/specs-freight.qmd)*]{style="font-size:0.75em"}
+
+### События
+
+*7 февраля 2025. Пятница с Центром ценовых индексов. Логистика* 
+
+[Материалы →](../events/2025-02-07-logistics.qmd)
+
+*13 сентября 2024. Пятница с ЦЦИ: хлеб с маслом*
+
+[Материалы →](../events/2024-09-13-wheat.qmd)
+
+:::
+:::
+
+::: {.grid style="margin-left:0%"}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+### Методология
+
+[Методология ценовых индикаторов](../methodology/methodology-benchmark-pbc.qmd)
+
+[Спецификация ставок морского фрахта](../methodology/specs-freight.qmd)
+
+[Спецификация котировок на пшеницу](../methodology/specs-wheat.qmd)
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+:::
+:::

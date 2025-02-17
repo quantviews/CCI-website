@@ -28,7 +28,7 @@ names(df_index)[1] <- "index"
 df_index <- df_index %>% pivot_longer(!index, names_to = "date", values_to = 'value')
 df_index$date <- as.Date(df_index$date)
 
-#df = df[df$index == "ЦИндекс сырьевых цен ЦЦИ, 01.2022=100",]
+#df = df[df$index == "Индекс сырьевых цен ЦЦИ, 01.2022=100",]
 df_index$index = 'Индекс сырьевых цен ЦЦИ, янв. 2022 = 100'
 df_index$value <- round(df_index$value,2)
 
@@ -115,11 +115,11 @@ index_plot
 
 ------------------------------------------------------------------------
 
-**Изменение Сырьевого индекса ЦЦИ к предыдущей неделе: [-1,8 п.]{.my-custom-class style="color:#f6514c;"}** ([**+2,3 п.**]{.my-custom-class style="color:#44bf78;"} за последние 4 недели)
+**Изменение Сырьевого индекса ЦЦИ к предыдущей неделе: [-0,1 п.]{.my-custom-class style="color:#f6514c;"}** ([**-0,5 п.**]{.my-custom-class style="color:#f6514c;"} за последние 4 недели)
 
-Наибольшие изменения цен товаров за неделю: нефть [**-5,8%**]{.my-custom-class style="color:#f6514c;"}, трубопроводный газ [**+5,4%**]{.my-custom-class style="color:#44bf78;"}
+Наибольшие изменения цен товаров за неделю: нефть [**-2,4%**]{.my-custom-class style="color:#f6514c;"}, трубопроводный газ [**+5,8%**]{.my-custom-class style="color:#44bf78;"}
 
-Наибольшие вклады в изменение Индекса за неделю: нефть [**-1,9 п.**]{.my-custom-class style="color:#f6514c;"}, трубопроводный газ [**+0,5 п.**]{.my-custom-class style="color:#44bf78;"}
+Наибольшие вклады в изменение Индекса за неделю: нефть [**-0,8 п.**]{.my-custom-class style="color:#f6514c;"}, трубопроводный газ [**+0,5 п.**]{.my-custom-class style="color:#44bf78;"}
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 
@@ -199,9 +199,9 @@ discount_plot
 
 ### [Ежемесячный мониторинг]{.my-custom-class style="color:#1a4afc;"}
 
-25 декабря 2024. Сырьевой индекс ЦЦИ. **в 2024 г.: не ТЭКом единым**
+06 февраля 2024. Сырьевой индекс ЦЦИ. **Квоты, пошлины и торговые войны разгорели цены**
 
-[Материалы -\>](reports/2024-12-cci-index.pdf)
+[Материалы -\>](reports/2025-01 Сырьевой индекс ЦЦИ.pdf)
 
 ### [События]{.my-custom-class style="color:#1a4afc;"}
 

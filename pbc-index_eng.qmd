@@ -115,11 +115,11 @@ index_plot
 
 ------------------------------------------------------------------------
 
-**PBC Commodity Index change to the previous week: [-1.8 п.]{.my-custom-class style="color:#f6514c;"}** ([**+2.3 п.**]{.my-custom-class style="color:#44bf78;"} over the previous four weeks)
+**PBC Commodity Index change to the previous week: [-0.1 п.]{.my-custom-class style="color:#f6514c;"}** ([**-0.5 п.**]{.my-custom-class style="color:#f6514c;"} over the previous four weeks)
 
-The biggest commodity price changes over the week: Crude Oil [**-5.8%**]{.my-custom-class style="color:#f6514c;"}, Pipeline Gaz [**+5.4%**]{.my-custom-class style="color:#44bf78;"}
+The biggest commodity price changes over the week: Crude Oil [**-2.4%**]{.my-custom-class style="color:#f6514c;"}, Pipeline Gaz [**+5.8%**]{.my-custom-class style="color:#44bf78;"}
 
-Over the week the Index has been mainly affected by: Crude Oil [**-1.9 п.**]{.my-custom-class style="color:#f6514c;"}, Pipeline Gaz [**+0.5 п.**]{.my-custom-class style="color:#44bf78;"}
+Over the week the Index has been mainly affected by: Crude Oil [**-0.8 p.**]{.my-custom-class style="color:#f6514c;"}, Pipeline Gaz [**+0.5 p.**]{.my-custom-class style="color:#44bf78;"}
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 df_eng  <- read.xlsx('xls/ЦЦИ Сырьевой индекс.xlsx', sheet = 2, detectDates = TRUE)
@@ -200,9 +200,9 @@ discount_plot
 
 ### [Monthly overview]{.my-custom-class style="color:#1a4afc;"}
 
-December 25, 2024. PBC Commodity price index. Commodity index in 2024: **not only the energy sector drives...**
+February 6, 2025. PBC Commodity price index. **Quotas, tariffs and trade wars will hit the stage in 2025**
 
-[Materials -\>](reports/2024-12-PBC-index_eng.pdf)
+[Materials -\>](reports/2025-01 PBC Commodity Index_eng_new.pdf)
 
 
 ### [Methodology]{.my-custom-class style="color:#1a4afc;"}

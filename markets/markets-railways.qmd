@@ -1,5 +1,5 @@
 ---
-title: "Сухопутная контейнерная логистика"
+title: "Сухопутная логистика. Контейнеры"
 sidebar: false
 format: 
   html:
@@ -9,7 +9,7 @@ format:
        body-width: 900px
 ---
 
-# ![](../images/icon-barcode.svg) Сухопутная контейнерная логистика {.my-custom-class style="margin-left:3%;"}
+# ![](../images/icon-barcode.svg) Сухопутная логистика. Контейнеры {.my-custom-class style="margin-left:3%;"}
 
 ![](../images/icon-subscription.svg)[Демоподписка](../demo-subscription.qmd)
 
@@ -83,6 +83,10 @@ hc
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### События
+
+*7 февраля 2025. Пятница с Центром ценовых индексов. Логистика* 
+
+[Материалы →](../events/2025-02-07-logistics.qmd)
 
 *25 октября 2024. Пятница с ЦЦИ: уголь*
 
