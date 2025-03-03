@@ -13,9 +13,33 @@ format:
 
 ![](../images/icon-subscription.svg)[Демоподписка](../demo-subscription.qmd)
 
-::: {.grid style="margin-left:0%"}
+::::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Котировки
+
+*24.02.2025 Пшеница*
+
+**Экспортные цены на пшеницу движутся вверх, экспортная пошлина снижается**
+
+Экспортные цены на пшеницу выросли на 2 долл. по сравнению с прошлой неделей. 
+
+IGC снизил прогноз мировой торговли пшеницей в 2024/25 г. на 1 млн т до 197 млн т из-за снижения китайского импорта.
+
+Экспортная пошлина на пшеницу с 26 февраля 2025 г. снизится на 25% до  2 743 руб. на фоне укрепления рубля. 
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+
+*17.02.2025 Пшеница*
+
+**USDA уронило прогноз мирового экспорта пшеницы еще на 3 млн т**
+
+Экспортные цены на пшеницу выросли на 3 долл. по сравнению с прошлой неделей.
+
+USDA снизило прогноз экспорта пшеницы в мире в 2024/25 г. еще на 3 млн т до 209 млн т.
+
+Агентство FranceAgriMer снизило прогноз экспорта мягкой пшеницы из Франции в 2024/25 г. еще на 100 тыс. т до минимальных 3,4 млн т.
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
 *10.02.2025 Пшеница*
 
@@ -53,29 +77,6 @@ Reuters пишет, что Китай откладывает закупки им
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
-*20.01.2025 Пшеница*
-
-**Европа прирастет пшеницей в следующем сезоне**
-
-Экспортные цены на пшеницу остались на уровне прошлой недели.
-
-Strategie Grains повысило прогноз урожая мягкой пшеницы в ЕС в 2025/26 г. на 600 тыс. т до 127,2 млн т.
-
-Conab снизило оценку производства пшеницы в Бразилии в 2024 г. на 2% до 7,9 млн т.
-
-![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
-
-*13.01.2025 Пшеница*
-
-**Казахстан открылся для российской пшеницы**
-
-Экспортные цены на пшеницу выросли на 4 долл. по сравнению с концом декабря 2024 г.
-
-Казахстан не продлил запрет на импорт пшеницы из третьих стран и ЕАЭС, с 1 января 2025 г. российская пшеница может поступать на казахстанский рынок без ограничений.
-
-С 1 января 2025 г. введены 5% таможенные пошлины на вывоз из России за пределы ЕАЭС гороха, нута и чечевицы.
-
-![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
@@ -87,15 +88,20 @@ library(highcharter)
 library(openxlsx)
 library(tidyr)
 
-df <- read.xlsx(xlsxFile = '../xls/график_пшеница.xlsx', sheet = 1) 
-names(df) = c('date', 'value')
-df$date <- as.Date(df$date, origin = "1899-12-30")
-df$date <- as.Date(df$date, '%d.%m.%Y')
-df$value <- round(df$value,1)
+# df <- read.xlsx(xlsxFile = '../xls/график_пшеница.xlsx', sheet = 1, detectDates = TRUE) 
+# names(df) = c('date', 'value')
+# df$date <- as.Date(df$date, origin = "1899-12-30")
+# df$date <- as.Date(df$date, '%d.%m.%Y')
+# df$value <- round(df$value,1)
 #
 
+df <- read.xlsx(xlsxFile = '../data/Исходные данные.xlsx', sheet = "Рынки", detectDates = TRUE)
+id = "Пшеница 12,5% Netback Алтайский край"
+df = df[df$Наименование.показателя == id,]
+df$Данные <- round(df$Данные,1)
+
 hc = highchart() %>%
-   hc_add_series(df, type = "line", hcaes(x = date, y = value), color = c("#1A4AFC"),
+   hc_add_series(df, type = "line", hcaes(x = Дата, y = Данные), color = c("#1A4AFC"),
                name = c('Нетбэк Алтайский край'), marker = list(enabled = FALSE)) %>%
    hc_xAxis(type = 'datetime') %>%
    hc_yAxis(title  = list(text = 'руб./т')) %>%
@@ -116,9 +122,9 @@ hc
 
 [Материалы →](../events/2024-09-13-wheat.qmd)
 :::
-:::
+:::::
 
-::: {.grid style="margin-left:0%"}
+::::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
 ### Методология
 
@@ -129,4 +135,4 @@ hc
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
 :::
-:::
+:::::

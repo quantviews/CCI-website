@@ -3,7 +3,7 @@ title: "Методология"
 title-block-banner: false
 ---
 
-::: grid
+:::::: grid
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-7 .g-col-md-6 .g-col-lg-6}
 ### Методология ценовых индикаторов
 
@@ -24,6 +24,8 @@ title-block-banner: false
 ![](images/icon-chemicals.svg)[Ароматические углеводороды](methodology/specs-aromatics.qmd)
 
 ![](images/icon-wheat.svg)[Пшеница](methodology/specs-wheat.qmd)
+
+![](images/icon-wheat.svg)[Пшеница. Экспортная альтернатива](methodology/specs-wheat-netback.qmd)
 
 ![](images/icon-oilseed.svg){.img-fluid style="max-width: 10%;"}[Подсолнечное масло](methodology/specs-sunflower.qmd)
 
@@ -63,4 +65,4 @@ title-block-banner: false
 
 *Контакты методологической службы и комплаенса*: [methodology\@pbc-index.ru](mailto:methodology@pbc-index.ru)
 :::
-:::
+::::::

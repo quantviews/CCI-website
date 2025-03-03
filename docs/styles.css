@@ -75,3 +75,72 @@ header {
 .consensus-table tbody tr{
       background-color: rgb(255, 255, 255); 
 }
+
+.nav-tabs .nav-item .nav-link {
+    background-color: #4472C4 !important;
+    color: white !important;
+}
+
+/* Change the active tab appearance */
+.nav-tabs .nav-item .nav-link.active {
+    background-color: #ED7D31 !important;  /* Dark gray for active */
+    color: white !important;
+}
+
+/* Vertical tabs */
+
+/* Target Quarto's tabset container */
+.panel-tabset {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+/* Vertical tabs */
+.panel-tabset > .nav-tabs {
+  display: flex !important;
+  flex-direction: column !important;
+  margin-right: 1em;
+}
+
+/* Increase space between tabs */
+.panel-tabset > .nav-tabs > li {
+  margin-bottom: 20px !important; /* Adjust space between tabs */
+}
+
+.panel-tabset > .nav-tabs > li > a {
+  border: 1px solid #ddd !important;
+  border-radius: 4px 0 0 4px !important;
+  margin-right: -1px !important;
+  padding: 10px 15px !important; /* Optional: Increase padding inside tabs */
+}
+
+.panel-tabset > .nav-tabs > li.active > a {
+  border-right-color: transparent !important;
+}
+
+.panel-tabset > .tab-content {
+  flex: 1;
+}
+
+/* Change tooltip background color */
+.tooltip-inner {
+    background-color: #ffcc00 !important;  /* Change to any color */
+    color: black !important; /* Text color */
+}
+
+/* Change tooltip arrow color */
+.tooltip.bs-tooltip-top .tooltip-arrow::before {
+    border-top-color: #ffcc00 !important;
+}
+
+.tooltip.bs-tooltip-bottom .tooltip-arrow::before {
+    border-bottom-color: #ffcc00 !important;
+}
+
+.tooltip.bs-tooltip-start .tooltip-arrow::before {
+    border-left-color: #ffcc00 !important;
+}
+
+.tooltip.bs-tooltip-end .tooltip-arrow::before {
+    border-right-color: #ffcc00 !important;
+}

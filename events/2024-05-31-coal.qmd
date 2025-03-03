@@ -15,9 +15,31 @@ lang: ru
 -   Идем на Восток. Чего ждать от Китая и Индии?
 -   Как начинает 2024 г. российский экспорт?
 
+## Записи вебинаров в наших социальных сетях
+
+:::::: {.grid style="margin-left:0%"}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+
+
+1. [YouTube](https://youtube.com/@cci.friday?si=bXQxJdxy57pPoB2R)
+
+![](../fig/qr-cci-youtube.png)
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+
+
+2. [ВК](https://vk.com/cci.friday)
+
+![](../fig/qr-cci-vk.png)
+:::
+
+::::::
+
+
 ### Запись вебинара
 
-1.  Уголь теперь дешевый? 
+1.  Уголь теперь дешевый?
 
 {{< video https://youtu.be/aFEDMn1r2QU?si=UD0p9eWf8-ek3_le >}}
 

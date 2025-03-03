@@ -115,11 +115,11 @@ index_plot
 
 ------------------------------------------------------------------------
 
-**PBC Commodity Index change to the previous week: [-0.1 п.]{.my-custom-class style="color:#f6514c;"}** ([**-0.5 п.**]{.my-custom-class style="color:#f6514c;"} over the previous four weeks)
+**PBC Commodity Index change to the previous week: [-0.6 п.]{.my-custom-class style="color:#f6514c;"}** ([**-0.8 п.**]{.my-custom-class style="color:#f6514c;"} over the previous four weeks)
 
-The biggest commodity price changes over the week: Crude Oil [**-2.4%**]{.my-custom-class style="color:#f6514c;"}, Pipeline Gaz [**+5.8%**]{.my-custom-class style="color:#44bf78;"}
+The biggest commodity price changes over the week: Crude Oil [**+2.1%**]{.my-custom-class style="color:#44bf78;"}, Natural Gaz [**-12%**]{.my-custom-class style="color:#f6514c;"}
 
-Over the week the Index has been mainly affected by: Crude Oil [**-0.8 p.**]{.my-custom-class style="color:#f6514c;"}, Pipeline Gaz [**+0.5 p.**]{.my-custom-class style="color:#44bf78;"}
+Over the week the Index has been mainly affected by: Crude Oil [**+0.6 p.**]{.my-custom-class style="color:#44bf78;"}, Natural Gaz [**-1.1 p.**]{.my-custom-class style="color:#f6514c;"}
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 df_eng  <- read.xlsx('xls/ЦЦИ Сырьевой индекс.xlsx', sheet = 2, detectDates = TRUE)

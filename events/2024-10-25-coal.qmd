@@ -14,6 +14,28 @@ lang: ru
 -   Экспортные рынки углей и цены на уголь
 -   Рынки полувагонов и нетбэки на уголь
 
+## Записи вебинаров в наших социальных сетях
+
+:::::: {.grid style="margin-left:0%"}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+
+
+1. [YouTube](https://youtube.com/@cci.friday?si=bXQxJdxy57pPoB2R)
+
+![](../fig/qr-cci-youtube.png)
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+
+
+2. [ВК](https://vk.com/cci.friday)
+
+![](../fig/qr-cci-vk.png)
+:::
+
+::::::
+
+
 ### Запись вебинара
 
 1.  Есть ли надежда на Китай?
@@ -21,7 +43,6 @@ lang: ru
 <iframe src="https://vk.com/video_ext.php?oid=-227681629&amp;id=456239021&amp;hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen>
 
 </iframe>
-
 
 2.  Дожди охладили жару в Индии
 
@@ -40,4 +61,3 @@ lang: ru
 <iframe src="https://vk.com/video_ext.php?oid=-227681629&amp;id=456239024&amp;hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen>
 
 </iframe>
-

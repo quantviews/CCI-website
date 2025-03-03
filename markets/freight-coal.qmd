@@ -78,7 +78,7 @@ df = df[!is.na(df$avg),]
 #df = df[df$date >= '2024-02-01',]
  
 hc = highchart() %>%
-   hc_add_series(df, type = "line", hcaes(x = date, y = avg), color = "#1A4AFC", name = "Фрахт российского зерна", marker = list(enabled = FALSE)) %>%
+   hc_add_series(df, type = "line", hcaes(x = date, y = avg), color = "#1A4AFC", name = "Фрахт российского угля", marker = list(enabled = FALSE)) %>%
    hc_xAxis(type = 'datetime') %>%
    hc_yAxis(title  = list(text = '$/т')) %>%
    hc_exporting(enabled = FALSE) %>%

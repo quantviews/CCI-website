@@ -13,33 +13,33 @@ format:
 
 ![](../images/icon-subscription.svg)[Демоподписка](../demo-subscription.qmd)
 
-::: {.grid style="margin-left:0%"}
+::::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Котировки
 
-*20.01.2025 Минеральные удобрения*
+*10.02.2025 Минеральные удобрения*
 
-**Цены на карбамид растут вслед за спросом**
+**Цены на карбамид не остановить**
 
-Индекс цен Prilled Urea FOB Baltic за прошедшую неделю увеличился на 2%, Granular Urea FOB Baltic – на 5%.
+Индексы цен Prilled и Granular Urea FOB Baltic за прошедшую неделю увеличились на 1%.
 
-![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+![](../images/icon-locker.svg){width="6%"}[Подробнее](../demo-subscription.qmd)
 
-*13.01.2025 Минеральные удобрения*
+*03.02.2025 Минеральные удобрения*
 
-**Азотные удобрения на позитивном тренде**
+**Индии не удается утолить голод в карбамиде**
 
-Опубликованные результаты последнего индийского тендера на закупку карбамида не оправдали ожиданий, и Индия выходит на рынок с новым тендером с поставкой до 5 марта.
-
-![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
-
-*23.12.2024 Азотные удобрения*
-
-**Тендер нагнетает цены**
-
-Результаты индийского тендера еще не опубликованы, но цены уже растут на всех направлениях.
+По итогам тендера RCF индекс цен на карбамид CFR India вырос на 15%.
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+
+*27.01.2025 Минеральные удобрения*
+
+**Индия подогревает цены на карбамид**
+
+Индекс цен Prilled Urea FOB Baltic за прошедшую неделю увеличился на 4%, Granular Urea FOB Baltic – на 5%.
+
+![](../images/icon-locker.svg){width="6%"}[Подробнее](../demo-subscription.qmd)
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
@@ -51,8 +51,16 @@ library(highcharter)
 library(openxlsx)
 library(tidyr)
 
-df <- read.xlsx(xlsxFile = '../xls/график_карбамид.xlsx', sheet = 1,startRow = 1) 
-df$dt = as.Date(df$dt, format = '%d.%m.%Y')
+# df <- read.xlsx(xlsxFile = '../xls/график_карбамид.xlsx', sheet = 1,startRow = 1, detectDates = TRUE) 
+# df$dt = as.Date(df$dt, format = '%d.%m.%Y')
+
+df <- read.xlsx(xlsxFile = '../data/Исходные данные.xlsx', sheet = "Рынки", detectDates = TRUE)
+id = "Индекс цен на карбамид"
+df = df[df$Наименование.показателя == id,]
+
+df = df[, c("Дата", "Данные")]
+names(df) <- c('dt', 'value')
+
 df$year = format(df$dt, '%Y')
 avg = mean(df$value[df$year == '2023'], na.rm = TRUE)
 df$index = round(df$value / avg * 100,2)
@@ -72,7 +80,7 @@ hc
 
 ```
 :::
-:::
+:::::
 
 ### Методология
 

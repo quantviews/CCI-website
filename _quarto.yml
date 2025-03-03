@@ -1,7 +1,7 @@
 project:
   type: website
-  output-dir: docs/
-
+  output-dir: docs
+  
 lang: ru
 
 website:
@@ -13,7 +13,7 @@ website:
 ' 
   navbar:
     title: false
-    logo: images/logo.png
+    logo: images/logo3.png
     background: "#1A4AFC" 
     right:
       - text: Оформить подписку
@@ -32,7 +32,10 @@ website:
           - href: markets/markets-oilseed.qmd
           - href: markets/markets-railways.qmd
           - href: markets/markets-railways-van.qmd
-          - href: markets/markets-sea-freight.qmd
+          - href: markets/freight-crude.qmd
+          - href: markets/freight-products.qmd
+          - href: markets/freight-wheat.qmd
+          - href: markets/freight-coal.qmd
           - href: markets/markets-sea-container-ports.qmd
       - text: Прогнозы
         menu: 
