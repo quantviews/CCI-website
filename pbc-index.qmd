@@ -115,11 +115,11 @@ index_plot
 
 ------------------------------------------------------------------------
 
-**Изменение Сырьевого индекса ЦЦИ к предыдущей неделе: [-1,9 п.]{.my-custom-class style="color:#f6514c;"}** ([**-2,0 п.**]{.my-custom-class style="color:#f6514c;"} за последние 4 недели)
+**Изменение Сырьевого индекса ЦЦИ к предыдущей неделе: [-2,7 п.]{.my-custom-class style="color:#f6514c;"}** ([**-4,6 п.**]{.my-custom-class style="color:#f6514c;"} за последние 4 недели)
 
-Наибольшие изменения цен товаров за неделю: нефть [**-3,7%**]{.my-custom-class style="color:#f6514c;"}, трубопроводный газ [**-6,6%**]{.my-custom-class style="color:#f6514c;"}
+Наибольшие изменения цен товаров за неделю: нефть [**-5,4%**]{.my-custom-class style="color:#f6514c;"}, уголь [**-5,5%**]{.my-custom-class style="color:#f6514c;"}
 
-Наибольшие вклады в изменение Индекса за неделю: нефть [**-1,2 п.**]{.my-custom-class style="color:#f6514c;"}, трубопроводный газ [**-0,6 п.**]{.my-custom-class style="color:#f6514c;"}
+Наибольшие вклады в изменение Индекса за неделю: нефть [**-1,6 п.**]{.my-custom-class style="color:#f6514c;"}, уголь [**-0,4 п.**]{.my-custom-class style="color:#f6514c;"}
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 

@@ -64,12 +64,18 @@ library(highcharter)
 library(openxlsx)
 library(tidyr)
 
-df <- read.xlsx(xlsxFile = '../xls/график_подсолнечное масло.xlsx', sheet = 1) 
-names(df) = c('date', 'value')
-df$date <- as.Date(df$date, origin = "1899-12-30")
+# df <- read.xlsx(xlsxFile = '../xls/график_подсолнечное масло.xlsx', sheet = 1) 
+# names(df) = c('date', 'value')
+# df$date <- as.Date(df$date, origin = "1899-12-30")
+
+df <- read.xlsx(xlsxFile = '../data/Исходные данные.xlsx', sheet = "Рынки", detectDates = TRUE)
+id = "Премия/дисконт пальмового масла к подсолнечному"
+df = df[df$Наименование.показателя == id,]
+df$Данные <- round(df$Данные,1)
+
 
 hc = highchart() %>%
-   hc_add_series(df, type = "column", hcaes(x = date, y = value), color = c("#1A4AFC"), 
+   hc_add_series(df, type = "column", hcaes(x = Дата, y = Данные), color = c("#1A4AFC"), 
                  name = "Премия/дисконт пальмового масла к подсолнечному, долл.") %>%
    hc_xAxis(type = 'datetime') %>% 
    hc_yAxis(title  = list(text = 'долл./т')) %>%

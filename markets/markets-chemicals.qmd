@@ -50,14 +50,27 @@ library(highcharter)
 library(openxlsx)
 library(tidyr)
 
-df <- read.xlsx(xlsxFile = '../xls/график_метанол.xlsx', sheet = "Methanol",startRow = 4) 
+# df <- read.xlsx(xlsxFile = '../xls/график_метанол.xlsx', sheet = "Methanol",startRow = 4) 
+# names(df) <- c('dt', 'value')
+# df$dt = as.Date(as.numeric(df$dt), origin = "1899-12-30")
+# df$year = format(df$dt, '%Y')
+# df <- df[!is.na(df$value),]
+# avg = mean(df$value[df$year == '2023'], na.rm = TRUE)
+# df$index = df$value / avg * 100
+# df$index <- round(df$index,1)
+
+df <- read.xlsx(xlsxFile = '../data/Исходные данные.xlsx', sheet = "Рынки", detectDates = TRUE)
+id = "Метанол CPT Москва"
+df = df[df$Наименование.показателя == id,]
+df = df[, c("Дата", "Данные")]
 names(df) <- c('dt', 'value')
-df$dt = as.Date(as.numeric(df$dt), origin = "1899-12-30")
+
 df$year = format(df$dt, '%Y')
 df <- df[!is.na(df$value),]
 avg = mean(df$value[df$year == '2023'], na.rm = TRUE)
 df$index = df$value / avg * 100
 df$index <- round(df$index,1)
+
 
 hc = highchart() %>% 
    hc_add_series(df, type = "line", hcaes(x = dt, y = index), color = "#1A4AFC", name = "Индекс цен на метанол", marker = list(enabled = FALSE)) %>% 
