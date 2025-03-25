@@ -1,0 +1,52 @@
+---
+title: "Пятница с ЦЦИ: газ (31 мая 2024)"
+date: 31/05/2024
+lang: ru
+---
+
+## Пятница с ЦЦИ: газ
+
+31 мая 2024 г.
+
+### Основные темы
+
+-   Почему снижаются цены на газ в мире?
+-   Что происходит на газовом рынке США?
+-   СПГ перетекает из Европы в Азию?
+-   Станет ли Индия новым драйвером спроса на СПГ?
+
+
+## Записи вебинаров в наших социальных сетях
+
+::::: {.grid style="margin-left:0%"}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+1.  [YouTube](https://youtube.com/@cci.friday?si=bXQxJdxy57pPoB2R)
+
+![](../fig/qr-cci-youtube.png)
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+2.  [ВК](https://vk.com/cci.friday)
+
+![](../fig/qr-cci-vk.png)
+:::
+:::::
+
+### Запись вебинара
+
+1.  Спрос падает, а цены на газ растут?
+
+<iframe src="https://vkvideo.ru/video_ext.php?oid=772704656&id=456239028&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+
+2.  США добывают в 2 раза больше газа, чем Россия. Куда пойдет этот газ? 
+
+<iframe src="https://vkvideo.ru/video_ext.php?oid=772704656&id=456239027&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+
+3.  Достиг ли спрос на газ в ЕС дна? Египет снижает экспорт газа
+
+<iframe src="https://vkvideo.ru/video_ext.php?oid=772704656&id=456239026&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+
+
+4.  Индия будет импортировать удобрения или газ? 
+
+<iframe src="https://vkvideo.ru/video_ext.php?oid=772704656&id=456239025&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>

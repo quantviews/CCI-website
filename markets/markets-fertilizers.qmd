@@ -17,6 +17,14 @@ format:
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Котировки
 
+*17.03.2025 Минеральные удобрения*
+
+**Азотные удобрения не находят спрос**
+
+За прошедшую неделю индексы цен Prilled Urea FOB Baltic и Granular Urea FOB Baltic уменьшились на 3%. 
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+
 *10.02.2025 Минеральные удобрения*
 
 **Цены на карбамид не остановить**
@@ -33,13 +41,6 @@ format:
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
-*27.01.2025 Минеральные удобрения*
-
-**Индия подогревает цены на карбамид**
-
-Индекс цен Prilled Urea FOB Baltic за прошедшую неделю увеличился на 4%, Granular Urea FOB Baltic – на 5%.
-
-![](../images/icon-locker.svg){width="6%"}[Подробнее](../demo-subscription.qmd)
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
