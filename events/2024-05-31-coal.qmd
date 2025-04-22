@@ -17,40 +17,34 @@ lang: ru
 
 ## Записи вебинаров в наших социальных сетях
 
-:::::: {.grid style="margin-left:0%"}
+::::: {.grid style="margin-left:0%"}
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
-
-
-1. [YouTube](https://youtube.com/@cci.friday?si=bXQxJdxy57pPoB2R)
+1.  [YouTube](https://youtube.com/@cci.friday?si=bXQxJdxy57pPoB2R)
 
 ![](../fig/qr-cci-youtube.png)
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
-
-
-2. [ВК](https://vk.com/cci.friday)
+2.  [ВК](https://vk.com/cci.friday)
 
 ![](../fig/qr-cci-vk.png)
 :::
-
-::::::
-
+:::::
 
 ### Запись вебинара
 
 1.  Уголь теперь дешевый?
 
-{{< video https://youtu.be/aFEDMn1r2QU?si=UD0p9eWf8-ek3_le >}}
+<iframe src="https://vkvideo.ru/video_ext.php?oid=-227681629&id=456239041&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
 
 2.  ЕС и Турция. Закат и возрождение угля
 
-{{< video https://youtu.be/D-JE9TCRrLk?si=dmpb0Ai0v_UVjOtn >}}
+<iframe src="https://vkvideo.ru/video_ext.php?oid=-227681629&id=456239042&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
 
 3.  Идем на Восток
 
-{{< video https://youtu.be/94zHfRKKaqo?si=L4zQSoX8OsoqjQul >}}
+<iframe src="https://vkvideo.ru/video_ext.php?oid=-227681629&id=456239043&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
 
 4.  Логистика стоит дороже 50% цены угля
 
-{{< video https://youtu.be/NmyH9EOyp_s?si=iu2Q4SN5p_7DHlZj >}}
+<iframe src="https://vkvideo.ru/video_ext.php?oid=-227681629&id=456239044&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>

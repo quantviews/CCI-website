@@ -1,0 +1,92 @@
+---
+title: "Сухопутная логистика. Зерновозы"
+sidebar: false
+format: 
+  html:
+    page-layout: custom
+    grid:
+       margin-width: 300px
+       body-width: 900px
+---
+
+
+
+
+# ![](../images/icon-trolley.svg) Сухопутная логистика. Зерновозы {.my-custom-class style="margin-left:3%;"}
+
+![](../images/icon-subscription.svg)[Демоподписка](../demo-subscription.qmd)
+
+::::: {.grid style="margin-left:0%"}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+### Котировки
+
+*15.04.2025 Сухопутная логистика. Зерновозы*
+
+**Рекордный размер парка толкает вниз ставки на зерновозы**
+
+-   Увеличение производства и минимальное списание хопперов, сокращение экспортной квоты и последующее снижение погрузки пшеницы на сети РЖД привели к значительному профициту парка зерновозов.
+
+-   По итогам 1 кв. 2025 г. погрузка хлебных грузов на сети РЖД упала до 6,4 млн т (-29,3% г/г), в т.ч до 3,2 млн т на экспорт (-49,2% г/г).
+
+-   Из-за резкого снижения ставок предоставления хопперов зерновозов стоимость железнодорожной транспортировки зерновых культур на экспорт во 2 кв. 2025 г. подешевела на 20% к ценам начала года.
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+#### Динамика цен экспортной альтернативы к FOB Новороссийск пшеницы 12,5%, руб./т
+
+
+
+
+```{r,warning = FALSE, echo = FALSE, message = FALSE}
+
+library(highcharter)
+library(openxlsx)
+library(tidyr)
+
+df <- read.xlsx(xlsxFile = '../data/Исходные данные.xlsx', sheet = "Рынки", detectDates = TRUE)
+id = "Пшеница 12,5% Netback Алтайский край"
+df = df[df$Наименование.показателя == id,]
+df$Данные <- round(df$Данные,1)
+
+hc = highchart() %>%
+   hc_add_series(df, type = "line", hcaes(x = Дата, y = Данные), color = c("#1A4AFC"),
+               name = c('Нетбэк Алтайский край'), marker = list(enabled = FALSE)) %>%
+   hc_xAxis(type = 'datetime') %>%
+   hc_yAxis(title  = list(text = 'руб./т')) %>%
+   hc_exporting(enabled = FALSE) %>%
+   hc_tooltip(enabled  = TRUE)
+
+# поменять названия месяцев на русские. по умолчанию - на английском
+hc$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
+hc$x$conf_opts$lang$shortMonths = c("Янв", 	"Фев",	"Мар",	"Апр",	"Май",	"Июн",	"Июл",	"Авг",	"Сен",	"Окт",	"Ноя",	"Дек")
+
+hc
+
+```
+
+
+
+
+### События
+
+*7 февраля 2025. Пятница с Центром ценовых индексов. Логистика*
+
+[Материалы →](../events/2025-02-07-logistics.qmd)
+:::
+:::::
+
+::::: {.grid style="margin-left:0%"}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+### Методология
+
+[Методология ценовых индикаторов](../methodology/methodology-benchmark-pbc.qmd)
+
+[Спецификация котировок на пшеницу](../methodology/specs-wheat.qmd)
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+:::
+:::::
+

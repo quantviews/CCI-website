@@ -1,5 +1,5 @@
 ---
-title: "Минеральные удобрения"
+title: "Удобрения"
 sidebar: false
 format: 
   html:
@@ -9,7 +9,7 @@ format:
        body-width: 900px
 ---
 
-# ![](../images/icon-agro.svg) Минеральные удобрения {.my-custom-class style="margin-left:3%;"}
+# ![](../images/icon-agro.svg) Удобрения {.my-custom-class style="margin-left:3%;"}
 
 ![](../images/icon-subscription.svg)[Демоподписка](../demo-subscription.qmd)
 
@@ -17,30 +17,30 @@ format:
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Котировки
 
-*17.03.2025 Минеральные удобрения*
+*21.04.2025 Минеральные удобрения*
 
-**Азотные удобрения не находят спрос**
+**Спрос на фосфаты опережает предложение**
 
-За прошедшую неделю индексы цен Prilled Urea FOB Baltic и Granular Urea FOB Baltic уменьшились на 3%. 
-
-![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
-
-*10.02.2025 Минеральные удобрения*
-
-**Цены на карбамид не остановить**
-
-Индексы цен Prilled и Granular Urea FOB Baltic за прошедшую неделю увеличились на 1%.
-
-![](../images/icon-locker.svg){width="6%"}[Подробнее](../demo-subscription.qmd)
-
-*03.02.2025 Минеральные удобрения*
-
-**Индии не удается утолить голод в карбамиде**
-
-По итогам тендера RCF индекс цен на карбамид CFR India вырос на 15%.
+За прошедшую неделю индекс цен MAP FOB Baltic вырос на 4%, DAP FOB Baltic – на 2%. 
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
+*14.04.2025 Минеральные удобрения*
+
+**Индийский тендер принес нейтральный результат для рынка**
+
+Индийская IPL опубликовала результаты тендера на закупку карбамида: цены на базисе CFR India снизились на 8% относительно прошлого тендера.
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+
+
+*07.04.2025 Минеральные удобрения*
+
+**Мировому рынку удобрений грозит ценовой шторм**
+
+США ввели новые таможенные пошлины, в том числе для стран-поставщиков удобрений на американский рынок. За прошедшую неделю индексы цен Prilled Urea FOB Baltic и Granular Urea FOB Baltic не изменились.
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}

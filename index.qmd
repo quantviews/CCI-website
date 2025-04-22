@@ -7,9 +7,373 @@ format:
       sidebar-width: 350px
 ---
 
-::::::: grid
+::::::::::::::::::::::::::::::::::::::::::: grid
+:::: {.g-col-12 .full-width-container}
+![](fig/cci-blur.png)
+
+::: text-overlay
+# Центр Ценовых<br>Индексов {.title .text-white}
+
+### Самые оперативные обновления цен<br>на товары российского экспорта и логистику {.subtitle .text-white}
+:::
+::::
+
+::: {.g-col-12 style="text-align: center; padding: 2em 4em; background-color: #f8f9fa; margin-bottom: 2em;"}
+<h2 style="color: #1A4AFC; margin-bottom: 1em;">
+
+Добро пожаловать в Центр Ценовых Индексов!
+
+</h2>
+
+<p style="font-size: 1.2em; line-height: 1.6; margin-bottom: 1em;">
+
+Мы - российское ценовое агентство, оперативно публикуем цены на товары российского экспорта и логистику.
+
+</p>
+
+<p style="font-size: 1.2em; line-height: 1.6;">
+
+Наша миссия — обеспечить рынок репрезентативными ценовыми индикаторами. Своевременные ценовые сигналы дают экономической системе гибкость: помогают быстрее принимать решения о рисках и инвестициях.
+
+</p>
+:::
+
+<!-- All banners in one container -->
+
+:::::::::::::::::::::::::::::::::::: g-col-12
+::::::::::::::::::::::::::::::::::: hero-banners-container
+:::: hero-banner
+![](images/icon-oil.svg)
+
+::: hero-banner-content
+[Нефть](markets/markets-oil.qmd){.hero-banner-title}
+
+<p class="hero-banner-date">
+
+16.04.2025
+
+</p>
+
+<p class="hero-banner-caption">
+
+Цена на нефть Urals рухнула до 2-летнего минимума
+
+</p>
+:::
+::::
+
+:::: hero-banner
+![](images/icon-oil-products.svg)
+
+::: hero-banner-content
+[Нефтепродукты](markets/markets-oil-products.qmd){.hero-banner-title}
+
+<p class="hero-banner-date">
+
+16.04.2025
+
+</p>
+
+<p class="hero-banner-caption">
+
+Геополитика сужает дисконты на дизель
+
+</p>
+:::
+::::
+
+:::: hero-banner
+![](images/icon-gas.svg)
+
+::: hero-banner-content
+[Газ](markets/markets-gas.qmd){.hero-banner-title}
+
+<p class="hero-banner-date">
+
+01.04.2025
+
+</p>
+
+<p class="hero-banner-caption">
+
+Весна и Трамп снижают цены на газ?
+
+</p>
+:::
+::::
+
+:::: hero-banner
+![](images/icon-coal.svg)
+
+::: hero-banner-content
+[Уголь](markets/markets-coal.qmd){.hero-banner-title}
+
+<p class="hero-banner-date">
+
+14.04.2025
+
+</p>
+
+<p class="hero-banner-caption">
+
+Неопределенность на рынке растет
+
+</p>
+:::
+::::
+
+:::: hero-banner
+![](images/icon-agro.svg)
+
+::: hero-banner-content
+[Удобрения](markets/markets-fertilizers.qmd){.hero-banner-title}
+
+<p class="hero-banner-date">
+
+21.04.2025
+
+</p>
+
+<p class="hero-banner-caption">
+
+Спрос на фосфаты опережает предложение
+
+</p>
+:::
+::::
+
+:::: hero-banner
+![](images/icon-chemicals2.svg)
+
+::: hero-banner-content
+[Химия](markets/markets-chemicals.qmd){.hero-banner-title}
+
+<p class="hero-banner-date">
+
+01.04.2025
+
+</p>
+
+<p class="hero-banner-caption">
+
+Рынок метанола вступает в летний сезон
+
+</p>
+:::
+::::
+
+:::: hero-banner
+![](images/icon-wheat.svg)
+
+::: hero-banner-content
+[Пшеница](markets/markets-wheat.qmd){.hero-banner-title}
+
+<p class="hero-banner-date">
+
+21.04.2025
+
+</p>
+
+<p class="hero-banner-caption">
+
+Пакистан будет нуждаться в импортной пшенице в 2025/26 г.
+
+</p>
+:::
+::::
+
+:::: hero-banner
+![](images/icon-oilseed.svg)
+
+::: hero-banner-content
+[Масличные](markets/markets-oilseed.qmd){.hero-banner-title}
+
+<p class="hero-banner-date">
+
+01.04.2025
+
+</p>
+
+<p class="hero-banner-caption">
+
+Бразилия пожнет бобы торгового конфликта США и Китая?
+
+</p>
+:::
+::::
+
+:::: hero-banner
+![](images/icon-barcode.svg)
+
+::: hero-banner-content
+[Ж/д перевозки](markets/markets-railways.qmd){.hero-banner-title}
+
+<p class="hero-banner-date">
+
+15.04.2025
+
+</p>
+
+<p class="hero-banner-caption">
+
+Контейнерам не хватает китайских грузов
+
+</p>
+:::
+::::
+
+:::: hero-banner
+![](images/icon-trolley.svg)
+
+::: hero-banner-content
+[Полувагоны](markets/markets-railways-van.qmd){.hero-banner-title}
+
+<p class="hero-banner-date">
+
+31.03.2025
+
+</p>
+
+<p class="hero-banner-caption">
+
+Ставки на полувагоны обвалились под натиском дешёвого угля
+
+</p>
+:::
+::::
+
+:::: hero-banner
+![](images/icon-trolley.svg)
+
+::: hero-banner-content
+[Хопперы](markets/markets-railways-wheat-van.qmd){.hero-banner-title}
+
+<p class="hero-banner-date">
+
+15.04.2025
+
+</p>
+
+<p class="hero-banner-caption">
+
+Рекордный размер парка толкает вниз ставки на зерновозы
+
+</p>
+:::
+::::
+
+:::: hero-banner
+![](images/icon-ship.svg)
+
+::: hero-banner-content
+[Фрахт нефти](markets/freight-crude.qmd){.hero-banner-title}
+
+<p class="hero-banner-date">
+
+15.04.2025
+
+</p>
+
+<p class="hero-banner-caption">
+
+Низкие цены на нефть сократили экспорт российской нефти
+
+</p>
+:::
+::::
+
+:::: hero-banner
+![](images/icon-oil-products.svg)
+
+::: hero-banner-content
+[Фрахт н/п](markets/freight-products.qmd){.hero-banner-title}
+
+<p class="hero-banner-date">
+
+15.04.2025
+
+</p>
+
+<p class="hero-banner-caption">
+
+Падение цены на нефть РФ привело к снижению фрахта нефтепродуктов
+
+</p>
+:::
+::::
+
+:::: hero-banner
+![](images/icon-wheat.svg)
+
+::: hero-banner-content
+[Фрахт зерна](markets/freight-wheat.qmd){.hero-banner-title}
+
+<p class="hero-banner-date">
+
+15.04.2025
+
+</p>
+
+<p class="hero-banner-caption">
+
+Свободные суда делают скидки на ставки
+
+</p>
+:::
+::::
+
+:::: hero-banner
+![](images/icon-ship.svg)
+
+::: hero-banner-content
+[Фрахт угля](markets/freight-coal.qmd){.hero-banner-title}
+
+<p class="hero-banner-date">
+
+15.04.2025
+
+</p>
+
+<p class="hero-banner-caption">
+
+Ставки фрахта и экспорт из западных портов на минимуме
+
+</p>
+:::
+::::
+
+:::: hero-banner
+![](images/icon-barcode.svg)
+
+::: hero-banner-content
+[Контейнеры](markets/markets-sea-container-ports.qmd){.hero-banner-title}
+
+<p class="hero-banner-date">
+
+31.03.2025
+
+</p>
+
+<p class="hero-banner-caption">
+
+Рекордные объёмы импорта толкают вверх ставки перевалки контейнеров на Дальнем Востоке
+
+</p>
+:::
+::::
+:::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::
+
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Актуальное
+
+15 апреля 2025. **ЦЦИ начал публиковать индексы на хопперы-зерновозы**
+
+[Пресс-релиз →](events/2025-04-15-railways-wheat-van.qmd)
+
+2 апреля 2025. Сырьевой индекс ЦЦИ. **Сырьевые цены смотрят на будущее с пессимизмом**
+
+[Мониторинг март -\>](reports/2025-03%20Сырьевой%20индекс%20ЦЦИ.pdf)
 
 21 марта 2025. **Пятница с ЦЦИ: Газ и Химия**
 
@@ -41,85 +405,7 @@ format:
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
-### Новости рынков
-
-**17.03.2025 Сухопутная контейнерная логистика**
-
-За последний месяц ставки на прямые ускоренные контейнерные поезда из Китая в Россию упали более чем на четверть и обновили минимум последних трёх лет. Железнодорожный транспорт – не только самый быстрый, но и самый бюджетный способ доставки контейнеров из КНР: FOR Шанхай – FOR Москва (40’HC COC) = 4,8 тыс. долл.
-
-[Подробнее →](markets/markets-railways.qmd)
-
-**17.03.2025 Уголь**
-
-Настроения на рынке ухудшаются вслед за ценами. Опрошенные респонденты обеспокоены низким спросом на уголь и не видят причин для улучшения ситуации на протяжении всего 2025 г. Возможности переориентации на другие рынки ограничены, Китай начал сокращать закупки на рынке спот.
-
-[Подробнее →](markets/markets-coal.qmd)
-
-**17.03.2025 Пшеница**
-
-Экспортные цены на пшеницу остались на уровне прошлой недели.В мартовском прогнозе COCERAL производство пшеницы в ЕС-27 в 2025 г. снижено на 2 млн т до 124,4 млн т. 
-USDA снизило прогноз китайского импорта пшеницы в 2024/25 г. на 1,5 млн т до 6,5 млн т. 
-
-[Подробнее →](markets/markets-wheat.qmd)
-
-**17.03.2025 Минеральные удобрения**
-
-За прошедшую неделю индексы цен Prilled Urea FOB Baltic и Granular Urea FOB Baltic уменьшились на 3%. 
-
-[Подробнее →](markets/markets-fertilizers.qmd)
-
-
-**04.03.2025 Подсолнечное масло**
-
-Экспортные цены на подсолнечное масло за месяц выросли на 58 долл. Укрепление рубля опустило экспортную пошлину на подсолнечное масло почти в два раза до 9,3 тыс. т. Индия планирует повысить импортные пошлины на растительные масла.
-
-[Подробнее →](markets/markets-oilseed.qmd)
-
-**28.02.2025 Сухопутная логистика. Полувагоны**
-
-Ставки предоставления полувагонов под перевозку угля остались без изменений в феврале, однако продолжающееся падение угольных котировок и укрепление курса рубля могут скорректировать цены на услуги операторов уже в марте.
-
-[Подробнее →](markets/markets-railways-van.qmd)
-
-**26.02.2025 Нефть**
-
-По итогам предыдущей недели стоимость российской нефти увеличилась. Цена на Urals выросла на 0,5 долл./барр. н/н, на ESPO – на 2,3 долл./барр. н/н.Дисконт на ESPO сузился на \~1,9 долл./барр. н/н вследствие падения экспорта из порта Козьмино на 19% н/н. Общий морской экспорт российской нефти снизился на 29% н/н в связи с отсутствием поставок из порта Новороссийск.
-
-[Подробнее →](markets/markets-oil.qmd)
-
-**26.02.2025 Нефтепродукты**
-
-Рязанский нефтеперерабатывающий завод (НПЗ) – один из крупнейших производителей автомобильного бензина – снова остановил производство.Биржевые цены на бензин не отреагировали на последние внеплановые остановки НПЗ, показав снижение более чем на 13% по сравнению с пиком в 1 декаде февраля.
-
-[Подробнее →](markets/markets-oil-products.qmd)
-
-**18.02.2025 Перевозки зерна**
-
-Ставки фрахта для балкеров типа Handysize из российских портов Черного моря остались на уровне предыдущей недели.
-
-[Подробнее →](markets/freight-wheat.qmd)
-
-**17.02.2025 Морские порты. Контейнеры**
-
-Рекордные объёмы импорта толкают вверх ставки перевалки контейнеров на Дальнем Востоке.
-
-[Подробнее →](markets/markets-sea-container-ports.qmd)
-
-**29.01.2025 Перевозки нефтепродуктов**
-
-После резкого скачка из-за ввода санкций против российской нефтяной отрасли, темпы роста ставок фрахта замедлились.
-
-[Подробнее →](markets/markets-sea-freight.qmd)
-
-**28.01.2025 Перевозки угля**
-
-Отскока ставок фрахта в преддверии китайского Нового года не случилось, ставки фрахта в сегменте Panamax (80 тыс. т) из порта Усть-Луга в Северный Китай снизились на 5% н/н.
-
-[Подробнее →](markets/markets-sea-freight.qmd)
-:::
-
-::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
-### Сырьевой индекс ЦЦИ   [→](pbc-index.qmd)
+### Сырьевой индекс ЦЦИ [→](pbc-index.qmd)
 
 -- сводный индекс цен российского сырьевого экспорта. Отражает изменение цен на товары российского сырьевого экспорта по сравнению с уровнем января 2022 г.
 
@@ -229,4 +515,4 @@ index_plot
 
 ```
 :::
-:::::::
+:::::::::::::::::::::::::::::::::::::::::::

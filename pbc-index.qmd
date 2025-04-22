@@ -3,6 +3,8 @@ title: "Сырьевой индекс"
 sidebar: false
 ---
 
+</p>
+
 [Switch to English](pbc-index_eng.qmd)
 
 **Сырьевой индекс ЦЦИ/ PBC Commodity Index** -- сводный индекс цен российского сырьевого экспорта. Отражает изменение цен на товары российского сырьевого экспорта по сравнению с уровнем января 2022 г.
@@ -96,7 +98,7 @@ index_plot <- highchart() %>%
    hc_xAxis(type = "datetime") %>%
    hc_exporting(enabled = FALSE) %>% 
    hc_yAxis_multiples(
-      list(title = list(text = "Индекс сырьевых цен ЦЦИ, янв. 2022 = 100"), showFirstLabel = TRUE, max = 180, showLastLabel=TRUE,opposite = FALSE),
+      list(title = list(text = "Индекс сырьевых цен ЦЦИ, янв. 2022 = 100"), showFirstLabel = TRUE, max = 150, showLastLabel=TRUE,opposite = FALSE),
       list(title = list(text = "USD/RUB, рублей за доллар"), showLastLabel = FALSE, opposite = TRUE, reversed = TRUE)) %>%
    hc_add_series(df_index,type="line", hcaes(x = date, y = value, group=index), color = colors[1]) %>% 
    hc_add_series(df_noil_index,type="line", hcaes(x = date, y = value, group=index), color = colors[2], visible = TRUE) %>%
@@ -115,11 +117,11 @@ index_plot
 
 ------------------------------------------------------------------------
 
-**Изменение Сырьевого индекса ЦЦИ к предыдущей неделе: [+0,1 п.]{.my-custom-class style="color:#44bf78;"}** ([**-5,1 п.**]{.my-custom-class style="color:#f6514c;"} за последние 4 недели)
+**Изменение Сырьевого индекса ЦЦИ к предыдущей неделе: [-5,9 п.]{.my-custom-class style="color:#f6514c;"}** ([**-4,9 п.**]{.my-custom-class style="color:#f6514c;"} за последние 4 недели)
 
-Наибольшие изменения цен товаров за неделю: удобрения [**-3,9%**]{.my-custom-class style="color:#f6514c;"}, трубопроводный газ [**+3,3%**]{.my-custom-class style="color:#44bf78;"}
+Наибольшие изменения цен товаров за неделю: нефтm [**-14%**]{.my-custom-class style="color:#f6514c;"}, трубопроводный газ [**-13%**]{.my-custom-class style="color:#f6514c;"}
 
-Наибольшие вклады в изменение Индекса за неделю: удобрения [**-0,1 п.**]{.my-custom-class style="color:#f6514c;"}, трубопроводный газ [**+0,3 п.**]{.my-custom-class style="color:#44bf78;"}
+Наибольшие вклады в изменение Индекса за неделю: нефть [**-4,3 п.**]{.my-custom-class style="color:#f6514c;"}, трубопроводный газ [**-1,1 п.**]{.my-custom-class style="color:#f6514c;"}
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 
@@ -199,9 +201,9 @@ discount_plot
 
 ### [Ежемесячный мониторинг]{.my-custom-class style="color:#1a4afc;"}
 
-5 марта 2025. Сырьевой индекс ЦЦИ. **Экспортные цены вернулись на исходную**
+2 апреля 2025. Сырьевой индекс ЦЦИ. **Сырьевые цены смотрят на будущее с пессимизмом**
 
-[Материалы -\>](reports/2025-02 Сырьевой индекс ЦЦИ.pdf)
+[Материалы -\>](reports/2025-03%20Сырьевой%20индекс%20ЦЦИ.pdf)
 
 ### [События]{.my-custom-class style="color:#1a4afc;"}
 
