@@ -25,6 +25,7 @@ website:
           - href: markets/markets-coal.qmd
           - href: markets/markets-fertilizers.qmd
           - href: markets/markets-chemicals.qmd
+          - href: markets/markets-aromatics.qmd
           - href: markets/markets-wheat.qmd
           - href: markets/markets-oilseed.qmd
           - href: markets/markets-railways.qmd
