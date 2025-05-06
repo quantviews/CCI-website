@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function() {
 | Ставки фрахта нефти | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый вторник рабочей недели"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/Ставки%20фрахта%20нефти.pdf) |
 | Ставки фрахта нефтепродуктов | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый вторник рабочей недели"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/Ставки%20фрахта%20нефтепродуктов.pdf) |
 | Ставки перевалки нефти | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="31 января/31 июля"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/Ставки%20перевалки%20нефти.pdf) |
-| Ставки перевалки нефтепродуктов | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="31 января/31 июля"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/Ставки%20перевалки%20нефтепродуктов.pdf) |
+| Ставки перевалки нефтепродуктов | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="31 января/31 июля"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/freight/2024-12 ЦЦИ Ставки перевалки нефтепродуктов.pdf) |
 
 ## Российский газ
 
@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function() {
 | Ставки фрахта зерна | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый вторник рабочей недели"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/agro/Ставки%20фрахта%20зерна.pdf) |
 | Ставки перевалки зерна | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="31 января/31 июля"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/agro/Ставки%20перевалки%20зерна.pdf) |
 | Большой отчет о рынке растениеводства | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="Май/ноябрь"} | аналитика и вебинар | [Ссылка](https://pbc-index.ru/events/2024-09-13-wheat.html) |
-| Хопперы-зерновозы | [ежеквартально<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="15 апреля, 15 июля, 15 октября"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/logistics/Зерновозы демо сух-логистика.pdf) |
+| Хопперы-зерновозы | [ежеквартально<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="15 апреля, 15 июля, 15 октября"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/logistics/Зерновозы%20демо%20сух-логистика.pdf) |
 | Прогноз по урожаю, экспорту зерновых и масличных | [ежеквартально <sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="второй месяц квартала"} | консенсус-прогноз | [Ссылка](https://pbc-index.ru/reports/agro/Агро-консенсус.pdf) |
 
 ## Российская сухопутная логистика
@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function() {
 |:----------------:|:----------------:|:----------------:|:----------------:|
 | Ставки на полувагоны | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="Последний рабочий день месяца"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/logistics/ставки%20на%20полувагоны.pdf) |
 | Фитинговые платформы и контейнеры | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="15 число месяца или следующий рабочий день"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/logistics/Фитинговые%20платформы%20и%20контейнеры.pdf) |
-| Хопперы-зерновозы | [ежеквартально<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="15 апреля, 15 июля, 15 октября"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/logistics/Зерновозы демо сух-логистика.pdf) |
+| Хопперы-зерновозы | [ежеквартально<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="15 апреля, 15 июля, 15 октября"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/logistics/Зерновозы%20демо%20сух-логистика.pdf) |
 | Нэтбэки на уголь | [ежеквартально<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="14 марта / 16 июнь / 12 сентября / 12 декабря"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/logistics/Нэтбэки%20на%20уголь.pdf) |
 | Ставки перевалки угля, зерна, нефтеналивных грузов, контейнеров (цена за единицу) | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="31 января/31 июля"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/logistics/Ставки%20перевалки%20угля.pdf) |
 | Прогноз по ставкам на склады(коммерческая недвижимость) | [ежеквартально <sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="5 неделя квартала"} | консенсус-прогноз | [Ссылка](https://pbc-index.ru/reports/logistics/Пргноз%20по%20ставкам%20на%20склады(коммерческая%20недвижимость).pdf) |
