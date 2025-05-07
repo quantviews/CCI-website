@@ -226,7 +226,7 @@ format:
 ![](images/icon-barcode.svg)
 
 ::: hero-banner-content
-[Ж/д перевозки](markets/markets-railways.qmd){.hero-banner-title}
+[Ж/д контейнеры](markets/markets-railways.qmd){.hero-banner-title}
 
 <p class="hero-banner-date">
 
@@ -266,7 +266,7 @@ format:
 ![](images/icon-trolley.svg)
 
 ::: hero-banner-content
-[Хопперы](markets/markets-railways-wheat-van.qmd){.hero-banner-title}
+[Зерновозы](markets/markets-railways-wheat-van.qmd){.hero-banner-title}
 
 <p class="hero-banner-date">
 
@@ -366,11 +366,11 @@ format:
 ![](images/icon-barcode.svg)
 
 ::: hero-banner-content
-[Контейнеры](markets/markets-sea-container-ports.qmd){.hero-banner-title}
+[Перевалка. Контейнеры](markets/markets-sea-container-ports.qmd){.hero-banner-title}
 
 <p class="hero-banner-date">
 
-31.03.2025
+17.02.2025
 
 </p>
 
@@ -381,6 +381,90 @@ format:
 </p>
 :::
 ::::
+
+:::: hero-banner
+![](images/icon-wheat.svg)
+
+::: hero-banner-content
+[Перевалка. Зерно](markets/markets-sea-wheat-ports.qmd){.hero-banner-title}
+
+<p class="hero-banner-date">
+
+01.02.2025
+
+</p>
+
+<p class="hero-banner-caption">
+
+Новый календарный год не принес изменений тарифов
+
+</p>
+:::
+::::
+
+:::: hero-banner
+![](images/icon-coal.svg)
+
+::: hero-banner-content
+[Перевалка. Уголь](markets/markets-sea-coal-ports.qmd){.hero-banner-title}
+
+<p class="hero-banner-date">
+
+31.01.2025
+
+</p>
+
+<p class="hero-banner-caption">
+
+Морской экспорт угля остался ниже уровня предыдущего года
+
+</p>
+:::
+::::
+
+
+:::: hero-banner
+![](images/icon-oil.svg)
+
+::: hero-banner-content
+[Перевалка. Нефть](markets/markets-sea-oil-ports.qmd){.hero-banner-title}
+
+<p class="hero-banner-date">
+
+30.01.2025
+
+</p>
+
+<p class="hero-banner-caption">
+
+Тарифы на перевалку растут вслед за экспортными объемами
+
+</p>
+:::
+::::
+
+
+:::: hero-banner
+![](images/icon-oil-products.svg)
+
+::: hero-banner-content
+[Перевалка. НП](markets/markets-sea-oil-products-ports.qmd){.hero-banner-title}
+
+<p class="hero-banner-date">
+
+16.02.2025
+
+</p>
+
+<p class="hero-banner-caption">
+
+Ставки перевалки нефтепродуктов выросли вопреки снижению экспорта
+
+</p>
+:::
+::::
+
+
 :::::::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::
 

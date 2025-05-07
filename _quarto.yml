@@ -36,6 +36,10 @@ website:
           - href: markets/freight-wheat.qmd
           - href: markets/freight-coal.qmd
           - href: markets/markets-sea-container-ports.qmd
+          - href: markets/markets-sea-wheat-ports.qmd
+          - href: markets/markets-sea-coal-ports.qmd
+          - href: markets/markets-sea-oil-ports.qmd
+          - href: markets/markets-sea-oil-products-ports.qmd
       - text: Прогнозы
         menu: 
           - href: forecasts/forecast-fx.qmd
