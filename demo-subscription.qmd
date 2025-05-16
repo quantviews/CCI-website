@@ -42,6 +42,8 @@ document.addEventListener("DOMContentLoaded", function() {
 </style>
 ```
 
+</p>
+
 # ![](../images/icon-subscription.svg)Подписка
 
 Подписка включает регулярно обновляемые данные о ценах в формате Excel и аналитические отчеты.
@@ -87,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function() {
 | Ставки фрахта нефти | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый вторник рабочей недели"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/Ставки%20фрахта%20нефти.pdf) |
 | Ставки фрахта нефтепродуктов | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый вторник рабочей недели"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/Ставки%20фрахта%20нефтепродуктов.pdf) |
 | Ставки перевалки нефти | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="31 января/31 июля"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/Ставки%20перевалки%20нефти.pdf) |
-| Ставки перевалки нефтепродуктов | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="31 января/31 июля"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/freight/2024-12 ЦЦИ Ставки перевалки нефтепродуктов.pdf) |
+| Ставки перевалки нефтепродуктов | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="31 января/31 июля"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/freight/2024-12%20ЦЦИ%20Ставки%20перевалки%20нефтепродуктов.pdf) |
 
 ## Российский газ
 
