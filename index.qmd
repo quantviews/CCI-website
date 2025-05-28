@@ -44,11 +44,9 @@ format:
 :::
 
 ::: {style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; text-align: center;"}
-<iframe 
-    src="https://vk.com/video_ext.php?oid=-227681629&id=456239053&hd=2"
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
-    allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" 
-    allowfullscreen> </iframe>
+<iframe src="https://vk.com/video_ext.php?oid=-227681629&amp;id=456239053&amp;hd=2" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" allowfullscreen>
+
+</iframe>
 :::
 :::::
 
@@ -64,13 +62,13 @@ format:
 
 <p class="hero-banner-date">
 
-14.05.2025
+21.05.2025
 
 </p>
 
 <p class="hero-banner-caption">
 
-Торговые переговоры США и Китая переворачивают нефтяной рынок
+Дисконт на нефть ESPO достиг 4-месячного минимума
 
 </p>
 :::
@@ -84,13 +82,13 @@ format:
 
 <p class="hero-banner-date">
 
-14.05.2025
+21.05.2025
 
 </p>
 
 <p class="hero-banner-caption">
 
-Дисконты на ДТ возвращаются к значениям января 2025 г.
+Экспортная судьба бензина вновь под ударом
 
 </p>
 :::
@@ -124,13 +122,13 @@ format:
 
 <p class="hero-banner-date">
 
-28.04.2025
+26.05.2025
 
 </p>
 
 <p class="hero-banner-caption">
 
-Праздники в Китае немного оживили рынок
+Ситуация стабильно сложная
 
 </p>
 :::
@@ -144,13 +142,13 @@ format:
 
 <p class="hero-banner-date">
 
-28.04.2025
+26.05.2025
 
 </p>
 
 <p class="hero-banner-caption">
 
-Индия утолила азотный голод
+За тарифную спесивость заплатят фермеры, но не российские
 
 </p>
 :::
@@ -204,13 +202,13 @@ format:
 
 <p class="hero-banner-date">
 
-19.05.2025
+26.05.2025
 
 </p>
 
 <p class="hero-banner-caption">
 
-USDA прогнозирует рекордный урожай пшеницы в 2025/26 г.
+Никаких рекомендаций по цене экспорта пшеницы до конца сезона
 
 </p>
 :::
@@ -304,13 +302,13 @@ USDA прогнозирует рекордный урожай пшеницы в 
 
 <p class="hero-banner-date">
 
-13.05.2025
+20.05.2025
 
 </p>
 
 <p class="hero-banner-caption">
 
-Майские праздники охладили экспортную активность
+Фрахт обновил годовой минимум и вернулся к уровню конца 2024 г.
 
 </p>
 :::
@@ -324,13 +322,13 @@ USDA прогнозирует рекордный урожай пшеницы в 
 
 <p class="hero-banner-date">
 
-13.05.2025
+20.05.2025
 
 </p>
 
 <p class="hero-banner-caption">
 
-Фрахт светлых нефтепродуктов рухнул, вновь став дешевле темных
+Ставки «Aframax» вернулись на уровень осени 2024 г.
 
 </p>
 :::

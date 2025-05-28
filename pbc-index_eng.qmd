@@ -115,22 +115,22 @@ index_plot
 
 ------------------------------------------------------------------------
 
-**PBC Commodity Index change to the previous week: [0.0 п.]{.my-custom-class style="color:44bf78;"}** ([**-4.8 п.**]{.my-custom-class style="color:#f6514c;"} over the previous four weeks)
+**PBC Commodity Index change to the previous week: [+0.1 п.]{.my-custom-class style="color:#44bf78;"}** ([**-1.0 п.**]{.my-custom-class style="color:#f6514c;"} over the previous four weeks)
 
-The biggest commodity price changes over the week: Crude Oil [**+0.8%**]{.my-custom-class style="color:#44bf78;"}, Natural Gaz [**-1.7%**]{.my-custom-class style="color:#f6514c;"}
+The biggest commodity price changes over the week: Pipeline Gaz [**+4.3%**]{.my-custom-class style="color:#44bf78;"}, Petroleum Products [**-2.4%**]{.my-custom-class style="color:#f6514c;"}
 
-Over the week the Index has been mainly affected by: Crude Oil [**-3.0 p.**]{.my-custom-class style="color:#f6514c;"}, Natural Gaz [**-1.2 p.**]{.my-custom-class style="color:#f6514c;"}
+Over the week the Index has been mainly affected by: Pipeline Gaz [**+0.3 p.**]{.my-custom-class style="color:#44bf78;"}, Petroleum Products [**-0.1 p.**]{.my-custom-class style="color:#f6514c;"}
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 df_eng  <- read.xlsx('xls/ЦЦИ Сырьевой индекс.xlsx', sheet = 2, detectDates = TRUE)
 
 df_factor <- df_eng[12:21,] %>% pivot_longer(-X1, names_to = "date", values_to = 'value')
 df_factor$date <- as.Date(df_factor$date)
-df_factor <- subset(df_factor, df_factor$date>'2024-02-01')
+df_factor <- subset(df_factor, df_factor$date>'2024-05-01')
 
 df_diff <- df_eng[11,] %>% pivot_longer(-X1, names_to = "date", values_to = 'value')
 df_diff$date <- as.Date(df_diff$date)
-df_diff <- subset(df_diff, df_diff$date>'2024-02-01')
+df_diff <- subset(df_diff, df_diff$date>'2024-05-01')
 
 factor_plot <- highchart() %>% 
    #hc_chart(type  = 'column') %>%
