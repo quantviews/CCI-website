@@ -3,6 +3,7 @@ import subprocess
 from ftplib import FTP
 import sys
 import os 
+import shutil
 
 # Add /py to import path and import validation
 sys.path.append("py")
@@ -10,8 +11,32 @@ from validate_excel import validate_excel
 
 # === Basic paths (relative to project root) ===
 ROOT = Path.cwd()
-WATCHED_FILE = ROOT / "data" / "Исходные данные.xlsx"
+
+#WATCHED_FILE = ROOT / "data" / "Исходные данные.xlsx"
+#MARKETS_DIR = ROOT / "docs" / "markets"
+
+DATA_DIR = ROOT / "data"
 MARKETS_DIR = ROOT / "docs" / "markets"
+
+# Найти последний .xlsx-файл по дате модификации
+excel_files = sorted(DATA_DIR.glob("*.xlsx"), key=lambda f: f.stat().st_mtime, reverse=True)
+
+if not excel_files:
+    print("❌ No Excel files found in data/")
+    exit(1)
+
+latest_file = excel_files[0]
+print(f"ℹ️ Found latest file: {latest_file.name}")
+
+# Переименовываем в "Исходные данные.xlsx"
+WATCHED_FILE = DATA_DIR / "Исходные данные.xlsx"
+
+# Если старый файл с этим именем уже есть — удалим
+if WATCHED_FILE.exists():
+    WATCHED_FILE.unlink()
+
+shutil.move(str(latest_file), str(WATCHED_FILE))
+print(f"✅ Renamed {latest_file.name} → Исходные данные.xlsx")
 
 # === FTP Configuration ===
 FTP_HOST = os.getenv("FTP_HOST")
