@@ -1,0 +1,53 @@
+---
+title: "Пятница с Центром ценовых индексов: газ и химия"
+date: 21/03/2025
+lang: ru
+---
+
+</p>
+
+## Пятница с ЦЦИ: Газ и Химия
+
+21 марта 2025 г.
+
+### Основные темы
+
+-   Президент Трамп обещает существенно увеличить добычу газа в США и вынуждает страны покупать больше американского СПГ под угрозой тарифов. Удастся ли Трампу реализовать планы по силовому маркетингу и какие перспективы на газовом рынке США нас ожидают в ближайшие 4 года.
+-   Спрос на газ в ЕС начал постепенно восстанавливаться в конце 2024 г. из-за холодной погоды и этого хватило для резкого взлета цен. Как прошел отопительный сезон в ЕС и сможет ли ЕС найти газ для следующего?
+-   Азия остается локомотивом спроса на газ, но в начале 2025 г. наблюдается замедление спроса из-за взлета цен. Но Индия и Китай остаются крупнейшими производителями и потребителями карбамида в мире. В 2024 г. из-за увеличения объемов потребления карбамида при снижении производства, Индии пришлось использовать свои запасы. Китай в 2024 г. увеличил объем производства карбамида и сократил до минимума объемы экспорта.
+
+## Записи вебинаров в наших социальных сетях
+
+::::: {.grid style="margin-left:0%"}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+1.  [YouTube](https://youtube.com/@cci.friday)
+
+![](../fig/qr-cci-youtube.png)
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+2.  [ВК](https://vk.com/cci.friday)
+
+![](../fig/qr-cci-vk.png)
+:::
+:::::
+
+### Запись вебинара
+
+1.  Газовый ТРАМПлин в США
+
+<iframe src="https://vkvideo.ru/video_ext.php?oid=-227681629&amp;id=456239048&amp;hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen>
+
+</iframe>
+
+2.  Газовый рынок Европы показал признаки жизни?
+
+<iframe src="https://vkvideo.ru/video_ext.php?oid=-227681629&amp;id=456239049&amp;hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen>
+
+</iframe>
+
+3.  Азия: Азотный суверенитет требует больше газа
+
+<iframe src="https://vkvideo.ru/video_ext.php?oid=-227681629&amp;id=456239050&amp;hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen>
+
+</iframe>

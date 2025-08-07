@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="545.33771"
+   height="108.0386"
+   overflow="hidden"
+   version="1.1"
+   id="svg18"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs18" />
+  <g
+     id="g18"
+     transform="translate(-344.69455,-266.49518)">
+    <rect
+       x="0"
+       y="0"
+       width="1280"
+       height="720"
+       fill="#ffffff"
+       id="rect1" />
+    <text
+       fill="#1a4afc"
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="19px"
+       transform="translate(356.84,292)"
+       id="text1">Транспортировка угля</text>
+    <text
+       fill="#1a4afc"
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="19px"
+       transform="translate(356.84,314)"
+       id="text2">Кузбасс</text>
+    <text
+       fill="#1a4afc"
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="19px"
+       transform="translate(433.507,314)"
+       id="text3">–</text>
+    <text
+       fill="#1a4afc"
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="19px"
+       transform="translate(448.007,314)"
+       id="text4">Находка</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-style="oblique"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(354.412,347)"
+       id="text5">(тариф РЖД + предоставление</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-style="oblique"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(354.412,365)"
+       id="text6">инновационного полувагона)</text>
+    <text
+       fill="#1a4afc"
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="37px"
+       transform="translate(626.1,310)"
+       id="text7">4</text>
+    <text
+       fill="#1a4afc"
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="37px"
+       transform="translate(656.6,310)"
+       id="text8">2</text>
+    <text
+       fill="#1a4afc"
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="37px"
+       transform="translate(677.1,310)"
+       id="text9">18</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-style="oblique"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(619.846,355)"
+       id="text10">руб./т без НДС</text>
+    <text
+       fill="#1a4afc"
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="21px"
+       transform="translate(778.509,300)"
+       id="text11">Ма</text>
+    <text
+       fill="#1a4afc"
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="21px"
+       transform="translate(806.009,300)"
+       id="text12">й</text>
+    <text
+       fill="#1a4afc"
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="21px"
+       transform="translate(823.842,300)"
+       id="text13">2025</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="21px"
+       transform="translate(774.148,355)"
+       id="text14">-</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="21px"
+       transform="translate(781.481,355)"
+       id="text15">1</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="21px"
+       transform="translate(789.648,355)"
+       id="text16">,</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="21px"
+       transform="translate(795.648,355)"
+       id="text17">3</text>
+    <text
+       font-family="CeraCY-Regular, CeraCY-Regular_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="21px"
+       transform="translate(807.148,355)"
+       id="text18">%</text>
+    <path
+       d="m 885,335 -15,25 -15,-25 z"
+       fill="#c00000"
+       fill-rule="evenodd"
+       id="path18" />
+  </g>
+  <rect
+     style="opacity:0;fill:#ffffff;fill-rule:evenodd"
+     id="rect18"
+     width="545.33765"
+     height="108.0386"
+     x="0"
+     y="0" />
+</svg>

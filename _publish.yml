@@ -1,0 +1,6 @@
+- source: project
+  quarto-pub:
+    - id: d55c3f9b-42a3-476e-9d8c-55957daa6822
+      url: 'https://cci.quarto.pub/cci-site'
+    - id: 80a68563-3eaa-497e-ace8-c656e2a4409e
+      url: 'https://cci.quarto.pub/cci-site'

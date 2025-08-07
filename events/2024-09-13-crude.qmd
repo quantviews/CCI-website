@@ -1,0 +1,61 @@
+---
+title: "Пятница с ЦЦИ: корабли с черным золотом (13 сентября 2024)"
+---
+
+## Пятница с ЦЦИ: корабли с черным золотом
+
+13 сентября 2024
+
+### Основные темы
+
+-   Особенности морского путешествия российской нефти
+-   Сколько стоит круиз от Балтики до Китая?
+-   Логистика = дисконт?
+
+## Записи вебинаров в наших социальных сетях
+
+:::::: {.grid style="margin-left:0%"}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+
+
+1. [YouTube](https://youtube.com/@cci.friday?si=bXQxJdxy57pPoB2R)
+
+![](../fig/qr-cci-youtube.png)
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+
+
+2. [ВК](https://vk.com/cci.friday)
+
+![](../fig/qr-cci-vk.png)
+:::
+
+::::::
+
+
+### Запись вебинара
+
+1.  Что такое аренда судна и какие бывают фрахтовые расходы
+
+<iframe src="https://vkvideo.ru/video_ext.php?oid=772704656&amp;id=456239023&amp;hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen>
+
+</iframe>
+
+2.  География и объёмы экспорта российской нефти
+
+<iframe src="https://vkvideo.ru/video_ext.php?oid=772704656&amp;id=456239022&amp;hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen>
+
+</iframe>
+
+3.  Страхование морских перевозок нефти
+
+<iframe src="https://vkvideo.ru/video_ext.php?oid=772704656&amp;id=456239024&amp;hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen>
+
+</iframe>
+
+4.  Стоимость фрахта российской нефти
+
+<iframe src="https://vkvideo.ru/video_ext.php?oid=772704656&amp;id=456239021&amp;hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen>
+
+</iframe>

@@ -1,0 +1,75 @@
+---
+title: "Пятница с Центром ценовых индексов: логистика"
+date: 07/02/2025
+lang: ru
+---
+
+## Пятница с ЦЦИ: логистика
+
+07 февраля 2025 г.
+
+### Основные темы
+
+-   Как российские нефть, уголь, зерно, удобрения попадают на мировые рынки и сколько это стоит?
+-   Какова доля логистических затрат в конечной стоимости товара?
+-   Почему уголь на Дальний Восток везти дорого, а продукты питания едут туда за бесплатно?
+-   Кто в логистическом секторе может занести год себе в актив, а кто мечтает о переменах?
+
+## Записи вебинаров в наших социальных сетях
+
+:::::: {.grid style="margin-left:0%"}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+
+
+1. [YouTube](https://youtube.com/@cci.friday?si=bXQxJdxy57pPoB2R)
+
+![](../fig/qr-cci-youtube.png)
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+
+
+2. [ВК](https://vk.com/cci.friday)
+
+![](../fig/qr-cci-vk.png)
+:::
+
+::::::
+
+### Запись вебинара
+
+1.  Российская экономика продолжает разворот на Восток
+
+<iframe src="https://vkvideo.ru/video_ext.php?oid=-227681629&amp;id=456239026&amp;hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen>
+
+</iframe>
+
+2.  Почему экспортёры угля работают на логистов?
+
+<iframe src="https://vk.com/video_ext.php?oid=-227681629&amp;id=456239027&amp;hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen>
+
+</iframe>
+
+3.  Стоимость морского фрахта зерновых идёт вслед за динамикой их экспорта
+
+<iframe src="https://vk.com/video_ext.php?oid=-227681629&amp;id=456239025&amp;hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen>
+
+</iframe>
+
+4.  Фрахт тёмных нефтепродуктов превысил стоимость фрахта светлых
+
+<iframe src="https://vk.com/video_ext.php?oid=-227681629&amp;id=456239028&amp;hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen>
+
+</iframe>
+
+5.  О парадоксах контейнерного рынка
+
+<iframe src="https://vk.com/video_ext.php?oid=-227681629&amp;id=456239029&amp;hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen>
+
+</iframe>
+
+6.  Об охлаждении рынка грузовых автоперевозок и импорте авто
+
+<iframe src="https://vk.com/video_ext.php?oid=-227681629&amp;id=456239030&amp;hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen>
+
+</iframe>

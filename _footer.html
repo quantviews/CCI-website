@@ -1,0 +1,138 @@
+<footer class="footer-wrapper">
+    <div class="footer-content">
+        <div class="footer-column">
+            <h3>Теги</h3>
+            <ul>
+                <li><a href="methodology.html">Методология</a></li>
+                <li><a href="events.html">События</a></li>
+                <li><a href="demo-subscription.html">Подписка</a></li>
+                <li><a href="subscribe.html">Оформить подписку</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Информация</h3>
+            <ul>
+                <li><a href="pdf/privacy.pdf">Политика в отношении обработки персональных данных</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Присоединиться</h3>
+            <div class="social-icons">
+                <a href="https://vk.com/cci.friday" target="_blank">
+                    <img src="https://pbc-index.ru/images/vk.png" alt="VK">
+                </a>
+                <a href="https://www.youtube.com/@CCI.Friday" target="_blank">
+                    <img src="https://pbc-index.ru/images/youtube.png" alt="YouTube">
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-column">
+            <h3>Поиск</h3>
+            <div class="search-box">
+                <form action="https://www.google.com/search" method="get" target="_blank">
+                    <input type="hidden" name="q" value="site:https://pbc-index.ru/">
+                    <input type="text" name="q" placeholder="Поиск" class="search-input">
+                    <button type="submit" class="search-button">🔍</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<style>
+.footer-wrapper {
+    background-color: rgb(26, 74, 252);
+    color: white;
+    padding: 40px 0;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.footer-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.footer-wrapper a {
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+.footer-wrapper a:hover {
+    opacity: 0.8;
+}
+
+.footer-wrapper h3 {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.search-box form {
+    display: flex;
+    width: 100%;
+}
+
+.search-input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    width: 200px;
+    font-family: inherit;
+}
+
+.search-button {
+    padding: 8px 16px;
+    border: none;
+    background: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr 1fr;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+}
+</style> 

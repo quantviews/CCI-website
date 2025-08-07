@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.quarto/
+_site/
+xls/
+.Rproj.user/
+org/
+rsconnect/
+/.quarto/

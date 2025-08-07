@@ -1,0 +1,105 @@
+project:
+  type: website
+  output-dir: docs
+  
+lang: ru
+
+website:
+  title: "ЦЦИ"
+  favicon: images/banner3.png
+  google-analytics: "G-TNGWX5Y7FL"
+  navbar:
+    title: false
+    logo: images/logo.png
+    background: "#1A4AFC" 
+    right:
+      - text: Оформить подписку
+        href: subscribe.qmd
+    left:
+      - text: Рынки
+        menu: 
+          - href: pbc-index.qmd
+          - href: markets/markets-oil.qmd
+          - href: markets/markets-oil-products.qmd
+          - href: markets/markets-gas.qmd
+          - href: markets/markets-coal.qmd
+          - href: markets/markets-fertilizers.qmd
+          - href: markets/markets-chemicals.qmd
+          - href: markets/markets-aromatics.qmd
+          - href: markets/markets-wheat.qmd
+          - href: markets/markets-oilseed.qmd
+          - href: markets/markets-railways.qmd
+          - href: markets/markets-railways-van.qmd
+          - href: markets/markets-railways-wheat-van.qmd
+          - href: markets/freight-crude.qmd
+          - href: markets/freight-products.qmd
+          - href: markets/freight-wheat.qmd
+          - href: markets/freight-coal.qmd
+          - href: markets/markets-sea-container-ports.qmd
+          - href: markets/markets-sea-wheat-ports.qmd
+          - href: markets/markets-sea-coal-ports.qmd
+          - href: markets/markets-sea-oil-ports.qmd
+          - href: markets/markets-sea-oil-products-ports.qmd
+      - text: Прогнозы
+        menu: 
+          - href: forecasts/forecast-fx.qmd
+          - href: forecasts/forecast-gas.qmd
+          - href: forecasts/forecast-fertilizers.qmd
+          - href: forecasts/forecast-agro.qmd
+          - href: forecasts/forecast-real-estate.qmd
+      - text: Методология
+        href: methodology.qmd
+      - href: events.qmd
+        text: События
+      - href: demo-subscription.qmd
+        text: Подписка 
+      - href: about.qmd
+        text: О нас
+      - href: contacts.qmd
+        text: Контакты
+  
+  sidebar:
+    - id   : Рынки
+      title: "Рынки"
+      style: "docked"
+      background: light
+      contents:
+        - text: "О нас"
+          href: about.qmd
+        - section: "Рынки"
+          contents:
+            - pbc-index.qmd
+            - markets/markets-oil.qmd
+            - markets/markets-oil-products.qmd
+            - markets/markets-coal.qmd
+            - markets/markets-fertilizers.qmd
+            - markets/markets-chemicals.qmd
+            - markets/markets-wheat.qmd
+            - markets/markets-oilseed.qmd
+            - markets/markets-railways.qmd
+            - markets/markets-sea-freight.qmd
+            - markets/markets-sea-container-ports.qmd
+        - section: "Прогнозы"
+          contents:
+           - forecasts/forecast-fx.qmd
+           - forecasts/forecast-gas.qmd
+           - forecasts/forecast-fertilizers.qmd
+           - forecasts/forecast-agro.qmd
+           - forecasts/forecast-real-estate.qmd
+        - text: "Методология"
+          href: methodology.qmd
+      
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    mainfont: "Cera"
+    page-layout: article
+    include-after-body: _footer.html
+    
+
+editor: visual
+
+metadata:
+  description: "Центр ценовых индексов (ЦЦИ) – российское ценовое агентство. Оперативно публикуем цены на товары российского экспорта и логистику."

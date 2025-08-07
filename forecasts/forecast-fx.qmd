@@ -1,0 +1,118 @@
+---
+title: "Макроконсенсус"
+sidebar: false
+format:
+   html:
+      html-table-processing: none
+      page-layout: custom
+      grid:
+         body-width: 800px
+---
+
+# ![](../images/icon-consensus-macro.svg) Макроконсенсус ЦЦИ {.my-custom-class style="margin-left:3%;"}
+
+::::::::::: grid
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-10 .g-col-md-6 .g-col-lg-6}
+**Макроконсенсус ЦЦИ** -- ежемесячный опрос профессиональных аналитиков по макроэкономике об их прогнозах относительно наиболее вероятного сценария развития экономики на горизонте 2-х лет в части ВВП, процентных ставок и курсов валют.
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-10 .g-col-md-6 .g-col-lg-6}
+## Результаты опроса: июль 2025 г.
+
+```{r, warning = FALSE, echo = FALSE, message = FALSE}
+library(kableExtra)
+library(knitr)
+#library(rhandsontable)
+library(openxlsx)
+df <- read.xlsx('../xls/ЦЦИ Макроконсенсус.xlsx', sheet = 1)
+
+df %>%
+   kbl() %>%
+   kable_styling(bootstrap_options = "hover")
+
+# kable(df, format='html', table.attr = "class = \"consensus-table\"", digits=1, lable = TRUE) %>%
+#   row_spec(0, color = "#1A4AFC", background = "white", font_size = "larger", bold = TRUE, align = "right")
+```
+
+\*Актуальные даные и скрытые значения доступны по [подписке](../subscribe.qmd)
+
+\*\*В скобках указаны значения предыдущего опроса
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-5 .g-col-md-6 .g-col-lg-6}
+## Основные наблюдения
+
+Аналитики по-прежнему ожидают ослабления курса рубля к концу года, но прогнозы становятся более умеренными – 87,8 руб./долл. (+10% к текущему уровню) после 94 руб./долл. в опросе июня. Такие ожидания предполагают, что курс с поправкой на уровень цен останется на 8% крепче медианного значения за период с 2015 по 2025 гг.
+
+После снижения ключевой ставки на 2 п.п. на заседании Банка России 25 июля аналитики в среднем ожидают замедления темпов ее снижения на предстоящих трех заседаниях до конца года. Ключевая ставка может быть снижена до 14-16% к концу 2025 г., преобладает верхняя граница (9/14).
+
+:::
+
+:::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-5 .g-col-md-6 .g-col-lg-6}
+::: {style="text-align: right"}
+## Консенсус-прогноз курса юаня
+
+```{r, warning = FALSE, echo = FALSE, message = FALSE}
+library(openxlsx)
+library(tidyr)
+library(highcharter)
+library(xts)
+
+df = read.xlsx('../xls/ЦЦИ Макроконсенсус.xlsx', sheet = 2, detectDates = TRUE)
+df_cnyrub_last = df[1,]
+df_cnyrub_prev = df[2,]
+df_cnyrub_range = df[3:4,]
+names(df_cnyrub_last)[1] <- "index"
+names(df_cnyrub_prev)[1] <- "index"
+df_cnyrub_last <- df_cnyrub_last %>% pivot_longer(!index, names_to = "date", values_to = 'value')
+df_cnyrub_last$date <- as.Date(df_cnyrub_last$date)
+df_cnyrub_last$index = 'CNY/RUB'
+df_cnyrub_prev <- df_cnyrub_prev %>% pivot_longer(!index, names_to = "date", values_to = 'value')
+df_cnyrub_prev$date <- as.Date(df_cnyrub_prev$date)
+df_cnyrub_prev$index = 'CNY/RUB, (пред.опрос)'
+df_cnyrub_range <- df_cnyrub_range %>% pivot_longer(-X1, names_to = "date", values_to = 'value')
+df_cnyrub_range$date <- as.Date(df_cnyrub_range$date)
+
+hc <- highchart() %>% 
+   hc_xAxis(type = "datetime") %>%
+   hc_yAxis(title  = list(text = 'руб. за юань'), max = 16, min = 11) %>% 
+   hc_plotOptions(area = list(stacking = 'normal')) %>%
+   hc_add_series(df_cnyrub_range, hcaes(x = date, y = round(value,2), group = X1), type = 'area', color = c('#d1e5ff','#ffffff')) %>%
+   hc_add_series(df_cnyrub_last, type="line", hcaes(x = date, y = round(value,2), group=index), color = "#1A4AFC", dataLabels = TRUE) %>%
+   hc_add_series(df_cnyrub_prev, type="line", hcaes(x = date, y = round(value,2), group=index), color = "#1A4AFC", dashStyle = "ShortDash")
+
+# поменять названия месяцев на русские. по умолчанию - на английском
+hc$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
+hc$x$conf_opts$lang$shortMonths = c("Янв", 	"Фев",	"Мар",	"Апр",	"Май",	"Июн",	"Июл",	"Авг",	"Сен",	"Окт",	"Ноя",	"Дек")
+
+hc
+```
+:::
+::::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-10 .g-col-md-6 .g-col-lg-6}
+## Список участников
+
+В опросе приняли участие 14 профессиональных аналитиков
+
+| <!-- --> | <!-- --> | <!-- --> |
+|------------------------|--------------------------|----------------------|
+| Акиндинова Наталья ("Центр Развития" НИУ ВШЭ) | Вотинов Антон, Овчинников Вячеслав (ЦМИ НИФИ Минфина России) | Полевой Дмитрий (Астра управление активами) |
+| Бирюков Павел (Газпромбанк) | Жирнов Григорий | ![](../images/PBC_silver.svg){width="50"} Попов Денис (Промсвязьбанк) |
+| Вайсберг Валерий (ИК РЕГИОН) | Клепач Андрей (ВЭБ.РФ) | Салихов Марсель (Институт энергетики и финансов) |
+| ![](../images/PBC_gold.svg){width="50"} Васильев Михаил (Совкомбанк) | Команда ЦМИ (Сбер) | ![](../images/PBC_bronze.svg){width="50"} Тарасенко Дарья (ЦЭП Газпромбанка) |
+| Виноградов Артем, Попов Юрий (Сбер КИБ) | Куликов Дмитрий (АКРА) |  |
+
+*Медалями отмечены участники консенсуса с наиболее точными прогнозами в 2024 г.*
+:::
+
+:::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+::: {style="text-align: left"}
+## Методология
+
+[Методология консенсуса](../methodology/methodology-consensus-pbc.qmd)
+
+[Спецификация макроконсенсуса](../pdf/Macro%20Specifications%20PBC.pdf)
+:::
+::::
+:::::::::::

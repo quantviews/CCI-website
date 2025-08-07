@@ -1,0 +1,63 @@
+---
+title: "Пятница с ЦЦИ: уголь (25 октября 2024)"
+date: 25/10/2024
+lang: ru
+---
+
+## Пятница с ЦЦИ: уголь
+
+25 октября 2024 г.
+
+### Основные темы
+
+-   Состояние мировой экономики и меры экономической поддержки Китая
+-   Экспортные рынки углей и цены на уголь
+-   Рынки полувагонов и нетбэки на уголь
+
+## Записи вебинаров в наших социальных сетях
+
+:::::: {.grid style="margin-left:0%"}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+
+
+1. [YouTube](https://youtube.com/@cci.friday?si=bXQxJdxy57pPoB2R)
+
+![](../fig/qr-cci-youtube.png)
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+
+
+2. [ВК](https://vk.com/cci.friday)
+
+![](../fig/qr-cci-vk.png)
+:::
+
+::::::
+
+
+### Запись вебинара
+
+1.  Есть ли надежда на Китай?
+
+<iframe src="https://vk.com/video_ext.php?oid=-227681629&amp;id=456239021&amp;hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen>
+
+</iframe>
+
+2.  Дожди охладили жару в Индии
+
+<iframe src="https://vk.com/video_ext.php?oid=-227681629&amp;id=456239022&amp;hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen>
+
+</iframe>
+
+3.  Вьетнам - растущая надежда?
+
+<iframe src="https://vk.com/video_ext.php?oid=-227681629&amp;id=456239023&amp;hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen>
+
+</iframe>
+
+4.  Российская логистика и экспорт: воз и ныне там
+
+<iframe src="https://vk.com/video_ext.php?oid=-227681629&amp;id=456239024&amp;hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen>
+
+</iframe>
