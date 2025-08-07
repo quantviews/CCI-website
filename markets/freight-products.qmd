@@ -27,7 +27,6 @@ format:
 
 По результатам июля 2025 г. стоимость транспортировки светлых нефтепродуктов из портов Балтики увеличилась на 1,4-3,8 долл./т м/м, из портов АЧБ – варьировалась в диапазоне от -0,4 до +1,2 долл./т м/м.
 
-
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
 *29.07.2025 Морская логистика. Нефтепродукты*
@@ -49,7 +48,6 @@ format:
 С 21 января 2026 г. Евросоюз ограничил брокерские услуги, транспорт и импорт нефтепродуктов, произведенных из российской нефти за пределами РФ.
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
-
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
@@ -64,31 +62,31 @@ library(dplyr)
 
 # сейчас в файле Excel неполная история 
 
-FILE <- ('../../../IEF Freight/Нефть и нефтепродукты/Расчет/Опрос фрахт БД.xlsx')
-df = read.xlsx(FILE, sheet = "data_web")
-df = df[, c(1,28:29)]
-names(df) <- c('date', 'DPP', 'CPP')
-df = df[-1,]
-df$date = as.Date(as.numeric(df$date), origin = "1899-12-30")
+#FILE <- ('../../../IEF Freight/Нефть и нефтепродукты/Расчет/Опрос фрахт БД.xlsx')
+#df = read.xlsx(FILE, sheet = "data_web")
+#df = df[, c(1,28:29)]
+#names(df) <- c('date', 'DPP', 'CPP')
+#df = df[-1,]
+#df$date = as.Date(as.numeric(df$date), origin = "1899-12-30")
 
-write.csv(x = df, file = '../xls/freight-products.csv', row.names = FALSE)
+#write.csv(x = df, file = '../xls/freight-products.csv', row.names = FALSE)
 
 
-hc <- highchart() %>%
-  hc_chart(type = "line") %>%
-  hc_xAxis(categories = df$date, type = 'datetime') %>%
-  hc_add_series(name = "Темные НП", data = df$DPP, type = "line", color = "#1A4AFC", marker = list(enabled = FALSE)) %>%
-  hc_add_series(name = "Светлые НП", data = df$CPP, type = "line", color = "#FF7900", marker = list(enabled = FALSE)) %>%
-   hc_yAxis(title  = list(text = '$/т')) %>% 
-  hc_tooltip(shared = TRUE) %>%
-  hc_exporting(enabled = FALSE) %>%
-  hc_legend(enabled = TRUE)
+#hc <- highchart() %>%
+#  hc_chart(type = "line") %>%
+#  hc_xAxis(categories = df$date, type = 'datetime') %>%
+#  hc_add_series(name = "Темные НП", data = df$DPP, type = "line", color = "#1A4AFC", marker = list(enabled = #FALSE)) %>%
+#  hc_add_series(name = "Светлые НП", data = df$CPP, type = "line", color = "#FF7900", marker = list(enabled #= FALSE)) %>%
+#   hc_yAxis(title  = list(text = '$/т')) %>% 
+#  hc_tooltip(shared = TRUE) %>%
+#  hc_exporting(enabled = FALSE) %>%
+#  hc_legend(enabled = TRUE)
 
 # поменять названия месяцев на русские. по умолчанию - на английском
-hc$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
-hc$x$conf_opts$lang$shortMonths = c("Янв", 	"Фев",	"Мар",	"Апр",	"Май",	"Июн",	"Июл",	"Авг",	"Сен",	"Окт",	"Ноя",	"Дек")
+#hc$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	#"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
+#hc$x$conf_opts$lang$shortMonths = c("Янв", 	"Фев",	"Мар",	"Апр",	"Май",	"Июн",	"Июл",	"Авг",	#"Сен",	"Окт",	"Ноя",	"Дек")
 
-hc
+#hc
 ```
 
 [*Примечание: ставка экспорта российской нефтепродуктов рассчитывается как среднее арифметическое наиболее ликвидных базисов. Источник — еженедельные отчеты ЦЦИ «Перевозки нефтепродуктов. Ставки фрахта». Полный список публикуемых ставок доступен в [Спецификации ставок морского фрахта.](../methodology/specs-freight.qmd)*]{style="font-size:0.75em"}
