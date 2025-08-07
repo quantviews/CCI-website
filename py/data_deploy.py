@@ -2,6 +2,7 @@ from pathlib import Path
 import subprocess
 from ftplib import FTP
 import sys
+import os 
 
 # Add /py to import path and import validation
 sys.path.append("py")
