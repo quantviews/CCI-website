@@ -34,7 +34,7 @@ jobs:
         
       - name: Install R packages
         run: |
-          Rscript -e 'install.packages(c("openxlsx", "highcharter", "tidyr", "xts", "dplyr"), repos="https://cloud.r-project.org")'
+          Rscript -e 'install.packages(c("zoo", "TTR", "curl", "quantmod", "openxlsx", "tidyr", "xts", "dplyr", "highcharter"), repos="https://cloud.r-project.org")'
 
       - name: Run deploy script
         run: python py/data_deploy.py
