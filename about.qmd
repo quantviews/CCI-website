@@ -23,5 +23,4 @@ title: "О нас"
 
 </br>
 
-Контакты: [office@pbc-index.ru](mailto:office@pbc-index.ru)
-
+Контакты: [office\@pbc-index.ru](mailto:office@pbc-index.ru)

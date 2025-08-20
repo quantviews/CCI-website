@@ -11,4 +11,6 @@ pdf/
 rsconnect/
 reports/
 yandex_541414edf937319d.html
+~$*.xls*
+data/*.xlsx
 

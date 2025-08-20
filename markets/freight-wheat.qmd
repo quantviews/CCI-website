@@ -17,6 +17,18 @@ format:
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Котировки
 
+*12.08.2025 Морская логистика. Зерно*
+
+**Фрахт с Азовского моря становится привилегией**
+
+На прошлой неделе ставки фрахта показали рост для всех типов судов: для Handysize выросли на 6,3% н/н, для Supramax — на 21,4% н/н, для Coaster — на 3,9% н/н.
+
+Задержки при прохождении Керченского пролива, а также новые правила проверки судов привели к локальному дефициту балкеров типа Coaster в Азовском море. Как следствие, ставка фрахта выросла для них на 20,1% н/н.
+
+Экспортная пошлина на пшеницу, а также на ячмень и кукурузу с 13 по 19 августа 2025 г. будет нулевой.
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+
 *05.08.2025 Морская логистика. Зерно*
 
 **Судовладельцы усиливают позиции в Черном море**
@@ -64,16 +76,6 @@ format:
 Снижение ставок на Supramax позволило экспортерам заметно нарастить отгрузки крупных партий зерна из Новороссийска 11-14 июля, что поддержит ставки на большой тоннаж и развернет негативный ценовой тренд уже в ближайшие недели.
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
-
-*08.07.2025 Морская логистика. Зерно*
-
-**Начало зернового сезона толкнуло ставки вверх**
-
-На прошлой неделе ставки фрахта из российских портов выросли сразу для целого ряда маршрутов и типоразмеров судов. Особенно заметно прибавили ставки на суда типа Coaster: из портов Азовского моря в Турцию они выросли на 5-10% (н/н).
-
-Рост фрахтовых ставок сдерживается неготовностью грузоотправителей платить больше при сохраняющемся избытке тоннажа в АЧБ.
-
-![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
@@ -87,27 +89,33 @@ library(openxlsx)
 
 # сейчас в файле Excel неполная история 
 
-file <- ('../../../Фрахт/Модель/Расчетная модель_v7_Фрахт Зерно.xlsm')
-df <- read.xlsx(file, sheet = "Index", startRow = 4)
-df[,c(2:6)] <- NULL
-names(df)[1] <- 'route'
-bb = as.data.frame(t(df))
-names(bb) <- bb[1,]
-bb <- bb[-1,]
-bb[] <- lapply(bb, as.numeric)
-cols <- c('зерно: Азовское море - Египет_Coaster', 'зерно: Азовское море - Мармара_Coaster', 'зерно: Черное море - Мармара_Handysize', 'зерно: Черное море - Египет_Handysize')
-bb <- bb[,names(bb) %in% cols]
-bb$avg <- rowMeans(bb, na.rm = TRUE)
-bb$date <- as.Date(as.numeric(row.names(bb)), origin = "1899-12-30")
-df = bb[, c("date", "avg")]
-df$avg <- round(df$avg,2)
-df = df[!is.na(df$avg),]
-df = df[df$date >= '2024-02-01',]
+# file <- ('../../../Фрахт/Модель/Расчетная модель_v7_Фрахт Зерно (2).xlsm')
+# df <- read.xlsx(file, sheet = "Index", startRow = 4)
+# df[,c(2:6)] <- NULL
+# names(df)[1] <- 'route'
+# bb = as.data.frame(t(df))
+# names(bb) <- bb[1,]
+# bb <- bb[-1,]
+# bb[] <- lapply(bb, as.numeric)
+# cols <- c('зерно: Азовское море - Египет_Coaster', 'зерно: Азовское море - Мармара_Coaster', 'зерно: Черное море - Мармара_Handysize', 'зерно: Черное море - Египет_Handysize')
+# bb <- bb[,names(bb) %in% cols]
+# bb$avg <- rowMeans(bb, na.rm = TRUE)
+# bb$date <- as.Date(as.numeric(row.names(bb)), origin = "1899-12-30")
+# df = bb[, c("date", "avg")]
+# df$avg <- round(df$avg,2)
+# df = df[!is.na(df$avg),]
+# df = df[df$date >= '2024-02-01',]
+# 
+# write.csv(x = df, file = '../xls/freight-wheat.csv', row.names = FALSE)
 
-write.csv(x = df, file = '../xls/freight-wheat.csv', row.names = FALSE)
+df <- read.xlsx(xlsxFile = '../data/Исходные данные.xlsx', sheet = "Рынки", detectDates = TRUE)
+id = "Ставка морского экспорта российского зерна"
+df = df[df$Наименование.показателя == id,]
+df$Данные <- round(df$Данные,1)
+df = df[df$Дата > '2024-02-01',]
 
 hc = highchart() %>% 
-   hc_add_series(df, type = "line", hcaes(x = date, y = avg), color = "#1A4AFC", name = "Фрахт российского зерна", marker = list(enabled = FALSE)) %>% 
+   hc_add_series(df, type = "line", hcaes(x = Дата, y = Данные), color = "#1A4AFC", name = "Ставка морского   экспорта российского зерна", marker = list(enabled = FALSE)) %>% 
    hc_xAxis(type = 'datetime') %>% 
    hc_yAxis(title  = list(text = '$/т')) %>% 
    hc_exporting(enabled = FALSE) %>% 

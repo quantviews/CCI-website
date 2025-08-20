@@ -17,6 +17,16 @@ format:
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Котировки
 
+*12.08.2025 Морская логистика. Нефтепродукты*
+
+**Слабый экспорт и мировой рынок уронили ставки**
+
+За 4-10 августа ставки фрахта на перевозку светлых нефтепродуктов упали на 5-11% (н/н) для большинства маршрутов и отыграли весь рост конца июля.
+
+Стоимость перевозки российских темных нефтепродуктов судами класса Handysize снизилась на 2-5% (н/н). Снижение наблюдалось как на маршрутах из Балтики, так и из портов Азово-Черноморского бассейна. Небольшой рост ставок (+1-2%, н/н) для судов Aframax обусловлен несколькими крупными отправками из Усть-Луги.
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+
 *05.08.2025 Морская логистика. Нефтепродукты*
 
 **Российский рынок наращивает экспорт в новых условиях**
@@ -36,18 +46,6 @@ format:
 Правительство РФ расширило действующий с 30 июля по 31 августа 2025 г. запрет на экспорт бензина, распространив его в том числе на производителей топлива. Ставки на перевозку светлых нефтепродуктов снизились на Балтике на 6,1% н/н, а в Черном море на большинстве направлений выросли на 1,7% н/н. Фрахт темных нефтепродуктов на завершающей неделе июля практически не изменился на коротких плечах, подорожав на длинных маршрутах для танкеров Aframax.
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
-
-*22.07.2025 Морская логистика. Нефтепродукты*
-
-**Новые времена диктуют новые требования к логистике**
-
-На фоне небольших рыночных колебаний по основным направлениям ставки на перевозки светлых нефтепродуктов снизились на маршрутах из Черного моря в Турцию и Средиземное море.
-
-Фрахт темных нефтепродуктов сохранил стабильность, потеряв в стоимости на направлении «Черное море – Индия/Ближний Восток» (-3,6% н/н).
-
-С 21 января 2026 г. Евросоюз ограничил брокерские услуги, транспорт и импорт нефтепродуктов, произведенных из российской нефти за пределами РФ.
-
-![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
@@ -60,31 +58,55 @@ library(xts)
 library(openxlsx)
 library(dplyr)
 
-# сейчас в файле Excel неполная история 
+df <- read.xlsx(xlsxFile = '../data/Исходные данные.xlsx', sheet = "Рынки", detectDates = TRUE)
+id = c("Фрахт нефтепродуктов: Clean", "Фрахт нефтепродуктов: Dirty" )
+df = df[df$Наименование.показателя %in% id,]
+df$Данные <- round(df$Данные,1)
+df$Дата <- as.Date(df$Дата)
 
-FILE <- ('../../../IEF Freight/Нефть и нефтепродукты/Расчет/Опрос фрахт БД.xlsx')
-df = read.xlsx(FILE, sheet = "data_web")
-df = df[, c(1,28:29)]
-names(df) <- c('date', 'DPP', 'CPP')
-df = df[-1,]
-df$date = as.Date(as.numeric(df$date), origin = "1899-12-30")
+# Prepare series data
+df_clean <- df %>%
+  filter(grepl("Clean", Наименование.показателя)) %>%
+  select(Дата, Данные)
 
-write.csv(x = df, file = '../xls/freight-products.csv', row.names = FALSE)
+df_dirty <- df %>%
+  filter(grepl("Dirty", Наименование.показателя)) %>%
+  select(Дата, Данные)
 
-
+# Build chart
 hc <- highchart() %>%
   hc_chart(type = "line") %>%
-  hc_xAxis(categories = df$date, type = 'datetime') %>%
-  hc_add_series(name = "Темные НП", data = df$DPP, type = "line", color = "#1A4AFC", marker = list(enabled = FALSE)) %>%
-  hc_add_series(name = "Светлые НП", data = df$CPP, type = "line", color = "#FF7900", marker = list(enabled = FALSE)) %>%
-   hc_yAxis(title  = list(text = '$/т')) %>% 
-  hc_tooltip(shared = TRUE) %>%
+  hc_xAxis(type = 'datetime') %>%
+  hc_add_series(
+    name = "Темные НП",
+    data = list_parse2(
+      df_dirty %>% mutate(Дата = datetime_to_timestamp(Дата))
+    ),
+    type = "line", color = "#1A4AFC",
+    marker = list(enabled = FALSE)
+  ) %>%
+  hc_add_series(
+    name = "Светлые НП",
+    data = list_parse2(
+      df_clean %>% mutate(Дата = datetime_to_timestamp(Дата))
+    ),
+    type = "line", color = "#FF7900",
+    marker = list(enabled = FALSE)
+  ) %>%
+  hc_yAxis(title = list(text = '$/т')) %>%
+  hc_tooltip(shared = TRUE, xDateFormat = "%d %B %Y") %>%
   hc_exporting(enabled = FALSE) %>%
   hc_legend(enabled = TRUE)
 
-# поменять названия месяцев на русские. по умолчанию - на английском
-hc$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
-hc$x$conf_opts$lang$shortMonths = c("Янв", 	"Фев",	"Мар",	"Апр",	"Май",	"Июн",	"Июл",	"Авг",	"Сен",	"Окт",	"Ноя",	"Дек")
+# Russian month names
+hc$x$conf_opts$lang$months <-
+  c("Январь","Февраль","Март","Апрель","Май","Июнь",
+    "Июль","Август","Сентябрь","Октябрь","Ноябрь","Декабрь")
+
+hc$x$conf_opts$lang$shortMonths <-
+  c("Янв","Фев","Мар","Апр","Май","Июн",
+    "Июл","Авг","Сен","Окт","Ноя","Дек")
+
 
 hc
 ```
