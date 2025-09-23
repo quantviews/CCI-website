@@ -19,6 +19,7 @@ website:
       - text: Рынки
         menu: 
           - href: pbc-index.qmd
+          - href: pbc-container-index.qmd
           - href: markets/markets-oil.qmd
           - href: markets/markets-oil-products.qmd
           - href: markets/markets-gas.qmd
@@ -69,6 +70,7 @@ website:
         - section: "Рынки"
           contents:
             - pbc-index.qmd
+            - pbc-container-index.qmd
             - markets/markets-oil.qmd
             - markets/markets-oil-products.qmd
             - markets/markets-coal.qmd

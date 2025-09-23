@@ -59,6 +59,8 @@ title-block-banner: false
 
 ![](images/icon-commodity_index.svg)[Методология сырьевого индекса](methodology/methodology-pbc.qmd)
 
+![](images/icon-barcode.svg)[Методология контейнерного индекса](methodology/methodology-pbc-container-index.qmd)
+
 ![](images/icon-exchange-rates.svg)[Методология валютных курсов](methodology/methodology-exchange-rates.qmd)
 
 ### Контакты
