@@ -103,7 +103,11 @@ format:
     toc: false
     mainfont: "Cera"
     page-layout: article
-    include-after-body: _footer.html
+    include-in-header:
+      - assets/yandex-metrika.html
+    include-after-body:
+      - assets/yandex-metrika-noscript.html
+      - _footer.html
     
 
 editor: visual
