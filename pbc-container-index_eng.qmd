@@ -9,15 +9,16 @@ sidebar: false
 
 **PBC Container Index** — a composite index reflecting the cost of container transportation along the most popular container cargo import route to Russia. It is calculated based on the weighted average spot rates for the transportation of a FEU container owned by the carrier, loaded onto a ship or railway in Shanghai (FI / FOR Shanghai), to the recipient's warehouse in Moscow (FOT Moscow) along four routes: through the ports of Vladivostok, St. Petersburg and Novorossiysk, as well as by direct rail.
 
-**PBC Container Index as of September 15, 2025: $5 084** [(**-1%** m/m; **-43%** y/y)]{.my-custom-class style="color:#f6514c;"}.
+**PBC Container Index as of March 16, 2026: \$7 310** [(**+8%** м/м;]{.my-custom-class style="color:#4CAF50;"} [**-4%** г/г)]{.my-custom-class style="color:#f6514c;"}.
 
+**FI / FOR Шанхай - FOT Москва, 40’HC COC**
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 
 library(openxlsx)
 library(dplyr)
-library(tidyr)
 library(highcharter)
+library(lubridate)
 library(stringr)
 
 colors <- c("#1a4afc", "#28055a", "#6d7aa5", "#82096c", "#d1e5ff",
@@ -25,131 +26,129 @@ colors <- c("#1a4afc", "#28055a", "#6d7aa5", "#82096c", "#d1e5ff",
             "#ffffff", "#000000")
 
 # Read Excel
-path <- "xls/Расчетная модель_ЦЦИ_Контейнерный индекс.xlsm"
-raw  <- openxlsx::read.xlsx(path, sheet = "Расчет", colNames = FALSE, detectDates = FALSE)
+path2 <- "data/Исходные данные.xlsx"
+df_raw <- openxlsx::read.xlsx(xlsxFile = path2, sheet = "Рынки", detectDates = TRUE)
 
-# Header row with field names
-hdr_row <- 4L
-stopifnot(identical(as.character(raw[[1]][hdr_row]), "Показатель"))
-
-# Convert Excel serials to Date for column names
-date_cols  <- as.Date(as.numeric(unlist(raw[hdr_row, -(1:2)], use.names = FALSE)),
-                      origin = "1899-12-30")
-date_names <- format(date_cols, "%Y-%m-%d")
-names(raw) <- c("Показатель", "Ед.", date_names)
-
-# Data rows
-dat <- raw[(hdr_row + 1L):nrow(raw), ]
-
-# Tidy
-tidy <- dat %>%
-  mutate(across(-c(Показатель, Ед.), ~ suppressWarnings(as.numeric(.)))) %>%
-  pivot_longer(cols = -c(Показатель, Ед.),
-               names_to = "date", values_to = "value") %>%
-  mutate(
-    date  = as.Date(date),
-    value = ifelse(value == 0, NA, value) # empty cells -> NA
+df <- df_raw %>%
+  transmute(
+    date       = as.Date(`Дата`),
+    value      = suppressWarnings(as.numeric(`Данные`)),
+    ru_name    = `Наименование.показателя`
   ) %>%
-  filter(!is.na(value)) %>%
-  arrange(Показатель, date)
+  mutate(value = ifelse(value == 0, NA_real_, value)) %>%
+  filter(!is.na(date), !is.na(value))
 
-# Choose series (keep names from the data)
-series_order <- c(
-  "Контейнерный индекс ЦЦИ",
-  "FI Шанхай – Владивосток (Находка) – FOR Москва – FOT Москва",
-  "FOR Шанхай – FOR Москва – FOT Москва",
-  "FI Шанхай – Санкт-Петербург – FOT Москва",
-  "FI Шанхай – Новороссийск – FOT Москва"
+# 2) Target series (ru)
+series_order_ru <- c(
+  "Контейнерный индекс ЦЦИ, долл/конт.",
+  "FI Шанхай – Владивосток (Находка) – FOR Москва – FOT Москва, долл/конт.",
+  "FOR Шанхай – FOR Москва – FOT Москва, долл/конт.",
+  "FI Шанхай – Санкт-Петербург – FOT Москва, долл/конт.",
+  "FI Шанхай – Новороссийск – FOT Москва, долл/конт."
 )
 
-series_labels <- list(
-  "Контейнерный индекс ЦЦИ" = "PBC Container Index",
-  "FI Шанхай – Владивосток (Находка) – FOR Москва – FOT Москва" =
-    "FI Shanghai – Vladivostok (Nakhodka) – FOR Moscow – FOT Moscow",
-  "FOR Шанхай – FOR Москва – FOT Москва" =
-    "FOR Shanghai – FOR Moscow – FOT Moscow",
-  "FI Шанхай – Санкт-Петербург – FOT Москва" =
-    "FI Shanghai – St. Petersburg – FOT Moscow",
-  "FI Шанхай – Новороссийск – FOT Москва" =
-    "FI Shanghai – Novorossiysk – FOT Moscow"
+# 3) English labels map
+series_labels_en <- c(
+  "Контейнерный индекс ЦЦИ, долл/конт." =
+    "PBC Container Index",
+  "FI Шанхай – Владивосток (Находка) – FOR Москва – FOT Москва, долл/конт." =
+    "FI Shanghai - Vladivostok (Nakhodka) - FOR Moscow - FOT Moscow",
+  "FOR Шанхай – FOR Москва – FOT Москва, долл/конт." =
+    "FOR Shanghai - FOR Moscow - FOT Moscow",
+  "FI Шанхай – Санкт-Петербург – FOT Москва, долл/конт." =
+    "FI Shanghai - St. Petersburg - FOT Moscow",
+  "FI Шанхай – Новороссийск – FOT Москва, долл/конт." =
+    "FI Shanghai - Novorossiysk - FOT Moscow"
 )
 
-series_exist <- intersect(series_order, unique(tidy$Показатель))
-plot_data    <- tidy %>% filter(Показатель %in% series_exist)
+series_exist_ru <- intersect(series_order_ru, unique(df$ru_name))
+stopifnot(length(series_exist_ru) > 0)
 
-plot_data = plot_data[format(plot_data$date, '%Y') >= 2023,] # данные только после 2023 года
+plot_data <- df %>%
+  filter(ru_name %in% series_exist_ru, year(date) >= 2023) %>%
+  mutate(
+    # английское имя серии по словарю; если нет в словаре — используем исходное без суффикса
+    en_name = coalesce(series_labels_en[ru_name],
+                       str_remove(ru_name, ",\\s*долл/конт\\.?$"))
+  ) %>%
+  arrange(ru_name, date)
 
-# Chart
-hc <- highchart() |>
-  hc_chart(type = "spline") |>
-  hc_title(text = "PBC Container Index") |>
-  hc_colors(colors) |>
+plot_data = plot_data[plot_data$date <= Sys.Date(),]
+
+
+# 4) Chart (English UI)
+hc <- highchart() %>%
+  hc_chart(type = "spline") %>%
+  hc_colors(colors) %>%
   hc_xAxis(
     type = "datetime",
-    labels = list(format = "{value:%m.%Y}")
-  ) |>
+    labels = list(format = "{value:%m.%Y}")  # 01.2024, 02.2024, ...
+  ) %>%
   hc_yAxis(
     title = list(text = "USD/FEU"),
-    labels = list(format = "{value:,.0f}"),
-    gridLineDashStyle = "ShortDash"
-  ) |>
-  # Tooltip also in thousands
+    labels = list(format = "{value:,.0f}")
+  ) %>%
   hc_tooltip(
     shared = FALSE, useHTML = TRUE,
     headerFormat = "<span style='font-size:11px'>{point.series.name}</span><br/>",
-    pointFormatter = JS(
-      "function(){ return '<b>' +
-         Highcharts.numberFormat(this.y/1, 0, '.', ' ') +
-         '</b><br/><span>' + Highcharts.dateFormat('%d.%m.%Y', this.x) + '</span>'; }"
-    )
-  ) |>
-  hc_legend(layout = "horizontal", align = "center", verticalAlign = "bottom") |>
-  hc_exporting(enabled = FALSE) |>
+    pointFormat  = "<b>{point.y:.2f}</b><br/><span>{point.x:%d.%m.%Y}</span>"
+  ) %>%
+  hc_legend(layout = "horizontal", align = "center", verticalAlign = "bottom") %>%
+  hc_exporting(enabled = FALSE) %>%
   hc_credits(enabled = TRUE, text = "PBC", href = "https://pbc-index.ru/")
 
-for (s in series_exist) {
-  is_index <- identical(s, "Контейнерный индекс ЦЦИ")
-  df_s <- plot_data |>
-    dplyr::filter(Показатель == s) |>
-    dplyr::arrange(date) |>
-    dplyr::mutate(
-      y = dplyr::if_else(value == 0, NA_real_, value),
-      x = highcharter::datetime_to_timestamp(date)
+for (ru in series_exist_ru) {
+  df_s <- plot_data %>%
+    filter(ru_name == ru) %>%
+    transmute(
+      x = highcharter::datetime_to_timestamp(date),
+      y = value,
+      en_name = first(en_name)
     )
 
-  # берём перевод или оставляем исходное имя
-  name_en <- if (!is.null(series_labels[[s]])) series_labels[[s]] else s
+  is_index <- identical(first(df_s$en_name), "PBC Container Index")
 
-  hc <- hc |>
+  hc <- hc %>%
     hc_add_series(
       data      = highcharter::list_parse2(df_s[, c("x", "y")]),
-      name      = name_en,                  # <-- чистая строка, без имени
+      name      = first(df_s$en_name),
       type      = "spline",
       lineWidth = if (is_index) 2 else 2,
       dashStyle = if (is_index) "Solid" else "ShortDash",
-      visible   = is_index,
+      visible   = is_index,  # по умолчанию показываем только индекс
       marker    = list(enabled = FALSE),
       states    = list(hover = list(lineWidth = if (is_index) 3 else 2)),
       connectNulls = FALSE
     )
 }
+
 hc
 
 ```
-
 
 ------------------------------------------------------------------------
 
 **The PBC Container Index** is an independent operational indicator for assessing the cost of container cargo imports, as well as the general state of the transport and logistics services market in the China-Russia corridor. The PBC container index reflects the dynamics of spot rates for transport and logistics services for the delivery of container cargo from China, Russia's largest foreign trade partner, which accounts for up to 40% of the value of commodity imports, as well as up to 80% of container cargo imports.
 
-
 ------------------------------------------------------------------------
 
 ### [Monthly overview]{.my-custom-class style="color:#1a4afc;"}
 
-September 15, 2025. PBC Container price index. **September fails to meet expectations for container market growth**
+March 16, 2026. PBC Container price index. **The Russian container market is responding to global logistics markets**
 
-[Materials -\>](reports/2025-09%20Контейнерный%20индекс%20ЦЦИ.pdf)
+[Monitoring March -\>](reports/2026-03%20Контейнерный%20индекс%20ЦЦИ.pdf)
+
+February 16, 2026. PBC Container price index. **Carriers are holding rates ahead of the New Year's break in China.**
+
+[Monitorng February -\>](reports/2026-02%20Контейнерный%20индекс%20ЦЦИ.pdf)
+
+January 16, 2026. PBC Container price index. **Import records are reflected in the growth of the PBC Container index**
+
+[Monitoring January -\>](reports/2026-01%20Контейнерный%20индекс%20ЦЦИ.pdf)
+
+December 15, 2025. PBC Container price index. **New Year's Eve imports support container market**
+
+[Monitoring December -\>](reports/2025-12%20Контейнерный%20индекс%20ЦЦИ.pdf)
 
 ### [Methodology]{.my-custom-class style="color:#1a4afc;"}
 

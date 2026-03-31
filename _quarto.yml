@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - assets/schedule/events.json
   
 lang: ru
 
@@ -10,7 +12,7 @@ website:
   google-analytics: "G-TNGWX5Y7FL"
   navbar:
     title: false
-    logo: images/logo.png
+    logo: images/logo8.png
     background: "#1A4AFC" 
     right:
       - text: Оформить подписку
@@ -29,6 +31,7 @@ website:
           - href: markets/markets-aromatics.qmd
           - href: markets/markets-wheat.qmd
           - href: markets/markets-oilseed.qmd
+          - href: markets/markets-soybeans.qmd
           - href: markets/markets-railways.qmd
           - href: markets/markets-railways-van.qmd
           - href: markets/markets-railways-wheat-van.qmd
@@ -36,6 +39,8 @@ website:
           - href: markets/freight-products.qmd
           - href: markets/freight-wheat.qmd
           - href: markets/freight-coal.qmd
+          - href: markets/freight-fertilizers.qmd
+          - href: markets/freight-containers.qmd
           - href: markets/markets-sea-container-ports.qmd
           - href: markets/markets-sea-wheat-ports.qmd
           - href: markets/markets-sea-coal-ports.qmd

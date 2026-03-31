@@ -22,6 +22,22 @@ title: "Центр ценовых индексов (ЦЦИ)"
 
 ## ЦЦИ в социальных сетях
 
-[Сообщество "Пятница с Центром ценовых индексов" в ВК](https://vk.com/cci.friday)
+:::::: {.grid style="margin-left:0%"}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+1.  [YouTube](https://youtube.com/@cci.friday)
 
-[Youtube](https://www.youtube.com/@CCI.Friday)
+![](../fig/qr-cci-youtube.png)
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+2.  [ВК](https://vk.com/cci.friday)
+
+![](../fig/qr-cci-vk.png)
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+3.  [Telegram](https://t.me/pbc_index)
+
+![](../fig/qr-cci-telegram.png)
+:::
+::::::

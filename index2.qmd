@@ -1,0 +1,338 @@
+---
+title: "ЦЦИ"
+format: 
+  html:
+    page-layout: custom
+    grid:
+      sidebar-width: 350px
+---
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::: grid
+:::: {.g-col-12 .full-width-container}
+![](fig/cci-blur.png)
+
+::: text-overlay
+# Центр Ценовых<br>Индексов {.title .text-white}
+
+### Самые оперативные обновления цен<br>на товары российского экспорта и логистику {.subtitle .text-white}
+:::
+::::
+
+::: {.g-col-12 style="text-align: center; padding: 2em 4em; background-color: #f8f9fa; margin-bottom: 2em;"}
+<h2 style="color: #1A4AFC; margin-bottom: 1em;">
+
+Добро пожаловать в Центр Ценовых Индексов!
+
+</h2>
+
+<p style="font-size: 1.2em; line-height: 1.6; margin-bottom: 1em;">
+
+Мы - российское ценовое агентство, оперативно публикуем цены на товары российского экспорта и логистику.
+
+</p>
+
+<p style="font-size: 1.2em; line-height: 1.6;">
+
+Наша миссия — обеспечить рынок репрезентативными ценовыми индикаторами. Своевременные ценовые сигналы дают экономической системе гибкость: помогают быстрее принимать решения о рисках и инвестициях.
+
+</p>
+:::
+
+:::: g-col-12
+::: {.schedule-block data-market="all" data-limit="6"}
+:::
+
+```{=html}
+<script src="assets/schedule/render.js" defer></script>
+```
+
+### Сырьевой индекс ЦЦИ [→](pbc-index.qmd)
+
+-- сводный индекс цен российского сырьевого экспорта. Отражает изменение цен на товары российского сырьевого экспорта по сравнению с уровнем января 2022 г.
+
+```{r, warning = FALSE, echo = FALSE, message = FALSE}
+
+library(openxlsx)
+library(highcharter)
+library(tidyr)
+library(magrittr)
+
+colors = c("#1A4AFC", "#FF9500", '#82096c', '#d1e5ff', '#44bf78', '#f6514c', '#c3b0ef')
+
+# прочитать и преобразовать файл Excel с данными
+
+df  <- read.xlsx('xls/ЦЦИ Сырьевой индекс.xlsx', sheet = 1, detectDates = TRUE)
+
+df_index = df[1,]
+#df = df[,-1]
+#df[,2:3] <- NULL
+names(df_index)[1] <- "index"
+
+df_index <- df_index %>% pivot_longer(!index, names_to = "date", values_to = 'value')
+df_index$date <- as.Date(df_index$date)
+
+#df = df[df$index == "ЦИндекс сырьевых цен ЦЦИ, 01.2022=100",]
+df_index$index = 'Индекс сырьевых цен ЦЦИ, янв. 2022 = 100'
+df_index$value <- round(df_index$value,2)
+
+# прочитать файл с курсом
+
+# df2  <- read.xlsx('rub-usd.xlsx', sheet = 1, detectDates = TRUE)
+# df2 <- df2[df2$date > min(df$date),]
+df_usdrub = df[2,]
+names(df_usdrub)[1] <- 'index'
+
+df_usdrub <- df_usdrub %>% pivot_longer(!index, names_to = "date", values_to = 'value')
+df_usdrub$date <- as.Date(df_usdrub$date)
+
+df_usdrub$index = 'USD/RUB, рублей за доллар'
+df_usdrub$value <- round(df_usdrub$value,2)
+
+# Non-oil index
+
+df_noil_index = df[4,]
+names(df_noil_index)[1] <- 'index'
+
+df_noil_index <- df_noil_index %>% pivot_longer(!index, names_to = "date", values_to = 'value')
+df_noil_index$date <- as.Date(df_noil_index$date)
+
+df_noil_index$index = 'Индекс сырьевых цен ненефтяного экспорта, янв. 2022 = 100'
+df_noil_index$value <- round(df_noil_index$value,2)
+
+# Fossil fuel index
+
+df_fuel_index = df[6,]
+names(df_fuel_index)[1] <- 'index'
+
+df_fuel_index <- df_fuel_index %>% pivot_longer(!index, names_to = "date", values_to = 'value')
+df_fuel_index$date <- as.Date(df_fuel_index$date)
+
+df_fuel_index$index = 'Индекс цен на товары ТЭК, янв. 2022 = 100'
+df_fuel_index$value <- round(df_fuel_index$value,2)
+
+# Agro index
+
+df_agro_index = df[7,]
+names(df_agro_index)[1] <- 'index'
+
+df_agro_index <- df_agro_index %>% pivot_longer(!index, names_to = "date", values_to = 'value')
+df_agro_index$date <- as.Date(df_agro_index$date)
+
+df_agro_index$index = 'Индекс цен на агротовары, янв. 2022 = 100'
+df_agro_index$value <- round(df_agro_index$value,2)
+
+# Fertilizers index
+
+df_fert_index = df[8,]
+names(df_fert_index)[1] <- 'index'
+
+df_fert_index <- df_fert_index %>% pivot_longer(!index, names_to = "date", values_to = 'value')
+df_fert_index$date <- as.Date(df_fert_index$date)
+
+df_fert_index$index = 'Индекс цен на удобрения, янв. 2022 = 100'
+df_fert_index$value <- round(df_fert_index$value,2)
+
+
+# построить график highcharts
+
+index_plot <- highchart() %>%
+   hc_xAxis(type = "datetime") %>%
+   hc_exporting(enabled = FALSE) %>%
+   hc_yAxis_multiples(
+      list(title = list(text = "Индекс сырьевых цен ЦЦИ, янв. 2022 = 100"), showFirstLabel = TRUE, max = 180, showLastLabel=TRUE, opposite= FALSE),
+      list(title = list(text = "USD/RUB, рублей за доллар"), showLastLabel = FALSE, opposite = TRUE, reversed = TRUE)) %>%
+   hc_add_series(df_index,type="line", hcaes(x = date, y = value, group=index), color = colors[1]) %>%
+   hc_add_series(df_noil_index,type="line", hcaes(x = date, y = value, group=index), color = colors[3], visible = TRUE) %>%
+   hc_add_series(df_fuel_index,type="line", hcaes(x = date, y = value, group=index), color = colors[7], visible = FALSE) %>%
+   hc_add_series(df_agro_index,type="line", hcaes(x = date, y = value, group=index), color = colors[6], visible = FALSE) %>%
+   hc_add_series(df_fert_index,type="line", hcaes(x = date, y = value, group=index), color = colors[5], visible = FALSE) %>%
+   hc_add_series(df_usdrub,type="line", hcaes(x = date, y = value, group=index), color = colors[2],  yAxis=1, visible = FALSE)
+
+# поменять названия месяцев на русские. по умолчанию - на английском
+index_plot$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
+index_plot$x$conf_opts$lang$shortMonths = c("Янв", 	"Фев",	"Мар",	"Апр",	"Май",	"Июн",	"Июл",	"Авг",	"Сен",	"Окт",	"Ноя",	"Дек")
+
+index_plot
+
+```
+
+### Контейнерный индекс ЦЦИ [→](pbc-container-index.qmd)
+
+-- композитный индекс, отражающий стоимость перевозки 40-футового контейнера собственности перевозчика (40'HC COC) по наиболее популярному маршруту импорта контейнерных грузов в Россию: из Шанхая в Москву.
+
+```{r, warning = FALSE, echo = FALSE, message = FALSE, eval = TRUE}
+
+library(openxlsx)
+library(dplyr)
+library(tidyr)
+library(stringr)
+library(highcharter)
+library(lubridate)
+
+colors = c("#1a4afc", '#28055a', '#6d7aa5', '#82096c', '#d1e5ff', '#44bf78', '#f6514c',  "#FF9500", '#c3b0ef', '#d0d0d0', '#ffffff', '#000000' )
+
+path2 <- "data/Исходные данные.xlsx"
+df_raw <- openxlsx::read.xlsx(
+  xlsxFile = path2, sheet = "Рынки", detectDates = TRUE
+)
+
+# 2) Минимальная очистка
+df <- df_raw %>%
+  transmute(
+    date       = as.Date(`Дата`),
+    value      = suppressWarnings(as.numeric(`Данные`)),
+    Показатель = `Наименование.показателя`
+  ) %>%
+  mutate(
+    value = ifelse(value == 0, NA_real_, value)  # если 0 означает нет данных
+  ) %>%
+  filter(!is.na(date), !is.na(value))
+
+# 3) Нужные серии и порядок (как было)
+series_order <- c(
+  "Контейнерный индекс ЦЦИ, долл/конт.",
+  "FI Шанхай – Владивосток (Находка) – FOR Москва – FOT Москва, долл/конт.",
+  "FOR Шанхай – FOR Москва – FOT Москва, долл/конт.",
+  "FI Шанхай – Санкт-Петербург – FOT Москва, долл/конт.",
+  "FI Шанхай – Новороссийск – FOT Москва, долл/конт."
+)
+
+series_exist <- intersect(series_order, unique(df$Показатель))
+
+plot_data <- df %>%
+  filter(Показатель %in% series_exist, year(date) >= 2023) %>%
+  mutate(
+    legend_name = str_remove(Показатель, ",\\s*долл/конт\\.?$")
+  ) %>%
+  arrange(Показатель, date)
+
+plot_data = plot_data[plot_data$date <= Sys.Date(),]
+
+
+# 4) График
+hc <- highchart() %>%
+  hc_chart(type = "spline") %>%
+  hc_colors(colors) %>%
+  hc_xAxis(
+    type = "datetime",
+    labels = list(format = "{value:%m.%Y}")
+  ) %>%
+  hc_yAxis(
+    title = list(text = "долл./конт."),
+    labels = list(format = "{value:,.0f}")
+  ) %>%
+  hc_tooltip(
+    shared = FALSE, useHTML = TRUE,
+    headerFormat = "<span style='font-size:11px'>{point.series.name}</span><br/>",
+    pointFormat  = "<b>{point.y:.2f}</b><br/><span>{point.x:%d.%m.%Y}</span>"
+  ) %>%
+  hc_legend(layout = "horizontal", align = "center", verticalAlign = "bottom") %>%
+  hc_exporting(enabled = FALSE) %>%
+  hc_credits(enabled = TRUE, text = "ЦЦИ", href = "https://pbc-index.ru/")
+
+for (s in series_exist) {
+  df_s <- plot_data %>%
+    filter(Показатель == s) %>%
+    transmute(
+      x = highcharter::datetime_to_timestamp(date),
+      y = value,
+      legend_name = first(legend_name)
+    )
+
+  is_index <- str_detect(first(df_s$legend_name), "^Контейнерный индекс")
+
+  hc <- hc %>%
+    hc_add_series(
+      data      = highcharter::list_parse2(df_s[, c("x", "y")]),
+      name      = first(df_s$legend_name),   # ← изменено
+      type      = "spline",
+      lineWidth = if (is_index) 2 else 2,
+      dashStyle = if (is_index) "Solid" else "ShortDash",
+      visible   = is_index,
+      marker    = list(enabled = FALSE),
+      states    = list(hover = list(lineWidth = if (is_index) 3 else 2)),
+      connectNulls = FALSE
+    )
+}
+
+hc
+```
+::::
+
+<!-- All banners in one container -->
+
+
+::: g-col-12
+### Актуальное
+:::
+
+::: g-col-6
+17 ноября 2025. Контейнерный индекс ЦЦИ. **Фрахт на Дальний Восток и Балтику подогрел холодную осень**
+
+[Мониторинг ноябрь -\>](reports/2025-11%20Контейнерный%20индекс%20ЦЦИ.pdf)
+
+5 ноября 2025. Сырьевой индекс ЦЦИ. **Цены на сырье снова на минимумах**
+
+[Мониторинг ноябрь -\>](reports/2025-10%20Сырьевой%20индекс%20ЦЦИ.pdf)
+
+22 октября 2025. **ЦЦИ разработал Контейнерный индекс, отражающий стоимость транспортно-логистических услуг по доставке контейнеров из Китая в Россию**
+
+[Материалы →](events/2025-10-22-container-index.qmd)
+
+15 октября 2025. Контейнерный индекс ЦЦИ. **Индекс ЦЦИ пошёл в рост несмотря на смешанную динамику ставок**
+
+[Мониторинг октябрь -\>](reports/2025-10%20Контейнерный%20индекс%20ЦЦИ.pdf)
+
+1 октября 2025. Сырьевой индекс ЦЦИ. **ТЭК против падения сырьевых цен**
+
+[Мониторинг октябрь -\>](reports/2025-09%20Сырьевой%20индекс%20ЦЦИ.pdf)
+
+11 сентября 2025. **Что происходит в экономике России и мира и как узнавать об этом раньше всех? Говорят аналитики ЦЦИ и ГПБ**
+
+[Материалы →](events/2025-09-11-cbonds.qmd)
+
+3 сентября 2025. Сырьевой индекс ЦЦИ. **Пошлины бьют - дисконты растут**
+
+[Мониторинг август -\>](reports/2025-08%20Сырьевой%20индекс%20ЦЦИ.pdf)
+:::
+
+::: g-col-6
+13 августа 2025. ЦЦИ подготовил новый аналитический материал – **карту Масложирового комплекса России** в 2024-2025 г. (подсолнечник).
+
+[Карта](markets/markets-oilseed.qmd)
+
+6 августа 2025. Сырьевой индекс ЦЦИ. **Сырьевые цены оттолкнулись от дна**
+
+[Мониторинг июль -\>](reports/2025-07%20Сырьевой%20индекс%20ЦЦИ.pdf)
+
+2 июля 2025. Сырьевой индекс ЦЦИ. **Нестабильность на Ближнем Востоке лихорадит цены**
+
+[Мониторинг июнь -\>](reports/2025-06%20Сырьевой%20индекс%20ЦЦИ.pdf)
+
+6 июня 2025. **Пятница с ЦЦИ: Сложное время для рынка угля**
+
+[Материалы →](events/2025-06-06-coal.qmd)
+
+6 июня 2025. **Пятница с ЦЦИ: Агропромышленность**
+
+[Материалы →](events/2025-06-06-agro.qmd)
+
+4 июня 2025. Сырьевой индекс ЦЦИ. **Снижение тарифов не добавило ценам оптимизма**
+
+[Мониторинг май -\>](reports/2025-05%20Сырьевой%20индекс%20ЦЦИ.pdf)
+
+15 апреля 2025. **ЦЦИ начал публиковать индексы на хопперы-зерновозы**
+
+[Пресс-релиз →](events/2025-04-15-railways-wheat-van.qmd)
+:::
+
+::: g-col-12
+```{=html}
+<div style="background-color: white; padding: 1.5em; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; margin-bottom: 2em;">
+  <h3 style="color: #1A4AFC; margin-bottom: 1em;">Подписывайтесь на нас</h3>
+  <p style="font-size: 1.1em; margin-bottom: 1.5em;">Подпишитесь на наши продукты и первыми узнавайте самое важное.</p>
+  <button onclick="window.open('https://forms.yandex.ru/cloud/66d6163f2530c28d5d7069ec/', 'yandexForm', 'width=650,height=800,scrollbars=yes,resizable=yes')" style="background-color: #1A4AFC; color: white; padding: 15px 40px; border: none; border-radius: 5px; font-size: 1.1em; font-weight: bold; cursor: pointer; transition: background-color 0.3s;">Подписаться</button>
+</div>
+```
+:::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::

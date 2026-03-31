@@ -1,10 +1,24 @@
 ---
 title: "Оформить подписку"
+lang: ru
+toc: false
 ---
 
-</br> </br> Подпишитесь на наши продукты и первыми узнавайте самое важное.
+</p>
+
+Подпишитесь на наши продукты и первыми узнавайте самое важное.
 
 ```{=html}
-
-<script src="https://forms.yandex.ru/_static/embed.js"></script><iframe src="https://forms.yandex.ru/cloud/66d6163f2530c28d5d7069ec/?iframe=1" frameborder="0" name="ya-form-66d6163f2530c28d5d7069ec" width="650"></iframe>
+<!-- Bitrix: script[data-b24-form] и блок кнопки — соседние узлы (см. demo-subscription.qmd) -->
+<script data-b24-form="click/3/i2c6ho" data-skip-moving="true">
+(function(w,d,u){
+var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
+var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+})(window,document,'https://cdn-ru.bitrix24.ru/b33398058/crm/form/loader_3.js');
+</script>
+<div style="text-align: center; margin: 2em 0;">
+  <button type="button" style="background-color: #1A4AFC; color: white; padding: 15px 40px; border: none; border-radius: 5px; font-size: 1.1em; font-weight: bold; cursor: pointer;">
+    Оформить подписку
+  </button>
+</div>
 ```

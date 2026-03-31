@@ -1,0 +1,5012 @@
+[
+  {
+    "date": "2026-01-11",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-01-11",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-01-12",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-01-12",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-01-13",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Подсолнечное масло"
+  },
+  {
+    "date": "2026-01-13",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-01-13",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-01-13",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-01-13",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-01-13",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-01-13",
+    "market": "gas",
+    "market_title": "Газ",
+    "title": "Газ"
+  },
+  {
+    "date": "2026-01-14",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-01-14",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Сырьевой индекс"
+  },
+  {
+    "date": "2026-01-14",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-01-14",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-01-15",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Метанол"
+  },
+  {
+    "date": "2026-01-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт контейнеров"
+  },
+  {
+    "date": "2026-01-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт рынок судов"
+  },
+  {
+    "date": "2026-01-15",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Контейнерный индекс"
+  },
+  {
+    "date": "2026-01-15",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Зерновозы"
+  },
+  {
+    "date": "2026-01-15",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Контейнеры"
+  },
+  {
+    "date": "2026-01-16",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-01-16",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-01-18",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-01-18",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-01-19",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-01-19",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-01-20",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-01-20",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-01-20",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-01-20",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-01-20",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-01-20",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-01-21",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Соевый шрот"
+  },
+  {
+    "date": "2026-01-21",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-01-21",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-01-23",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-01-23",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-01-25",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-01-25",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-01-26",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-01-26",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-01-27",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Каустическая сода"
+  },
+  {
+    "date": "2026-01-27",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-01-27",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-01-27",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-01-27",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-01-27",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-01-27",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-01-28",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-01-28",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-01-28",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-01-30",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-01-30",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-01-30",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Макроконсенсус"
+  },
+  {
+    "date": "2026-01-30",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Полувагоны"
+  },
+  {
+    "date": "2026-01-30",
+    "market": "transshipment",
+    "market_title": "Перевалка",
+    "title": "Перевалка зерна"
+  },
+  {
+    "date": "2026-01-30",
+    "market": "transshipment",
+    "market_title": "Перевалка",
+    "title": "Перевалка контейнеров"
+  },
+  {
+    "date": "2026-01-30",
+    "market": "transshipment",
+    "market_title": "Перевалка",
+    "title": "Перевалка нефтепродуктов"
+  },
+  {
+    "date": "2026-01-30",
+    "market": "transshipment",
+    "market_title": "Перевалка",
+    "title": "Перевалка нефти"
+  },
+  {
+    "date": "2026-01-30",
+    "market": "transshipment",
+    "market_title": "Перевалка",
+    "title": "Перевалка угля"
+  },
+  {
+    "date": "2026-02-02",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-02-02",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-02-03",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Подсолнечное масло"
+  },
+  {
+    "date": "2026-02-03",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-02-03",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-02-03",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-02-03",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-02-03",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-02-03",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-02-04",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Сырьевой индекс"
+  },
+  {
+    "date": "2026-02-04",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-02-04",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-02-06",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-02-06",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-02-06",
+    "market": "real_estate",
+    "market_title": "Коммерческая недвижимость",
+    "title": "Коммерческая недвижимость"
+  },
+  {
+    "date": "2026-02-08",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-02-08",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-02-09",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-02-09",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-02-10",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-02-10",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-02-10",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-02-10",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-02-10",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-02-10",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-02-10",
+    "market": "gas",
+    "market_title": "Газ",
+    "title": "Газ"
+  },
+  {
+    "date": "2026-02-11",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Соевый шрот"
+  },
+  {
+    "date": "2026-02-11",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-02-11",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-02-11",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-02-13",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-02-13",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-02-15",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-02-15",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-02-15",
+    "market": "gas",
+    "market_title": "Газ",
+    "title": "Газ"
+  },
+  {
+    "date": "2026-02-16",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-02-16",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Метанол"
+  },
+  {
+    "date": "2026-02-16",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-02-16",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт контейнеров"
+  },
+  {
+    "date": "2026-02-16",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт рынок судов"
+  },
+  {
+    "date": "2026-02-16",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Контейнерный индекс"
+  },
+  {
+    "date": "2026-02-16",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Контейнеры"
+  },
+  {
+    "date": "2026-02-17",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-02-17",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-02-17",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-02-17",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-02-17",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-02-17",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-02-18",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Агроконсенсус"
+  },
+  {
+    "date": "2026-02-18",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-02-18",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-02-20",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-02-20",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-02-22",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-02-22",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-02-24",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-02-24",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Каустическая сода"
+  },
+  {
+    "date": "2026-02-24",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-02-24",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-02-24",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-02-24",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-02-24",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-02-24",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-02-25",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-02-25",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-02-25",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-02-27",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-02-27",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "ФертиКонсенсус"
+  },
+  {
+    "date": "2026-02-27",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-02-27",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь квартальный"
+  },
+  {
+    "date": "2026-02-27",
+    "market": "gas",
+    "market_title": "Газ",
+    "title": "Газ квартальный"
+  },
+  {
+    "date": "2026-02-27",
+    "market": "gas",
+    "market_title": "Газ",
+    "title": "Газ квартальный консенсус"
+  },
+  {
+    "date": "2026-02-27",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Макроконсенсус"
+  },
+  {
+    "date": "2026-02-27",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Полувагоны"
+  },
+  {
+    "date": "2026-03-02",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-03-02",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-03-03",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Подсолнечное масло"
+  },
+  {
+    "date": "2026-03-03",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-03-03",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-03-03",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-03-03",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-03-03",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-03-03",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-03-04",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Сырьевой индекс"
+  },
+  {
+    "date": "2026-03-04",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-03-04",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-03-06",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-03-06",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-03-08",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-03-08",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-03-10",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-03-10",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-03-10",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-03-10",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-03-10",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-03-10",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-03-10",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-03-10",
+    "market": "gas",
+    "market_title": "Газ",
+    "title": "Газ"
+  },
+  {
+    "date": "2026-03-11",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Соевый шрот"
+  },
+  {
+    "date": "2026-03-11",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-03-11",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-03-11",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-03-13",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-03-13",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-03-13",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь нетбэки"
+  },
+  {
+    "date": "2026-03-15",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-03-15",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-03-16",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-03-16",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Метанол"
+  },
+  {
+    "date": "2026-03-16",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-03-16",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт контейнеров"
+  },
+  {
+    "date": "2026-03-16",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт рынок судов"
+  },
+  {
+    "date": "2026-03-16",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Контейнерный индекс"
+  },
+  {
+    "date": "2026-03-16",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Контейнеры"
+  },
+  {
+    "date": "2026-03-17",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-03-17",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-03-17",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-03-17",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-03-17",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-03-17",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-03-18",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-03-18",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-03-20",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-03-20",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-03-22",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-03-22",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-03-22",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт контейнеров"
+  },
+  {
+    "date": "2026-03-22",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт рынок судов"
+  },
+  {
+    "date": "2026-03-22",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Контейнерный индекс"
+  },
+  {
+    "date": "2026-03-22",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Контейнеры"
+  },
+  {
+    "date": "2026-03-23",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-03-23",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-03-24",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-03-24",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-03-24",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-03-24",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-03-24",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-03-24",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-03-25",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-03-25",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-03-25",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-03-27",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-03-27",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-03-27",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Макроконсенсус"
+  },
+  {
+    "date": "2026-03-29",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-03-29",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-03-30",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-03-30",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-03-31",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Каустическая сода"
+  },
+  {
+    "date": "2026-03-31",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-03-31",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-03-31",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-03-31",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-03-31",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-03-31",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-03-31",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Полувагоны"
+  },
+  {
+    "date": "2026-04-01",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Сырьевой индекс"
+  },
+  {
+    "date": "2026-04-01",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-04-01",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-04-03",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-04-03",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-04-06",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-04-06",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-04-07",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Подсолнечное масло"
+  },
+  {
+    "date": "2026-04-07",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-04-07",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-04-07",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-04-07",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-04-07",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-04-07",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-04-08",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Соевый шрот"
+  },
+  {
+    "date": "2026-04-08",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-04-08",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-04-08",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-04-10",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-04-10",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-04-10",
+    "market": "gas",
+    "market_title": "Газ",
+    "title": "Газ"
+  },
+  {
+    "date": "2026-04-12",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-04-12",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-04-13",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-04-13",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-04-14",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-04-14",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-04-14",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-04-14",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-04-14",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-04-14",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-04-15",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Метанол"
+  },
+  {
+    "date": "2026-04-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт контейнеров"
+  },
+  {
+    "date": "2026-04-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт рынок судов"
+  },
+  {
+    "date": "2026-04-15",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Контейнерный индекс"
+  },
+  {
+    "date": "2026-04-15",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-04-15",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-04-15",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Зерновозы"
+  },
+  {
+    "date": "2026-04-15",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Контейнеры"
+  },
+  {
+    "date": "2026-04-17",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-04-17",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-04-19",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-04-19",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-04-20",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-04-20",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-04-21",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-04-21",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-04-21",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-04-21",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-04-21",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-04-21",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-04-22",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-04-22",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-04-22",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-04-24",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-04-24",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-04-26",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-04-26",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-04-27",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-04-27",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-04-28",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Каустическая сода"
+  },
+  {
+    "date": "2026-04-28",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-04-28",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-04-28",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-04-28",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-04-28",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-04-28",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-04-29",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-04-29",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-04-30",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Макроконсенсус"
+  },
+  {
+    "date": "2026-04-30",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Полувагоны"
+  },
+  {
+    "date": "2026-04-30",
+    "market": "real_estate",
+    "market_title": "Коммерческая недвижимость",
+    "title": "Коммерческая недвижимость"
+  },
+  {
+    "date": "2026-05-04",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-05-04",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-05-05",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Подсолнечное масло"
+  },
+  {
+    "date": "2026-05-05",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-05-05",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-05-05",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-05-05",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-05-05",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-05-06",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-05-06",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Сырьевой индекс"
+  },
+  {
+    "date": "2026-05-06",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-05-06",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-05-08",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-05-08",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-05-12",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-05-12",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-05-12",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-05-12",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-05-12",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-05-12",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-05-12",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-05-12",
+    "market": "gas",
+    "market_title": "Газ",
+    "title": "Газ"
+  },
+  {
+    "date": "2026-05-13",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Соевый шрот"
+  },
+  {
+    "date": "2026-05-13",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-05-13",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-05-15",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-05-15",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Метанол"
+  },
+  {
+    "date": "2026-05-15",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-05-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт контейнеров"
+  },
+  {
+    "date": "2026-05-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт рынок судов"
+  },
+  {
+    "date": "2026-05-15",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Контейнерный индекс"
+  },
+  {
+    "date": "2026-05-15",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Контейнеры"
+  },
+  {
+    "date": "2026-05-18",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-05-18",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-05-19",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-05-19",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-05-19",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-05-19",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-05-19",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-05-19",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-05-20",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-05-20",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-05-20",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-05-21",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Агроконсенсус"
+  },
+  {
+    "date": "2026-05-22",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-05-22",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-05-25",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-05-25",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-05-26",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Каустическая сода"
+  },
+  {
+    "date": "2026-05-26",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-05-26",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-05-26",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-05-26",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-05-26",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-05-26",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-05-27",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-05-27",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-05-28",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "ПП"
+  },
+  {
+    "date": "2026-05-28",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-05-28",
+    "market": "gas",
+    "market_title": "Газ",
+    "title": "Газ квартальный консенсус"
+  },
+  {
+    "date": "2026-05-29",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-05-29",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "ФертиКонсенсус"
+  },
+  {
+    "date": "2026-05-29",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь квартальный"
+  },
+  {
+    "date": "2026-05-29",
+    "market": "gas",
+    "market_title": "Газ",
+    "title": "Газ квартальный"
+  },
+  {
+    "date": "2026-05-29",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Макроконсенсус"
+  },
+  {
+    "date": "2026-05-29",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Полувагоны"
+  },
+  {
+    "date": "2026-06-01",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-06-01",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-06-02",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Подсолнечное масло"
+  },
+  {
+    "date": "2026-06-02",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-06-02",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-06-02",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-06-02",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-06-02",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-06-02",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-06-03",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-06-03",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Сырьевой индекс"
+  },
+  {
+    "date": "2026-06-03",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-06-03",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-06-05",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-06-05",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-06-08",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-06-08",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-06-09",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-06-09",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-06-09",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-06-09",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-06-09",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-06-09",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-06-10",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Соевый шрот"
+  },
+  {
+    "date": "2026-06-10",
+    "market": "gas",
+    "market_title": "Газ",
+    "title": "Газ"
+  },
+  {
+    "date": "2026-06-10",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-06-10",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-06-15",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-06-15",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Метанол"
+  },
+  {
+    "date": "2026-06-15",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-06-15",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь нетбэки"
+  },
+  {
+    "date": "2026-06-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт контейнеров"
+  },
+  {
+    "date": "2026-06-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт рынок судов"
+  },
+  {
+    "date": "2026-06-15",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Контейнерный индекс"
+  },
+  {
+    "date": "2026-06-15",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Контейнеры"
+  },
+  {
+    "date": "2026-06-16",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-06-16",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-06-16",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-06-16",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-06-16",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-06-16",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-06-17",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-06-17",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-06-17",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-06-19",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-06-19",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-06-22",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-06-22",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-06-23",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-06-23",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-06-23",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-06-23",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-06-23",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-06-23",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-06-24",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-06-24",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-06-26",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-06-26",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-06-26",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Макроконсенсус"
+  },
+  {
+    "date": "2026-06-29",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-06-29",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-06-29",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Полувагоны"
+  },
+  {
+    "date": "2026-06-30",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Каустическая сода"
+  },
+  {
+    "date": "2026-06-30",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-06-30",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-06-30",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-06-30",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-06-30",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-06-30",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-06-30",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Полувагоны"
+  },
+  {
+    "date": "2026-07-01",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-07-01",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Сырьевой индекс"
+  },
+  {
+    "date": "2026-07-01",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-07-01",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-07-03",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-07-03",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-07-06",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-07-06",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-07-07",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Подсолнечное масло"
+  },
+  {
+    "date": "2026-07-07",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-07-07",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-07-07",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-07-07",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-07-07",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-07-07",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-07-08",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Соевый шрот"
+  },
+  {
+    "date": "2026-07-08",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-07-08",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-07-10",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-07-10",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-07-10",
+    "market": "gas",
+    "market_title": "Газ",
+    "title": "Газ"
+  },
+  {
+    "date": "2026-07-13",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-07-13",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-07-14",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-07-14",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-07-14",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-07-14",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-07-14",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-07-14",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-07-15",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Метанол"
+  },
+  {
+    "date": "2026-07-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-07-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт контейнеров"
+  },
+  {
+    "date": "2026-07-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт рынок судов"
+  },
+  {
+    "date": "2026-07-15",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Контейнерный индекс"
+  },
+  {
+    "date": "2026-07-15",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-07-15",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-07-15",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Зерновозы"
+  },
+  {
+    "date": "2026-07-15",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Контейнеры"
+  },
+  {
+    "date": "2026-07-17",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-07-17",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-07-20",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-07-20",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-07-21",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-07-21",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-07-21",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-07-21",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-07-21",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-07-21",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-07-22",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-07-22",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-07-24",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-07-24",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-07-27",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-07-27",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-07-28",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Каустическая сода"
+  },
+  {
+    "date": "2026-07-28",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-07-28",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-07-28",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-07-28",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-07-28",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-07-28",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-07-29",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-07-29",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-07-29",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-07-30",
+    "market": "real_estate",
+    "market_title": "Коммерческая недвижимость",
+    "title": "Коммерческая недвижимость"
+  },
+  {
+    "date": "2026-07-31",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-07-31",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-07-31",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Макроконсенсус"
+  },
+  {
+    "date": "2026-07-31",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Полувагоны"
+  },
+  {
+    "date": "2026-07-31",
+    "market": "transshipment",
+    "market_title": "Перевалка",
+    "title": "Перевалка зерна"
+  },
+  {
+    "date": "2026-07-31",
+    "market": "transshipment",
+    "market_title": "Перевалка",
+    "title": "Перевалка контейнеров"
+  },
+  {
+    "date": "2026-07-31",
+    "market": "transshipment",
+    "market_title": "Перевалка",
+    "title": "Перевалка нефтепродуктов"
+  },
+  {
+    "date": "2026-07-31",
+    "market": "transshipment",
+    "market_title": "Перевалка",
+    "title": "Перевалка нефти"
+  },
+  {
+    "date": "2026-07-31",
+    "market": "transshipment",
+    "market_title": "Перевалка",
+    "title": "Перевалка угля"
+  },
+  {
+    "date": "2026-08-03",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-08-03",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-08-04",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Подсолнечное масло"
+  },
+  {
+    "date": "2026-08-04",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-08-04",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-08-04",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-08-04",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-08-04",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-08-04",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-08-05",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Сырьевой индекс"
+  },
+  {
+    "date": "2026-08-05",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-08-05",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-08-07",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-08-07",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-08-10",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-08-10",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-08-10",
+    "market": "gas",
+    "market_title": "Газ",
+    "title": "Газ"
+  },
+  {
+    "date": "2026-08-11",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-08-11",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-08-11",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-08-11",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-08-11",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-08-11",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-08-12",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Соевый шрот"
+  },
+  {
+    "date": "2026-08-12",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-08-12",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-08-12",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-08-14",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-08-14",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-08-17",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-08-17",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Метанол"
+  },
+  {
+    "date": "2026-08-17",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-08-17",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт контейнеров"
+  },
+  {
+    "date": "2026-08-17",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт рынок судов"
+  },
+  {
+    "date": "2026-08-17",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Контейнерный индекс"
+  },
+  {
+    "date": "2026-08-17",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Контейнеры"
+  },
+  {
+    "date": "2026-08-18",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-08-18",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-08-18",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-08-18",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-08-18",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-08-18",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-08-19",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-08-19",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-08-20",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Агроконсенсус"
+  },
+  {
+    "date": "2026-08-21",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-08-21",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-08-24",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-08-24",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-08-25",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Каустическая сода"
+  },
+  {
+    "date": "2026-08-25",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-08-25",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-08-25",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-08-25",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-08-25",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-08-25",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-08-26",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-08-26",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-08-26",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-08-28",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-08-28",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "ФертиКонсенсус"
+  },
+  {
+    "date": "2026-08-28",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-08-28",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь квартальный"
+  },
+  {
+    "date": "2026-08-28",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Макроконсенсус"
+  },
+  {
+    "date": "2026-08-28",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Полувагоны"
+  },
+  {
+    "date": "2026-08-31",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-08-31",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-08-31",
+    "market": "gas",
+    "market_title": "Газ",
+    "title": "Газ квартальный"
+  },
+  {
+    "date": "2026-08-31",
+    "market": "gas",
+    "market_title": "Газ",
+    "title": "Газ квартальный консенсус"
+  },
+  {
+    "date": "2026-08-31",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Полувагоны"
+  },
+  {
+    "date": "2026-09-01",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Подсолнечное масло"
+  },
+  {
+    "date": "2026-09-01",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-09-01",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-09-01",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-09-01",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-09-01",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-09-01",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-09-02",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Сырьевой индекс"
+  },
+  {
+    "date": "2026-09-02",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-09-02",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-09-04",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-09-04",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-09-07",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-09-07",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-09-08",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-09-08",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-09-08",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-09-08",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-09-08",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-09-08",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-09-09",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Соевый шрот"
+  },
+  {
+    "date": "2026-09-09",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-09-09",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-09-09",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-09-10",
+    "market": "gas",
+    "market_title": "Газ",
+    "title": "Газ"
+  },
+  {
+    "date": "2026-09-11",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-09-11",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-09-11",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь нетбэки"
+  },
+  {
+    "date": "2026-09-14",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-09-14",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-09-15",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Метанол"
+  },
+  {
+    "date": "2026-09-15",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-09-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-09-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт контейнеров"
+  },
+  {
+    "date": "2026-09-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-09-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-09-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-09-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт рынок судов"
+  },
+  {
+    "date": "2026-09-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-09-15",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Контейнерный индекс"
+  },
+  {
+    "date": "2026-09-15",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Контейнеры"
+  },
+  {
+    "date": "2026-09-16",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-09-16",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-09-18",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-09-18",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-09-21",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-09-21",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-09-22",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-09-22",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-09-22",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-09-22",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-09-22",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-09-22",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-09-23",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-09-23",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-09-23",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-09-25",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-09-25",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-09-28",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-09-28",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-09-29",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Каустическая сода"
+  },
+  {
+    "date": "2026-09-29",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-09-29",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-09-29",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-09-29",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-09-29",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-09-29",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-09-30",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Макроконсенсус"
+  },
+  {
+    "date": "2026-09-30",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-09-30",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-09-30",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Полувагоны"
+  },
+  {
+    "date": "2026-10-02",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-10-02",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-10-05",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-10-05",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-10-06",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Подсолнечное масло"
+  },
+  {
+    "date": "2026-10-06",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-10-06",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-10-06",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-10-06",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-10-06",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-10-06",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-10-07",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-10-07",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Сырьевой индекс"
+  },
+  {
+    "date": "2026-10-07",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-10-07",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-10-09",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-10-09",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-10-12",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-10-12",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-10-12",
+    "market": "gas",
+    "market_title": "Газ",
+    "title": "Газ"
+  },
+  {
+    "date": "2026-10-13",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-10-13",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-10-13",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-10-13",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-10-13",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-10-13",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-10-14",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Соевый шрот"
+  },
+  {
+    "date": "2026-10-14",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-10-14",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-10-15",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Метанол"
+  },
+  {
+    "date": "2026-10-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт контейнеров"
+  },
+  {
+    "date": "2026-10-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт рынок судов"
+  },
+  {
+    "date": "2026-10-15",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Контейнерный индекс"
+  },
+  {
+    "date": "2026-10-15",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Зерновозы"
+  },
+  {
+    "date": "2026-10-15",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Контейнеры"
+  },
+  {
+    "date": "2026-10-16",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-10-16",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-10-19",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-10-19",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-10-20",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-10-20",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-10-20",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-10-20",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-10-20",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-10-20",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-10-21",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-10-21",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-10-21",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-10-23",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-10-23",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-10-26",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-10-26",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-10-27",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Каустическая сода"
+  },
+  {
+    "date": "2026-10-27",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-10-27",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-10-27",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-10-27",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-10-27",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-10-27",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-10-28",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-10-28",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-10-30",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-10-30",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-10-30",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Макроконсенсус"
+  },
+  {
+    "date": "2026-10-30",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Полувагоны"
+  },
+  {
+    "date": "2026-10-30",
+    "market": "real_estate",
+    "market_title": "Коммерческая недвижимость",
+    "title": "Коммерческая недвижимость"
+  },
+  {
+    "date": "2026-11-02",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-11-02",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-11-03",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Подсолнечное масло"
+  },
+  {
+    "date": "2026-11-03",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-11-03",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-11-03",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-11-03",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-11-03",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-11-03",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-11-03",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-11-06",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-11-06",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-11-09",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-11-09",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-11-10",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-11-10",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-11-10",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-11-10",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-11-10",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-11-10",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-11-10",
+    "market": "gas",
+    "market_title": "Газ",
+    "title": "Газ"
+  },
+  {
+    "date": "2026-11-11",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Соевый шрот"
+  },
+  {
+    "date": "2026-11-11",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Сырьевой индекс"
+  },
+  {
+    "date": "2026-11-11",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-11-11",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-11-13",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-11-13",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-11-16",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-11-16",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Метанол"
+  },
+  {
+    "date": "2026-11-16",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-11-16",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт контейнеров"
+  },
+  {
+    "date": "2026-11-16",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт рынок судов"
+  },
+  {
+    "date": "2026-11-16",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Контейнерный индекс"
+  },
+  {
+    "date": "2026-11-16",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Контейнеры"
+  },
+  {
+    "date": "2026-11-17",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-11-17",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-11-17",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-11-17",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-11-17",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-11-17",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-11-18",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-11-18",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-11-18",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-11-19",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Агроконсенсус"
+  },
+  {
+    "date": "2026-11-20",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-11-20",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-11-23",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-11-23",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-11-24",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Каустическая сода"
+  },
+  {
+    "date": "2026-11-24",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-11-24",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-11-24",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-11-24",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-11-24",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-11-24",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-11-25",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-11-25",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-11-26",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "ПП"
+  },
+  {
+    "date": "2026-11-27",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-11-27",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "ФертиКонсенсус"
+  },
+  {
+    "date": "2026-11-27",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-11-27",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь квартальный"
+  },
+  {
+    "date": "2026-11-27",
+    "market": "gas",
+    "market_title": "Газ",
+    "title": "Газ квартальный"
+  },
+  {
+    "date": "2026-11-27",
+    "market": "gas",
+    "market_title": "Газ",
+    "title": "Газ квартальный консенсус"
+  },
+  {
+    "date": "2026-11-27",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Макроконсенсус"
+  },
+  {
+    "date": "2026-11-27",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Полувагоны"
+  },
+  {
+    "date": "2026-12-01",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Подсолнечное масло"
+  },
+  {
+    "date": "2026-12-01",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-12-01",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-12-01",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-12-01",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-12-01",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-12-01",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-12-02",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-12-02",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Сырьевой индекс"
+  },
+  {
+    "date": "2026-12-02",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-12-02",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-12-04",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-12-04",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-12-07",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-12-07",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-12-08",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-12-08",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-12-08",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-12-08",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-12-08",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-12-08",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-12-09",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Соевый шрот"
+  },
+  {
+    "date": "2026-12-09",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-12-09",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-12-10",
+    "market": "gas",
+    "market_title": "Газ",
+    "title": "Газ"
+  },
+  {
+    "date": "2026-12-11",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-12-11",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-12-11",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь нетбэки"
+  },
+  {
+    "date": "2026-12-14",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-12-14",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-12-15",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Метанол"
+  },
+  {
+    "date": "2026-12-15",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-12-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-12-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт контейнеров"
+  },
+  {
+    "date": "2026-12-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-12-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-12-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-12-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт рынок судов"
+  },
+  {
+    "date": "2026-12-15",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-12-15",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Контейнерный индекс"
+  },
+  {
+    "date": "2026-12-15",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Контейнеры"
+  },
+  {
+    "date": "2026-12-16",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Бункерное топливо"
+  },
+  {
+    "date": "2026-12-16",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-12-16",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: АБ"
+  },
+  {
+    "date": "2026-12-18",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-12-18",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-12-21",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-12-21",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Минеральные удобрения"
+  },
+  {
+    "date": "2026-12-22",
+    "market": "coal",
+    "market_title": "Уголь",
+    "title": "Уголь котировки"
+  },
+  {
+    "date": "2026-12-22",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт зерновых"
+  },
+  {
+    "date": "2026-12-22",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт минеральных удобрений"
+  },
+  {
+    "date": "2026-12-22",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефтепродуктов"
+  },
+  {
+    "date": "2026-12-22",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт нефти"
+  },
+  {
+    "date": "2026-12-22",
+    "market": "freight",
+    "market_title": "Фрахт",
+    "title": "Фрахт угля"
+  },
+  {
+    "date": "2026-12-23",
+    "market": "oil",
+    "market_title": "Нефть",
+    "title": "Нефть"
+  },
+  {
+    "date": "2026-12-23",
+    "market": "oil_products",
+    "market_title": "Нефтепродукты",
+    "title": "Нефтепродукты: ДТ"
+  },
+  {
+    "date": "2026-12-25",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Ароматика"
+  },
+  {
+    "date": "2026-12-25",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Этилен и полиэтилен"
+  },
+  {
+    "date": "2026-12-25",
+    "market": "macro",
+    "market_title": "Макроэкономика",
+    "title": "Макроконсенсус"
+  },
+  {
+    "date": "2026-12-28",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Пшеница"
+  },
+  {
+    "date": "2026-12-29",
+    "market": "agro",
+    "market_title": "АПК",
+    "title": "Подсолнечное масло"
+  },
+  {
+    "date": "2026-12-29",
+    "market": "chemicals",
+    "market_title": "Химия",
+    "title": "Каустическая сода"
+  },
+  {
+    "date": "2026-12-29",
+    "market": "rail",
+    "market_title": "Железная дорога",
+    "title": "Полувагоны"
+  }
+]

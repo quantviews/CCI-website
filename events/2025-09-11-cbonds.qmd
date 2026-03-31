@@ -24,7 +24,9 @@ lang: ru
 
 ### Запись вебинара
 
-<iframe src="https://vk.com/video_ext.php?oid=-227681629&id=456239086&hd=2" width="853" height="480" style="background-color: #000" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://vk.com/video_ext.php?oid=-227681629&amp;id=456239086&amp;hd=2" width="853" height="480" style="background-color: #000" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen>
+
+</iframe>
 
 ## Записи вебинаров в наших социальных сетях
 
@@ -40,4 +42,13 @@ lang: ru
 
 ![](../fig/qr-cci-vk.png)
 :::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+
+3.  [Telegram](https://t.me/pbc_index)
+
+![](../fig/qr-cci-telegram.png)
+:::
+
+
 :::::

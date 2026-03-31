@@ -7,7 +7,7 @@ format:
       sidebar-width: 350px
 ---
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::: grid
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: grid
 :::: {.g-col-12 .full-width-container}
 ![](fig/cci-blur.png)
 
@@ -52,8 +52,8 @@ format:
 
 <!-- All banners in one container -->
 
-:::::::::::::::::::::::::::::::::::::::::::::: g-col-12
-::::::::::::::::::::::::::::::::::::::::::::: hero-banners-container
+:::::::::::::::::::::::::::::::::::::::::::::::::::: g-col-12
+::::::::::::::::::::::::::::::::::::::::::::::::::: hero-banners-container
 :::: hero-banner
 ![](images/icon-oil.svg)
 
@@ -62,13 +62,13 @@ format:
 
 <p class="hero-banner-date">
 
-17.09.2025
+24.03.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Ничья между Приморском и Новороссийском
+Не имей 100 долларов, а имей 1 баррель ESPO
 
 </p>
 :::
@@ -82,13 +82,13 @@ format:
 
 <p class="hero-banner-date">
 
-17.09.2025
+24.03.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Дизель полетел к бензину
+Цены на бензин улетели, но обещали вернуться
 
 </p>
 :::
@@ -102,13 +102,13 @@ format:
 
 <p class="hero-banner-date">
 
-01.09.2025
+01.03.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Газу из России говорят 你好 (Nǐ hǎo)
+Газовый рынок возвращается в 2022 г.
 
 </p>
 :::
@@ -122,13 +122,13 @@ format:
 
 <p class="hero-banner-date">
 
-22.09.2025
+31.03.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Пополнение запасов подтолкнуло цены
+Неопределённость удерживает рынок угля в напряжении
 
 </p>
 :::
@@ -142,13 +142,13 @@ format:
 
 <p class="hero-banner-date">
 
-22.09.2025
+30.03.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Бразилия не спешит покупать карбамид
+График цен на карбамид штурмует забытые вершины
 
 </p>
 :::
@@ -162,13 +162,13 @@ format:
 
 <p class="hero-banner-date">
 
-15.07.2025
+16.03.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Иранский след запутал цены
+Март показал реактивный рост цен на мировом рынке
 
 </p>
 :::
@@ -182,13 +182,13 @@ format:
 
 <p class="hero-banner-date">
 
-19.09.2025
+27.03.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Продавцы ищут точки опоры, чтобы развернуть цены
+*Экспортируй по максимуму, если можешь
 
 </p>
 :::
@@ -202,13 +202,13 @@ format:
 
 <p class="hero-banner-date">
 
-22.09.2025
+30.03.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Зерновые прогнозы пересматриваются вверх
+Казахстан ставит зерновой кордон с Россией
 
 </p>
 :::
@@ -222,13 +222,33 @@ format:
 
 <p class="hero-banner-date">
 
-02.09.2025
+03.03.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Россия лидирует по экспорту подсолнечного масла
+Цены на соевое масло рванули вверх
+
+</p>
+:::
+::::
+
+:::: hero-banner
+![](images/icon-oilseed.svg)
+
+::: hero-banner-content
+[Соевый шрот](markets/markets-soybeans.qmd){.hero-banner-title}
+
+<p class="hero-banner-date">
+
+11.03.2026
+
+</p>
+
+<p class="hero-banner-caption">
+
+Приморские экспортеры соевого шрота нацелены на Пакистан
 
 </p>
 :::
@@ -242,13 +262,13 @@ format:
 
 <p class="hero-banner-date">
 
-15.09.2025
+16.03.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Контейнерный рынок встретил осень без привычного ажиотажа
+Железнодорожники готовы забрать контейнеры с морских маршрутов
 
 </p>
 :::
@@ -262,13 +282,13 @@ format:
 
 <p class="hero-banner-date">
 
-29.08.2025
+27.02.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-На рынке полувагонов наступил «чёрный» август
+Сибирь и Урал столкнулись с нехваткой порожних полувагонов
 
 </p>
 :::
@@ -282,13 +302,13 @@ format:
 
 <p class="hero-banner-date">
 
-15.07.2025
+15.01.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Низкий сезон для хопперов-зерновозов затянулся
+Ставки на зерновозы растут вслед за рекордной погрузкой
 
 </p>
 :::
@@ -302,13 +322,13 @@ format:
 
 <p class="hero-banner-date">
 
-15.09.2025
+24.03.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Фрахт вспоминает забытое чувство стабильности
+Лед растаял, но фрахт не заметил
 
 </p>
 :::
@@ -322,13 +342,13 @@ format:
 
 <p class="hero-banner-date">
 
-16.09.2025
+24.03.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Фрахт светлых нефтепродуктов продолжает пике
+Тоннаж стал доступнее, но растет и активность
 
 </p>
 :::
@@ -342,13 +362,13 @@ format:
 
 <p class="hero-banner-date">
 
-16.09.2025
+23.03.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Пути Coaster и Handysize разошлись
+Рынок активен не по сезону
 
 </p>
 :::
@@ -362,13 +382,53 @@ format:
 
 <p class="hero-banner-date">
 
-16.09.2025
+24.03.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Стабильные отгрузки удержали ставки от изменений
+Тарифы немного сбавили обороты
+
+</p>
+:::
+::::
+
+:::: hero-banner
+![](images/icon-ship.svg)
+
+::: hero-banner-content
+[Фрахт удобрений](markets/freight-fertilizers.qmd){.hero-banner-title}
+
+<p class="hero-banner-date">
+
+23.03.2026
+
+</p>
+
+<p class="hero-banner-caption">
+
+Топливо давит, но погода спасает
+
+</p>
+:::
+::::
+
+:::: hero-banner
+![](images/icon-ship.svg)
+
+::: hero-banner-content
+[Фрахт контейнеров](markets/freight-containers.qmd){.hero-banner-title}
+
+<p class="hero-banner-date">
+
+19.03.2026
+
+</p>
+
+<p class="hero-banner-caption">
+
+Конфликт на Ближнем Востоке отбросил фрахт на 3 года назад
 
 </p>
 :::
@@ -382,13 +442,13 @@ format:
 
 <p class="hero-banner-date">
 
-15.08.2025
+02.02.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Увеличение ставок перевалки: порты Юга и Балтики в авангарде изменений
+Российские порты потеряли в контейнерообороте, но не в ставках
 
 </p>
 :::
@@ -402,13 +462,13 @@ format:
 
 <p class="hero-banner-date">
 
-01.08.2025
+30.01.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Низкий экспорт сохранил ставки перевалки
+Рекордный экспорт в конце года придал импульс ставкам перевалки
 
 </p>
 :::
@@ -422,13 +482,13 @@ format:
 
 <p class="hero-banner-date">
 
-24.07.2025
+30.01.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Падение мирового угольного рынка снизило тарифы в портах
+Рост тарифов в декабре не добавил оптимизма
 
 </p>
 :::
@@ -442,13 +502,13 @@ format:
 
 <p class="hero-banner-date">
 
-08.08.2025
+12.02.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Тарифы на перевалку не спешат расти
+Ставки перевалки нефти увеличились вопреки снижению экспорта
 
 </p>
 :::
@@ -462,30 +522,86 @@ format:
 
 <p class="hero-banner-date">
 
-08.08.2025
+12.02.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Падение экспорта в Черном море тянет ставки перевалки за собой
+Тарифы выросли несмотря на снижение экспорта
 
 </p>
 :::
 ::::
-:::::::::::::::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::: g-col-12
 ### Актуальное
 :::
 
 ::: g-col-6
+16 марта 2026. Контейнерный индекс ЦЦИ. **Контейнерный рынок РФ реагирует на мировые логистические риски**
 
-15 сентября 2025. Контейнерный индекс ЦЦИ. **Сентябрь не оправдывает надежд 
-на рост контейнерного рынка**
+[Мониторинг март -\>](reports/2026-03%20Контейнерный%20индекс%20ЦЦИ.pdf)
 
-[Мониторинг сентябрь -\>](reports/2025-09%20Контейнерный%20индекс%20ЦЦИ.pdf)
+4 марта 2026. Сырьевой индекс ЦЦИ. **Цены в феврале "притихли" перед мартовским скачком**
+
+[Мониторинг март -\>](reports/2026-02%20Сырьевой%20индекс%20ЦЦИ.pdf)
+
+19 февраля 2026. **ЦЦИ запустил Котировку соевого шрота**
+
+[Пресс-релиз →](events/2026-02-19-soybeans.qmd)
+
+16 февраля 2026. Контейнерный индекс ЦЦИ. **Перевозчики держат ставки перед новогодней паузой в КНР**
+
+[Мониторинг февраль -\>](reports/2026-02%20Контейнерный%20индекс%20ЦЦИ.pdf)
+
+4 февраля 2026. Сырьевой индекс ЦЦИ. **На старте 2026 г. подорожало все**
+
+[Мониторинг февраль -\>](reports/2026-01%20Сырьевой%20индекс%20ЦЦИ.pdf)
+
+4 февраля 2026. Сырьевой индекс ЦЦИ. **Металлы потеснили ТЭК**
+
+[Обновление методики -\>](events/2026-02-04-commodity-index.qmd)
+
+16 января 2026. Контейнерный индекс ЦЦИ. **Рекорды импорта нашли отражение в росте Контейнерного индекса ЦЦИ**
+
+[Мониторинг январь -\>](reports/2026-01%20Контейнерный%20индекс%20ЦЦИ.pdf)
+
+14 января 2026. Сырьевой индекс ЦЦИ. **В 2025 г. Сырьевой индекс потерял четверть**
+
+[Мониторинг январь -\>](reports/2025-12%20Сырьевой%20индекс%20ЦЦИ.pdf)
+
+5 декабря 2025. **Пятница с ЦЦИ: нефть**
+
+[Анонс →](events/2025-12-05-crude.qmd)
+
+3 декабря 2025. Сырьевой индекс ЦЦИ. **Сырье не было таким дешевым 4 года**
+
+[Мониторинг декабрь -\>](reports/2025-11%20Сырьевой%20индекс%20ЦЦИ.pdf)
+:::
+
+::: g-col-6
+17 ноября 2025. Контейнерный индекс ЦЦИ. **Фрахт на Дальний Восток и Балтику подогрел холодную осень**
+
+[Мониторинг ноябрь -\>](reports/2025-11%20Контейнерный%20индекс%20ЦЦИ.pdf)
+
+5 ноября 2025. Сырьевой индекс ЦЦИ. **Цены на сырье снова на минимумах**
+
+[Мониторинг ноябрь -\>](reports/2025-10%20Сырьевой%20индекс%20ЦЦИ.pdf)
+
+22 октября 2025. **ЦЦИ разработал Контейнерный индекс, отражающий стоимость транспортно-логистических услуг по доставке контейнеров из Китая в Россию**
+
+[Материалы →](events/2025-10-22-container-index.qmd)
+
+15 октября 2025. Контейнерный индекс ЦЦИ. **Индекс ЦЦИ пошёл в рост несмотря на смешанную динамику ставок**
+
+[Мониторинг октябрь -\>](reports/2025-10%20Контейнерный%20индекс%20ЦЦИ.pdf)
+
+1 октября 2025. Сырьевой индекс ЦЦИ. **ТЭК против падения сырьевых цен**
+
+[Мониторинг октябрь -\>](reports/2025-09%20Сырьевой%20индекс%20ЦЦИ.pdf)
 
 11 сентября 2025. **Что происходит в экономике России и мира и как узнавать об этом раньше всех? Говорят аналитики ЦЦИ и ГПБ**
 
@@ -498,40 +614,6 @@ format:
 13 августа 2025. ЦЦИ подготовил новый аналитический материал – **карту Масложирового комплекса России** в 2024-2025 г. (подсолнечник).
 
 [Карта](markets/markets-oilseed.qmd)
-
-6 августа 2025. Сырьевой индекс ЦЦИ. **Сырьевые цены оттолкнулись от дна**
-
-[Мониторинг июль -\>](reports/2025-07%20Сырьевой%20индекс%20ЦЦИ.pdf)
-
-2 июля 2025. Сырьевой индекс ЦЦИ. **Нестабильность на Ближнем Востоке лихорадит цены**
-
-[Мониторинг июнь -\>](reports/2025-06%20Сырьевой%20индекс%20ЦЦИ.pdf)
-:::
-
-::: g-col-6
-6 июня 2025. **Пятница с ЦЦИ: Сложное время для рынка угля**
-
-[Материалы →](events/2025-06-06-coal.qmd)
-
-6 июня 2025. **Пятница с ЦЦИ: Агропромышленность**
-
-[Материалы →](events/2025-06-06-agro.qmd)
-
-4 июня 2025. Сырьевой индекс ЦЦИ. **Снижение тарифов не добавило ценам оптимизма**
-
-[Мониторинг май -\>](reports/2025-05%20Сырьевой%20индекс%20ЦЦИ.pdf)
-
-15 апреля 2025. **ЦЦИ начал публиковать индексы на хопперы-зерновозы**
-
-[Пресс-релиз →](events/2025-04-15-railways-wheat-van.qmd)
-
-7 февраля 2025. **Пятница с ЦЦИ: логистика**
-
-[Материалы →](events/2025-02-07-logistics.qmd)
-
-06 февраля 2025. Сырьевой индекс ЦЦИ. **Квоты, пошлины и торговые войны разгорели цены**
-
-[Мониторинг январь -\>](reports/2025-01%20Сырьевой%20индекс%20ЦЦИ.pdf)
 :::
 
 ::: g-col-12
@@ -628,7 +710,7 @@ index_plot <- highchart() %>%
    hc_xAxis(type = "datetime") %>%
    hc_exporting(enabled = FALSE) %>%
    hc_yAxis_multiples(
-      list(title = list(text = "Индекс сырьевых цен ЦЦИ, янв. 2022 = 100"), showFirstLabel = TRUE, max = 180, showLastLabel=TRUE, opposite= FALSE),
+      list(title = list(text = "Индекс сырьевых цен ЦЦИ, янв. 2022 = 100"), showFirstLabel = TRUE, max = 150, showLastLabel=TRUE, opposite= FALSE),
       list(title = list(text = "USD/RUB, рублей за доллар"), showLastLabel = FALSE, opposite = TRUE, reversed = TRUE)) %>%
    hc_add_series(df_index,type="line", hcaes(x = date, y = value, group=index), color = colors[1]) %>%
    hc_add_series(df_noil_index,type="line", hcaes(x = date, y = value, group=index), color = colors[3], visible = TRUE) %>%
@@ -647,121 +729,106 @@ index_plot
 
 ### Контейнерный индекс ЦЦИ [→](pbc-container-index.qmd)
 
---  композитный индекс, отражающий стоимость перевозки 40-футового контейнера собственности перевозчика (40’HC COC) по наиболее популярному маршруту импорта контейнерных грузов в Россию: из Шанхая в Москву.
+-- композитный индекс, отражающий стоимость перевозки 40-футового контейнера собственности перевозчика (40’HC COC) по наиболее популярному маршруту импорта контейнерных грузов в Россию: из Шанхая в Москву.
 
+**FI / FOR Шанхай - FOT Москва, 40’HC COC**
 
-```{r, warning = FALSE, echo = FALSE, message = FALSE}
+```{r, warning = FALSE, echo = FALSE, message = FALSE, eval = TRUE}
 
 library(openxlsx)
 library(dplyr)
 library(tidyr)
-library(highcharter)
 library(stringr)
+library(highcharter)
+library(lubridate)
 
 colors = c("#1a4afc", '#28055a', '#6d7aa5', '#82096c', '#d1e5ff', '#44bf78', '#f6514c',  "#FF9500", '#c3b0ef', '#d0d0d0', '#ffffff', '#000000' )
 
-# прочитать и преобразовать файл Excel с данными
+path2 <- "data/Исходные данные.xlsx"
+df_raw <- openxlsx::read.xlsx(
+  xlsxFile = path2, sheet = "Рынки", detectDates = TRUE
+)
 
-path <- "xls/Расчетная модель_ЦЦИ_Контейнерный индекс.xlsm"
-raw <- openxlsx::read.xlsx(path, sheet = "Расчет", colNames = FALSE, detectDates = FALSE)
-
-# 1) Строка с заголовками
-hdr_row <- 4L
-stopifnot(identical(as.character(raw[[1]][hdr_row]), "Показатель"))
-
-# 2) Преобразуем excel-serial в Date и делаем имена столбцов
-date_cols  <- as.Date(as.numeric(unlist(raw[hdr_row, -(1:2)], use.names = FALSE)),
-                      origin = "1899-12-30")
-date_names <- format(date_cols, "%Y-%m-%d")
-
-names(raw) <- c("Показатель", "Ед.", date_names)
-
-# 3) Берём данные НИЖЕ заголовка
-dat <- raw[(hdr_row + 1L):nrow(raw), ]
-
-
-# 4) В tidy-формат и численные значения
-tidy <- dat %>%
-  mutate(across(-c(Показатель, Ед.), ~ suppressWarnings(as.numeric(.)))) %>%
-  pivot_longer(
-    cols = -c(Показатель, Ед.),
-    names_to  = "date",
-    values_to = "value"
+# 2) Минимальная очистка
+df <- df_raw %>%
+  transmute(
+    date       = as.Date(`Дата`),
+    value      = suppressWarnings(as.numeric(`Данные`)),
+    Показатель = `Наименование.показателя`
   ) %>%
   mutate(
-    date = as.Date(date),
-    # если в Excel была пустая ячейка, read.xlsx часто подставляет 0 → заменяем на NA
-    value = ifelse(value == 0, NA, value)
+    value = ifelse(value == 0, NA_real_, value)  # если 0 означает нет данных
   ) %>%
-  filter(!is.na(value)) %>%
+  filter(!is.na(date), !is.na(value))
+
+# 3) Нужные серии и порядок (как было)
+series_order <- c(
+  "Контейнерный индекс ЦЦИ, долл/конт.",
+  "FI Шанхай – Владивосток (Находка) – FOR Москва – FOT Москва, долл/конт.",
+  "FOR Шанхай – FOR Москва – FOT Москва, долл/конт.",
+  "FI Шанхай – Санкт-Петербург – FOT Москва, долл/конт.",
+  "FI Шанхай – Новороссийск – FOT Москва, долл/конт."
+)
+
+series_exist <- intersect(series_order, unique(df$Показатель))
+
+plot_data <- df %>%
+  filter(Показатель %in% series_exist, year(date) >= 2023) %>%
+  mutate(
+    legend_name = str_remove(Показатель, ",\\s*долл/конт\\.?$")
+  ) %>%
   arrange(Показатель, date)
 
+plot_data = plot_data[plot_data$date <= Sys.Date(),]
 
-# 5) Отфильтруем нужные серии и зафиксируем порядок
-series_order <- c(
-  "Контейнерный индекс ЦЦИ",
-  "FI Шанхай – Владивосток (Находка) – FOR Москва – FOT Москва",
-  "FOR Шанхай – FOR Москва – FOT Москва",
-  "FI Шанхай – Санкт-Петербург – FOT Москва",
-  "FI Шанхай – Новороссийск – FOT Москва"
-)
-series_exist <- intersect(series_order, unique(tidy$Показатель))
-plot_data <- tidy %>% filter(Показатель %in% series_exist)
 
-plot_data = plot_data[format(plot_data$date, '%Y') >= 2023,] # данные только после 2023 года
-
-# 7) График highcharter
-
-hc <- highchart() |>
-  hc_chart(type = "spline") |>
-  #hc_title(text = "Контейнерный индекс ЦЦИ, долл./СФЭ") |>
-  hc_colors(colors) |>
-  hc_xAxis(type = "datetime",
-           #tickInterval = 30 * 24 * 3600 * 1000,
-           labels = list(format = "{value:%m.%Y}")) |>
-  hc_yAxis(title = list(text = "долл./СФЭ"),
-           labels = list(format = "{value:,.0f}")) |>
-  hc_tooltip(shared = FALSE, useHTML = TRUE,
-             headerFormat = "<span style='font-size:11px'>{point.series.name}</span><br/>",
-             pointFormat = "<b>{point.y:.2f}</b><br/><span>{point.x:%d.%m.%Y}</span>") |>
-  hc_legend(layout = "horizontal", align = "center", verticalAlign = "bottom") |>
-  hc_exporting(enabled = FALSE) |>
-  hc_credits(enabled = FALSE, 
-             text = "ЦЦИ",
-             href = "https://pbc-index.ru/")
+# 4) График
+hc <- highchart() %>%
+  hc_chart(type = "spline") %>%
+  hc_colors(colors) %>%
+  hc_xAxis(
+    type = "datetime",
+    labels = list(format = "{value:%m.%Y}")
+  ) %>%
+  hc_yAxis(
+    title = list(text = "долл./конт."),
+    labels = list(format = "{value:,.0f}")
+  ) %>%
+  hc_tooltip(
+    shared = FALSE, useHTML = TRUE,
+    headerFormat = "<span style='font-size:11px'>{point.series.name}</span><br/>",
+    pointFormat  = "<b>{point.y:.2f}</b><br/><span>{point.x:%d.%m.%Y}</span>"
+  ) %>%
+  hc_legend(layout = "horizontal", align = "center", verticalAlign = "bottom") %>%
+  hc_exporting(enabled = FALSE) %>%
+  hc_credits(enabled = TRUE, text = "ЦЦИ", href = "https://pbc-index.ru/")
 
 for (s in series_exist) {
-  is_index <- identical(s, "Контейнерный индекс ЦЦИ")
-  df_s <- plot_data |>
-    dplyr::filter(Показатель == s) |>
-    dplyr::arrange(date) |>
-    dplyr::mutate(
-      # если где-то нули означают «нет данных» — превращаем в NA
-      value = dplyr::if_else(value == 0, NA_real_, value),
+  df_s <- plot_data %>%
+    filter(Показатель == s) %>%
+    transmute(
       x = highcharter::datetime_to_timestamp(date),
-      y = value
+      y = value,
+      legend_name = first(legend_name)
     )
 
-  hc <- hc |>
+  is_index <- str_detect(first(df_s$legend_name), "^Контейнерный индекс")
+
+  hc <- hc %>%
     hc_add_series(
       data      = highcharter::list_parse2(df_s[, c("x", "y")]),
-      name      = s,
+      name      = first(df_s$legend_name),   # ← изменено
       type      = "spline",
       lineWidth = if (is_index) 2 else 2,
       dashStyle = if (is_index) "Solid" else "ShortDash",
       visible   = is_index,
       marker    = list(enabled = FALSE),
-      # чтобы при наведении толщина не «скакала»
       states    = list(hover = list(lineWidth = if (is_index) 3 else 2)),
-      # разрывать линию на пропусках (NA) — как в образце
       connectNulls = FALSE
     )
 }
 
 hc
-
 ```
-
-
 :::
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

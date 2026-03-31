@@ -42,19 +42,29 @@ lang: ru
 
 ![](../fig/qr-cci-vk.png)
 :::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+
+3.  [Telegram](https://t.me/pbc_index)
+
+![](../fig/qr-cci-telegram.png)
+:::
+
 :::::
 
 ### Запись вебинара
 
 #### 1. Влияние тарифного противостояния на мировую экономику. Динамика курса рубля.
- 
- Тарифное противостояние остается ключевым фактором, определяющим конъюнктуру мировых рынков. Инициированный США пересмотр тарифной политики в отношении Китая и других торговых партнеров создает эффект домино, затрагивая большинство стран.
+
+Тарифное противостояние остается ключевым фактором, определяющим конъюнктуру мировых рынков. Инициированный США пересмотр тарифной политики в отношении Китая и других торговых партнеров создает эффект домино, затрагивая большинство стран.
 
 Следствием стал пересмотр прогнозов роста мировой экономики в сторону снижения до 2,8% в 2025 г. против 3,3% в 2024 г. на фоне сокращения объемов международной торговли и необходимости перестройки логистических цепочек.
 
 Аналитики ожидают ослабления курса рубля к концу 2025 г. в диапазоне от 90 до 104 руб./долл.
 
-<iframe src="https://vkvideo.ru/video_ext.php?oid=-227681629&id=456239066&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://vkvideo.ru/video_ext.php?oid=-227681629&amp;id=456239066&amp;hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen>
+
+</iframe>
 
 #### 2. Ключевые направления российского агроэкспорта и динамика экспорта
 
@@ -66,7 +76,9 @@ lang: ru
 
 Экспортные цены на подсолнечное масло держатся на высоком уровне. Экспортная цена на подсолнечное масло на базисе FOB Новороссийск, рассчитанная ЦЦИ, в начале июня 2025 г. составила 1113 долл./т, на 13 долл. ниже начала мая 2025 г. и на 213 долл. выше начала июня 2024 г.
 
-<iframe src="https://vkvideo.ru/video_ext.php?oid=-227681629&id=456239067&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://vkvideo.ru/video_ext.php?oid=-227681629&amp;id=456239067&amp;hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen>
+
+</iframe>
 
 #### 3. Прогнозы урожая и экспорта на 2025/26 г.
 
@@ -74,9 +86,11 @@ lang: ru
 
 Масличные остаются интересными для российских сельхозпроизводителей. В майском прогнозе был повышен валовой сбор подсолнечника в 2025/26 г. на 800 тыс. т до 17,3 млн т, если результат будет достигнут, это будет рекордный урожай. Экспорт подсолнечного масла в 2025/26 г. вернется к уровню 5,2 млн т.
 
-<iframe src="https://vkvideo.ru/video_ext.php?oid=-227681629&id=456239068&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frйгrameborder="0" allowfullscreen></iframe>
+<iframe src="https://vkvideo.ru/video_ext.php?oid=-227681629&amp;id=456239068&amp;hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frйгrameborder="0" allowfullscreen>
 
-#### 4. Технологии морской перевозки растительных масел 
+</iframe>
+
+#### 4. Технологии морской перевозки растительных масел
 
 Мировой рынок танкеров-химовозов в 2024 г. составил 36,51 млрд долл. с перспективой двукратного увеличения к 2037 г. Одним из драйверов роста рынка является спрос на морские перевозки масла.
 
@@ -84,4 +98,6 @@ lang: ru
 
 Речные танкеры вместимостью 3-5 тыс. т одни из самых популярных в России.
 
-<iframe src="https://vkvideo.ru/video_ext.php?oid=-227681629&id=456239069&hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://vkvideo.ru/video_ext.php?oid=-227681629&amp;id=456239069&amp;hd=2" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen>
+
+</iframe>

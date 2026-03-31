@@ -435,3 +435,133 @@ header {
   margin-right: 1rem;
   vertical-align: middle;
 }
+
+.footer-bottom {
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid rgba(255,255,255,0.3);
+}
+
+
+
+/* Schedule block */
+.sched{
+  margin: 28px 0 8px;
+  padding: 18px 18px 6px;
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0,0,0,.04);
+}
+
+.sched__head{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0,0,0,.06);
+  margin-bottom: 8px;
+}
+
+.sched__title{
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.2;
+}
+
+.sched__subtitle{
+  margin-top: 4px;
+  font-size: .92rem;
+  color: rgba(0,0,0,.62);
+}
+
+.sched__link{
+  font-size: .92rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.sched__list{
+  display:flex;
+  flex-direction:column;
+}
+
+.sched__item{
+  display:grid;
+  grid-template-columns: 72px 1fr;
+  gap: 14px;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(0,0,0,.06);
+}
+
+.sched__item:last-child{
+  border-bottom: none;
+}
+
+.sched__date{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:center;
+  padding: 8px 10px;
+  border-radius: 12px;
+  background: rgba(0,0,0,.03);
+}
+
+.sched__day{
+  font-weight: 700;
+  font-size: 1.05rem;
+  line-height: 1;
+}
+
+.sched__mon{
+  margin-top: 3px;
+  font-size: .82rem;
+  color: rgba(0,0,0,.62);
+  text-transform: lowercase;
+}
+
+.sched__meta{
+  display:flex;
+  gap: 8px;
+  flex-wrap:wrap;
+  margin-bottom: 6px;
+}
+
+.sched__badge{
+  display:inline-flex;
+  align-items:center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: .78rem;
+  background: rgba(0,0,0,.06);
+  color: rgba(0,0,0,.78);
+}
+
+.sched__badge--muted{
+  background: rgba(0,0,0,.04);
+  color: rgba(0,0,0,.55);
+}
+
+.sched__text {
+  font-size: .95rem;
+  color: rgba(0,0,0,.86);
+}
+
+.sched__text q,
+.sched__text .report-title {
+  font-weight: 500;
+}
+/* Mobile */
+@media (max-width: 640px){
+  .sched__item{
+    grid-template-columns: 64px 1fr;
+    gap: 10px;
+  }
+  .sched{
+    padding: 14px 14px 4px;
+  }
+}

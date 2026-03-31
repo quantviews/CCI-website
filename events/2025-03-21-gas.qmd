@@ -30,6 +30,14 @@ lang: ru
 
 ![](../fig/qr-cci-vk.png)
 :::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+
+3.  [Telegram](https://t.me/pbc_index)
+
+![](../fig/qr-cci-telegram.png)
+:::
+
 :::::
 
 ### Запись вебинара

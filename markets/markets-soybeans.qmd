@@ -1,0 +1,113 @@
+---
+title: "Соевый шрот"
+sidebar: false
+format: 
+  html:
+    page-layout: custom
+    grid:
+       margin-width: 300px
+       body-width: 900px
+---
+
+# ![](../images/icon-oilseed.svg) Соевый шрот {.my-custom-class style="margin-left:3%;"}
+
+![](../images/icon-subscription.svg)[Демоподписка](../demo-subscription.qmd)
+
+:::::: {.grid style="margin-left:0%"}
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+### Котировки
+
+*11.03.2026 Соевый шрот*
+
+**Приморские экспортеры соевого шрота нацелены на Пакистан**
+
+Средняя цена на соевый шрот (более 50% сырого протеина) в регионах ЦФО за месяц снизилась на 1,5%.
+
+Приморский край планирует направить пробную партию соевого шрота 10 тыс. т в Пакистан.
+
+Прогноз производства соевого шрота в США в мартовском отчете USDA был повышен на 300 тыс. т до 55,4 млн т.
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+
+*11.02.2026 Соевый шрот*
+
+**Цены на соевый шрот снижаются под тяжестью предложения**
+
+Средняя цена на соевый шрот (более 50% сырого протеина) в регионах ЦФО за месяц снизилась на 13%.
+
+Россия сократила экспорт соевого шрота в 2025/26 г. (сентябрь-декабрь) на 7% до 195 тыс. т, но нарастила экспорт сои на 56% до 295 тыс. т.
+
+ЕС снизил закупки соевого шрота из Аргентины на 18% до 3,7 млн т в 2025/26 г. (по данным на начало февраля 2026 г.).
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+
+*21.01.2026 Соевый шрот*
+
+**Соевые рекорды давят на цены**
+
+Средняя цена на соевый шрот (более 50% сырого протеина) в регионах ЦФО за месяц выросла на 0,4%.
+
+Валовой сбор сои в 2025 г. в РФ вырос на 27% до рекордных 8,9 млн т.
+
+Регионы ЦФО за 11 мес. 2025 г. нарастили производство соевого шрота на 60% до 2,8 млн т.
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
+#### Динамика цен на соевый шрот FCA ЦФО, %
+
+```{r, warning = FALSE, echo = FALSE, message = FALSE}
+
+library(highcharter)
+library(openxlsx)
+library(tidyr)
+
+library(dplyr)
+library(lubridate)
+
+df <- read.xlsx(xlsxFile = '../xls/ЦЦИ Котировки соевый шрот.xlsx', sheet = "Month", startRow = 7, rows = 1:25, colNames = FALSE) 
+
+# извлекаем годы и месяцы как вектор
+years  <- as.numeric(unlist(df[1, 6:ncol(df)]))
+months <- as.numeric(unlist(df[2, 6:ncol(df)]))
+
+dates <- make_date(years, months, 1)
+
+# значения
+values <- as.numeric(df[11, 6:ncol(df)])
+
+# итоговый df
+df <- tibble(
+  date  = dates,
+  value = values
+)
+
+hc = highchart() %>%
+   hc_add_series(df, type = "column", hcaes(x = date, y = value), color = c("#1A4AFC"), 
+                 name = "Динамика цен на соевый шрот FCA ЦФО, %") %>%
+   hc_xAxis(type = 'datetime') %>% 
+   hc_yAxis(title  = list(text = '% м/м (RUB)')) %>%
+   hc_exporting(enabled = FALSE) %>%
+   hc_tooltip(enabled  = TRUE)
+
+# поменять названия месяцев на русские. по умолчанию - на английском
+hc$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
+hc$x$conf_opts$lang$shortMonths = c("Янв", 	"Фев",	"Мар",	"Апр",	"Май",	"Июн",	"Июл",	"Авг",	"Сен",	"Окт",	"Ноя",	"Дек")
+
+hc
+
+```
+
+[*Примечание: Источник — ежемесячные отчеты ЦЦИ «Соевый шрот»*]{style="font-size:0.75em"}
+
+### Методология
+
+[Методология ценовых индикаторов](../methodology/methodology-benchmark-pbc.qmd)
+
+[Спецификация котировок на соевый шрот](../methodology/specs-soybeans.qmd)
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+:::
+::::::

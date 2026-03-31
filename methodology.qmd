@@ -29,6 +29,8 @@ title-block-banner: false
 
 ![](images/icon-oilseed.svg){.img-fluid style="max-width: 10%;"}[Подсолнечное масло](methodology/specs-sunflower.qmd)
 
+![](images/icon-wheat.svg)[Соевый шрот](methodology/specs-soybeans.qmd)
+
 ![](images/railways-icon.svg)[Железнодорожные перевозки](methodology/specs-logistics.qmd)
 
 ![](images/icon-ship.svg) [Морские перевозки](methodology/specs-freight.qmd)

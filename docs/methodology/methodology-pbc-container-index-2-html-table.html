@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru" xml:lang="ru"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Центр ценовых индексов (ЦЦИ) – российское ценовое агентство. Оперативно публикуем цены на товары российского экспорта и логистику.">
+
+<title>Методология Контейнерного индекса – ЦЦИ</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../images/banner3.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-d5dd6ef498ed9104b204a0bb27398994.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Поиск не дал результатов",
+    "search-matching-documents-text": "Результаты поиска",
+    "search-copy-link-title": "Скопировать ссылку",
+    "search-hide-matches-text": "Скрыть дополнительные результаты",
+    "search-more-match-text": "дополнительный результат в этом документе",
+    "search-more-matches-text": "дополнительных результата(-ов) в этом документе",
+    "search-clear-button-title": "Очистить",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Отменить",
+    "search-submit-button-title": "Найти",
+    "search-label": "Поиск"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TNGWX5Y7FL"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-TNGWX5Y7FL', { 'anonymize_ip': true});
+</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: none;
+      }
+</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/logo8.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Поиск"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Переключить навигацию" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Рынки</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-">    
+        <li>
+    <a class="dropdown-item" href="../pbc-index.html">
+ <span class="dropdown-text">Сырьевой индекс</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../pbc-container-index.html">
+ <span class="dropdown-text">Контейнерный индекс</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/markets-oil.html">
+ <span class="dropdown-text">Нефть</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/markets-oil-products.html">
+ <span class="dropdown-text">Нефтепродукты</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/markets-gas.html">
+ <span class="dropdown-text">Газ</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/markets-coal.html">
+ <span class="dropdown-text">Уголь</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/markets-fertilizers.html">
+ <span class="dropdown-text">Удобрения</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/markets-chemicals.html">
+ <span class="dropdown-text">Химия</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/markets-aromatics.html">
+ <span class="dropdown-text">Ароматика</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/markets-wheat.html">
+ <span class="dropdown-text">Зерно</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/markets-oilseed.html">
+ <span class="dropdown-text">Подсолнечное масло</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/markets-soybeans.html">
+ <span class="dropdown-text">Соевый шрот</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/markets-railways.html">
+ <span class="dropdown-text">Сухопутная логистика. Контейнеры</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/markets-railways-van.html">
+ <span class="dropdown-text">Сухопутная логистика. Полувагоны</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/markets-railways-wheat-van.html">
+ <span class="dropdown-text">Сухопутная логистика. Зерновозы</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/freight-crude.html">
+ <span class="dropdown-text">Морская логистика. Нефть</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/freight-products.html">
+ <span class="dropdown-text">Морская логистика. Нефтепродукты</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/freight-wheat.html">
+ <span class="dropdown-text">Морская логистика. Зерно</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/freight-coal.html">
+ <span class="dropdown-text">Морская логистика. Уголь</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/freight-fertilizers.html">
+ <span class="dropdown-text">Морская логистика. Удобрения</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/freight-containers.html">
+ <span class="dropdown-text">Морская логистика. Контейнеры</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/markets-sea-container-ports.html">
+ <span class="dropdown-text">Перевалка. Контейнеры</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/markets-sea-wheat-ports.html">
+ <span class="dropdown-text">Перевалка. Зерно</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/markets-sea-coal-ports.html">
+ <span class="dropdown-text">Перевалка. Уголь</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/markets-sea-oil-ports.html">
+ <span class="dropdown-text">Перевалка. Нефть</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../markets/markets-sea-oil-products-ports.html">
+ <span class="dropdown-text">Перевалка. Нефтепродукты</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu--1" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Прогнозы</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu--1">    
+        <li>
+    <a class="dropdown-item" href="../forecasts/forecast-fx.html">
+ <span class="dropdown-text">Макроконсенсус</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../forecasts/forecast-gas.html">
+ <span class="dropdown-text">Газ</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../forecasts/forecast-fertilizers.html">
+ <span class="dropdown-text">Удобрения</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../forecasts/forecast-agro.html">
+ <span class="dropdown-text">АПК</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../forecasts/forecast-real-estate.html">
+ <span class="dropdown-text">Коммерческая недвижимость</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../methodology.html"> 
+<span class="menu-text">Методология</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../events.html"> 
+<span class="menu-text">События</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../demo-subscription.html"> 
+<span class="menu-text">Подписка</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">О нас</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../contacts.html"> 
+<span class="menu-text">Контакты</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../subscribe.html"> 
+<span class="menu-text">Оформить подписку</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Методология Контейнерного индекса</h1>
+                  <div>
+        <div class="description">
+          Центр ценовых индексов (ЦЦИ) – российское ценовое агентство. Оперативно публикуем цены на товары российского экспорта и логистику.
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Содержание</h2>
+   
+  <ul>
+  <li><a href="#определение-и-область-применения" id="toc-определение-и-область-применения" class="nav-link active" data-scroll-target="#определение-и-область-применения">Определение и область применения</a></li>
+  <li><a href="#порядок-расчета-индекса" id="toc-порядок-расчета-индекса" class="nav-link" data-scroll-target="#порядок-расчета-индекса">Порядок расчета индекса</a></li>
+  <li><a href="#сбор-информации-о-ценах-на-транспортно-логистические-услуги" id="toc-сбор-информации-о-ценах-на-транспортно-логистические-услуги" class="nav-link" data-scroll-target="#сбор-информации-о-ценах-на-транспортно-логистические-услуги">Сбор информации о ценах на транспортно-логистические услуги</a></li>
+  <li><a href="#расчет-индивидуальных-индексов-цен-субиндексов" id="toc-расчет-индивидуальных-индексов-цен-субиндексов" class="nav-link" data-scroll-target="#расчет-индивидуальных-индексов-цен-субиндексов">Расчет индивидуальных индексов цен (субиндексов)</a></li>
+  <li><a href="#формирование-системы-весов" id="toc-формирование-системы-весов" class="nav-link" data-scroll-target="#формирование-системы-весов">Формирование системы весов</a></li>
+  <li><a href="#расчет-агрегированного-контейнерного-индекса-цци" id="toc-расчет-агрегированного-контейнерного-индекса-цци" class="nav-link" data-scroll-target="#расчет-агрегированного-контейнерного-индекса-цци">Расчет агрегированного Контейнерного индекса ЦЦИ</a></li>
+  <li><a href="#контроль-качества" id="toc-контроль-качества" class="nav-link" data-scroll-target="#контроль-качества">Контроль качества</a></li>
+  <li><a href="#корректировка-данных" id="toc-корректировка-данных" class="nav-link" data-scroll-target="#корректировка-данных">Корректировка данных</a></li>
+  <li><a href="#принципы-формирования-методологии-и-внесения-изменений" id="toc-принципы-формирования-методологии-и-внесения-изменений" class="nav-link" data-scroll-target="#принципы-формирования-методологии-и-внесения-изменений">Принципы формирования методологии и внесения изменений</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<style>
+body {
+  text-align: justify;
+}
+
+p, li {
+  text-align: justify;
+}
+
+.methodology-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+.methodology-table th,
+.methodology-table td {
+  border: 1px solid #cfcfcf;
+  padding: 0.55rem 0.7rem;
+  vertical-align: top;
+}
+
+.methodology-table th {
+  text-align: left;
+  background: #f5f5f5;
+}
+
+.methodology-table .subindex-row td {
+  text-align: center;
+  background: #fafafa;
+}
+
+.math.display {
+  text-align: center;
+}
+</style>
+<section id="определение-и-область-применения" class="level3">
+<h3 class="anchored" data-anchor-id="определение-и-область-применения">Определение и область применения</h3>
+<p>Данная методология Центра ценовых индексов (ЦЦИ) определяет цели и порядок расчета Контейнерного индекса ЦЦИ (PBC Container Index), объясняет подходы, использованные при его построении, а также содержит примеры практического использования индекса.</p>
+<p>Контейнерный индекс ЦЦИ отражает изменение во времени цен на транспортно- логистические услуги по организации международной перевозки 40-футовых контейнеров перевозчика (40’НС СОС) по наиболее востребованному и ликвидному направлению импорта в Россию контейнерных грузов: из Шанхая в Москву.</p>
+<p>Контейнерный индекс ЦЦИ является композитным и представляет собой взвешенные по объёмам перевозок (в тыс. ДФЭ) и сопоставимые между собой индексы цен (субиндексы) по четырём наиболее репрезентативным маршрутам и способам доставки контейнеров из Шанхая в Москву:</p>
+<ul>
+<li>морским, железнодорожным и автомобильным транспортом через порты Владивосток или Находка (FI Шанхай - LO Дальний Восток - FOR Москва - FOT Москва);</li>
+<li>морским и автомобильным транспортом через порт Санкт-Петербург (FI Шанхай - LO Санкт-Петербург - FOT Москва);</li>
+<li>морским и автомобильным транспортом через порт Новороссийск (FI Шанхай - LO Новороссийск - FOT Москва);</li>
+<li>железнодорожным и автомобильным транспортом через сухопутные пограничные переходы на китайско-казахстанской, китайско-монгольской или китайско- российской границе (FOR Шанхай - FOR Москва - FOT Москва).</li>
+</ul>
+<p>Контейнерный индекс ЦЦИ закладывает предпосылку о сохранении структуры объёмов импорта по указанным маршрутам за период усреднения весовой базы, обновляемой ежегодно. Источником информации о стоимости транспортно-экспедиционных услуг по международной перевозке контейнеров являются ценовые индикаторы, публикуемые Центром ценовых индексов. Алгоритмы определения и формирования ценовых индикаторов описаны в соответствующей отраслевой методологии и спецификациях Центра ценовых индексов.</p>
+<p>Контейнерный индекс ЦЦИ рассчитывается и обновляется два раза в месяц (до 15-ого и 31-ого числа) и является независимым оперативным показателем для оценки стоимости импорта контейнерных грузов, а также общего состояния рынка транспортно- логистических услуг в коридоре «Китай - Россия». Контейнерный индекс ЦЦИ направлен на повышение прозрачности и открытости рынка, а также служит инструментом принятия решений для участников внешнеэкономической деятельности и регуляторных органов.</p>
+<p>Контейнерный индекс ЦЦИ отражает динамику спотовых ставок на транспортно- логистические услуги по доставке контейнерных грузов из Китая - крупнейшего внешнеторгового партнёра России, на долю которого приходится до 40% стоимости товарного импорта, а также до 80% импорта контейнерных грузов.</p>
+</section>
+<section id="порядок-расчета-индекса" class="level3">
+<h3 class="anchored" data-anchor-id="порядок-расчета-индекса">Порядок расчета индекса</h3>
+<p>1 этап - сбор информации о ценах на транспортно-логистические услуги при перевозке контейнеров в сообщении Шанхай - Москва;</p>
+<p>2 этап - расчет индивидуальных индексов цен (субиндексов) на транспортно- логистические услуги в зависимости от маршрута и способа перевозки контейнеров в сообщении Шанхай - Москва;</p>
+<p>3 этап - формирование системы весов;</p>
+<p>4 этап - расчет агрегированного индекса цен на транспортно-логистические услуги при перевозке контейнеров в сообщении Шанхай - Москва;</p>
+<p>5 этап - контроль качества.</p>
+</section>
+<section id="сбор-информации-о-ценах-на-транспортно-логистические-услуги" class="level3">
+<h3 class="anchored" data-anchor-id="сбор-информации-о-ценах-на-транспортно-логистические-услуги">Сбор информации о ценах на транспортно-логистические услуги</h3>
+<p>В течение первой и третьей недели каждого календарного месяца Центр ценовых индексов производит сбор цен на транспортно-логистические услуги на основе опроса участников рынка, в соответствии с внутренними регламентами сбора, проверки, анализа и хранения ценовой информации. Транспортно-логистические услуги по организации международной перевозки 40-футовых контейнеров перевозчика (40’НС СОС) по маршруту Шанхай - Москва, учитываемые в составе Контейнерного индекса ЦЦИ, определены в соответствии с перечнем в Таблице 1.</p>
+<p>Контейнерный индекс ЦЦИ применим и рассчитывается для генеральных грузов и не применим к перевозкам опасных и скоропортящихся грузов, грузов во флекси-танках и танк-контейнерах. Вес груза в контейнере не более 20 т. Контейнерный индекс ЦЦИ действителен для грузов, прошедших таможенную очистку на станции (в порту) назначения силами грузоотправителя и за его счет. Стоимость всех транспортно- логистических услуг действительна для одного контейнера и не учитывает возможные скидки в зависимости от объёма партии.</p>
+<p>Контейнерный индекс ЦЦИ не учитывает стоимость локальных расходов в Китае (доставку контейнера до станции/порта в Шанхае и его погрузку) и сборы на стороне отправления, охранного сопровождения, страхования груза, сверхнормативного использования контейнеров и их хранения на терминалах вне льготного периода, а также иных дополнительных расходов, возможных к начислению при организации международной перевозки контейнеров.</p>
+<table class="methodology-table">
+<thead>
+<tr>
+<th>
+Наименование услуги
+</th>
+<th>
+Валюта сбора цен
+</th>
+<th>
+Состав услуги
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="subindex-row">
+<td colspan="3">
+<strong>Субиндекс 1: FI Шанхай - Владивосток (Находка) - FOR Москва - FOT Москва</strong>
+</td>
+</tr>
+<tr>
+<td>
+Сквозной мультимодальный сервис по маршруту FI Шанхай - Владивосток (Находка) - FOR Москва
+</td>
+<td>
+USD
+</td>
+<td>
+Предоставление контейнера в пределах нормативного срока перевозки<br><br>Организация и выполнение морской части перевозки: фрахт на условиях FI Шанхай - LO Владивосток (Находка)<br><br>Терминальные услуги и экспедирование контейнера в порту выгрузки
+</td>
+</tr>
+<tr>
+<td>
+Сквозной мультимодальный сервис по маршруту FI Шанхай - Владивосток (Находка) - FOR Москва
+</td>
+<td>
+RUB
+</td>
+<td>
+Организация и выполнение железнодорожной части перевозки на условиях CY Владивосток (Находка) - FOR Москва (терминальные услуги на станции отправления, пользование подвижным составом, оплата железнодорожного тарифа)<br><br>Drop-off в Москве<br><br>Терминальная обработка на станции назначения
+</td>
+</tr>
+<tr>
+<td>
+Терминальная обработка на станции назначения
+</td>
+<td>
+RUB
+</td>
+<td>
+Приём и раскредитация контейнера на станции назначения (Московский ж.-д. узел)<br><br>Автодоставка по маршруту CY Москва - FOT Склад получателя в г. Москва
+</td>
+</tr>
+<tr>
+<td>
+Автодоставка по маршруту CY Москва - FOT Склад получателя в г. Москва
+</td>
+<td>
+RUB
+</td>
+<td>
+Автоперевозка растаможенного груза со станций Московского ж.-д. узла на склад получателя в г. Москва (в пределах МКАД)
+</td>
+</tr>
+<tr class="subindex-row">
+<td colspan="3">
+<strong>Субиндекс 2: FI Шанхай - Санкт-Петербург - FOT Москва</strong>
+</td>
+</tr>
+<tr>
+<td>
+Морская составляющая перевозки по маршруту Fl Шанхай - LO Санкт-Петербург
+</td>
+<td>
+USD
+</td>
+<td>
+Предоставление контейнера в пределах нормативного срока перевозки<br><br>Организация и выполнение морской части перевозки: фрахт на условиях FI Шанхай - LO Санкт-Петербург<br><br>Терминальные услуги и экспедирование контейнера в порту выгрузки<br><br>Drop-off в Москве
+</td>
+</tr>
+<tr>
+<td>
+Автодоставка по маршруту CY Санкт-Петербург - FOT Склад получателя в г. Москва
+</td>
+<td>
+RUB
+</td>
+<td>
+Автовывоз растаможенного груза с портовых терминалов Санкт-Петербурга на склад получателя в г. Москва (в пределах МКАД)
+</td>
+</tr>
+<tr class="subindex-row">
+<td colspan="3">
+<strong>Субиндекс 3: FI Шанхай - Новороссийск - FOT Москва</strong>
+</td>
+</tr>
+<tr>
+<td>
+Морская составляющая перевозки по маршруту Fl Шанхай - LO Новороссийск
+</td>
+<td>
+USD
+</td>
+<td>
+Предоставление контейнера в пределах нормативного срока перевозки<br><br>Организация и выполнение морской части перевозки: фрахт на условиях FI Шанхай - LO Новороссийск<br><br>Терминальные услуги и экспедирование контейнера в порту выгрузки<br><br>Drop-off в Москве
+</td>
+</tr>
+<tr>
+<td>
+Автодоставка по маршруту CY Новороссийск - FOT Склад получателя в г. Москва
+</td>
+<td>
+RUB
+</td>
+<td>
+Автовывоз растаможенного груза с портовых терминалов Новороссийска на склад получателя в г. Москва (в пределах МКАД)
+</td>
+</tr>
+<tr class="subindex-row">
+<td colspan="3">
+<strong>Субиндекс 4: FOR Шанхай - FOR Москва - FOT Москва</strong>
+</td>
+</tr>
+<tr>
+<td>
+Железнодорожная составляющая перевозки по маршруту FOR Шанхай - FOR Москва
+</td>
+<td>
+USD
+</td>
+<td>
+Организация и выполнение железнодорожной части перевозки на условиях FOR Шанхай - FOR Москва (пользование подвижным составом, оплата железнодорожного тарифа) через ст. Наушки / Забайкальск / Алтынколь Достык / Камышовая, оформление таможенного транзита по ст. Наушки Забайкальск / Алтынколь / Достык / Камышовая<br><br>Drop-off в Москве
+</td>
+</tr>
+<tr>
+<td>
+Терминальная обработка на станции назначения
+</td>
+<td>
+RUB
+</td>
+<td>
+Приём и раскредитация контейнера на станции назначения (Московский ж.-д. узел)
+</td>
+</tr>
+<tr>
+<td>
+Автодоставка по маршруту CY Москва - FOT Склад получателя в г. Москва
+</td>
+<td>
+RUB
+</td>
+<td>
+Автоперевозка растаможенного груза со станций Московского ж.-д. узла на склад получателя в г. Москва (в пределах МКАД)
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="расчет-индивидуальных-индексов-цен-субиндексов" class="level3">
+<h3 class="anchored" data-anchor-id="расчет-индивидуальных-индексов-цен-субиндексов">Расчет индивидуальных индексов цен (субиндексов)</h3>
+<p>Расчет индивидуальных индексов цен (субиндексов) на транспортно-логистические услуги в зависимости от маршрута и способа перевозки контейнеров в сообщении Шанхай - Москва осуществляется путем сложения цен на транспортно-логистические услуги, входящих в состав субиндексов, в соответствии с Таблицей 1.</p>
+<p>Алгоритмы определения и формирования цены каждой транспортно-логистической услуги описаны в соответствующей отраслевой методологии и спецификациях Центра ценовых индексов.</p>
+</section>
+<section id="формирование-системы-весов" class="level3">
+<h3 class="anchored" data-anchor-id="формирование-системы-весов">Формирование системы весов</h3>
+<p>Веса, используемые при расчёте Контейнерного индекса ЦЦИ, определяют масштабы влияния изменения цен на отдельные составляющие транспортно-логистических услуг при мультимодальной перевозке контейнера из Шанхая в Москву для совокупного индекса. Они представляют собой долю от объёма перевозок по каждому из четырёх маршрутов и способов транспортировки контейнера (субиндексов) в структуре общего контейнеропотока на маршруте Шанхай - Москва в течение календарного года, предшествующего году расчёта индекса.</p>
+<p>Источником данных для определения веса каждого маршрута и способа доставки контейнеров из Шанхая в Москву (субиндекса) в зависимости от объёма перевозок, являются показатели работы российских морских терминалов, данные российских и зарубежных транспортно-логистических и экспедиторских компаний, экспертные оценки методологического комитета Центра ценовых индексов. Обновление весовой базы осуществляется в феврале каждого года. Ежегодное обновление весовой базы характерно для российской практики построения индексов цен и используется при расчете индекса потребительских цен и индекса цен производителей Росстатом (Росстат, 2016). Центр Ценовых Индексов оставляет за собой право перейти к более редкому обновлению весовой базы по мере стабилизации структуры контейнеропотока на маршруте.</p>
+<p>Контейнерный индекс ЦЦИ закладывает предпосылку о том, что четыре маршрута и способа транспортировки контейнера (субиндекса), используемые при расчёте Контейнерного индекса ЦЦИ, в совокупности концентрируют на себе 100% контейнеропотока в сообщении Шанхай - Москва. Контейнерный индекс ЦЦИ не учитывает индексы цен по альтернативным маршрутам и способам доставки, ввиду их минимальной статистической значимости.</p>
+<p><strong>Таблица 2. Весовые значения субиндексов, используемые при расчёте Контейнерного индекса ЦЦИ в 2026 г.</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 51%">
+<col style="width: 14%">
+<col style="width: 33%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Субиндекс</td>
+<td>Ед. измерения</td>
+<td>Доля (вес) в Контейнерном индексе ЦЦИ</td>
+</tr>
+<tr class="even">
+<td>FI Шанхай - Владивосток (Находка) - FOR Москва - FOT Москва</td>
+<td>тыс. ДФЭ / год</td>
+<td>0,43</td>
+</tr>
+<tr class="odd">
+<td>FI Шанхай - Санкт-Петербург - FOT Москва</td>
+<td>тыс. ДФЭ / год</td>
+<td>0,12</td>
+</tr>
+<tr class="even">
+<td>FI Шанхай - Новороссийск - FOT Москва</td>
+<td>тыс. ДФЭ / год</td>
+<td>0,04</td>
+</tr>
+<tr class="odd">
+<td>FOR Шанхай - FOR Москва - FOT Москва</td>
+<td>тыс. ДФЭ / год</td>
+<td>0,41</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="расчет-агрегированного-контейнерного-индекса-цци" class="level3">
+<h3 class="anchored" data-anchor-id="расчет-агрегированного-контейнерного-индекса-цци">Расчет агрегированного Контейнерного индекса ЦЦИ</h3>
+<p>Контейнерный индекс ЦЦИ (Х) рассчитывается по формуле среднего взвешенного - разновидности среднего значения, при котором значение каждого субиндекса умножается на заранее определённый вес. Итоговое значение определяется согласно формуле:</p>
+<p><span class="math display">\[
+X = \frac{\sum_{i=1}^{n} w_i x_i}{\sum_{i=1}^{n} w_i}
+\]</span></p>
+<p>где <span class="math inline">\(x_i\)</span> - значение <span class="math inline">\(i\)</span>-го индивидуального индекса цен в зависимости от маршрута и способа перевозки контейнера из Шанхая в Москву (субиндекса), а <span class="math inline">\(w_i\)</span> - весовое значение соответствующего субиндекса.</p>
+</section>
+<section id="контроль-качества" class="level3">
+<h3 class="anchored" data-anchor-id="контроль-качества">Контроль качества</h3>
+<p>В основе принципов работы Центра ценовых индексов при формировании и расчёте Контейнерного индекса ЦЦИ лежит принцип прозрачности оценки и публикации данных.</p>
+<p>Центр ценовых индексов использует различные методы для подтверждения достоверности и качества данных, включая перекрестные проверки, а также запросы подтверждающей документации и инициирование дополнительного взаимодействия с вышестоящим руководством компании, от которой были получены сведения, подлежащие верификации. Осуществляется дополнительный экспертный анализ и учёт решений об исключении нестандартных и нерепрезентативных сделок. В случае выявления нетипичных для рынка сделок и цен Центр ценовых индексов исключает данные, которые не могут быть верифицированы на рынке в той мере, в которой это считается целесообразным.</p>
+</section>
+<section id="корректировка-данных" class="level3">
+<h3 class="anchored" data-anchor-id="корректировка-данных">Корректировка данных</h3>
+<p>В случае необходимости исправления ошибочного значения ценового индикатора, возникшего вследствие технических сбоев, человеческой ошибки или некорректного применения принятой методологии, Центр ценовых индексов оставляет за собой право скорректировать данные.</p>
+<p>Данные также могут быть скорректированы в случае исправления ошибок, возникших в результате сообщения участниками рынка неточной информации о сделках на рынке.</p>
+</section>
+<section id="принципы-формирования-методологии-и-внесения-изменений" class="level3">
+<h3 class="anchored" data-anchor-id="принципы-формирования-методологии-и-внесения-изменений">Принципы формирования методологии и внесения изменений</h3>
+<p>Методологии разрабатываются и утверждаются независимым от блока оценки методологическим комитетом, который состоит из сотрудников, обладающих достаточным уровнем квалификации и профессиональным опытом.</p>
+<p>В целях обеспечения актуальности, осуществляется ежегодная оценка соответствия методологии специфике рынка, необходимости упразднения неактуальных или создания новых ценовых индикаторов.</p>
+<p>Центр ценовых индексов приветствует диалог с участниками рынка по вопросам методики, применяемой для оценки и формирования ценовых индикаторов.</p>
+<p>Обновление методологии подразумевает подробное объяснение предлагаемых изменений и их обоснование.</p>
+<p>Об изменении сообщается в соответствующем информационном продукте, также указывается дата, с которой изменения вступают в силу.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<footer class="footer-wrapper">
+
+    <div class="footer-content">
+
+        <div class="footer-column">
+
+            <h3>Теги</h3>
+
+            <ul>
+
+                <li><a href="methodology.html">Методология</a></li>
+
+                <li><a href="events.html">События</a></li>
+
+                <li><a href="demo-subscription.html">Подписка</a></li>
+
+                <li><a href="subscribe.html">Оформить подписку</a></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <div class="footer-column">
+
+            <h3>Информация</h3>
+
+            <ul>
+
+                <li><a href="pdf/privacy.pdf">Политика в отношении обработки персональных данных</a></li>
+
+                <li><a href="about.html">О нас</a></li>
+
+                <li><a href="contacts.html">Контакты</a></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <div class="footer-column">
+
+            <h3>Присоединиться</h3>
+
+            <div class="social-icons">
+
+                <a href="https://vk.com/cci.friday" target="_blank">
+
+                    <img src="https://pbc-index.ru/images/vk.png" alt="VK">
+
+                </a>
+
+                <a href="https://www.youtube.com/@CCI.Friday" target="_blank">
+
+                    <img src="https://pbc-index.ru/images/youtube.png" alt="YouTube">
+
+                </a>
+
+                <a href="https://t.me/pbc_index" target="_blank">
+
+                    <img src="https://pbc-index.ru/images/telegram.png" alt="YouTube">
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="footer-column">
+
+            <h3>Поиск</h3>
+
+            <div class="search-box">
+
+                <form action="https://www.google.com/search" method="get" target="_blank">
+
+                    <input type="hidden" name="q" value="site:https://pbc-index.ru/">
+
+                    <input type="text" name="q" placeholder="Поиск" class="search-input">
+
+                    <button type="submit" class="search-button">🔍</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    
+
+    <div class="footer-bottom">
+
+    © Центр ценовых индексов 2026. Все права защищены
+
+    </div>
+
+    
+
+</footer>
+
+
+
+<style>
+
+.footer-wrapper {
+
+    background-color: rgb(26, 74, 252);
+
+    color: white;
+
+    padding: 40px 0;
+
+    width: 100vw;
+
+    position: relative;
+
+    left: 50%;
+
+    right: 50%;
+
+    margin-left: -50vw;
+
+    margin-right: -50vw;
+
+}
+
+
+
+.footer-content {
+
+    max-width: 1400px;
+
+    margin: 0 auto;
+
+    padding: 0 40px;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 30px;
+
+}
+
+
+
+.footer-wrapper a {
+
+    color: white;
+
+    text-decoration: none;
+
+    transition: opacity 0.2s;
+
+}
+
+
+
+.footer-wrapper a:hover {
+
+    opacity: 0.8;
+
+}
+
+
+
+.footer-wrapper h3 {
+
+    color: white;
+
+    margin-bottom: 15px;
+
+    font-size: 1.2em;
+
+}
+
+
+
+.footer-column ul {
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0;
+
+}
+
+
+
+.footer-column ul li {
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.social-icons {
+
+    display: flex;
+
+    gap: 15px;
+
+}
+
+
+
+.social-icons img {
+
+    width: 24px;
+
+    height: 24px;
+
+}
+
+
+
+.search-box form {
+
+    display: flex;
+
+    width: 100%;
+
+}
+
+
+
+.search-input {
+
+    padding: 8px;
+
+    border: none;
+
+    border-radius: 4px 0 0 4px;
+
+    width: 200px;
+
+    font-family: inherit;
+
+}
+
+
+
+.search-button {
+
+    padding: 8px 16px;
+
+    border: none;
+
+    background: white;
+
+    border-radius: 0 4px 4px 0;
+
+    cursor: pointer;
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    .footer-content {
+
+        grid-template-columns: 1fr 1fr;
+
+        padding: 0 20px;
+
+    }
+
+}
+
+
+
+@media (max-width: 480px) {
+
+    .footer-content {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
+</style> 
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Скопировано");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Скопировано");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
