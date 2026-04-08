@@ -9,7 +9,7 @@ sidebar: false
 
 **PBC Container Index** — a composite index reflecting the cost of container transportation along the most popular container cargo import route to Russia. It is calculated based on the weighted average spot rates for the transportation of a FEU container owned by the carrier, loaded onto a ship or railway in Shanghai (FI / FOR Shanghai), to the recipient's warehouse in Moscow (FOT Moscow) along four routes: through the ports of Vladivostok, St. Petersburg and Novorossiysk, as well as by direct rail.
 
-**PBC Container Index as of March 16, 2026: \$7 310** [(**+8%** м/м;]{.my-custom-class style="color:#4CAF50;"} [**-4%** г/г)]{.my-custom-class style="color:#f6514c;"}.
+**PBC Container Index as of March 31, 2026: \$7 281** [(**+7%** м/м;]{.my-custom-class style="color:#4CAF50;"} [**+14%** г/г)]{.my-custom-class style="color:#4CAF50;"}.
 
 **FI / FOR Шанхай - FOT Москва, 40’HC COC**
 

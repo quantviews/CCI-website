@@ -1,38 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="584.68121"
-   height="102.19742"
+   width="576.29834"
+   height="118.96329"
    overflow="hidden"
    version="1.1"
-   id="svg17"
-   sodipodi:docname="индекс_февраль.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   id="svg18"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs17" />
-  <sodipodi:namedview
-     id="namedview17"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1">
-    <inkscape:page
-       x="0"
-       y="0"
-       width="584.68121"
-       height="102.19742"
-       id="page2"
-       margin="0"
-       bleed="0" />
-  </sodipodi:namedview>
+     id="defs18" />
   <g
-     id="g17"
-     transform="translate(-348.95303,-266.98666)">
+     id="g18"
+     transform="translate(-335.91293,-253.01514)">
     <rect
        x="0"
        y="0"
@@ -93,14 +72,14 @@
        font-weight="700"
        font-size="37.3333px"
        transform="translate(656.767,310)"
-       id="text8">5</text>
+       id="text8">65</text>
     <text
        fill="#1a4afc"
        font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
        font-weight="700"
        font-size="37.3333px"
-       transform="translate(677.6,310)"
-       id="text9">72</text>
+       transform="translate(698.267,310)"
+       id="text9">7</text>
     <text
        font-family="CeraCY-Regular, CeraCY-Regular_MSFontService, sans-serif"
        font-weight="400"
@@ -113,20 +92,20 @@
        font-weight="700"
        font-size="21.3333px"
        transform="translate(778.509,300)"
-       id="text11">Феврал</text>
+       id="text11">Мар</text>
     <text
        fill="#1a4afc"
        font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
        font-weight="700"
        font-size="21.3333px"
-       transform="translate(855.676,300)"
-       id="text12">ь</text>
+       transform="translate(820.176,300)"
+       id="text12">т</text>
     <text
        fill="#1a4afc"
        font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
        font-weight="700"
        font-size="21.3333px"
-       transform="translate(872.509,300)"
+       transform="translate(835.676,300)"
        id="text13">2026</text>
     <text
        font-family="CeraCY-Regular, CeraCY-Regular_MSFontService, sans-serif"
@@ -139,32 +118,47 @@
        font-weight="400"
        font-size="21.3333px"
        transform="translate(786.148,355)"
-       id="text15">1,</text>
+       id="text15">2</text>
     <text
        font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
        font-weight="400"
        font-size="21.3333px"
-       transform="translate(800.315,355)"
-       id="text16">3</text>
+       transform="translate(798.148,355)"
+       id="text16">,</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="21.3333px"
+       transform="translate(804.148,355)"
+       id="text17">4</text>
     <text
        font-family="CeraCY-Regular, CeraCY-Regular_MSFontService, sans-serif"
        font-weight="400"
        font-size="21.3333px"
-       transform="translate(811.815,355)"
-       id="text17">%</text>
+       transform="translate(815.815,355)"
+       id="text18">%</text>
     <path
        d="m 855,360 15,-25 15,25 z"
        fill="#00b050"
        fill-rule="evenodd"
-       id="path17" />
+       id="path18" />
   </g>
   <rect
      style="opacity:0;fill:#000000;stroke:#ffffff;stroke-width:0.670894"
-     id="rect17"
-     width="584.01038"
-     height="101.52652"
+     id="rect18"
+     width="575.62744"
+     height="138.78397"
      x="0.33544922"
      y="0.33544922"
      rx="27.500488"
+     ry="1.3183594e-05" />
+  <rect
+     style="opacity:0;fill:#000000;stroke:#ffffff;stroke-width:0.670894"
+     id="rect19"
+     width="575.62744"
+     height="118.2924"
+     x="0.33544922"
+     y="0.33544922"
+     rx="13.437927"
      ry="1.3183594e-05" />
 </svg>

@@ -129,9 +129,9 @@ index_plot
 
 ------------------------------------------------------------------------
 
-**Изменение Сырьевого индекса ЦЦИ к предыдущей неделе: [+6,2 п.]{.my-custom-class style="color:#44bf78;"}** ([**+27 п.**]{.my-custom-class style="color:#44bf78;"} за последние 4 недели)
+**Изменение Сырьевого индекса ЦЦИ к предыдущей неделе: [+1,2 п.]{.my-custom-class style="color:#44bf78;"}** ([**+27,7 п.**]{.my-custom-class style="color:#44bf78;"} за последние 4 недели)
 
-Наибольшие изменения цен товаров за неделю: Нефть [**+23,2%**]{.my-custom-class style="color:#44bf78;"}, Нефтепродукты: [**+3,6%**]{.my-custom-class style="color:#44bf78;"}
+Наибольшие изменения цен товаров за неделю: Нефть [**+1,1%**]{.my-custom-class style="color:#44bf78;"}, Удобрения: [**+0,5%**]{.my-custom-class style="color:#44bf78;"}
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 
