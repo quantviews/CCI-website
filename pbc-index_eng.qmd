@@ -130,9 +130,9 @@ index_plot
 
 ------------------------------------------------------------------------
 
-**PBC Commodity Index change to the previous week: [+1.2 p.]{.my-custom-class style="color:#44bf78;"}** ([**+27.7 p.**]{.my-custom-class style="color:#44bf78;"} over the previous four weeks)
+**PBC Commodity Index change to the previous week: [-0.2 p.]{.my-custom-class style="color:#f6514c;"}** ([**-4.5 p.**]{.my-custom-class style="color:#f6514c;"} over the previous four weeks)
 
-The biggest commodity price changes over the week: Crude Oil: [**+1.1%**]{.my-custom-class style="color:#44bf78;"}, Fertilizers Products: [**+0.5%**]{.my-custom-class style="color:#44bf78;"}
+The biggest commodity price changes over the week: Crude Oil: [**+3.4%**]{.my-custom-class style="color:#44bf78;"}, Petroleum Products: [**+0.6%**]{.my-custom-class style="color:#f6514c;"}
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 #f6514c; red
@@ -218,9 +218,9 @@ discount_plot
 
 ### [Monthly overview]{.my-custom-class style="color:#1a4afc;"}
 
-March 4, 2026. PBC Commodity price index. **Prices in February “calmed down” ahead of the March surge**
+June 3, 2026. PBC Commodity price index. **Commodity prices turned downward in May**
 
-[Materials -\>](reports/2026-01%20PBC%20Commodity%20Index_eng_new.pdf)
+[Materials -\>](reports/2026-05%20PBC%20Commodity%20Index_eng_new.pdf)
 
 ### [Methodology]{.my-custom-class style="color:#1a4afc;"}
 

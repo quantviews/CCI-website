@@ -1,0 +1,125 @@
+---
+title: "АПК"
+sidebar: false
+format:
+   html:
+      html-table-processing: none
+      page-layout: custom
+      grid:
+         body-width: 800px
+---
+
+# ![](../images/icon-wheat.svg) Опрос профессиональных аналитиков: агропромышленный комплекс {.my-custom-class style="margin-left:3%;"}
+
+::::::::::: grid
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-10 .g-col-md-6 .g-col-lg-6}
+**Опрос профессиональных аналитиков: АПК** -- ежеквартальный опрос профессиональных аналитиков по агропромышленному комплексу об их прогнозах относительно наиболее вероятного сценария развития рынка на горизонте 2-х лет.
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-10 .g-col-md-6 .g-col-lg-6}
+## Результаты опроса: май 2026 г.
+
+```{r, warning = FALSE, echo = FALSE, message = FALSE}
+library(kableExtra)
+library(knitr)
+#library(rhandsontable)
+library(openxlsx)
+source('../R/functions.R')
+
+invisible(download_yandex_file(
+   "https://disk.yandex.ru/i/tNsKDNAIsbW6-g",
+   "../xls/ЦЦИ Агроконсенсус.xlsx"
+))
+
+df <- read.xlsx('../xls/ЦЦИ Агроконсенсус.xlsx', sheet = "Table")
+
+names(df)[4:5] <- c("Текущий сезон" ,  "Следующий сезон")
+
+df %>%
+   kbl() %>%
+   kable_styling(bootstrap_options = "hover")
+
+# kable(df, format='html', table.attr = "class = \"consensus-table\"", digits=1, lable = TRUE) %>%
+#   row_spec(0, color = "#1A4AFC", background = "white", font_size = "larger", bold = TRUE, align = "right")
+```
+
+\*Актуальные даные и скрытые значения доступны по [подписке](../subscribe.qmd). В скобках указаны значения предыдущего опроса
+
+\*\*Текущий сезон 2025/2026, следующий сезон 2026/2027
+
+1)  Здесь и далее данные без учета статистической инфорации по Донецкой Народной Республике (ДНР), Луганской народной Республике (ЛНР), Запорожской и Херсонской областям; в весе после доработки
+2)  Фактические данные по экспорту - оценка компании ПроЗерно
+:::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-5 .g-col-md-6 .g-col-lg-6}
+## Основные наблюдения
+
+Консенсус валового сбора зерновых в новом сезоне сложился на уровне 135,3 млн т, что совпадает с оценками Минсельхоза России, озвученными на фоне задержки посевной кампании в мае. Ожидания по экспорту пшеницы на текущий сезон пересмотрены вверх – 47,8 млн т, что произошло благодаря выделению дополнительной квоты в 5 млн т на экспорт сверх ранее утвержденных 20 млн т.
+
+Оценки по валовому сбору масличных на будущий сезон улучшились по всем трем основным культурам: по подсолнечнику и рапсу новый сезон может обновить рекорды, лишь по сое урожай сократится на 5,6% после рекорда прошлого года. Оценки по экспорту подсолнечного масла ниже предыдущих, что в целом отражает пессимистические настроения из-за некомфортного для экспортеров крепкого курса рубля.
+:::
+
+:::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-5 .g-col-md-6 .g-col-lg-6}
+::: {style="text-align: right"}
+## Консенсус-прогноз экспорта подсолнечного масла
+
+```{r, warning = FALSE, echo = FALSE, message = FALSE}
+library(openxlsx)
+library(tidyr)
+library(highcharter)
+library(xts)
+
+df = read.xlsx('../xls/ЦЦИ Агроконсенсус.xlsx', sheet = 2, detectDates = FALSE)
+df_last = df[1,]
+df_prev = df[2,]
+df_range = df[3:4,]
+names(df_last)[1] <- "index"
+names(df_prev)[1] <- "index"
+df_last <- df_last %>% pivot_longer(!index, names_to = "date", values_to = 'value')
+#df_last$date <- as.Date(df_last$date)
+df_last$index = 'Среднее'
+df_prev <- df_prev %>% pivot_longer(!index, names_to = "date", values_to = 'value')
+#df_prev$date <- as.Date(df_prev$date)
+df_prev$index = 'Среднее, (пред.опрос)'
+df_range <- df_range %>% pivot_longer(-X1, names_to = "date", values_to = 'value')
+#df_range$date <- as.Date(df_range$date)
+
+hc <- highchart() %>% 
+   hc_xAxis(type = "category") %>%
+   hc_yAxis(title  = list(text = 'млн т'), max = 5.5, min = 4.5) %>% 
+   hc_plotOptions(area = list(stacking = 'normal')) %>%
+   hc_add_series(df_range, hcaes(x = date, y = round(value,2), group = X1), type = 'area', color = c('#d1e5ff','#ffffff')) %>%
+   hc_add_series(df_last, type="line", hcaes(x = date, y = round(value,2), group=index), color = "#1A4AFC", dataLabels = TRUE) %>%
+   hc_add_series(df_prev, type="line", hcaes(x = date, y = round(value,2), group=index), color = "#1A4AFC", dashStyle = "ShortDash")
+
+# поменять названия месяцев на русские. по умолчанию - на английском
+hc$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
+hc$x$conf_opts$lang$shortMonths = c("Янв", 	"Фев",	"Мар",	"Апр",	"Май",	"Июн",	"Июл",	"Авг",	"Сен",	"Окт",	"Ноя",	"Дек")
+
+hc
+```
+:::
+::::
+
+::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-10 .g-col-md-6 .g-col-lg-6}
+## Список участников
+
+В опросе приняли участие 7 профессиональных аналитиков, 5 из них дали согласие на раскрытие информации об их участии в опросе:
+
+| <!-- --> | <!-- --> | <!-- --> |
+|------------------------|--------------------------|----------------------|
+| Лилия Варыгина (Oleoscope) | Игорь Павенский (Русагротранс) | Дарья Снитко (Газпромбанк) |
+| Лидия Илюшина (АНО "Институт исследований и экспертизы ВЭБ") | Владимир Петриченко (ПроЗерно) | *2 участника не подтвердили согласие на раскрытие данных* |
+:::
+
+:::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-4 .g-col-md-6 .g-col-lg-6}
+::: {style="text-align: left"}
+## Методология
+
+[Методология консенсуса](../methodology/methodology-consensus-pbc.qmd)
+
+[Спецификация агроконсенсуса](../pdf/Agro_Specifications_PBC.pdf)
+:::
+::::
+:::::::::::
+

@@ -18,3 +18,4 @@ data/*.xlsx
 
 
 **/*.quarto_ipynb
+.positai

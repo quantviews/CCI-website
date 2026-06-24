@@ -9,7 +9,7 @@ sidebar: false
 
 **PBC Container Index** — a composite index reflecting the cost of container transportation along the most popular container cargo import route to Russia. It is calculated based on the weighted average spot rates for the transportation of a FEU container owned by the carrier, loaded onto a ship or railway in Shanghai (FI / FOR Shanghai), to the recipient's warehouse in Moscow (FOT Moscow) along four routes: through the ports of Vladivostok, St. Petersburg and Novorossiysk, as well as by direct rail.
 
-**PBC Container Index as of March 31, 2026: \$7 281** [(**+7%** м/м;]{.my-custom-class style="color:#4CAF50;"} [**+14%** г/г)]{.my-custom-class style="color:#4CAF50;"}.
+**PBC Container Index as of June 15, 2026: \$8 518** [(**+10%** м/м;]{.my-custom-class style="color:#4CAF50;"} [**+59%** г/г)]{.my-custom-class style="color:#4CAF50;"}.
 
 **FI / FOR Шанхай - FOT Москва, 40’HC COC**
 
@@ -134,21 +134,21 @@ hc
 
 ### [Monthly overview]{.my-custom-class style="color:#1a4afc;"}
 
+June 15, 2026. PBC Container price index. **Freight and container leasing rates are hitting new heights**
+
+[Monitorng June -\>](reports/2026-06%20Контейнерный%20индекс%20ЦЦИ.pdf)
+
+May 15, 2026. PBC Container price index. **Railway routes accelerate prices for transportation from China**
+
+[Monitorng May -\>](reports/2026-05%20Контейнерный%20индекс%20ЦЦИ.pdf)
+
+April 15, 2025. PBC Container price index. **The railway and the strong ruble balanced the cheaper sea**
+
+[Monitoring April -\>](reports/2026-04%20Контейнерный%20индекс%20ЦЦИ.pdf)
+
 March 16, 2026. PBC Container price index. **The Russian container market is responding to global logistics markets**
 
 [Monitoring March -\>](reports/2026-03%20Контейнерный%20индекс%20ЦЦИ.pdf)
-
-February 16, 2026. PBC Container price index. **Carriers are holding rates ahead of the New Year's break in China.**
-
-[Monitorng February -\>](reports/2026-02%20Контейнерный%20индекс%20ЦЦИ.pdf)
-
-January 16, 2026. PBC Container price index. **Import records are reflected in the growth of the PBC Container index**
-
-[Monitoring January -\>](reports/2026-01%20Контейнерный%20индекс%20ЦЦИ.pdf)
-
-December 15, 2025. PBC Container price index. **New Year's Eve imports support container market**
-
-[Monitoring December -\>](reports/2025-12%20Контейнерный%20индекс%20ЦЦИ.pdf)
 
 ### [Methodology]{.my-custom-class style="color:#1a4afc;"}
 
