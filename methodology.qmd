@@ -21,7 +21,11 @@ title-block-banner: false
 
 ![](images/icon-chemicals2.svg)[Метанол](methodology/specs-methanol.qmd)
 
+![](images/icon-chemicals2.svg)[Каустическая сода](methodology/specs-caustic-soda.qmd)
+
 ![](images/icon-chemicals.svg)[Ароматические углеводороды](methodology/specs-aromatics.qmd)
+
+![](images/icon-chemicals.svg)[Этилен и полиэтилен](methodology/specs-ethylene-polyetylene.qmd)
 
 ![](images/icon-wheat.svg)[Пшеница](methodology/specs-wheat.qmd)
 

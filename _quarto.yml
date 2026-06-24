@@ -12,7 +12,7 @@ website:
   google-analytics: "G-TNGWX5Y7FL"
   navbar:
     title: false
-    logo: images/logo8.png
+    logo: images/logo.png
     background: "#1A4AFC" 
     right:
       - text: Оформить подписку

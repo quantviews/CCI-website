@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="576.29834"
-   height="118.96329"
+   width="551.14954"
+   height="101.26599"
    overflow="hidden"
    version="1.1"
    id="svg18"
@@ -11,7 +11,7 @@
      id="defs18" />
   <g
      id="g18"
-     transform="translate(-335.91293,-253.01514)">
+     transform="translate(-349.88446,-270.7124)">
     <rect
        x="0"
        y="0"
@@ -72,14 +72,14 @@
        font-weight="700"
        font-size="37.3333px"
        transform="translate(656.767,310)"
-       id="text8">65</text>
+       id="text8">82</text>
     <text
        fill="#1a4afc"
        font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
        font-weight="700"
        font-size="37.3333px"
-       transform="translate(698.267,310)"
-       id="text9">7</text>
+       transform="translate(699.434,310)"
+       id="text9">6</text>
     <text
        font-family="CeraCY-Regular, CeraCY-Regular_MSFontService, sans-serif"
        font-weight="400"
@@ -92,20 +92,20 @@
        font-weight="700"
        font-size="21.3333px"
        transform="translate(778.509,300)"
-       id="text11">Мар</text>
+       id="text11">Ма</text>
     <text
        fill="#1a4afc"
        font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
        font-weight="700"
        font-size="21.3333px"
-       transform="translate(820.176,300)"
-       id="text12">т</text>
+       transform="translate(806.676,300)"
+       id="text12">й</text>
     <text
        fill="#1a4afc"
        font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
        font-weight="700"
        font-size="21.3333px"
-       transform="translate(835.676,300)"
+       transform="translate(824.842,300)"
        id="text13">2026</text>
     <text
        font-family="CeraCY-Regular, CeraCY-Regular_MSFontService, sans-serif"
@@ -118,24 +118,24 @@
        font-weight="400"
        font-size="21.3333px"
        transform="translate(786.148,355)"
-       id="text15">2</text>
+       id="text15">4</text>
     <text
        font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
        font-weight="400"
        font-size="21.3333px"
-       transform="translate(798.148,355)"
+       transform="translate(797.815,355)"
        id="text16">,</text>
     <text
        font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
        font-weight="400"
        font-size="21.3333px"
-       transform="translate(804.148,355)"
-       id="text17">4</text>
+       transform="translate(803.815,355)"
+       id="text17">1</text>
     <text
        font-family="CeraCY-Regular, CeraCY-Regular_MSFontService, sans-serif"
        font-weight="400"
        font-size="21.3333px"
-       transform="translate(815.815,355)"
+       transform="translate(811.981,355)"
        id="text18">%</text>
     <path
        d="m 855,360 15,-25 15,25 z"
@@ -146,17 +146,8 @@
   <rect
      style="opacity:0;fill:#000000;stroke:#ffffff;stroke-width:0.670894"
      id="rect18"
-     width="575.62744"
-     height="138.78397"
-     x="0.33544922"
-     y="0.33544922"
-     rx="27.500488"
-     ry="1.3183594e-05" />
-  <rect
-     style="opacity:0;fill:#000000;stroke:#ffffff;stroke-width:0.670894"
-     id="rect19"
-     width="575.62744"
-     height="118.2924"
+     width="550.47864"
+     height="100.59509"
      x="0.33544922"
      y="0.33544922"
      rx="13.437927"
