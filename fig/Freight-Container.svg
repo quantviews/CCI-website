@@ -1,37 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="928.38116"
-   height="720.6709"
+   width="922.79254"
+   height="588.40698"
    overflow="hidden"
    version="1.1"
-   id="svg113"
+   id="svg87"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs1">
-    <clipPath
-       id="clip0">
-      <rect
-         x="0"
-         y="0"
-         width="1280"
-         height="720"
-         id="rect1" />
-    </clipPath>
-  </defs>
+     id="defs87" />
   <g
-     clip-path="url(#clip0)"
-     id="g113"
-     transform="translate(-122.6141,0.33544701)">
+     id="g87"
+     transform="translate(-130.99702,0.33544701)">
     <rect
        x="0"
        y="0"
        width="1280"
        height="720"
        fill="#ffffff"
-       id="rect2" />
+       id="rect1" />
     <path
-       d="M 126.182,89.9239 H 1035.27"
+       d="M 126.182,105.407 H 1035.27"
+       stroke="#2020fa"
+       stroke-width="3"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path1" />
+    <path
+       d="M 520.317,143.807 H 1035.27"
        stroke="#2020fa"
        stroke-width="3"
        stroke-linejoin="round"
@@ -40,7 +38,7 @@
        fill-rule="evenodd"
        id="path2" />
     <path
-       d="M 520.317,132.456 H 1035.27"
+       d="M 126.182,182.207 H 1035.27"
        stroke="#2020fa"
        stroke-width="3"
        stroke-linejoin="round"
@@ -49,7 +47,7 @@
        fill-rule="evenodd"
        id="path3" />
     <path
-       d="M 126.182,174.987 H 1035.27"
+       d="M 520.317,220.607 H 1035.27"
        stroke="#2020fa"
        stroke-width="3"
        stroke-linejoin="round"
@@ -58,7 +56,7 @@
        fill-rule="evenodd"
        id="path4" />
     <path
-       d="M 520.317,213.387 H 1035.27"
+       d="M 126.182,259.007 H 1035.27"
        stroke="#2020fa"
        stroke-width="3"
        stroke-linejoin="round"
@@ -67,7 +65,7 @@
        fill-rule="evenodd"
        id="path5" />
     <path
-       d="M 126.182,251.787 H 1035.27"
+       d="M 520.317,297.407 H 1035.27"
        stroke="#2020fa"
        stroke-width="3"
        stroke-linejoin="round"
@@ -76,7 +74,7 @@
        fill-rule="evenodd"
        id="path6" />
     <path
-       d="M 520.317,290.187 H 1035.27"
+       d="M 126.182,335.807 H 1035.27"
        stroke="#2020fa"
        stroke-width="3"
        stroke-linejoin="round"
@@ -85,7 +83,7 @@
        fill-rule="evenodd"
        id="path7" />
     <path
-       d="M 126.182,328.587 H 1035.27"
+       d="M 520.317,374.207 H 1035.27"
        stroke="#2020fa"
        stroke-width="3"
        stroke-linejoin="round"
@@ -94,7 +92,7 @@
        fill-rule="evenodd"
        id="path8" />
     <path
-       d="M 520.317,366.987 H 1035.27"
+       d="M 126.182,412.607 H 1035.27"
        stroke="#2020fa"
        stroke-width="3"
        stroke-linejoin="round"
@@ -103,7 +101,7 @@
        fill-rule="evenodd"
        id="path9" />
     <path
-       d="M 126.182,405.387 H 1035.27"
+       d="M 520.317,451.007 H 1035.27"
        stroke="#2020fa"
        stroke-width="3"
        stroke-linejoin="round"
@@ -112,7 +110,7 @@
        fill-rule="evenodd"
        id="path10" />
     <path
-       d="M 520.317,443.787 H 1035.27"
+       d="M 126.182,489.407 H 1035.27"
        stroke="#2020fa"
        stroke-width="3"
        stroke-linejoin="round"
@@ -121,7 +119,7 @@
        fill-rule="evenodd"
        id="path11" />
     <path
-       d="M 126.182,482.187 H 1035.27"
+       d="M 520.317,527.807 H 1035.27"
        stroke="#2020fa"
        stroke-width="3"
        stroke-linejoin="round"
@@ -130,7 +128,7 @@
        fill-rule="evenodd"
        id="path12" />
     <path
-       d="M 520.317,520.587 H 1035.27"
+       d="M 126.182,566.207 H 1035.27"
        stroke="#2020fa"
        stroke-width="3"
        stroke-linejoin="round"
@@ -138,680 +136,512 @@
        fill="none"
        fill-rule="evenodd"
        id="path13" />
-    <path
-       d="M 126.182,558.987 H 1035.27"
-       stroke="#2020fa"
-       stroke-width="3"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path14" />
-    <path
-       d="M 520.317,597.387 H 1035.27"
-       stroke="#2020fa"
-       stroke-width="3"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path15" />
-    <path
-       d="M 126.182,635.787 H 1035.27"
-       stroke="#2020fa"
-       stroke-width="3"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path16" />
-    <path
-       d="M 520.317,674.187 H 1035.27"
-       stroke="#2020fa"
-       stroke-width="3"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path17" />
-    <path
-       d="M 126.182,712.587 H 1035.27"
-       stroke="#2020fa"
-       stroke-width="3"
-       stroke-linejoin="round"
-       stroke-miterlimit="10"
-       fill="none"
-       fill-rule="evenodd"
-       id="path18" />
     <g
-       id="g18">
+       id="g13">
       <text
          font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
          font-weight="400"
          font-size="24px"
-         transform="translate(911.155,22)"
-         id="text18">Динамика</text>
+         transform="translate(911.155,37)"
+         id="text13">Динамика</text>
     </g>
+    <g
+       id="g14">
+      <text
+         font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(909.235,66)"
+         id="text14">мес./мес.</text>
+    </g>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(956.655,95)"
+       id="text15">%</text>
+    <g
+       id="g16">
+      <text
+         font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(807.485,37)"
+         id="text16">Ставка</text>
+    </g>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(817.485,66)"
+       id="text17">июнь</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(819.239,95)"
+       id="text18">2026</text>
     <g
        id="g19">
       <text
          font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
          font-weight="400"
          font-size="24px"
-         transform="translate(909.235,51)"
-         id="text19">мес./мес.</text>
+         transform="translate(696.961,37)"
+         id="text19">Ставка</text>
     </g>
     <text
        font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
        font-weight="400"
        font-size="24px"
-       transform="translate(956.655,80)"
-       id="text20">%</text>
-    <g
-       id="g21">
-      <text
-         font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(807.485,22)"
-         id="text21">Ставка</text>
-    </g>
-    <g
-       id="g22">
-      <text
-         font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(806.819,51)"
-         id="text22">апрель</text>
-    </g>
+       transform="translate(714.795,66)"
+       id="text20">май</text>
     <text
        font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
        font-weight="400"
        font-size="24px"
-       transform="translate(819.239,80)"
-       id="text23">2026</text>
+       transform="translate(708.708,95)"
+       id="text21">2026</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(578.23,52)"
+       id="text22">Тип</text>
+    <g
+       id="g23">
+      <text
+         font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(531.984,81)"
+         id="text23">контейнера</text>
+    </g>
     <g
        id="g24">
       <text
          font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
          font-weight="400"
          font-size="24px"
-         transform="translate(696.961,22)"
-         id="text24">Ставка</text>
+         transform="translate(338.627,66)"
+         id="text24">Порт выгрузки</text>
     </g>
     <text
        font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
        font-weight="400"
        font-size="24px"
-       transform="translate(708.708,51)"
-       id="text25">март</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(708.708,80)"
-       id="text26">2026</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(578.23,36)"
-       id="text27">Тип</text>
-    <g
-       id="g28">
-      <text
-         font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(531.984,65)"
-         id="text28">контейнера</text>
-    </g>
-    <g
-       id="g29">
-      <text
-         font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(338.627,51)"
-         id="text29">Порт выгрузки</text>
-    </g>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(142.393,51)"
-       id="text30">Порт погрузки</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(959.319,120)"
-       id="text31">0</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(821.485,120)"
-       id="text32">4150</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(711.045,120)"
-       id="text33">4160</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(584.567,120)"
-       id="text34">20</text>
-    <g
-       id="g35">
-      <text
-         font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(339.211,141)"
-         id="text35">Новороссийск</text>
-    </g>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(182.643,141)"
-       id="text36">Taicang</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(962.152,162)"
-       id="text37">1</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(821.485,162)"
-       id="text38">6150</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(708.211,162)"
-       id="text39">6060</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(584.734,162)"
-       id="text40">40</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(959.985,203)"
-       id="text41">2</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(822.319,203)"
-       id="text42">4195</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(708.378,203)"
-       id="text43">4300</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(584.567,203)"
-       id="text44">20</text>
-    <g
-       id="g45">
-      <text
-         font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(339.211,222)"
-         id="text45">Новороссийск</text>
-    </g>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(186.06,222)"
-       id="text46">Nansha</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(959.985,241)"
-       id="text47">2</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(818.319,241)"
-       id="text48">5800</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(708.711,241)"
-       id="text49">5700</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(584.734,241)"
-       id="text50">40</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(957.985,280)"
-       id="text51">-</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(966.319,280)"
-       id="text52">1</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(820.069,280)"
-       id="text53">4226</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(713.711,280)"
-       id="text54">4211</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(584.567,280)"
-       id="text55">20</text>
-    <g
-       id="g56">
-      <text
-         font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(339.211,299)"
-         id="text56">Новороссийск</text>
-    </g>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(185.476,299)"
-       id="text57">Ningbo</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(955.819,318)"
-       id="text58">-</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(964.152,318)"
-       id="text59">2</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(819.819,318)"
-       id="text60">5883</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(710.378,318)"
-       id="text61">5732</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(584.734,318)"
-       id="text62">40</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(959.319,356)"
-       id="text63">0</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(822.319,356)"
-       id="text64">4195</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(713.878,356)"
-       id="text65">4191</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(584.567,356)"
-       id="text66">20</text>
-    <g
-       id="g67">
-      <text
-         font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(339.211,376)"
-         id="text67">Новороссийск</text>
-    </g>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(178.31,376)"
-       id="text68">Qingdao</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(960.319,395)"
-       id="text69">3</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(818.319,395)"
-       id="text70">5800</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(708.961,395)"
-       id="text71">5606</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(584.734,395)"
-       id="text72">40</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(959.319,433)"
-       id="text73">0</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(819.652,433)"
-       id="text74">4350</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(709.211,433)"
-       id="text75">4360</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(584.567,433)"
-       id="text76">20</text>
-    <g
-       id="g77">
-      <text
-         font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(339.211,452)"
-         id="text77">Новороссийск</text>
-    </g>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(184.31,452)"
-       id="text78">Nanjing</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(959.319,472)"
-       id="text79">0</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(819.652,472)"
-       id="text80">6350</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(709.211,472)"
-       id="text81">6360</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(584.734,472)"
-       id="text82">40</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(962.152,510)"
-       id="text83">1</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(819.652,510)"
-       id="text84">4350</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(712.045,510)"
-       id="text85">4319</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(584.567,510)"
-       id="text86">20</text>
-    <g
-       id="g87">
-      <text
-         font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(339.211,529)"
-         id="text87">Новороссийск</text>
-    </g>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(145.143,529)"
-       id="text88">TianjinXingang</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(959.319,548)"
-       id="text89">0</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(820.735,548)"
-       id="text90">6100</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(713.878,548)"
-       id="text91">6119</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(584.734,548)"
-       id="text92">40</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(959.319,587)"
-       id="text93">0</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(819.485,587)"
-       id="text94">4560</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(709.545,587)"
-       id="text95">4570</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(584.567,587)"
-       id="text96">20</text>
-    <g
-       id="g97">
-      <text
-         font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(339.211,606)"
-         id="text97">Новороссийск</text>
-    </g>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(185.726,606)"
-       id="text98">Xiamen</text>
+       transform="translate(142.393,66)"
+       id="text25">Порт погрузки</text>
     <text
        fill="#00b050"
        font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
        font-weight="400"
        font-size="24px"
-       transform="translate(960.152,625)"
-       id="text99">6</text>
+       transform="translate(960.152,133)"
+       id="text26">6</text>
     <text
        font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
        font-weight="400"
        font-size="24px"
-       transform="translate(820.652,625)"
-       id="text100">6335</text>
+       transform="translate(818.652,133)"
+       id="text27">5600</text>
     <text
        font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
        font-weight="400"
        font-size="24px"
-       transform="translate(710.295,625)"
-       id="text101">5975</text>
+       transform="translate(709.211,133)"
+       id="text28">5285</text>
     <text
        font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
        font-weight="400"
        font-size="24px"
-       transform="translate(584.734,625)"
-       id="text102">40</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(957.985,664)"
-       id="text103">-</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(966.319,664)"
-       id="text104">1</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(819.485,664)"
-       id="text105">4450</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(708.878,664)"
-       id="text106">4505</text>
-    <text
-       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
-       font-weight="400"
-       font-size="24px"
-       transform="translate(584.567,664)"
-       id="text107">20</text>
+       transform="translate(584.567,133)"
+       id="text29">20</text>
     <g
-       id="g108">
+       id="g30">
       <text
          font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
          font-weight="400"
          font-size="24px"
-         transform="translate(339.211,683)"
-         id="text108">Новороссийск</text>
+         transform="translate(339.211,152)"
+         id="text30">Новороссийск</text>
     </g>
     <text
        font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
        font-weight="400"
        font-size="24px"
-       transform="translate(192.643,683)"
-       id="text109">Dalian</text>
+       transform="translate(186.06,152)"
+       id="text31">Nansha</text>
     <text
        fill="#00b050"
        font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
        font-weight="400"
        font-size="24px"
-       transform="translate(960.735,702)"
-       id="text110">7</text>
+       transform="translate(959.819,172)"
+       id="text32">8</text>
     <text
        font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
        font-weight="400"
        font-size="24px"
-       transform="translate(819.485,702)"
-       id="text111">6650</text>
+       transform="translate(818.985,172)"
+       id="text33">7800</text>
     <text
        font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
        font-weight="400"
        font-size="24px"
-       transform="translate(708.795,702)"
-       id="text112">6205</text>
+       transform="translate(710.045,172)"
+       id="text34">7225</text>
     <text
        font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
        font-weight="400"
        font-size="24px"
-       transform="translate(584.734,702)"
-       id="text113">40</text>
+       transform="translate(584.734,172)"
+       id="text35">40</text>
+    <text
+       fill="#00b050"
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(959.819,210)"
+       id="text36">8</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(818.652,210)"
+       id="text37">5600</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(712.045,210)"
+       id="text38">5178</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(584.567,210)"
+       id="text39">20</text>
+    <g
+       id="g40">
+      <text
+         font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(339.211,229)"
+         id="text40">Новороссийск</text>
+    </g>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(185.476,229)"
+       id="text41">Ningbo</text>
+    <text
+       fill="#00b050"
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(957.569,248)"
+       id="text42">11</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(821.485,248)"
+       id="text43">7765</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(709.628,248)"
+       id="text44">6970</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(584.734,248)"
+       id="text45">40</text>
+    <text
+       fill="#00b050"
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(960.735,287)"
+       id="text46">7</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(819.402,287)"
+       id="text47">5650</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(709.211,287)"
+       id="text48">5285</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(584.567,287)"
+       id="text49">20</text>
+    <g
+       id="g50">
+      <text
+         font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(339.211,306)"
+         id="text50">Новороссийск</text>
+    </g>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(178.31,306)"
+       id="text51">Qingdao</text>
+    <text
+       fill="#00b050"
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(959.819,325)"
+       id="text52">8</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(818.985,325)"
+       id="text53">7800</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(710.045,325)"
+       id="text54">7225</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(584.734,325)"
+       id="text55">40</text>
+    <text
+       fill="#c00000"
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(955.985,364)"
+       id="text56">-</text>
+    <text
+       fill="#c00000"
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(964.319,364)"
+       id="text57">4</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(818.819,364)"
+       id="text58">5300</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(708.045,364)"
+       id="text59">5500</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(584.567,364)"
+       id="text60">20</text>
+    <g
+       id="g61">
+      <text
+         font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(339.211,383)"
+         id="text61">Новороссийск</text>
+    </g>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(185.81,383)"
+       id="text62">Shekou</text>
+    <text
+       fill="#c00000"
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(957.985,402)"
+       id="text63">-</text>
+    <text
+       fill="#c00000"
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(966.319,402)"
+       id="text64">1</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(819.319,402)"
+       id="text65">7400</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(708.711,402)"
+       id="text66">7500</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(584.734,402)"
+       id="text67">40</text>
+    <text
+       fill="#00b050"
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(959.819,440)"
+       id="text68">8</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(820.819,440)"
+       id="text69">5765</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(710.045,440)"
+       id="text70">5335</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(584.567,440)"
+       id="text71">20</text>
+    <g
+       id="g72">
+      <text
+         font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(339.211,460)"
+         id="text72">Новороссийск</text>
+    </g>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(185.726,460)"
+       id="text73">Xiamen</text>
+    <text
+       fill="#00b050"
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(960.152,479)"
+       id="text74">4</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(819.319,479)"
+       id="text75">7900</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(709.961,479)"
+       id="text76">7585</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(584.734,479)"
+       id="text77">40</text>
+    <text
+       fill="#00b050"
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(957.569,517)"
+       id="text78">11</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(819.069,517)"
+       id="text79">5580</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(707.961,517)"
+       id="text80">5020</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(584.567,517)"
+       id="text81">20</text>
+    <g
+       id="g82">
+      <text
+         font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(339.211,536)"
+         id="text82">Новороссийск</text>
+    </g>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(192.643,536)"
+       id="text83">Dalian</text>
+    <text
+       fill="#00b050"
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(959.819,556)"
+       id="text84">8</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(818.319,556)"
+       id="text85">8050</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(709.461,556)"
+       id="text86">7420</text>
+    <text
+       font-family="'Cera CY', 'Cera CY_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(584.734,556)"
+       id="text87">40</text>
   </g>
   <rect
      style="opacity:0;fill:#000000;stroke:#ffffff;stroke-width:0.670894"
-     id="rect113"
-     width="927.71021"
-     height="720"
+     id="rect87"
+     width="922.12158"
+     height="587.73608"
      x="0.33544922"
      y="0.33544701"
      rx="13.437927"

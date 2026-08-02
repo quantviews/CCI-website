@@ -66,7 +66,7 @@ var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
 </script>
 <div style="text-align: center; margin: 2em 0;">
   <button type="button" style="background-color: #1A4AFC; color: white; padding: 15px 40px; border: none; border-radius: 5px; font-size: 1.1em; font-weight: bold; cursor: pointer;">
-    Оформить подписку
+    Обратиться за консультацией
   </button>
 </div>
 ```
@@ -81,124 +81,137 @@ var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
 | Продукт | Периодичность | Формат | Демоотчет |
 |------------------|------------------|------------------|------------------|
 |  |  |  |  |
-| Экспортные и внутренние цены на уголь (энергетический и коксующийся) | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый вторник рабочей недели"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/2024-09-09%20PBC%20Weekly%20Coal.pdf) |
-| Нетбеки на энергетический и коксующийся уголь | [ежеквартально<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="14 марта / 16 июнь / 12 сентября / 12 декабря"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/2024-09%20PBC%20Quarterly%20Coal%20NB.pdf) |
-| Ставки ж.д. логистики угля | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="последний рабочий день месяца"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/2024-06%20%D0%A6%D0%A6%D0%98%20%D0%9F%D0%BE%D0%BB%D1%83%D0%B2%D0%B0%D0%B3%D0%BE%D0%BD%D1%8B.pdf) |
-| Ставки перевалки угля | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="последний рабочий день месяца"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/logistics/%D0%A1%D1%82%D0%B0%D0%B2%D0%BA%D0%B8%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%B0%D0%BB%D0%BA%D0%B8%20%D1%83%D0%B3%D0%BB%D1%8F.pdf) |
-| Нетбэки и анализ топливных затрат в российской электроэнергетике | [ежеквартально<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="14 марта / 16 июнь / 12 сентября / 12 декабря"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/logistics/%D0%9D%D1%8D%D1%82%D0%B1%D1%8D%D0%BA%D0%B8%20%D0%BD%D0%B0%20%D1%83%D0%B3%D0%BE%D0%BB%D1%8C.pdf) |
-| Ставки фрахта на уголь | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый вторник рабочей недели"} | аналитика | [Ссылка](https://pbc-index.ru/reports/freight/%D0%A1%D1%82%D0%B0%D0%B2%D0%BA%D0%B8%20%D1%84%D1%80%D0%B0%D1%85%D1%82%D0%B0%20%D0%BD%D0%B0%20%D1%83%D0%B3%D0%BE%D0%BB%D1%8C.pdf) |
-| Большой отчет об экспортных рынках российского угля и вебинар | [ежеквартально<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="до конца января/ мая/августа/ноября"} | отчет и вебинар | [Ссылка](https://pbc-index.ru/reports/2024-05%20%D0%A6%D0%A6%D0%98_%D0%9A%D0%B2%D0%B0%D1%80%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%83%D0%B3%D0%BE%D0%BB%D1%8C_%E2%84%962_rus.pdf) |
-| Дэшборд с историческими рядами | еженедельно | дэшборд |  |
+| Экспортные и внутренние цены на уголь (энергетический и коксующийся) | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый вторник рабочей недели"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/2026-02-24%20PBC%20Weekly%20Coal.pdf) |
+| Нетбеки на энергетический и коксующийся уголь | [ежеквартально<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="14 марта / 16 июня / 12 сентября / 12 декабря"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/2026-13-Coal-Netback.pdf) |
+| Ставки ж.-д. логистики угля | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="последний рабочий день месяца"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/2026-02-Open-Vagons.pdf) |
+| Ставки перевалки угля | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="последний рабочий день месяца"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/2026-01-Ports-Coal.pdf) |
+| Ставки фрахта угля | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый вторник рабочей недели"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/2026-02-24-Freight-Coal.pdf) |
+| Большой отчет об экспортных рынках российского угля и вебинар | [ежеквартально<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="до конца января/ мая/августа/ноября"} | отчет и вебинар | [Ссылка](https://pbc-index.ru/reports/2026-02-Coal-Q.pdf) |
+| Дашборд с историческими рядами | еженедельно | дашборд |  |
 
 ## Российская нефть
 
 ![](images/icon-tanker.svg)
 
-| продукт | периодичность | формат | демоотчет |
+| Продукт | Периодичность | Формат | Демоотчет |
 |:----------------:|:----------------:|:----------------:|:----------------:|
-| Экспортные цены и дифференциалы на российскую нефть | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждую среду рабочей недели"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/Экспортные%20цены%20и%20дифференциалы%20на%20российскую%20нефть.pdf) |
-| Экспортные цены и дифференциалы на российские светлые нефтепродукты | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждую среду рабочей недели"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/Экспортные%20цены%20и%20дифференциалы%20на%20российские%20нефтепродукты.pdf) |
-| Ставки фрахта нефти | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый вторник рабочей недели"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/Ставки%20фрахта%20нефти.pdf) |
-| Ставки фрахта светлых нефтепродуктов | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый вторник рабочей недели"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/Ставки%20фрахта%20нефтепродуктов.pdf) |
-| Ставки на бункерное топливо | раз в 2 недели | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/ЦЦИ%20Бункерное%20топливо.pdf) |
-| Ставки перевалки нефти | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="31 января/31 июля"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/Ставки%20перевалки%20нефти.pdf) |
-| Ставки перевалки нефтепродуктов | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="31 января/31 июля"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/freight/2024-12%20ЦЦИ%20Ставки%20перевалки%20нефтепродуктов.pdf) |
+| Экспортные цены и дифференциалы на российскую нефть | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждую среду рабочей недели"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/2026-02-25-Oil-Weekly.pdf) |
+| Экспортные цены и дифференциалы на российские светлые нефтепродукты: бензин | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="раз в две недели по средам"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/2026-02-25-Petrol.pdf) |
+| Экспортные цены и дифференциалы на российские светлые нефтепродукты: дизель | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="раз в две недели по средам"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/2026-02-04-Diesel.pdf) |
+| Ставки на бункерное топливо | раз в 2 недели | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/2026-06-03-Marine-Fuel.pdf) |
+| Ставки фрахта нефти | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый вторник рабочей недели"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/2026-02-20-Freight-Oil.pdf) |
+| Ставки фрахта нефтепродуктов | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый вторник рабочей недели"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/2026-02-24-Freight-Oil-Products.pdf) |
+| Ставки перевалки нефти | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="31 января/31 июля"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/2026%2002-Ports-Crude-Oil.pdf) |
+| Ставки перевалки нефтепродуктов | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="31 января/31 июля"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/freight/2026%2002-Ports-Oil-Products.pdf) |
 
 ## Российский газ
 
 ![](images/icon-gas.svg)
 
-| продукт | периодичность | формат | демоотчет |
+| Продукт | Периодичность | Формат | Демоотчет |
 |:----------------:|:----------------:|:----------------:|:----------------:|
-| Экспортные цены на газ в РФ | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="10 число месяца или следующий рабочий день"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/gas/Экспортные%20цены%20на%20трубопроводный%20и%20сжиженный%20газ%20(СПГ).pdf) |
-| Большой отчет об экспортных рынках газа и удобрений | [ежеквартально<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="второй месяц квартала"} | аналитика и вебинар | [Ссылка](https://pbc-index.ru/reports/gas/gas-quarterly-demo.pdf) |
-| Прогноз по ценам, производству и экспорту газа | [ежеквартально<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="второй месяц квартала"} | консенсус-прогноз | [Ссылка](https://pbc-index.ru/reports/gas/Прогноз%20по%20добыче,%20экспорту,%20ценам.pdf) |
+| Экспортные цены на газ в РФ | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="10 число месяца или следующий рабочий день"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/gas/2026-02-Gas.pdf) |
+| Большой отчет об экспортных рынках газа и удобрений | [ежеквартально<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="второй месяц квартала"} | аналитика и вебинар | [Ссылка](https://pbc-index.ru/reports/gas/2026-03-Gas-Chemisry-Q.pdf) |
+| Прогноз по ценам, производству и экспорту газа | [ежеквартально<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="второй месяц квартала"} | консенсус-прогноз | [Ссылка](https://pbc-index.ru/reports/gas/2026-02-Gas-Consensus.pdf) |
 
 ## Российское растениеводство
 
 ![](images/icon-wheat.svg)
 
-| продукт | периодичность | формат | демоотчет |
+| Продукт | Периодичность | Формат | Демоотчет |
 |:----------------:|:----------------:|:----------------:|:----------------:|
-| Экспортные цены на пшеницу и нетбэки | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый рабочий понедельник"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/agro/Экспортные%20цены%20на%20пшеницу%20и%20нетбэки.pdf) |
-| Подсолнечное масло | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="первый вторник месяца"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/agro/подсолнечное%20масло.pdf) |
-| Ставки фрахта зерна | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый вторник рабочей недели"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/agro/Ставки%20фрахта%20зерна.pdf) |
-| Ставки перевалки зерна | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="31 января/31 июля"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/agro/Ставки%20перевалки%20зерна.pdf) |
-| Большой отчет о рынке растениеводства | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="Май/ноябрь"} | аналитика и вебинар | [Ссылка](https://pbc-index.ru/events/2024-09-13-wheat.html) |
-| Хопперы-зерновозы | [ежеквартально<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="15 апреля, 15 июля, 15 октября"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/logistics/Зерновозы%20демо%20сух-логистика.pdf) |
-| Цены на соевый шрот в России | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="вторая рабочая среда месяца"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/agro/ЦЦИ_Соевый_шрот.pdf) |
-| Прогноз по урожаю, экспорту зерновых и масличных | [ежеквартально <sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="второй месяц квартала"} | консенсус-прогноз | [Ссылка](https://pbc-index.ru/reports/agro/Агро-консенсус.pdf) |
+| Экспортные цены на пшеницу и нетбэки | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый рабочий понедельник"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/agro/2026-02-24-Wheat.pdf) |
+| Подсолнечное масло | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="первый вторник месяца"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/agro/2026-02-Sunflower-Oil.pdf) |
+| Внутренние цены на соевый шрот | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="вторая рабочая среда месяца"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/agro/2026-02-SoyBean-Meal.pdf) |
+| Большой отчет о рынке растениеводства | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="Май/ноябрь"} | аналитика и вебинар | [Ссылка](https://pbc-index.ru/reports/agro/2026-05-Agro-Semi-Annual.pdf) |
+| Ставки на хопперы-зерновозы | [ежеквартально<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="15 апреля, 15 июля, 15 октября"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/agro/2026-04-Hopper.pdf) |
+| Ставки фрахта зерна | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый вторник рабочей недели"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/agro/2026-02-24-Freight-Wheat.pdf) |
+| Ставки перевалки зерна | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="31 января/31 июля"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/agro/2026-01-Ports-Wheat.pdf) |
+| Прогноз по урожаю, экспорту зерновых и масличных | [ежеквартально <sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="второй месяц квартала"} | консенсус-прогноз | [Ссылка](https://pbc-index.ru/reports/agro/2026-02-Agro-Consensus-Q.pdf) |
 
 ## Российская сухопутная логистика
 
 ![](images/icon-trolley.svg)
 
-| продукт | периодичность | формат | демоотчет |
+| Продукт | Периодичность | Формат | Демоотчет |
 |:----------------:|:----------------:|:----------------:|:----------------:|
-| Ставки на полувагоны | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="Последний рабочий день месяца"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/logistics/ставки%20на%20полувагоны.pdf) |
-| Фитинговые платформы и контейнеры | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="15 число месяца или следующий рабочий день"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/logistics/Фитинговые%20платформы%20и%20контейнеры.pdf) |
-| Хопперы-зерновозы | [ежеквартально<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="15 апреля, 15 июля, 15 октября"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/logistics/Зерновозы%20демо%20сух-логистика.pdf) |
-| Нэтбэки на уголь | [ежеквартально<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="14 марта / 16 июнь / 12 сентября / 12 декабря"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/logistics/Нэтбэки%20на%20уголь.pdf) |
-| Ставки перевалки зерна, нефти, нефтепродуктов, контейнеров, угля | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="31 января/31 июля"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/logistics/Ставки%20перевалки%20угля.pdf) |
-| Прогноз по ставкам на склады (коммерческая недвижимость) | [ежеквартально <sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="5 неделя квартала"} | консенсус-прогноз | [Ссылка](https://pbc-index.ru/reports/logistics/Пргноз%20по%20ставкам%20на%20склады(коммерческая%20недвижимость).pdf) |
+| Ставки на полувагоны | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="Последний рабочий день месяца"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/logistics/2026-05-Open-Vagons.pdf) |
+| Ставки на фитинговые платформы и контейнеры | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="15 число месяца или следующий рабочий день"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/logistics/2026-02-Container.pdf) |
+| Ставки на хопперы-зерновозы | [ежеквартально<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="15 апреля, 15 июля, 15 октября"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/logistics/2026-04-Hopper.pdf) |
 
 ## Российская морская логистика
 
 ![](images/icon-ship.svg)
 
-| Ставки фрахта на нефть | еженедельно | аналитика и котировки | Ссылка |
+| Продукт | Периодичность | Формат | Демоотчет |
 |:----------------:|:----------------:|:----------------:|:----------------:|
-| Ставки фрахта на светлые нефтепродукты | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый рабочий вторник"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/freight/%D0%A1%D1%82%D0%B0%D0%B2%D0%BA%D0%B8%20%D1%84%D1%80%D0%B0%D1%85%D1%82%D0%B0%20%D0%BD%D0%B0%20%D0%BD%D0%B5%D1%84%D1%82%D0%B5%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B.pdf) |
-| Ставки фрахта на зерно | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый рабочий вторник"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/freight/Ставки%20фрахта%20на%20зерно.pdf) |
-| Ставки фрахта на уголь | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый рабочий вторник"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/freight/Ставки%20фрахта%20на%20уголь.pdf) |
-| Ставки фрахта на контейнеры | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="15 число месяца или следующий рабочий день"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/freight/Фрахт%20контейнеров.pdf) |
-| Ставки фрахта на бункерное топливо | раз в 2 недели | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/ЦЦИ%20Бункерное%20топливо.pdf) |
-| Показатели цен на контейнеровозы | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="15 число месяца или следующий рабочий день"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/freight/Аренда%20контейнеровозов.pdf) |
-| Ставки перевалки зерна, нефти, нефтепродуктов, контейнеров, угля | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="31 января/31 июля"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/Ставки%20перевалки%20нефти.pdf) |
+| Ставки фрахта нефти | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый вторник рабочей недели"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/2026-02-20-Freight-Oil.pdf) |
+| Ставки фрахта нефтепродуктов | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый вторник рабочей недели"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/oil/2026-02-24-Freight-Oil-Products.pdf) |
+| Ставки фрахта угля | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый вторник рабочей недели"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/2026-02-24-Freight-Coal.pdf) |
+| Ставки фрахта зерна | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый вторник рабочей недели"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/agro/2026-02-24-Freight-Wheat.pdf) |  
+| Ставки фрахта удобрений | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый рабочий понедельник"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/fertilizers/2026-01-27-Freight-Fertilizers.pdf) |
+| Ставки фрахта на контейнеры | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="15 число месяца или следующий рабочий день"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/containers/2026-02-Freight-Container.pdf) |
+| Цены на контейнеровозы | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="15 число месяца или следующий рабочий день"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/containers/2026-03-Freight-Containers-rent.pdf) |
 
 ## Российские контейнеры
 
 ![](images/icon-barcode.svg)
 
-| продукт | периодичность | формат | демоотчет |
+| Продукт | Периодичность | Формат | Демоотчет |
 |:----------------:|:----------------:|:----------------:|:----------------:|
-| Ставки на фитинговые платформы и контейнеры | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="15 число месяца или следующий рабочий день"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/containers/Ставки%20на%20фитинговые%20платформы%20и%20контейнеры.pdf) |
-| Ставки фрахта на контейнеры | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="15 число месяца или следующий рабочий день"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/containers/Ставки%20фрахта%20на%20контейнеры.pdf) |
-| Показатели цен на контейнеровозы | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="15 число месяца или следующий рабочий день"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/containers/Показатели%20цен%20на%20контейнеровозы.pdf) |
-| Ставки перевалки контейнеров | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="31 января/31 июля"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/containers/Ставки%20перевалки%20контейнеров.pdf) |
+| Ставки на фитинговые платформы и контейнеры | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="15 число месяца или следующий рабочий день"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/containers/2026-02-Container.pdf) |
+| Ставки фрахта на контейнеры | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="15 число месяца или следующий рабочий день"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/containers/2026-02-Freight-Container.pdf) |
+| Цены на контейнеровозы | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="15 число месяца или следующий рабочий день"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/containers/2026-03-Freight-Containers-rent.pdf) |
+| Ставки перевалки контейнеров | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="31 января/31 июля"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/containers/2026-02-Ports-Container.pdf) |
+
+## Российская портовая перевалка
+
+![](images/icon-barcode.svg)
+
+| Продукт | Периодичность | Формат | Демоотчет |
+|:----------------:|:----------------:|:----------------:|:----------------:|
+| Ставки перевалки контейнеров | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="31 января/31 июля"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/ports/2026-02-Port-Container.pdf) |
+| Ставки перевалки нефти | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="31 января/31 июля"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/ports/2026%2002-Ports-Crude-Oil.pdf) |
+| Ставки перевалки нефтепродуктов | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="31 января/31 июля"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/ports/2026%2002-Ports-Oil-Products.pdf) |
+| Ставки перевалки угля | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="31 января/31 июля"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/ports/2026-01-Ports-Coal.pdf) |
+| Ставки перевалки зерна | [раз в полгода<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="31 января/31 июля"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/ports/2026-01-Ports-Wheat.pdf) |
 
 ## Российские удобрения
 
 ![](images/icon-agro.svg)
 
-| продукт | периодичность | формат | демоотчет |
+| Продукт | Периодичность | Формат | Демоотчет |
 |:----------------:|:----------------:|:----------------:|:----------------:|
-| Экспортные цены на минеральные удобрения | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый рабочий понедельник"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/fertilizers/Экспортные%20цены%20на%20азотные%20и%20фосфорные%20удобрения.pdf) |
-| Ставки фрахта удобрений | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый рабочий понедельник"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/fertilizers/Ставки%20фрахта%20удобрений.pdf) |
-| Большой отчет о рынке газа и удобрениях и вебинар | [ежеквартально <sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="второй месяц квартала"} | аналитика и вебинар | [Ссылка](https://pbc-index.ru/reports/fertilizers/2024-05%20ЦЦИ%20Квартальный%20обзор%20по%20газу.pdf) |
-| Прогноз по производству, экспорту, ценам | ежеквартально | консенсус-прогноз | [Ссылка](https://pbc-index.ru/forecasts/forecast-fertilizers.html) |
+| Экспортные цены на минеральные удобрения | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый рабочий понедельник"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/fertilizers/2026-02-24-Fertilizers.pdf) |
+| Ставки фрахта удобрений | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждый рабочий понедельник"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/fertilizers/2026-01-27-Freight-Fertilizers.pdf) |
+| Большой отчет о рынке газа и удобрениях и вебинар | [ежеквартально <sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="второй месяц квартала"} | аналитика и вебинар | [Ссылка](https://pbc-index.ru/reports/fertilizers/2026-03-Gas-Chemisry-Q.pdf) |
+| Прогноз по производству, экспорту, ценам | ежеквартально | консенсус-прогноз | [Ссылка](https://pbc-index.ru/reports/fertilizers/2026-03%20PBC%20Fertilizer%20Consensus.pdf) |
 
-## Российские метанол и ароматика
+## Российская химическая продукция
 
 ![](images/icon-chemicals2.svg)
 
-| продукт | периодичность | формат | демоотчет |
+| Продукт | Периодичность | Формат | Демоотчет |
 |:----------------:|:----------------:|:----------------:|:----------------:|
-| Внутренние цены на метанол | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="середина месяца"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/chemicals/метанол%20демо-отчет%20.pdf) |
-| Внутренние цены на ароматические углероды и их производные в России: стирол, бензол | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждую рабочую пятницу"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/chemicals/внутренние%20цены%20на%20ароматические%20углероды%20демо-отчет.pdf) |
-| Внутренние цены на каустическую соду | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="Каждый последний рабочий вторник месяца"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/chemicals/caustic_soda_demo.pdf) |
+| Внутренние цены на метанол | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="середина месяца"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/chemicals/2026-02-Methanol.pdf) |
+| Внутренние цены на ароматические углероды и их производные в России: стирол, бензол | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="каждую рабочую пятницу"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/chemicals/2026-02-27-Aromatic.pdf) |
+| Внутренние цены на каустическую соду | [ежемесячно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="Каждый последний рабочий вторник месяца"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/chemicals/2026-02-Caustic.pdf) |
+| Внутренние цены на этилен и полиэтилен | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="Каждую рабочую пятницу"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/chemicals/2026-02-27-Ethylene-Polyethylene.pdf) |
 
-## Цены на этилен и полиэтилен в России
+## Российские индексы: сырьевой и контейнерный
 
-![](images/icon-chemicals2.svg)
-
-| продукт | периодичность | формат | демоотчет |
+| Продукт | Периодичность | Формат | Демоотчет |
 |:----------------:|:----------------:|:----------------:|:----------------:|
-| Отчет по внутренним ценам на этилен и полиэтилен | [еженедельно<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="Каждую рабочую пятницу"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/chemicals/Этилен%20и%20Полиэтилен%20демо-отчет%20ред..pdf) |
+| Сырьевой индекс ЦЦИ | [еженедельно - обновление данных; ежемесячно - выход отчета<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="новый продукт, готовим график"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/Index/2026-01-Commodity-Index.pdf) |
+| Контейнерный индекс ЦЦИ | [раз в две недели - обновление данных; ежемесячно - выход отчета<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="новый продукт, готовим график"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/Index/2026-02-Container-Index.pdf) |
 
-## Сырьевой индекс
+## Консенсус-прогнозы
 
-| продукт | периодичность | формат | демоотчет |
+| Продукт | Периодичность | Формат | Демоотчет |
 |:----------------:|:----------------:|:----------------:|:----------------:|
-| Композитный индекс товаров российского экспорта на основе котировок ЦЦИ | [еженедельно - обновление данных; ежемесячно - выход отчета<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="новый продукт, готовим график"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/pbc-index.html) |
+| Макро-прогноз по ключевым показателям: ВВП, курс валют, процентные ставки | [ежеквартально <sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="второй месяц квартала"} | консенсус-прогноз | [Ссылка](https://pbc-index.ru/reports/consensus1/2026-02-PBC-Monthly-Consensus.pdf) |
+| Прогноз по ставкам на склады (коммерческая недвижимость) | [ежеквартально <sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="5 неделя квартала"} | консенсус-прогноз | [Ссылка](https://pbc-index.ru/reports/consensus1/2026-02-PBC-Moscow-Office-and-Warehouse-Quarterly-Consensus.pdf) |
+| Прогноз по производству, экспорту, ценам на минеральные удобрения | ежеквартально | консенсус-прогноз | [Ссылка](https://pbc-index.ru/reports/consensus1/2026-03-Fertilizer Consensus.pdf) |
+| Прогноз по урожаю, экспорту зерновых и масличных | [ежеквартально <sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="второй месяц квартала"} | консенсус-прогноз | [Ссылка](https://pbc-index.ru/reports/consensus1/2026-02-Agro-Consensus-Q.pdf) |
+| Прогноз по ценам, производству и экспорту газа | [ежеквартально<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="второй месяц квартала"} | консенсус-прогноз | [Ссылка](https://pbc-index.ru/reports/consensus1/2026-02-Gas-Consensus.pdf) |
 :::
