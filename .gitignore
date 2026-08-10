@@ -20,3 +20,9 @@ data/*.xlsx
 
 **/*.quarto_ipynb
 .positai
+
+*.knit.html
+* (2).*
+* (3).*
+*(a copy from the computer *)*
+*(копия с компьютера *)*

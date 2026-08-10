@@ -17,11 +17,27 @@ format:
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Котировки
 
+*10.08.2026 Минеральные удобрения*
+
+**Рынок карбамида взял курс на охлаждение**
+
+Цены на карбамид на мировых рынках начали охлаждаться.
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+
+*03.08.2026 Минеральные удобрения*
+
+**Индия покупает – Китай предлагает**
+
+За прошедшую неделю индекс цен на Prilled Urea  FOB Baltic вырос на 4%, Granular Urea FOB Baltic – на 2%. 
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+
 *20.07.2026 Минеральные удобрения*
 
 **Геополитическая премия возвращается на рынок сырья и удобрений**
 
-За прошедшую неделю индекс цен на Prilled Urea  FOB Baltic вырос на 5%, Granular Urea FOB Baltic – на 4%. 
+За прошедшую неделю индекс цен на Prilled Urea FOB Baltic вырос на 5%, Granular Urea FOB Baltic – на 4%.
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
@@ -29,23 +45,7 @@ format:
 
 **Активизация крупных покупателей разворачивает вектор цен на карбамид**
 
-В Бразилии активизировался спрос на карбамид. 
-
-![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
-
-*06.07.2026 Минеральные удобрения*
-
-**Азот пикирует, а фосфаты держатся за серу**
-
-За прошедшую неделю индекс цен на Prilled Urea FOB Baltic снизился на 4%, Granular Urea FOB Baltic – на 2%.
-
-![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
-
-*29.06.2026 Минеральные удобрения*
-
-**Оживление пролива и штиль спроса топят цены**
-
-За прошедшую неделю индекс цен на Prilled Urea FOB Baltic снизился на 2%, Granular Urea FOB Baltic – на 4%.
+В Бразилии активизировался спрос на карбамид.
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 

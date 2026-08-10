@@ -62,13 +62,13 @@ format:
 
 <p class="hero-banner-date">
 
-23.06.2026
+04.08.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Urals \< 58
+Urals < 66
 
 </p>
 :::
@@ -82,13 +82,13 @@ Urals \< 58
 
 <p class="hero-banner-date">
 
-24.06.2026
+05.08.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Оптовые цены бьют рекорды
+Дизель ждет сентября
 
 </p>
 :::
@@ -142,13 +142,13 @@ Urals \< 58
 
 <p class="hero-banner-date">
 
-20.07.2026
+10.08.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Геополитическая премия возвращается на рынок сырья и удобрений
+Рынок карбамида взял курс на охлаждение
 
 </p>
 :::
@@ -182,7 +182,7 @@ Urals \< 58
 
 <p class="hero-banner-date">
 
-17.07.2026
+07.08.2026
 
 </p>
 
@@ -322,13 +322,13 @@ Urals \< 58
 
 <p class="hero-banner-date">
 
-23.06.2026
+04.08.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Якорь стабильности
+До Индии дешевле из Балтики
 
 </p>
 :::
@@ -342,13 +342,13 @@ Urals \< 58
 
 <p class="hero-banner-date">
 
-23.06.2026
+04.08.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Дефицит грузов обвалил ставки
+Черноморская премия растет
 
 </p>
 :::
@@ -362,13 +362,13 @@ Urals \< 58
 
 <p class="hero-banner-date">
 
-23.06.2026
+03.08.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Новые вызовы для зернового фрахта: Босфор дорожает, Волга мелеет
+Рынок в поиске решений
 
 </p>
 :::
@@ -382,13 +382,13 @@ Urals \< 58
 
 <p class="hero-banner-date">
 
-23.06.2026
+04.08.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Российские ставки взяли паузу
+Флот идет искать работу на Балтику
 
 </p>
 :::
@@ -402,13 +402,13 @@ Urals \< 58
 
 <p class="hero-banner-date">
 
-23.06.2026
+03.08.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Фрахт замер в ожидании новостей с Востока
+Удобрениям досталось за компанию
 
 </p>
 :::

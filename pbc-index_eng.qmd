@@ -130,9 +130,9 @@ index_plot
 
 ------------------------------------------------------------------------
 
-**PBC Commodity Index change to the previous week: [+6.0 p.]{.my-custom-class style="color:#44bf78;"}** ([**+9.4 p.**]{.my-custom-class style="color:#44bf78;"} over the previous four weeks)
+**PBC Commodity Index change to the previous week: [-1.3 p.]{.my-custom-class style="color:#f6514c;"}** ([**+10.7 p.**]{.my-custom-class style="color:#44bf78;"} over the previous four weeks)
 
-The biggest commodity price changes over the week: Crude Oil: [**+10.1%**]{.my-custom-class style="color:#44bf78;"}, Petroluem Producs: [**+0.1%**]{.my-custom-class style="color:#44bf78;"}
+The biggest commodity price changes over the week: Crude Oil: [**+0.9%**]{.my-custom-class style="color:#44bf78;"}, Petroluem Producs: [**+0.3%**]{.my-custom-class style="color:#44bf78;"}
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 #f6514c; red

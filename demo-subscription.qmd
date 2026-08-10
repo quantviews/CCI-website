@@ -202,8 +202,8 @@ var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
 
 | Продукт | Периодичность | Формат | Демоотчет |
 |:----------------:|:----------------:|:----------------:|:----------------:|
-| Сырьевой индекс ЦЦИ | [еженедельно - обновление данных; ежемесячно - выход отчета<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="новый продукт, готовим график"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/Index/2026-01-Commodity-Index.pdf) |
-| Контейнерный индекс ЦЦИ | [раз в две недели - обновление данных; ежемесячно - выход отчета<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="новый продукт, готовим график"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/Index/2026-02-Container-Index.pdf) |
+| Сырьевой индекс ЦЦИ | [еженедельно - обновление данных; ежемесячно - выход отчета<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="первый рабочий день месяца"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/Index/2026-01-Commodity-Index.pdf) |
+| Контейнерный индекс ЦЦИ | [раз в две недели - обновление данных; ежемесячно - выход отчета<sup style="color: red; cursor: help;">\*</sup>]{data-bs-toggle="tooltip" title="последний рабочий день месяца"} | аналитика и котировки | [Ссылка](https://pbc-index.ru/reports/Index/2026-02-Container-Index.pdf) |
 
 ## Консенсус-прогнозы
 

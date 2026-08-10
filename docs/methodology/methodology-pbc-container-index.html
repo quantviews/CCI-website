@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ru" xml:lang="ru"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,9 +10,6 @@
 
 <title>Методология Контейнерного индекса – ЦЦИ</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -37,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../images/banner3.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f7a03b95e4cf526b07443a8674d362b2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-7832d4399d2b6ed01c6a26c2d99a2c1f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -113,7 +111,7 @@ gtag('config', 'G-TNGWX5Y7FL', { 'anonymize_ip': true});
 
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -617,7 +615,7 @@ RUB
 <p>Веса, используемые при расчёте Контейнерного индекса ЦЦИ, определяют масштабы влияния изменения цен на отдельные составляющие транспортно-логистических услуг при мультимодальной перевозке контейнера из Шанхая в Москву для совокупного индекса. Они представляют собой долю от объёма перевозок по каждому из четырёх маршрутов и способов транспортировки контейнера (субиндексов) в структуре общего контейнеропотока на маршруте Шанхай - Москва в течение календарного года, предшествующего году расчёта индекса.</p>
 <p>Источником данных для определения веса каждого маршрута и способа доставки контейнеров из Шанхая в Москву (субиндекса) в зависимости от объёма перевозок, являются показатели работы российских морских терминалов, данные российских и зарубежных транспортно-логистических и экспедиторских компаний, экспертные оценки методологического комитета Центра ценовых индексов. Обновление весовой базы осуществляется в феврале каждого года. Ежегодное обновление весовой базы характерно для российской практики построения индексов цен и используется при расчете индекса потребительских цен и индекса цен производителей Росстатом (Росстат, 2016). Центр Ценовых Индексов оставляет за собой право перейти к более редкому обновлению весовой базы по мере стабилизации структуры контейнеропотока на маршруте.</p>
 <p>Контейнерный индекс ЦЦИ закладывает предпосылку о том, что четыре маршрута и способа транспортировки контейнера (субиндекса), используемые при расчёте Контейнерного индекса ЦЦИ, в совокупности концентрируют на себе 100% контейнеропотока в сообщении Шанхай - Москва. Контейнерный индекс ЦЦИ не учитывает индексы цен по альтернативным маршрутам и способам доставки, ввиду их минимальной статистической значимости.</p>
-<p><strong>Таблица 2. Весовые значения субиндексов, используемые при расчёте Контейнерного индекса ЦЦИ в 2026 г.</strong></p>
+<p><strong>Таблица 2. Весовые значения субиндексов, используемые при расчёте Контейнерного индекса ЦЦИ с 1 июля 2026 г.</strong></p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 51%">
@@ -633,22 +631,22 @@ RUB
 <tr class="even">
 <td>FI Шанхай - Владивосток (Находка) - FOR Москва - FOT Москва</td>
 <td>тыс. ДФЭ / год</td>
-<td>0,43</td>
+<td>0,48</td>
 </tr>
 <tr class="odd">
 <td>FI Шанхай - Санкт-Петербург - FOT Москва</td>
 <td>тыс. ДФЭ / год</td>
-<td>0,12</td>
+<td>0,07</td>
 </tr>
 <tr class="even">
 <td>FI Шанхай - Новороссийск - FOT Москва</td>
 <td>тыс. ДФЭ / год</td>
-<td>0,04</td>
+<td>0,02</td>
 </tr>
 <tr class="odd">
 <td>FOR Шанхай - FOR Москва - FOT Москва</td>
 <td>тыс. ДФЭ / год</td>
-<td>0,41</td>
+<td>0,43</td>
 </tr>
 </tbody>
 </table>
