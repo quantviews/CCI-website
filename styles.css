@@ -555,6 +555,41 @@ header {
 .sched__text .report-title {
   font-weight: 500;
 }
+
+.market-quote {
+  margin-top: 1em;
+  padding: 1em 1.25em;
+  border-left: 4px solid #1A4AFC;
+  background: #f8f9fa;
+  border-radius: 0 8px 8px 0;
+}
+
+.market-quote__label {
+  font-size: 0.88em;
+  color: #666;
+  margin-bottom: 0.35em;
+}
+
+.market-quote__body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5em 1.5em;
+}
+
+.market-quote__value {
+  font-size: 1.55em;
+  font-weight: 700;
+  color: #1A4AFC;
+  line-height: 1.2;
+}
+
+.market-quote__period {
+  font-size: 0.95em;
+  color: #666;
+}
+
 /* Mobile */
 @media (max-width: 640px){
   .sched__item{

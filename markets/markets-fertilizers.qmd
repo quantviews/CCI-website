@@ -59,13 +59,25 @@ format:
 library(highcharter)
 library(openxlsx)
 library(tidyr)
+library(htmltools)
 
 # df <- read.xlsx(xlsxFile = '../xls/график_карбамид.xlsx', sheet = 1,startRow = 1, detectDates = TRUE) 
 # df$dt = as.Date(df$dt, format = '%d.%m.%Y')
 
-df <- read.xlsx(xlsxFile = '../data/Исходные данные.xlsx', sheet = "Рынки", detectDates = TRUE)
+df_raw <- read.xlsx(xlsxFile = '../data/Исходные данные.xlsx', sheet = "Рынки", detectDates = TRUE)
+
+urea <- df_raw[df_raw$Наименование.показателя == "Prilled urea FOB Baltic", c("Дата", "Данные")]
+urea <- urea[!is.na(urea$Данные), ]
+urea <- urea[order(urea$Дата), ]
+urea_latest <- tail(urea, 1)
+urea_latest$value <- round(urea_latest$Данные, 1)
+urea_latest$dt <- as.Date(urea_latest$Дата)
+months_ru <- c("январь", "февраль", "март", "апрель", "май", "июнь",
+               "июль", "август", "сентябрь", "октябрь", "ноябрь", "декабрь")
+urea_period <- paste(months_ru[as.integer(format(urea_latest$dt, "%m"))], format(urea_latest$dt, "%Y"))
+
 id = "Индекс цен на карбамид"
-df = df[df$Наименование.показателя == id,]
+df = df_raw[df_raw$Наименование.показателя == id,]
 
 df = df[, c("Дата", "Данные")]
 names(df) <- c('dt', 'value')
@@ -85,9 +97,24 @@ hc = highchart() %>%
 hc$x$conf_opts$lang$months = c("Январь"	,"Февраль",	"Март"	,"Апрель"	,"Май",	"Июнь", "Июль",	"Август",	"Сентябрь",	"Октябрь",	"Ноябрь",	"Декабрь")
 hc$x$conf_opts$lang$shortMonths = c("Янв", 	"Фев",	"Мар",	"Апр",	"Май",	"Июн",	"Июл",	"Авг",	"Сен",	"Окт",	"Ноя",	"Дек")
 
-hc
+tagList(
+  hc,
+  tags$div(
+    class = "market-quote",
+    tags$div(class = "market-quote__label", "Prilled urea FOB Baltic"),
+    tags$div(
+      class = "market-quote__body",
+      tags$span(
+        class = "market-quote__value",
+        paste0(format(urea_latest$value, decimal.mark = ",", nsmall = 1), " $/т")
+      ),
+      tags$span(class = "market-quote__period", urea_period)
+    )
+  )
+)
 
 ```
+
 :::
 :::::
 

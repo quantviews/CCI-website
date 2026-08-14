@@ -62,13 +62,13 @@ format:
 
 <p class="hero-banner-date">
 
-04.08.2026
+11.08.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Urals < 66
+Urals < 62
 
 </p>
 :::
@@ -82,13 +82,13 @@ Urals < 66
 
 <p class="hero-banner-date">
 
-05.08.2026
+12.08.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Дизель ждет сентября
+Импорт бензина бьёт рекорды
 
 </p>
 :::
@@ -102,13 +102,13 @@ Urals < 66
 
 <p class="hero-banner-date">
 
-01.06.2026
+01.08.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Экспортеры газа массово переселяются из Европы в Азию
+Европа проигрывает Азии
 
 </p>
 :::
@@ -242,13 +242,13 @@ Urals < 66
 
 <p class="hero-banner-date">
 
-21.07.2026
+12.08.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Соевый рывок на экспорт
+Соевый шрот рвется на экспорт
 
 </p>
 :::
@@ -322,13 +322,13 @@ Urals < 66
 
 <p class="hero-banner-date">
 
-04.08.2026
+11.08.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-До Индии дешевле из Балтики
+Юг перевесил Север
 
 </p>
 :::
@@ -342,13 +342,13 @@ Urals < 66
 
 <p class="hero-banner-date">
 
-04.08.2026
+11.08.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Черноморская премия растет
+Страховые премии остудили ценовое ралли на Черном море
 
 </p>
 :::
@@ -362,13 +362,13 @@ Urals < 66
 
 <p class="hero-banner-date">
 
-03.08.2026
+10.08.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Рынок в поиске решений
+Переориентация потоков - тренд августа
 
 </p>
 :::
@@ -382,13 +382,13 @@ Urals < 66
 
 <p class="hero-banner-date">
 
-04.08.2026
+11.08.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Флот идет искать работу на Балтику
+Ставки стоят на месте, но все ждут движения
 
 </p>
 :::
@@ -402,13 +402,13 @@ Urals < 66
 
 <p class="hero-banner-date">
 
-03.08.2026
+10.08.2026
 
 </p>
 
 <p class="hero-banner-caption">
 
-Удобрениям досталось за компанию
+Восточные квоты - бразильские заботы   
 
 </p>
 :::
