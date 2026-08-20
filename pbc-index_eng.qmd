@@ -130,9 +130,9 @@ index_plot
 
 ------------------------------------------------------------------------
 
-**PBC Commodity Index change to the previous week: [+0.1 p.]{.my-custom-class style="color:#44bf78;"}** ([**+8.7 p.**]{.my-custom-class style="color:#44bf78;"} over the previous four weeks)
+**PBC Commodity Index change to the previous week: [+3.0 p.]{.my-custom-class style="color:#44bf78;"}** ([**+7.8 p.**]{.my-custom-class style="color:#44bf78;"} over the previous four weeks)
 
-The biggest commodity price changes over the week: Crude Oil: [**-4.9%**]{.my-custom-class style="color:#f6514c;"}, Natural Gas: [**+2.5%**]{.my-custom-class style="color:#44bf78;"}
+The biggest commodity price changes over the week: Crude Oil: [**-1.2%**]{.my-custom-class style="color:#f6514c;"}, Metals: [**+0.5%**]{.my-custom-class style="color:#44bf78;"}
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 #f6514c; red
