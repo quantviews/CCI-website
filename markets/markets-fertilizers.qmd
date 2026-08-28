@@ -17,6 +17,22 @@ format:
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Котировки
 
+*24.08.2026 Минеральные удобрения*
+
+**Индия снизила цены на Востоке, но Запад готов платить больше**
+
+За прошедшую неделю индекс цен на Prilled Urea  FOB Baltic снизился на 5%, Granular Urea FOB Baltic не изменился.
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+
+*17.08.2026 Минеральные удобрения*
+
+**Индия играет минорную ноту**
+
+Цены индийского тендера ниже уровней предыдущего на 12%.
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+
 *10.08.2026 Минеральные удобрения*
 
 **Рынок карбамида взял курс на охлаждение**
@@ -29,7 +45,7 @@ format:
 
 **Индия покупает – Китай предлагает**
 
-За прошедшую неделю индекс цен на Prilled Urea  FOB Baltic вырос на 4%, Granular Urea FOB Baltic – на 2%. 
+За прошедшую неделю индекс цен на Prilled Urea FOB Baltic вырос на 4%, Granular Urea FOB Baltic – на 2%.
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
@@ -48,7 +64,6 @@ format:
 В Бразилии активизировался спрос на карбамид.
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
-
 :::
 
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
@@ -114,7 +129,6 @@ tagList(
 )
 
 ```
-
 :::
 :::::
 
