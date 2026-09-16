@@ -17,18 +17,29 @@ format:
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Котировки
 
+*09.09.2026 Соевый шрот*
+
+**Российский соевый шрот газует, индийский жмет на тормоз**
+
+Средняя цена на соевый шрот (более 50% сырого протеина) в регионах ЦФО за месяц снизилась на 2%.
+
+Экспорт соевого шрота из России в 2025/26 г. вырос на треть до 892 тыс. т.
+
+Экспорт соевого шрота из Индии в начале 2026/27 г. составил всего 144 тыс. т, почти в 3 раза меньше начала 2025/26 г. 
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+
 *12.08.2026 Соевый шрот*
 
 **Соевый шрот рвется на экспорт**
 
 Средняя цена на соевый шрот (более 50% сырого протеина) в регионах ЦФО за месяц снизилась на 7%.
 
-Экспорт соевого шрота из России за семь месяцев 2026 г. вырос на 41% до 576 тыс. т. 
+Экспорт соевого шрота из России за семь месяцев 2026 г. вырос на 41% до 576 тыс. т.
 
 Посевные площади под соей в России в 2026 г. сократились на 13% до 4,1 млн га.
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
-
 
 *21.07.2026 Соевый шрот*
 
@@ -39,18 +50,6 @@ format:
 За первое полугодие 2026 г. Россия нарастила экспорт соевого шрота на 42% до 496 тыс. т.
 
 Регионы ЦФО за 5 месяцев 2026 г. нарастили производство соевого шрота в 1,5 раза до 1,6 млн т.
-
-![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
-
-*08.06.2026 Соевый шрот*
-
-**Марокко вошло во вкус российского шрота**
-
-Средняя цена на соевый шрот (более 50% сырого протеина) в регионах ЦФО за месяц выросла на 16%.
-
-Регионы ЦФО нарастили производство соевого шрота в 1,6 раз в январе-апреле 2026 г. до 1,2 млн т.
-
-Экспорт российского соевого шрота в Марокко вырос в 5 раз в январе-мае 2026 г.
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
@@ -68,22 +67,25 @@ library(tidyr)
 library(dplyr)
 library(lubridate)
 
-df <- read.xlsx(xlsxFile = '../xls/ЦЦИ Котировки соевый шрот.xlsx', sheet = "Month", startRow = 7, rows = 1:25, colNames = FALSE) 
+df <- read.xlsx(xlsxFile = '../xls/Динамика цен на соевый шрот.xlsx', sheet = 1,detectDates = TRUE) 
 
+#df <- read.xlsx(xlsxFile = '../xls/ЦЦИ Котировки соевый шрот.xlsx', sheet = "Month", startRow = 7, rows = 1:25, colNames = FALSE) 
 # извлекаем годы и месяцы как вектор
-years  <- as.numeric(unlist(df[1, 6:ncol(df)]))
-months <- as.numeric(unlist(df[2, 6:ncol(df)]))
+# years  <- as.numeric(unlist(df[1, 6:ncol(df)]))
+# months <- as.numeric(unlist(df[2, 6:ncol(df)]))
+# dates <- make_date(years, months, 1)
 
-dates <- make_date(years, months, 1)
+# # значения
+# values <- as.numeric(df[11, 6:ncol(df)])
 
-# значения
-values <- as.numeric(df[11, 6:ncol(df)])
+names(df) <- c("date", "value")
+df$date <- convertToDate(df$date)
 
-# итоговый df
-df <- tibble(
-  date  = dates,
-  value = values
-)
+# # итоговый df
+# df <- tibble(
+#   date  = date,
+#   value = value
+# )
 
 hc = highchart() %>%
    hc_add_series(df, type = "column", hcaes(x = date, y = value), color = c("#1A4AFC"), 
