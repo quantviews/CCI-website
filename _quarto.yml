@@ -22,8 +22,8 @@ website:
         menu: 
           - href: pbc-index.qmd
           - href: pbc-container-index.qmd
-          - href: markets/markets-oil.qmd
-          - href: markets/markets-oil-products.qmd
+          # - href: markets/markets-oil.qmd
+          # - href: markets/markets-oil-products.qmd
           - href: markets/markets-gas.qmd
           - href: markets/markets-coal.qmd
           - href: markets/markets-fertilizers.qmd
@@ -35,8 +35,8 @@ website:
           - href: markets/markets-railways.qmd
           - href: markets/markets-railways-van.qmd
           - href: markets/markets-railways-wheat-van.qmd
-          - href: markets/freight-crude.qmd
-          - href: markets/freight-products.qmd
+          # - href: markets/freight-crude.qmd
+          # - href: markets/freight-products.qmd
           - href: markets/freight-wheat.qmd
           - href: markets/freight-coal.qmd
           - href: markets/freight-fertilizers.qmd
@@ -44,8 +44,8 @@ website:
           - href: markets/markets-sea-container-ports.qmd
           - href: markets/markets-sea-wheat-ports.qmd
           - href: markets/markets-sea-coal-ports.qmd
-          - href: markets/markets-sea-oil-ports.qmd
-          - href: markets/markets-sea-oil-products-ports.qmd
+          # - href: markets/markets-sea-oil-ports.qmd
+          # - href: markets/markets-sea-oil-products-ports.qmd
       - text: Прогнозы
         menu: 
           - href: forecasts/forecast-fx.qmd
@@ -76,8 +76,8 @@ website:
           contents:
             - pbc-index.qmd
             - pbc-container-index.qmd
-            - markets/markets-oil.qmd
-            - markets/markets-oil-products.qmd
+            # - markets/markets-oil.qmd
+            # - markets/markets-oil-products.qmd
             - markets/markets-coal.qmd
             - markets/markets-fertilizers.qmd
             - markets/markets-chemicals.qmd
