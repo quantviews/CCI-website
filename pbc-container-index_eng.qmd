@@ -134,6 +134,10 @@ hc
 
 ### [Monthly overview]{.my-custom-class style="color:#1a4afc;"}
 
+October 15, 2026. PBC Container price index. **Stable Routes, Stable Rates**
+
+[Monitoring October -\>](reports/2026-09%20Контейнерный%20индекс%20ЦЦИ.pdf)
+
 September 15, 2026. PBC Container price index. **The roat via Novorossiysk has been excluded from the Index.**
 
 [Monitoring September -\>](reports/2026-09%20Контейнерный%20индекс%20ЦЦИ.pdf)
