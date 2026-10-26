@@ -17,11 +17,19 @@ format:
 ::: {.g-col-12 .g-col-sm-12 .g-col-xs-12 .g-col-xl-6 .g-col-md-6 .g-col-lg-6}
 ### Котировки
 
+*26.10.2026 Минеральные удобрения*
+
+**Китай напомнил о своем весе на рынке карбамида**
+
+За прошедшую неделю индексы цен на Prilled Urea  FOB Baltic и Granular Urea FOB Baltic не изменились. 
+
+![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
+
 *19.10.2026 Минеральные удобрения*
 
 **Дешёвого карбамида для Индии не нашлось**
 
-За прошедшую неделю индекс цен на Prilled Urea  FOB Baltic не изменился, Granular Urea FOB Baltic вырос на 1%.
+За прошедшую неделю индекс цен на Prilled Urea FOB Baltic не изменился, Granular Urea FOB Baltic вырос на 1%.
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
@@ -62,14 +70,6 @@ format:
 **Азотный рынок набирает обороты**
 
 Цены на карбамид продолжают расти на всех ключевых конечных рынках.
-
-![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
-
-*07.09.2026 Минеральные удобрения*
-
-**Активный спрос и дорогой газ поддерживают рост цен**
-
-Активный спрос на карбамид со стороны основных потребителей продолжает толкать цены вверх.
 
 ![](../images/icon-locker.svg){width="6%"} [Подробнее](../demo-subscription.qmd)
 
