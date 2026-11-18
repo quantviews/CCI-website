@@ -9,7 +9,7 @@ sidebar: false
 
 **PBC Container Index** — a composite index reflecting the cost of container transportation along the most popular container cargo import route to Russia. It is calculated based on the weighted average spot rates for the transportation of a FEU container owned by the carrier, loaded onto a ship or railway in Shanghai (FI / FOR Shanghai), to the recipient's warehouse in Moscow (FOT Moscow) along four routes: through the ports of Vladivostok, St. Petersburg and Novorossiysk, as well as by direct rail.
 
-**PBC Container Index as of November 16, 2026: \$9 696** [(**-0.4%** м/м;]{.my-custom-class style="color:#f6514c;"} [**+67%** г/г)]{.my-custom-class style="color:#4CAF50;"}.
+**PBC Container Index as of November 16, 2026: \$9 696** [(**+1%** м/м;]{.my-custom-class style="color:#4CAF50;"} [**+67%** г/г)]{.my-custom-class style="color:#4CAF50;"}.
 
 **FI / FOR Шанхай - FOT Москва, 40’HC COC**
 
@@ -133,6 +133,10 @@ hc
 ------------------------------------------------------------------------
 
 ### [Monthly overview]{.my-custom-class style="color:#1a4afc;"}
+
+November 16, 2026. PBC Container price index. **Container shipping rates from China have hit their ceiling.**
+
+[Monitorng August -\>](reports/2026-08%20Контейнерный%20индекс%20ЦЦИ.pdf)
 
 October 15, 2026. PBC Container price index. **Stable Routes, Stable Rates**
 
