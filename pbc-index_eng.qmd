@@ -130,9 +130,9 @@ index_plot
 
 ------------------------------------------------------------------------
 
-**PBC Commodity Index change to the previous week: [-0.6 p.]{.my-custom-class style="color:#f6514c;"}** ([**+0.4 p.**]{.my-custom-class style="color:#44bf78;"} over the previous four weeks)
+**PBC Commodity Index change to the previous week: [-8.8 p.]{.my-custom-class style="color:#f6514c;"}** ([**-10.7 p.**]{.my-custom-class style="color:#f6514c;"} over the previous four weeks)
 
-The biggest commodity price changes over the week: Natural Gas: [**-6.7%**]{.my-custom-class style="color:#f6514c;"}, Petroleum Products: [**+0.6%**]{.my-custom-class style="color:#44bf78;"}
+The biggest commodity price changes over the week: Crude: [**-10.5%**]{.my-custom-class style="color:#f6514c;"}, Coal: [**-0.4%**]{.my-custom-class style="color:#f6514c;"}
 
 ```{r, warning = FALSE, echo = FALSE, message = FALSE}
 #f6514c; red
@@ -218,9 +218,9 @@ discount_plot
 
 ### [Monthly overview]{.my-custom-class style="color:#1a4afc;"}
 
-October 7, 2026. PBC Commodity price index. **The commodity index hits new record highs.**
+November 5, 2026. PBC Commodity price index. **The Commodity Index remained above 100 points throughout October..**
 
-[Materials -\>](reports/2026-09%20PBC%20Commodity%20Index_eng_new.pdf)
+[Materials -\>](reports/2026-10%20PBC%20Commodity%20Index_eng_new.pdf)
 
 ### [Methodology]{.my-custom-class style="color:#1a4afc;"}
 
